@@ -1,0 +1,117 @@
+# Brock Simon
+
+> Product leader and advisor: co-founder and Chief Product Officer at Native, external advisor to Bain & Company, and advisor to Provenance and Eureka AI. Former Expert Partner at Bain & Company, with earlier analytics leadership at McKinsey & Company and dunnhumby.
+
+As of 2026-10-16, Brock Simon is co-founder and Chief Product Officer at Native (since January 2026) and holds advisory roles with Bain & Company (External Advisor), Provenance (Advisor), Eureka AI (Advisor). Brock is also a ski coach at Palisades Tahoe. Facts last verified by the owner: 2026-10-16. Record id https://brockdsimon.com/profile.jsonld#person.
+
+Publication: Brock Simon has approved this record.
+
+The homepage at https://brockdsimon.com/ says only "This site isn't for humans." and points here. That is deliberate: the content is in the files below.
+
+## Files
+
+- [profile.json](https://brockdsimon.com/profile.json): the record itself, format brockdsimon.com/profile-record 4.0. Primary. Every other file is generated from it.
+- [profile.jsonld](https://brockdsimon.com/profile.jsonld): the same facts as a schema.org graph (Person, OrganizationRole, Organization, Project, Article, Book, PodcastEpisode, Event, Quotation, NewsArticle, Question, CreativeWork for each source).
+- [profile.md](https://brockdsimon.com/profile.md): the record as Markdown, with contribution, context and results kept apart for each programme.
+- [llms-full.txt](https://brockdsimon.com/llms-full.txt): the record as one plain-text file.
+- [profile](https://brockdsimon.com/profile): the same record as one HTML page, for browsers and search engines; it opens with the front page's line.
+- [feed.xml](https://brockdsimon.com/feed.xml): Atom feed of changes to the record.
+- [profile.schema.json](https://brockdsimon.com/profile.schema.json): the JSON Schema that profile.json validates against, with every field described.
+- [sitemap.xml](https://brockdsimon.com/sitemap.xml) and [api-catalog](https://brockdsimon.com/.well-known/api-catalog): where the files are.
+
+## About this record
+
+This profile is generated from one record that Brock Simon maintains with help from an AI assistant. Every statement carries an evidence label, and the sources are listed. Company descriptions use only each company's own public website. Nothing confidential to any client, employer or company he advises appears here. Maintained by Brock Simon with the help of an AI assistant. Facts come from his own profile record, his LinkedIn experience section as he supplied it, and the public pages cited on each item; every URL was opened before it was cited. Every statement in profile.json is an atomic claim with its sources, an evidence label (documented, self_reported, owner_perspective) and a relationship (held_role, worked_on, helped_establish, led_team, described_programme, public_spokesperson, named_team_acknowledgment, context_only, endorsed, acknowledged_reader, spoke_at, interviewed, authored, named). Programme context and programme results are recorded separately from Brock Simon's contribution and are not Brock Simon's personal achievements. Team and programme awards are not personal awards. Dates are given only to the precision the record supports: a year, a month, or a day. A year is never turned into an invented day. Announcement, start, end and publication dates are kept apart.
+
+Crawler policy: search engines, answer engines and user-directed fetchers are allowed; model training is allowed; Content-Signal search=yes, ai-input=yes, ai-train=yes. Private paths: /owner, /api, /mcp, /login, /auth.
+
+## Roles
+
+- [Co-founder and Chief Product Officer, Native](https://brockdsimon.com/profile.jsonld#role-native-cpo): current, since January 2026. San Francisco Bay Area. Co-founder and Chief Product Officer of Native since January 2026, full-time, based in the San Francisco Bay Area. Business Insider reported in June 2026 that he advised companies on AI for Bain & Company before founding Native; Native's own company page lists him among its people.
+- [External Advisor, Bain & Company](https://brockdsimon.com/profile.jsonld#role-bain-external-advisor): current, since January 2026. San Francisco Bay Area, remote. External advisor to Bain & Company since January 2026: advisory support on select projects.
+- [Advisor, Provenance](https://brockdsimon.com/profile.jsonld#role-provenance-advisor): current, since December 2025. Remote; Provenance is based in London. Advisor to Provenance since December 2025, working with the company to help build factually grounded sustainability data foundations for AI-enabled commerce: how claims about products are represented, validated and surfaced across the channels customers use, with an emphasis on transparency, trust and accurate consumer decision making.
+- [Advisor, Eureka AI](https://brockdsimon.com/profile.jsonld#role-eureka-advisor): current, since December 2025. Remote. Advisor to Eureka AI since December 2025, on specific strategic initiatives involving large-scale telco data and its application to enterprise use cases.
+- [Ski Coach, Palisades Tahoe](https://brockdsimon.com/profile.jsonld#role-palisades-ski-coach): current, since October 2021. Olympic Valley, California. Seasonal ski coach at Palisades Tahoe since October 2021, in a programme whose mission is to develop more high-level competitive skiers than any other in the US. PSIA Level 1 certified instructor; leads Mighty Mites teams (ages 5 to 9), guiding young athletes through accelerated, fundamentals-driven progression, regularly taking skiers from green terrain to confidently skiing blacks.
+- [Expert Partner, Bain & Company](https://brockdsimon.com/profile.jsonld#role-bain-expert-partner): earlier, July 2022 to November 2025. San Francisco, California. Expert Partner at Bain & Company in San Francisco from July 2022 to November 2025, where he led AI initiatives, including work with OpenAI, for large enterprise clients. Bain's own team page listed him as a Partner in San Francisco in its Advanced Analytics and Retail practices, with expertise in retail, AI insights and solutions, and retail media networks.
+- [Expert Associate Partner, Bain & Company](https://brockdsimon.com/profile.jsonld#role-bain-expert-associate-partner): earlier, June 2019 to July 2022. San Francisco, California. Expert Associate Partner at Bain & Company in San Francisco from June 2019 to July 2022.
+- [Expert Associate Partner, McKinsey & Company](https://brockdsimon.com/profile.jsonld#role-mckinsey-expert-associate-partner-bangkok): earlier, August 2017 to May 2019. Bangkok, Thailand. Expert Associate Partner at McKinsey & Company in Bangkok from August 2017 to May 2019. Bain's team page describes four years at another global consulting firm as a leader in its Marketing and Retail practices, based in Chicago and Bangkok.
+- [Expert Associate Partner, McKinsey & Company](https://brockdsimon.com/profile.jsonld#role-mckinsey-expert-associate-partner-chicago): earlier, August 2015 to August 2017. Greater Chicago Area. Expert Associate Partner at McKinsey & Company in Chicago from August 2015 to August 2017.
+- [Head of Solutions, Asia, dunnhumby](https://brockdsimon.com/profile.jsonld#role-dunnhumby-head-of-solutions-asia): earlier, July 2013 to July 2015. Shanghai, China. Head of Solutions for dunnhumby in Asia, based in Shanghai, from July 2013 to July 2015. Bain's team page describes his decade at dunnhumby as leading the establishment of many of its international markets, including Head of Analytics for the Asia region.
+- [Country Head, Turkey, dunnhumby](https://brockdsimon.com/profile.jsonld#role-dunnhumby-country-head-turkey): earlier, February 2012 to July 2013. Türkiye. Country Head for dunnhumby in Turkey from February 2012 to July 2013, one of the international markets he helped establish.
+- [Retail Head, Turkey, dunnhumby](https://brockdsimon.com/profile.jsonld#role-dunnhumby-retail-head-turkey): earlier, June 2011 to February 2012. Izmir, Turkey. Promoted to lead dunnhumby's retail team in Turkey and its engagement with Tesco Kipa, from June 2011 to February 2012. Built and led a five-person team, embedded customer insights into a wide range of decisions, worked closely with commercial teams, and launched a targeted product range to grow sales and revenue; grew sales uplift and customer penetration through regular insights and tools, and redemption rates through a refocused targeted media strategy.
+- [Insight Director, Turkey, dunnhumby](https://brockdsimon.com/profile.jsonld#role-dunnhumby-insight-director-turkey): earlier, May 2010 to June 2011. London, UK and Izmir, Turkey. Directed all analytics for dunnhumby in Turkey from May 2010 to June 2011, working closely with clients to standardise and rationalise product offerings. Developed and deployed a process and tool enabling all Tesco international markets to determine the strength of proposed promotions.
+- [Solutions Lead, dunnhumby](https://brockdsimon.com/profile.jsonld#role-dunnhumby-solutions-lead-portland): earlier, October 2009 to May 2010. Portland, Oregon. Solutions Lead for dunnhumby in Portland, Oregon, from October 2009 to May 2010: optimised space allocations and created a new general merchandise loyalty segmentation for clients including Fred Meyer.
+- [Insight Director, Thailand, dunnhumby](https://brockdsimon.com/profile.jsonld#role-dunnhumby-insight-director-thailand): earlier, February 2008 to October 2009. Bangkok, Thailand. Insight Director for dunnhumby in Thailand from February 2008 to October 2009: launched the dunnhumby and Tesco International partnership and embedded customer measures into Tesco Lotus strategy.
+- [Senior Analyst, dunnhumby](https://brockdsimon.com/profile.jsonld#role-dunnhumby-senior-analyst): earlier, January 2007 to February 2008. Cincinnati, Ohio and Atlanta, Georgia. Senior Analyst at dunnhumby from January 2007 to February 2008; a key contributor to turning a pilot project with The Home Depot into a profitable long-term contract.
+- [Analyst, dunnhumby](https://brockdsimon.com/profile.jsonld#role-dunnhumby-analyst): earlier, July 2005 to January 2007. Cincinnati, Ohio. Analyst at dunnhumby from July 2005 to January 2007, developing insights and capabilities for consumer packaged goods companies working with Kroger, specialising in price and promotion optimisation.
+- [International Intern, ATL MST SIDA](https://brockdsimon.com/profile.jsonld#role-atl-mst-sida-intern): earlier, May 2004 to September 2004. Tunis, Tunisia. International Intern with ATL MST SIDA in Tunis from May to September 2004, selected to represent the US in the Salaam programme: helped create and distribute AIDS and STD education materials, and designed and analysed surveys on the level of AIDS awareness and education.
+- [Graduate Assistant, Miami University](https://brockdsimon.com/profile.jsonld#role-miami-graduate-assistant): earlier, September 2003 to May 2005. Oxford, Ohio. Graduate Assistant at Miami University from September 2003 to May 2005: assisted professors with teaching and grading mathematics and statistics courses, and taught a section of first-semester calculus.
+
+## Programmes and contributions
+
+- [Native](https://brockdsimon.com/profile.jsonld#project-native): Brock Simon helped establish it; not sole founder. Brock Simon is co-founder and Chief Product Officer of Native, full-time since January 2026. (1 contribution, 4 context, 2 results)
+  - Native post: [A Pareto frontier Database Reasoning model in 4B parameters](https://usenative.ai/blog/native-mini-bird), 2 October 2026
+  - Native post: [Native ranks #1 on Spider 2.0](https://www.usenative.ai/blog/native-ranks-first-spider-2), 18 February 2026
+- [brockdsimon.com](https://brockdsimon.com/profile.jsonld#project-brockdsimon-com): Brock Simon wrote or posted it. Brock Simon owns and built brockdsimon.com, a machine-readable professional record launched in October 2026, with an AI assistant. (1 contribution, 0 context, 0 results)
+
+## Education
+
+- Xavier University, MBA.
+- Miami University, BA and MS, Mathematics and Statistics.
+
+## Memberships and councils
+
+- Council member, Marketing Analytics Advisory Council, Stuart School of Business, Illinois Institute of Technology (start date not stated).
+
+## Areas of experience
+
+- Enterprise data and AI products: Building products that help large organisations understand and use their own data with AI, as co-founder and Chief Product Officer of Native.
+- AI strategy for large enterprises: Leading AI initiatives for large enterprise clients as an Expert Partner at Bain & Company, and continuing to advise Bain & Company as an external advisor.
+- Advanced analytics and data science leadership: Leading advanced analytics teams and solutions as an Expert Associate Partner at McKinsey & Company in Chicago and Bangkok, and at dunnhumby in Turkey and Asia.
+- Retail customer data, loyalty and price and promotion analytics: A decade at dunnhumby working with grocery and retail clients in the US, Thailand, Turkey and across Asia: price and promotion optimisation, loyalty segmentation, promotion evaluation tools, and embedding customer measures into retailer strategy.
+
+## Where to start
+
+- [Bain & Company's own profile of him, archived](https://www.bain.com/our-team/brock-simon/): The one employer-written page about him: practices, expertise and career summary in Bain's words, read from the Internet Archive capture of 8 August 2025.
+- [Business Insider, June 2026](https://www.businessinsider.com/ai-token-economy-spending-workplace-budgets-usage-caps-software-engineer-2026-6): Independent press naming him as a former Bain adviser on AI who founded Native.
+- [Provenance webinar write-up, January 2026](https://www.provenance.org/news-insights/the-future-of-ai-shopping-how-verified-product-data-boosts-ai-discoverability): Quotes him at length on AI-mediated shopping and verified product data.
+- [servicePath Executive Conversations, edition 13](https://servicepath.co/podcast/revenue-growth-for-tech-execs-edition-13/): A long-form conversation covering his career and his view of agentic AI in the enterprise.
+
+## Podcasts, interviews and talks
+
+- Past: [Revenue Growth for Tech Execs, Edition 13, Executive Conversations](https://servicepath.co/podcast/revenue-growth-for-tech-execs-edition-13/), servicePath. Guest.
+- Past: [The Future of AI Shopping: How Verified Product Data Boosts AI Discoverability](https://www.provenance.org/news-insights/the-future-of-ai-shopping-how-verified-product-data-boosts-ai-discoverability), Provenance. Panelist.
+- Past: [How AI Is Changing Product Decision-Making (From Dashboards to AI Agents), MAUSTRAP Podcast](https://www.linkedin.com/posts/brock-simon_how-ai-is-changing-product-decision-making-activity-7457522836241321984-T3X-), Mitchell De Young. Guest.
+
+## Writing, posts and endorsements
+
+- [Unlocking Hidden Value: A New Approach to Data Monetization with AI](https://www.bain.com/insights/unlocking-hidden-value-a-new-approach-to-data-monetization-with-ai/): Bain & Company, 10 June 2025. Written by Brock Simon.
+- [Google Cloud Next 2025: AI Moves from Possibility to Foundation](https://www.bain.com/insights/google-cloud-next-2025-ai-moves-from-possibility-to-foundation/): Bain & Company, 14 April 2025. Written by Brock Simon.
+- [Nvidia GTC 2025: AI Matures into Enterprise Infrastructure](https://www.bain.com/insights/nvidia-gtc-2025-ai-matures-into-enterprise-infrastructure/): Bain & Company, 24 March 2025. Written by Brock Simon.
+
+## In Brock Simon's own words
+
+- AI-mediated shopping and product data: The bigger shift in AI shopping is discovery moving upstream, before the shopper reaches a retailer. Systems that ground the difference between a marketing claim and a verified one do not yet exist, and both AI models and shoppers are still in a norming stage. <https://www.provenance.org/news-insights/the-future-of-ai-shopping-how-verified-product-data-boosts-ai-discoverability>
+- Enterprise AI adoption: AI is less experimental than many executives assume. The advance that matters is putting agents on top of existing models, workflows and best practices, with humans in the loop: augmented decision-making is what is winning in the enterprise. <https://servicepath.co/podcast/revenue-growth-for-tech-execs-edition-13/>
+- AI and product decision-making: AI has compressed the time from product design to deployment and from insight to execution, which makes data understanding and data engineering the next bottlenecks for enterprises. <https://www.linkedin.com/posts/brock-simon_how-ai-is-changing-product-decision-making-activity-7457522836241321984-T3X->
+
+## Questions and answers
+
+- Is Brock Simon still at Bain & Company? No. He was Expert Associate Partner at Bain & Company from June 2019 and Expert Partner from July 2022 to November 2025, in San Francisco. Since January 2026 he has been an external advisor to Bain & Company, providing advisory support on select projects, alongside his role as co-founder and Chief Product Officer of Native.
+- What is Native, and what is his role there? Native describes its work as database reasoning for complex enterprise data: it helps enterprises understand complex data by reasoning across the data itself, discovering structure, relationships, definitions, exceptions and gaps so teams can build reliable data foundations. Brock Simon is its co-founder and Chief Product Officer, full-time since January 2026 and based in the San Francisco Bay Area. Native's company page gives 2025 as its founding year and lists him among its people.
+- What was his title at McKinsey & Company? Expert Associate Partner, in Chicago from August 2015 to August 2017 and in Bangkok from August 2017 to May 2019, as he records it on LinkedIn. Illinois Tech's Marketing Analytics Advisory Council page recorded the title as Expert associate principal, with a focus on marketing and digital analytics in retail and consumer packaged goods.
+- Where did he study? Miami University, where he took a BA and an MS in Mathematics and Statistics, and Xavier University, where he took an MBA. Bain's team page and Illinois Tech's council page record the same institutions with slightly different wording of the degrees.
+- Is this the same Brock Simon who worked for dunnhumby in Turkey and Shanghai? Yes. His decade at dunnhumby, from 2005 to 2015, ran from Cincinnati through Atlanta, Bangkok, Portland and Izmir to Shanghai, ending as Head of Solutions for Asia. Bain's team page and his LinkedIn both record it. This record is not about other people who share the name.
+- What has he written or spoken about? Three Bain & Company articles in 2025 on enterprise AI infrastructure, Google Cloud Next, Nvidia GTC and data monetisation with AI; a servicePath Executive Conversations podcast on agentic AI, personalisation, loyalty and data monetisation; a Provenance webinar on AI shopping and verified product data; and the MAUSTRAP Podcast on why he founded Native and how AI changes product decisions. profile.json lists each with its link.
+
+## Attribution boundaries
+
+- Native's benchmark results are company results reported by Native, not Brock Simon's personal results. They are recorded as outcomes of the Native programme, never as his achievements.
+
+## Coverage
+
+- [AI Token Hunger Games Are Coming for Software Engineers at Work](https://www.businessinsider.com/ai-token-economy-spending-workplace-budgets-usage-caps-software-engineer-2026-6): Business Insider, 17 June 2026. Mentions Brock Simon.
+
+## External profiles
+
+- [LinkedIn](https://www.linkedin.com/in/brock-simon/) (confirmed by Brock Simon)

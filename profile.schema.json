@@ -1,0 +1,3582 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brockdsimon.com/profile.schema.json",
+  "title": "brockdsimon.com/profile-record 4.0",
+  "description": "The professional record of the person named in identity, generated from one maintained source record. Conventions: a null value means the record does not hold that value (for example, a date no source states); an absent optional property means the field does not apply to that item; an empty array means none are published. Nothing is inferred: every statement cites its sources and carries an evidence label. The person's contribution (claims), programme context (claims of kind context) and programme results (outcomes) are kept in separate lists. Dates are strings to the precision the record supports: YYYY, YYYY-MM or YYYY-MM-DD.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "format",
+    "formatVersion",
+    "recordId",
+    "canonicalUrl",
+    "site",
+    "generatedAt",
+    "reviewDate",
+    "preview",
+    "publication",
+    "identity",
+    "currentStatus",
+    "coverage",
+    "roles",
+    "education",
+    "expertise",
+    "profiles",
+    "works",
+    "events",
+    "mentions",
+    "projects",
+    "perspectives",
+    "credentials",
+    "memberships",
+    "faq",
+    "organisations",
+    "claims",
+    "outcomes",
+    "recognitions",
+    "corrections",
+    "featuredLinks",
+    "inquiries",
+    "timeline",
+    "changelog",
+    "contact",
+    "sources",
+    "maintenance",
+    "evidenceStatusKey",
+    "relationshipKey",
+    "datePrecisionNote"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "URL of this schema."
+    },
+    "format": {
+      "type": "string",
+      "description": "Format name of the record.",
+      "const": "brockdsimon.com/profile-record"
+    },
+    "formatVersion": {
+      "type": "string",
+      "description": "Format version. Additive changes raise the minor number; breaking changes the major."
+    },
+    "recordId": {
+      "type": "string",
+      "description": "Identifier of the person: the Person node in profile.jsonld.",
+      "format": "uri"
+    },
+    "canonicalUrl": {
+      "type": "string",
+      "description": "Canonical URL of this record.",
+      "format": "uri"
+    },
+    "site": {
+      "type": "object",
+      "description": "The site this record is served on, and how to reach its files.",
+      "properties": {
+        "origin": {
+          "type": "string",
+          "description": "Origin of the site.",
+          "format": "uri"
+        },
+        "frontPage": {
+          "type": "object",
+          "description": "The front page, which deliberately carries one line and a pointer to this record.",
+          "properties": {
+            "url": {
+              "type": "string",
+              "description": "URL of the front page.",
+              "format": "uri"
+            },
+            "text": {
+              "type": "string",
+              "description": "The sentence on the front page."
+            },
+            "note": {
+              "type": "string",
+              "description": "Why the front page is minimal."
+            }
+          },
+          "required": [
+            "url",
+            "note"
+          ],
+          "additionalProperties": false
+        },
+        "files": {
+          "type": "object",
+          "description": "Every file of the record. sitemap is present only for a public build.",
+          "properties": {
+            "json": {
+              "$ref": "#/$defs/url"
+            },
+            "html": {
+              "$ref": "#/$defs/url"
+            },
+            "jsonld": {
+              "$ref": "#/$defs/url"
+            },
+            "markdown": {
+              "$ref": "#/$defs/url"
+            },
+            "llms": {
+              "$ref": "#/$defs/url"
+            },
+            "llmsFull": {
+              "$ref": "#/$defs/url"
+            },
+            "feed": {
+              "$ref": "#/$defs/url"
+            },
+            "sitemap": {
+              "$ref": "#/$defs/url"
+            },
+            "apiCatalog": {
+              "$ref": "#/$defs/url"
+            },
+            "schema": {
+              "$ref": "#/$defs/url"
+            }
+          },
+          "required": [
+            "json",
+            "html",
+            "jsonld",
+            "markdown",
+            "llms",
+            "llmsFull",
+            "feed",
+            "apiCatalog",
+            "schema"
+          ],
+          "additionalProperties": false
+        },
+        "access": {
+          "type": "object",
+          "description": "Whether the site is private.",
+          "properties": {
+            "private": {
+              "type": "boolean",
+              "description": "True when every path is served only to signed-in readers on an allowlist."
+            },
+            "note": {
+              "type": "string",
+              "description": "How access works, in words."
+            }
+          },
+          "required": [
+            "private",
+            "note"
+          ],
+          "additionalProperties": false
+        },
+        "crawlerPolicy": {
+          "type": "object",
+          "description": "What crawlers and AI systems may do, as also stated in robots.txt.",
+          "properties": {
+            "searchAndAnswerEngines": {
+              "type": "string",
+              "description": "Search and answer engines.",
+              "enum": [
+                "allowed",
+                "blocked"
+              ]
+            },
+            "userDirectedFetchers": {
+              "type": "string",
+              "description": "Fetchers acting for a user.",
+              "enum": [
+                "allowed",
+                "blocked"
+              ]
+            },
+            "modelTraining": {
+              "type": "string",
+              "description": "Crawlers that collect text for model training.",
+              "enum": [
+                "allowed",
+                "disallowed"
+              ]
+            },
+            "contentSignal": {
+              "type": "string",
+              "description": "The Content-Signal line in robots.txt."
+            },
+            "privatePaths": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "description": "A path prefix."
+              },
+              "description": "Paths that are private; on a private site, \"/\" (everything)."
+            }
+          },
+          "required": [
+            "searchAndAnswerEngines",
+            "userDirectedFetchers",
+            "modelTraining",
+            "contentSignal",
+            "privatePaths"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "origin",
+        "frontPage",
+        "files",
+        "access",
+        "crawlerPolicy"
+      ],
+      "additionalProperties": false
+    },
+    "generatedAt": {
+      "type": "string",
+      "description": "When this file was generated (ISO 8601 timestamp). Changes on every build; not a content date.",
+      "format": "date-time"
+    },
+    "reviewDate": {
+      "$ref": "#/$defs/isoDay"
+    },
+    "researchDate": {
+      "$ref": "#/$defs/isoDay"
+    },
+    "preview": {
+      "type": "boolean",
+      "description": "True on a preview deployment."
+    },
+    "publication": {
+      "type": "object",
+      "description": "Who has approved the record and whether it may be published.",
+      "properties": {
+        "audience": {
+          "type": "string",
+          "description": "The audience of this build.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Record-level approval by the person the record is about.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        },
+        "publicPublicationAuthorized": {
+          "type": "boolean",
+          "description": "Whether public publication is authorised. While false, only private builds exist."
+        },
+        "note": {
+          "type": "string",
+          "description": "The approval state, in words."
+        },
+        "compilerNote": {
+          "type": "string",
+          "description": "Who compiled the record and on what basis."
+        }
+      },
+      "required": [
+        "audience",
+        "subjectApproval",
+        "publicPublicationAuthorized",
+        "note",
+        "compilerNote"
+      ],
+      "additionalProperties": false
+    },
+    "identity": {
+      "type": "object",
+      "description": "Who the record is about.",
+      "properties": {
+        "preferredName": {
+          "type": "string",
+          "description": "The name the person uses."
+        },
+        "fullName": {
+          "type": "string",
+          "description": "The name as recorded; not a claim about a legal name unless stated."
+        },
+        "nameVariants": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A variant spelling or form of the name."
+          },
+          "description": "Other forms of the name that appear in matching professional material."
+        },
+        "nameNote": {
+          "type": "string",
+          "description": "What the name variants do and do not establish."
+        },
+        "headline": {
+          "type": "string",
+          "description": "One-sentence description of who the person is professionally."
+        },
+        "tagline": {
+          "type": "string",
+          "description": "The front page's sentence."
+        },
+        "selfDescription": {
+          "type": "string",
+          "description": "The person's own one-line description, as on a public profile."
+        },
+        "biography": {
+          "type": "string",
+          "description": "Biography. When biographyClaimIds is non-empty, it is the statements of those claims in order."
+        },
+        "biographyClaimIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Claims the biography is generated from, in order; empty when the biography is written."
+        },
+        "location": {
+          "type": "string",
+          "description": "Where the person is based, as they state it."
+        },
+        "timeZone": {
+          "type": "string",
+          "description": "IANA time zone, when stated."
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A language the person works in."
+          },
+          "description": "Languages, when stated; empty when not."
+        },
+        "photo": {
+          "type": "object",
+          "description": "A photograph the subject holds rights to.",
+          "properties": {
+            "url": {
+              "$ref": "#/$defs/url"
+            },
+            "alt": {
+              "type": "string",
+              "description": "Alternative text."
+            }
+          },
+          "required": [
+            "url",
+            "alt"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "preferredName",
+        "fullName",
+        "nameVariants",
+        "headline",
+        "biography",
+        "biographyClaimIds",
+        "languages"
+      ],
+      "additionalProperties": false
+    },
+    "currentStatus": {
+      "type": "object",
+      "description": "The passage to quote about what the person does now, as of a date.",
+      "properties": {
+        "asOf": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "statement": {
+          "type": "string",
+          "description": "The statement."
+        },
+        "note": {
+          "type": "string",
+          "description": "A qualification."
+        }
+      },
+      "required": [
+        "asOf",
+        "statement"
+      ],
+      "additionalProperties": false
+    },
+    "coverage": {
+      "type": "object",
+      "description": "For each section: populated, partial or not_established, with a note. not_established means no accepted source supports content; the section is empty rather than filled.",
+      "additionalProperties": {
+        "type": "object",
+        "description": "Coverage of one section.",
+        "properties": {
+          "status": {
+            "type": "string",
+            "description": "Status.",
+            "enum": [
+              "populated",
+              "partial",
+              "not_established"
+            ]
+          },
+          "note": {
+            "type": "string",
+            "description": "What is and is not established."
+          }
+        },
+        "required": [
+          "status",
+          "note"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/role"
+      },
+      "description": "Roles: current first, then announced, then earlier, newest first."
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/education"
+      },
+      "description": "Education, when established."
+    },
+    "expertise": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/expertise"
+      },
+      "description": "Areas of experience, each tied to the roles and claims it rests on."
+    },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/profile"
+      },
+      "description": "Profiles elsewhere; only those the subject confirmed (verified) become sameAs links."
+    },
+    "works": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/work"
+      },
+      "description": "Things the person wrote, posted or endorsed, newest first."
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/event"
+      },
+      "description": "Appearances, newest first, with whether delivery is confirmed."
+    },
+    "mentions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/mention"
+      },
+      "description": "Coverage that quotes the person, is about them or names them."
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/project"
+      },
+      "description": "Programmes and initiatives the person is connected to, with contribution, context, results and recognition in separate lists."
+    },
+    "perspectives": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/perspective"
+      },
+      "description": "Positions the person has stated in public, each with its source."
+    },
+    "credentials": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/credential"
+      },
+      "description": "Personal certifications, licences, awards and honours. Team or programme recognition is in recognitions."
+    },
+    "memberships": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/membership"
+      },
+      "description": "Boards, councils and associations."
+    },
+    "faq": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/faq"
+      },
+      "description": "Direct answers to likely questions, each tied to claims and sources."
+    },
+    "organisations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/organisationRecord"
+      },
+      "description": "Organisations referred to in the record."
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      },
+      "description": "Atomic statements, each with one subject and the sources that support all of it."
+    },
+    "outcomes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/outcome"
+      },
+      "description": "Reported results with metric definitions and periods. Programme, team or campaign results unless attribution says self_reported_role."
+    },
+    "recognitions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/recognition"
+      },
+      "description": "Team, campaign or programme awards and shortlists. Never personal awards."
+    },
+    "corrections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/correction"
+      },
+      "description": "Attribution boundaries, exclusions, conflicts and corrections, so they are not re-introduced."
+    },
+    "featuredLinks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/featuredLink"
+      },
+      "description": "Sources most worth reading or hearing first, with why."
+    },
+    "inquiries": {
+      "description": "What inquiries are welcome and the routes for them; null when none are published.",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/inquiries"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/timelineEntry"
+      },
+      "description": "Every dated item in one sequence, newest first; derived from the sections above."
+    },
+    "changelog": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/changelogEntry"
+      },
+      "description": "Changes to the record, newest first."
+    },
+    "contact": {
+      "description": "Direct contact routes; null when none is published.",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/contact"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      },
+      "description": "The source register. Items cite sources by id; ref numbers match the order here."
+    },
+    "maintenance": {
+      "type": "object",
+      "description": "How the record is maintained.",
+      "properties": {
+        "maintainedBy": {
+          "type": "string",
+          "description": "Who maintains it.",
+          "enum": [
+            "owner",
+            "owner_with_help",
+            "drafted_for_owner"
+          ]
+        },
+        "ownerApproved": {
+          "type": "boolean",
+          "description": "Whether the subject approved the record as a whole."
+        },
+        "note": {
+          "type": "string",
+          "description": "How the record is maintained."
+        },
+        "aiTrainingPolicy": {
+          "type": "string",
+          "description": "The decision on model-training crawlers.",
+          "enum": [
+            "allow",
+            "disallow"
+          ]
+        }
+      },
+      "required": [
+        "maintainedBy",
+        "ownerApproved",
+        "note",
+        "aiTrainingPolicy"
+      ],
+      "additionalProperties": false
+    },
+    "evidenceStatusKey": {
+      "type": "object",
+      "description": "Meaning of each evidence value.",
+      "additionalProperties": {
+        "type": "string",
+        "description": "Definition."
+      }
+    },
+    "relationshipKey": {
+      "type": "object",
+      "description": "Meaning of each relationship value.",
+      "additionalProperties": {
+        "type": "string",
+        "description": "Definition."
+      }
+    },
+    "datePrecisionNote": {
+      "type": "string",
+      "description": "How dates are stated."
+    }
+  },
+  "$defs": {
+    "isoDay": {
+      "type": "string",
+      "description": "A calendar day, YYYY-MM-DD.",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "url": {
+      "type": "string",
+      "description": "An https URL.",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "id": {
+      "type": "string",
+      "description": "A stable identifier: lowercase letters, digits and hyphens.",
+      "pattern": "^[a-z0-9][a-z0-9-]{0,79}$"
+    },
+    "subject": {
+      "type": "string",
+      "description": "What a claim or outcome is about: person, or kind:id for a role, project, organisation, work or event.",
+      "pattern": "^(person|role|project|org|work|event):?[a-z0-9-]*$"
+    },
+    "relationship": {
+      "type": "string",
+      "description": "The link between the person and the item, at the strength the evidence supports. See relationshipKey.",
+      "enum": [
+        "held_role",
+        "worked_on",
+        "helped_establish",
+        "led_team",
+        "described_programme",
+        "public_spokesperson",
+        "named_team_acknowledgment",
+        "context_only",
+        "endorsed",
+        "acknowledged_reader",
+        "spoke_at",
+        "interviewed",
+        "authored",
+        "named"
+      ]
+    },
+    "sourceIds": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "description": "Ids of the sources that support this item."
+    },
+    "evidence": {
+      "type": "string",
+      "description": "How the item is supported: documented (stated by an organisation other than the person), self_reported (stated by the person, including statements attributed to them in press), owner_perspective (the person's own view).",
+      "enum": [
+        "documented",
+        "self_reported",
+        "owner_perspective"
+      ]
+    },
+    "partialDate": {
+      "type": "object",
+      "description": "A date to the precision the record supports.",
+      "properties": {
+        "value": {
+          "type": "string",
+          "description": "YYYY, YYYY-MM or YYYY-MM-DD."
+        },
+        "precision": {
+          "type": "string",
+          "description": "Precision of the value.",
+          "enum": [
+            "day",
+            "month",
+            "year"
+          ]
+        },
+        "display": {
+          "type": "string",
+          "description": "The date in words."
+        }
+      },
+      "required": [
+        "value",
+        "precision",
+        "display"
+      ],
+      "additionalProperties": false
+    },
+    "titleVariant": {
+      "type": "object",
+      "description": "The same role as another source words it.",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "The title as that source gives it."
+        },
+        "sourceId": {
+          "$ref": "#/$defs/id"
+        },
+        "note": {
+          "type": "string",
+          "description": "Context for the variant."
+        }
+      },
+      "required": [
+        "title",
+        "sourceId"
+      ],
+      "additionalProperties": false
+    },
+    "organisation": {
+      "type": "object",
+      "description": "The organisation a role belongs to.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name."
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "description": {
+          "type": "string",
+          "description": "The organisation's own published description."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "sourceIds"
+      ],
+      "additionalProperties": false
+    },
+    "organisationRecord": {
+      "type": "object",
+      "description": "An organisation referred to in the record.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name."
+        },
+        "kind": {
+          "type": "string",
+          "description": "Its relationship to the record.",
+          "enum": [
+            "employer",
+            "partner",
+            "client",
+            "supplier",
+            "venture",
+            "issuer",
+            "publisher",
+            "organiser",
+            "other"
+          ]
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "description": {
+          "type": "string",
+          "description": "The organisation's own published description."
+        },
+        "note": {
+          "type": "string",
+          "description": "A note on how it appears in the record."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "kind",
+        "sourceIds",
+        "recordedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "milestone": {
+      "type": "object",
+      "description": "A dated point in a role, kept apart from its start and end.",
+      "properties": {
+        "kind": {
+          "type": "string",
+          "description": "Kind.",
+          "enum": [
+            "announced",
+            "due_to_join",
+            "start",
+            "reported_start",
+            "remit_expanded",
+            "title_change",
+            "end",
+            "departure_announced"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "description": "Kind, in words."
+        },
+        "date": {
+          "description": "Date; null when no source states it.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "note": {
+          "type": "string",
+          "description": "Context."
+        }
+      },
+      "required": [
+        "kind",
+        "label",
+        "date",
+        "sourceIds"
+      ],
+      "additionalProperties": false
+    },
+    "role": {
+      "type": "object",
+      "description": "A role the person holds, held, or has been announced for.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "kind": {
+          "type": "string",
+          "description": "Kind of role.",
+          "enum": [
+            "founder",
+            "employment",
+            "advisory",
+            "coaching",
+            "early"
+          ]
+        },
+        "kindLabel": {
+          "type": "string",
+          "description": "Kind, in words."
+        },
+        "organisation": {
+          "$ref": "#/$defs/organisation"
+        },
+        "unit": {
+          "type": "string",
+          "description": "The part of the organisation, as the source names it."
+        },
+        "title": {
+          "type": "string",
+          "description": "Title, as the person's own profile gives it."
+        },
+        "titleVariants": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/titleVariant"
+          },
+          "description": "Other wordings of the title by source."
+        },
+        "status": {
+          "type": "string",
+          "description": "current (as of statusAsOf), former, or announced (reported, not started).",
+          "enum": [
+            "current",
+            "former",
+            "announced"
+          ]
+        },
+        "statusLabel": {
+          "type": "string",
+          "description": "Status, in words."
+        },
+        "statusAsOf": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "statusBasis": {
+          "type": "string",
+          "description": "What the status rests on."
+        },
+        "start": {
+          "description": "Start date; null when no source states it. For an announced role, the reported start.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "end": {
+          "description": "End date; null for a current role or when no source states it.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "endUnknown": {
+          "type": "boolean",
+          "description": "True when the role has ended or will end on a date no source states."
+        },
+        "periodLabel": {
+          "type": "string",
+          "description": "The period in words."
+        },
+        "milestones": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/milestone"
+          },
+          "description": "Announcement, due-to-join, remit and other dates, kept apart from start and end."
+        },
+        "location": {
+          "type": "string",
+          "description": "Where the role was based (not a home address)."
+        },
+        "summary": {
+          "type": "string",
+          "description": "What the role was, in the sources' words."
+        },
+        "scope": {
+          "type": "string",
+          "description": "Remit, team or markets, as stated."
+        },
+        "claimIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Claims about this role: responsibilities and scope."
+        },
+        "outcomeIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Outcomes stated for this role."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "url": {
+          "type": "string",
+          "description": "Identifier of this role: its OrganizationRole node in profile.jsonld.",
+          "format": "uri"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "kindLabel",
+        "organisation",
+        "title",
+        "titleVariants",
+        "status",
+        "statusLabel",
+        "start",
+        "end",
+        "endUnknown",
+        "periodLabel",
+        "milestones",
+        "summary",
+        "claimIds",
+        "outcomeIds",
+        "sourceIds",
+        "evidence",
+        "url",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "education": {
+      "type": "object",
+      "description": "Education.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "institution": {
+          "type": "string",
+          "description": "Institution."
+        },
+        "qualification": {
+          "type": "string",
+          "description": "Qualification."
+        },
+        "start": {
+          "description": "Start; null when not stated.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "end": {
+          "description": "End; null when not stated.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "institution",
+        "qualification",
+        "start",
+        "end",
+        "sourceIds",
+        "evidence",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "expertise": {
+      "type": "object",
+      "description": "An area of experience.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the area."
+        },
+        "description": {
+          "type": "string",
+          "description": "What it rests on."
+        },
+        "roleIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Roles this area rests on."
+        },
+        "claimIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Claims this area rests on."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "description",
+        "roleIds",
+        "claimIds",
+        "sourceIds",
+        "evidence",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "profile": {
+      "type": "object",
+      "description": "A profile elsewhere.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "platform": {
+          "type": "string",
+          "description": "Platform."
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "kind": {
+          "type": "string",
+          "description": "Kind of profile.",
+          "enum": [
+            "social",
+            "registry",
+            "publication",
+            "company",
+            "other"
+          ]
+        },
+        "identifier": {
+          "type": "string",
+          "description": "An identifier on that platform."
+        },
+        "verified": {
+          "type": "boolean",
+          "description": "True only when the subject confirmed the URL is theirs."
+        },
+        "basis": {
+          "type": "string",
+          "description": "Why it is believed to be theirs."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "platform",
+        "url",
+        "kind",
+        "verified",
+        "basis",
+        "sourceIds",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "work": {
+      "type": "object",
+      "description": "Something the person wrote, posted or endorsed.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "type": "string",
+          "description": "Title."
+        },
+        "publisher": {
+          "type": "string",
+          "description": "Publisher or venue."
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "date": {
+          "description": "Publication date; null when not stated.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "type": {
+          "type": "string",
+          "description": "Kind of work.",
+          "enum": [
+            "article",
+            "report",
+            "paper",
+            "post",
+            "chapter",
+            "interview",
+            "podcast",
+            "talk",
+            "book",
+            "other"
+          ]
+        },
+        "relation": {
+          "type": "string",
+          "description": "The person's relationship to it.",
+          "enum": [
+            "authored",
+            "about",
+            "mention",
+            "endorsement"
+          ]
+        },
+        "relationLabel": {
+          "type": "string",
+          "description": "The relationship, in words."
+        },
+        "coAuthors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A co-author alongside the person."
+          },
+          "description": "Co-authors; empty when none."
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "An author of the work."
+          },
+          "description": "The work's authors when the person is not one of them."
+        },
+        "description": {
+          "type": "string",
+          "description": "A note on the work."
+        },
+        "claimIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Claims about it."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "publisher",
+        "url",
+        "date",
+        "type",
+        "relation",
+        "relationLabel",
+        "coAuthors",
+        "authors",
+        "description",
+        "claimIds",
+        "sourceIds",
+        "evidence",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "event": {
+      "type": "object",
+      "description": "An appearance.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "description": "Event or show name."
+        },
+        "organiser": {
+          "type": "string",
+          "description": "Organiser or publisher."
+        },
+        "type": {
+          "type": "string",
+          "description": "Kind of event.",
+          "enum": [
+            "conference",
+            "keynote",
+            "panel",
+            "webinar",
+            "podcast",
+            "interview",
+            "lecture",
+            "award",
+            "other"
+          ]
+        },
+        "role": {
+          "type": "string",
+          "description": "The person's role at it.",
+          "enum": [
+            "keynote",
+            "speaker",
+            "panelist",
+            "guest",
+            "interviewee",
+            "host",
+            "moderator"
+          ]
+        },
+        "roleLabel": {
+          "type": "string",
+          "description": "The role, in words."
+        },
+        "date": {
+          "description": "Date; null when no source states it.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "dateKind": {
+          "type": "string",
+          "description": "event: the date it took place; publication: the date a recording or write-up was published.",
+          "enum": [
+            "event",
+            "publication"
+          ]
+        },
+        "endDate": {
+          "description": "End date for multi-day events; null otherwise.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "location": {
+          "type": "string",
+          "description": "City, or Online."
+        },
+        "sessionTitle": {
+          "type": "string",
+          "description": "Session or episode title."
+        },
+        "coSpeakers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A co-speaker, host or interviewer."
+          },
+          "description": "Others named; empty when none."
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "recordingUrl": {
+          "$ref": "#/$defs/url"
+        },
+        "recording": {
+          "type": "string",
+          "description": "Whether a recording is available.",
+          "enum": [
+            "available",
+            "highlights_only",
+            "none_known",
+            "not_checked"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "description": "What it covered."
+        },
+        "status": {
+          "type": "string",
+          "description": "past (delivery confirmed), upcoming, or advertised (on an agenda; delivery not confirmed).",
+          "enum": [
+            "past",
+            "upcoming",
+            "advertised"
+          ]
+        },
+        "statusLabel": {
+          "type": "string",
+          "description": "Status, in words."
+        },
+        "deliveryConfirmed": {
+          "type": "boolean",
+          "description": "True when a source confirms the appearance took place."
+        },
+        "claimIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Claims about it."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "organiser",
+        "type",
+        "role",
+        "roleLabel",
+        "date",
+        "dateKind",
+        "endDate",
+        "coSpeakers",
+        "recording",
+        "description",
+        "status",
+        "statusLabel",
+        "deliveryConfirmed",
+        "claimIds",
+        "sourceIds",
+        "evidence",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "mention": {
+      "type": "object",
+      "description": "Coverage that names the person.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "headline": {
+          "type": "string",
+          "description": "Headline."
+        },
+        "publisher": {
+          "type": "string",
+          "description": "Publisher."
+        },
+        "author": {
+          "type": "string",
+          "description": "Author, when shown."
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "date": {
+          "description": "Publication date; null when not stated.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "relation": {
+          "type": "string",
+          "description": "How it refers to the person.",
+          "enum": [
+            "quotes",
+            "about",
+            "mentions"
+          ]
+        },
+        "relationLabel": {
+          "type": "string",
+          "description": "The relation, in words."
+        },
+        "topic": {
+          "type": "string",
+          "description": "Topic."
+        },
+        "quote": {
+          "type": "string",
+          "description": "A verbatim passage of at most 15 words."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "headline",
+        "publisher",
+        "url",
+        "date",
+        "relation",
+        "relationLabel",
+        "sourceIds",
+        "evidence",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "project": {
+      "type": "object",
+      "description": "A programme or initiative the person is connected to.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name."
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "node": {
+          "type": "string",
+          "description": "Identifier of this project in profile.jsonld.",
+          "format": "uri"
+        },
+        "organisationIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Organisations it belongs to or involves."
+        },
+        "parentId": {
+          "$ref": "#/$defs/id"
+        },
+        "roleIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "The person's roles it falls under."
+        },
+        "relationship": {
+          "$ref": "#/$defs/relationship"
+        },
+        "relationshipLabel": {
+          "type": "string",
+          "description": "The relationship, in words."
+        },
+        "role": {
+          "type": "string",
+          "description": "The person's part, in words."
+        },
+        "kind": {
+          "type": "string",
+          "description": "What kind of project it is.",
+          "enum": [
+            "venture",
+            "product",
+            "experiment",
+            "research",
+            "site",
+            "other"
+          ]
+        },
+        "kindLabel": {
+          "type": "string",
+          "description": "The kind, in words."
+        },
+        "prominence": {
+          "type": "string",
+          "description": "How prominently it is surfaced: featured and listed appear under programmes everywhere; background entries are experiments and working notes, kept out of the summary surfaces and listed under 'Experiments and working notes' for readers asking about their topics.",
+          "enum": [
+            "featured",
+            "listed",
+            "background"
+          ]
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A keyword."
+          },
+          "description": "Topics an agent can match a question against."
+        },
+        "publications": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "description": "One of the organisation's own posts or pages about the programme: company context, listed in full, never the person's own work.",
+            "properties": {
+              "sourceId": {
+                "$ref": "#/$defs/id"
+              },
+              "title": {
+                "type": "string",
+                "description": "Title as the page shows it."
+              },
+              "url": {
+                "$ref": "#/$defs/url"
+              },
+              "publisher": {
+                "type": "string",
+                "description": "Publisher."
+              },
+              "published": {
+                "description": "Publication date; null when not shown.",
+                "oneOf": [
+                  {
+                    "$ref": "#/$defs/partialDate"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "sourceId",
+              "title",
+              "url",
+              "publisher",
+              "published"
+            ],
+            "additionalProperties": false
+          },
+          "description": "The organisation's own posts and pages about the programme, newest first."
+        },
+        "status": {
+          "type": "string",
+          "description": "Status.",
+          "enum": [
+            "active",
+            "launched",
+            "paused",
+            "archived",
+            "historical",
+            "unknown"
+          ]
+        },
+        "statusLabel": {
+          "type": "string",
+          "description": "Status, in words."
+        },
+        "start": {
+          "description": "Start of the person's involvement or of the programme, as stated; null when not stated.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "end": {
+          "description": "End; null when not stated.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "description": "What it is."
+        },
+        "contributionClaimIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "What the person did, or said they did: claims of kind contribution, responsibility or association."
+        },
+        "contextClaimIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Programme context; these claims do not name the person and are not the person's achievements."
+        },
+        "outcomeIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Reported programme results; not the person's personal achievements."
+        },
+        "recognitionIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Team, campaign or programme recognition."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "node",
+        "organisationIds",
+        "roleIds",
+        "relationship",
+        "relationshipLabel",
+        "role",
+        "kind",
+        "kindLabel",
+        "prominence",
+        "topics",
+        "publications",
+        "status",
+        "statusLabel",
+        "start",
+        "end",
+        "summary",
+        "contributionClaimIds",
+        "contextClaimIds",
+        "outcomeIds",
+        "recognitionIds",
+        "sourceIds",
+        "evidence",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "claim": {
+      "type": "object",
+      "description": "One statement with one subject.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "subject": {
+          "$ref": "#/$defs/subject"
+        },
+        "kind": {
+          "type": "string",
+          "description": "What the statement is.",
+          "enum": [
+            "identity",
+            "career",
+            "responsibility",
+            "contribution",
+            "context",
+            "association",
+            "appearance",
+            "authorship"
+          ]
+        },
+        "relationship": {
+          "$ref": "#/$defs/relationship"
+        },
+        "relationshipLabel": {
+          "type": "string",
+          "description": "The relationship, in words."
+        },
+        "statement": {
+          "type": "string",
+          "description": "The statement, using the person's name."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "locators": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "description": "Where in a source the support is found.",
+            "properties": {
+              "sourceId": {
+                "$ref": "#/$defs/id"
+              },
+              "locator": {
+                "type": "string",
+                "description": "Heading, paragraph or section; a timestamp only when the source shows one."
+              }
+            },
+            "required": [
+              "sourceId",
+              "locator"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Locators, when known."
+        },
+        "date": {
+          "description": "The date the statement concerns; null when none.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "dateKind": {
+          "type": "string",
+          "description": "What the date is.",
+          "enum": [
+            "employment_start",
+            "employment_end",
+            "announced",
+            "reported_start",
+            "due_to_join",
+            "contribution_period",
+            "event",
+            "published",
+            "launch",
+            "pilot",
+            "signing",
+            "results_period",
+            "as_of",
+            "remit_expanded"
+          ]
+        },
+        "confidence": {
+          "type": "string",
+          "description": "Confidence in the attribution at the stated specificity.",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "note": {
+          "type": "string",
+          "description": "A review note."
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "subject",
+        "kind",
+        "relationship",
+        "relationshipLabel",
+        "statement",
+        "sourceIds",
+        "locators",
+        "date",
+        "confidence",
+        "evidence",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "outcome": {
+      "type": "object",
+      "description": "A reported result.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "subject": {
+          "$ref": "#/$defs/subject"
+        },
+        "statement": {
+          "type": "string",
+          "description": "The result in words."
+        },
+        "metric": {
+          "type": "string",
+          "description": "What is counted, as the source defines it."
+        },
+        "value": {
+          "type": "string",
+          "description": "The value as stated."
+        },
+        "unit": {
+          "type": "string",
+          "description": "Unit."
+        },
+        "period": {
+          "type": "object",
+          "description": "The measurement or reporting period.",
+          "properties": {
+            "text": {
+              "type": "string",
+              "description": "As stated."
+            },
+            "start": {
+              "description": "Start, when stated.",
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/partialDate"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "end": {
+              "description": "End, when stated.",
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/partialDate"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "text",
+            "start",
+            "end"
+          ],
+          "additionalProperties": false
+        },
+        "denominator": {
+          "type": "string",
+          "description": "What the figure is out of, when known."
+        },
+        "reportingEntity": {
+          "type": "string",
+          "description": "Who reported it."
+        },
+        "reportedBy": {
+          "type": "string",
+          "description": "Kind of reporter.",
+          "enum": [
+            "company",
+            "partner",
+            "supplier",
+            "awards_entry",
+            "self_reported",
+            "press"
+          ]
+        },
+        "methodology": {
+          "type": "string",
+          "description": "Methodology as stated, or \"Not stated.\""
+        },
+        "attribution": {
+          "type": "string",
+          "description": "Whose result it is: a programme, team or campaign result, or an outcome the person states for their own role.",
+          "enum": [
+            "programme",
+            "team",
+            "campaign",
+            "self_reported_role"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "description": "reported; or target/planned, which are not achieved results.",
+          "enum": [
+            "reported",
+            "target",
+            "planned"
+          ]
+        },
+        "conflictIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Corrections recording a conflict with this figure."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "locators": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "description": "Where in a source the support is found.",
+            "properties": {
+              "sourceId": {
+                "$ref": "#/$defs/id"
+              },
+              "locator": {
+                "type": "string",
+                "description": "Heading, paragraph or section; a timestamp only when the source shows one."
+              }
+            },
+            "required": [
+              "sourceId",
+              "locator"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Locators, when known."
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "subject",
+        "statement",
+        "metric",
+        "value",
+        "period",
+        "reportingEntity",
+        "reportedBy",
+        "methodology",
+        "attribution",
+        "status",
+        "conflictIds",
+        "sourceIds",
+        "locators",
+        "evidence",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "recognition": {
+      "type": "object",
+      "description": "Team, campaign or programme recognition.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "description": "Award or list."
+        },
+        "issuer": {
+          "type": "string",
+          "description": "Issuer."
+        },
+        "category": {
+          "type": "string",
+          "description": "Category."
+        },
+        "result": {
+          "type": "string",
+          "description": "Result. A shortlist is not a win.",
+          "enum": [
+            "won",
+            "shortlisted",
+            "finalist",
+            "highly_commended"
+          ]
+        },
+        "entrant": {
+          "type": "string",
+          "description": "The entrant as the issuer names it."
+        },
+        "subjectKind": {
+          "type": "string",
+          "description": "What was recognised.",
+          "enum": [
+            "team",
+            "campaign",
+            "programme",
+            "organisation"
+          ]
+        },
+        "personal": {
+          "const": false,
+          "description": "Always false: never a personal award."
+        },
+        "projectId": {
+          "$ref": "#/$defs/id"
+        },
+        "date": {
+          "description": "Date; null when not stated.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "note": {
+          "type": "string",
+          "description": "Note."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "issuer",
+        "result",
+        "entrant",
+        "subjectKind",
+        "personal",
+        "date",
+        "sourceIds",
+        "evidence",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "correction": {
+      "type": "object",
+      "description": "An attribution boundary, exclusion, conflict or correction.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "kind": {
+          "type": "string",
+          "description": "Kind.",
+          "enum": [
+            "attribution_boundary",
+            "exclusion",
+            "conflict",
+            "date_discrepancy",
+            "correction"
+          ]
+        },
+        "statement": {
+          "type": "string",
+          "description": "The point, in words."
+        },
+        "detail": {
+          "type": "string",
+          "description": "Detail."
+        },
+        "affects": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A record path or id."
+          },
+          "description": "What it affects."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "resolution": {
+          "type": "string",
+          "description": "How the record handles it.",
+          "enum": [
+            "omitted",
+            "kept_both",
+            "excluded",
+            "corrected",
+            "unresolved"
+          ]
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "statement",
+        "affects",
+        "sourceIds",
+        "resolution",
+        "recordedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "featuredLink": {
+      "type": "object",
+      "description": "A source worth reading or hearing first.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "sourceId": {
+          "$ref": "#/$defs/id"
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "label": {
+          "type": "string",
+          "description": "Label."
+        },
+        "why": {
+          "type": "string",
+          "description": "What it offers."
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "sourceId",
+        "label",
+        "why",
+        "recordedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "perspective": {
+      "type": "object",
+      "description": "A position the person has stated.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "topic": {
+          "type": "string",
+          "description": "Topic."
+        },
+        "position": {
+          "type": "string",
+          "description": "The position, paraphrased."
+        },
+        "quote": {
+          "type": "string",
+          "description": "A verbatim quotation of at most 15 words."
+        },
+        "quoteBasis": {
+          "type": "string",
+          "description": "Where the quotation's wording comes from.",
+          "enum": [
+            "published_text",
+            "machine_transcript"
+          ]
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "date": {
+          "description": "When it was said or published; null when not stated.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "format": {
+          "type": "string",
+          "description": "Where it was said.",
+          "enum": [
+            "article",
+            "post",
+            "talk",
+            "podcast",
+            "interview",
+            "press_release",
+            "other"
+          ]
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "topic",
+        "position",
+        "date",
+        "format",
+        "sourceIds",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "credential": {
+      "type": "object",
+      "description": "A personal certification, licence, award or honour.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name."
+        },
+        "issuer": {
+          "type": "string",
+          "description": "Issuer."
+        },
+        "type": {
+          "type": "string",
+          "description": "Kind.",
+          "enum": [
+            "certification",
+            "licence",
+            "award",
+            "honour"
+          ]
+        },
+        "date": {
+          "description": "Date; null when not stated.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "issuer",
+        "type",
+        "date",
+        "sourceIds",
+        "evidence",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "membership": {
+      "type": "object",
+      "description": "A board, council or association.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "organisation": {
+          "type": "string",
+          "description": "Organisation."
+        },
+        "role": {
+          "type": "string",
+          "description": "The person's role in it."
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "start": {
+          "description": "Start; null when not stated.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "end": {
+          "description": "End; null while current or when not stated.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "periodLabel": {
+          "type": "string",
+          "description": "The period in words."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "organisation",
+        "role",
+        "start",
+        "end",
+        "periodLabel",
+        "sourceIds",
+        "evidence",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "faq": {
+      "type": "object",
+      "description": "A question and its answer from the record.",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "question": {
+          "type": "string",
+          "description": "The question."
+        },
+        "answer": {
+          "type": "string",
+          "description": "The answer."
+        },
+        "sourceIds": {
+          "$ref": "#/$defs/sourceIds"
+        },
+        "claimIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Claims the answer rests on."
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "question",
+        "answer",
+        "sourceIds",
+        "claimIds",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    },
+    "inquiries": {
+      "type": "object",
+      "description": "Inquiries that are welcome.",
+      "properties": {
+        "welcome": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A kind of inquiry.",
+            "enum": [
+              "advisory",
+              "board",
+              "speaking",
+              "press",
+              "consulting",
+              "collaboration"
+            ]
+          },
+          "description": "Kinds that are welcome."
+        },
+        "note": {
+          "type": "string",
+          "description": "Note on inquiries."
+        },
+        "routes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "description": "A route.",
+            "properties": {
+              "kind": {
+                "type": "string",
+                "description": "Kind of route.",
+                "enum": [
+                  "linkedin",
+                  "email",
+                  "organisation",
+                  "form"
+                ]
+              },
+              "label": {
+                "type": "string",
+                "description": "Label."
+              },
+              "url": {
+                "$ref": "#/$defs/url"
+              },
+              "email": {
+                "type": "string",
+                "description": "Email address.",
+                "format": "email"
+              }
+            },
+            "required": [
+              "kind",
+              "label"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Routes."
+        }
+      },
+      "required": [
+        "welcome",
+        "note",
+        "routes"
+      ],
+      "additionalProperties": false
+    },
+    "contact": {
+      "type": "object",
+      "description": "Direct contact routes.",
+      "properties": {
+        "linkedin": {
+          "$ref": "#/$defs/url"
+        },
+        "email": {
+          "type": "string",
+          "description": "Email address.",
+          "format": "email"
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "timelineEntry": {
+      "type": "object",
+      "description": "One dated item.",
+      "properties": {
+        "date": {
+          "$ref": "#/$defs/partialDate"
+        },
+        "kind": {
+          "type": "string",
+          "description": "What kind of item.",
+          "enum": [
+            "role",
+            "milestone",
+            "education",
+            "event",
+            "work",
+            "project",
+            "credential",
+            "membership"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "description": "The item in words."
+        },
+        "href": {
+          "type": "string",
+          "description": "Identifier of the item in profile.jsonld.",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "date",
+        "kind",
+        "text",
+        "href"
+      ],
+      "additionalProperties": false
+    },
+    "changelogEntry": {
+      "type": "object",
+      "description": "A change to the record.",
+      "properties": {
+        "date": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "change": {
+          "type": "string",
+          "description": "Kind of change.",
+          "enum": [
+            "added",
+            "updated",
+            "corrected",
+            "retired"
+          ]
+        },
+        "paths": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "A dotted path into the record."
+          },
+          "description": "Items affected."
+        },
+        "summary": {
+          "type": "string",
+          "description": "The change, in words."
+        }
+      },
+      "required": [
+        "date",
+        "change",
+        "paths",
+        "summary"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "description": "A source in the register.",
+      "properties": {
+        "ref": {
+          "type": "integer",
+          "description": "Reference number, matching the order of the register."
+        },
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "archiveUrl": {
+          "$ref": "#/$defs/url"
+        },
+        "publisher": {
+          "type": "string",
+          "description": "Publisher."
+        },
+        "title": {
+          "type": "string",
+          "description": "Title."
+        },
+        "titleBasis": {
+          "type": "string",
+          "description": "page: the title as the page shows it; catalogue_label: a descriptive label, the exact title not yet extracted.",
+          "enum": [
+            "page",
+            "catalogue_label"
+          ]
+        },
+        "author": {
+          "type": "string",
+          "description": "Author, when shown."
+        },
+        "published": {
+          "description": "Publication date; null when not established.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/partialDate"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "publishedBasis": {
+          "type": "string",
+          "description": "Where the publication date comes from.",
+          "enum": [
+            "displayed",
+            "page_metadata",
+            "url_path",
+            "catalogue",
+            "derived",
+            "unknown"
+          ]
+        },
+        "publishedNote": {
+          "type": "string",
+          "description": "Note on the date."
+        },
+        "retrieval": {
+          "type": "object",
+          "description": "Whether this source was actually read, when and how.",
+          "properties": {
+            "status": {
+              "type": "string",
+              "description": "Outcome of the last check.",
+              "enum": [
+                "fetched",
+                "partial",
+                "login_wall",
+                "paywalled",
+                "blocked",
+                "not_found",
+                "failed",
+                "not_attempted",
+                "supplied"
+              ]
+            },
+            "checkedOn": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Day of the check; null when not checked.",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "via": {
+              "type": "string",
+              "description": "How it was read.",
+              "enum": [
+                "live",
+                "wayback",
+                "supplied",
+                "none"
+              ]
+            },
+            "note": {
+              "type": "string",
+              "description": "What could and could not be seen."
+            }
+          },
+          "required": [
+            "status",
+            "checkedOn",
+            "via"
+          ],
+          "additionalProperties": false
+        },
+        "sourceType": {
+          "type": "string",
+          "description": "Kind of source.",
+          "enum": [
+            "company_page",
+            "press",
+            "linkedin",
+            "owner_statement",
+            "registry",
+            "event_page",
+            "podcast",
+            "video",
+            "awards",
+            "case_study",
+            "publisher_page",
+            "screenshot",
+            "archive",
+            "other"
+          ]
+        },
+        "relation": {
+          "type": "string",
+          "description": "about: names the person; context: a company or programme fact that does not name them; authored: the person's own text.",
+          "enum": [
+            "about",
+            "context",
+            "authored"
+          ]
+        },
+        "namesSubject": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Whether the source names the person; null when not checked."
+        },
+        "summary": {
+          "type": "string",
+          "description": "What the record relies on it for."
+        },
+        "quote": {
+          "type": "string",
+          "description": "A verbatim passage of at most 15 words, seen on the page."
+        },
+        "quoteLocator": {
+          "type": "string",
+          "description": "Where the quote is."
+        },
+        "inherited": {
+          "type": "object",
+          "description": "A summary inherited from earlier research and not re-verified here.",
+          "properties": {
+            "from": {
+              "type": "string",
+              "description": "Where the summary came from."
+            },
+            "summary": {
+              "type": "string",
+              "description": "The inherited summary."
+            }
+          },
+          "required": [
+            "from",
+            "summary"
+          ],
+          "additionalProperties": false
+        },
+        "related": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "description": "A related version of this source.",
+            "properties": {
+              "sourceId": {
+                "$ref": "#/$defs/id"
+              },
+              "relationship": {
+                "type": "string",
+                "description": "Relationship.",
+                "enum": [
+                  "same_episode",
+                  "reprint_of",
+                  "original_of",
+                  "related_coverage",
+                  "archive_of",
+                  "recording_of",
+                  "underlying_report",
+                  "same_announcement"
+                ]
+              }
+            },
+            "required": [
+              "sourceId",
+              "relationship"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Reprints, recordings and coverage of the same item; not independent corroboration."
+        },
+        "media": {
+          "type": "object",
+          "description": "Audio, video and transcript access.",
+          "properties": {
+            "audio": {
+              "type": "boolean",
+              "description": "Audio available."
+            },
+            "video": {
+              "type": "boolean",
+              "description": "Video available."
+            },
+            "transcript": {
+              "type": "string",
+              "description": "Transcript.",
+              "enum": [
+                "none",
+                "machine",
+                "publisher",
+                "not_checked"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "supplied": {
+          "type": "object",
+          "description": "A source supplied privately rather than fetched.",
+          "properties": {
+            "by": {
+              "type": "string",
+              "description": "Who supplied it: the owner of the record or the site's operator.",
+              "enum": [
+                "owner",
+                "operator"
+              ]
+            },
+            "on": {
+              "$ref": "#/$defs/isoDay"
+            },
+            "captureDate": {
+              "description": "When the capture was made; null when not known.",
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/isoDay"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "note": {
+              "type": "string",
+              "description": "Note."
+            }
+          },
+          "required": [
+            "by",
+            "on",
+            "captureDate"
+          ],
+          "additionalProperties": false
+        },
+        "recordedOn": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "reviewedOn": {
+          "description": "The day the maintainer last reviewed this item; null means not yet reviewed.",
+          "oneOf": [
+            {
+              "$ref": "#/$defs/isoDay"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility": {
+          "type": "string",
+          "description": "private: served only behind the sign-in; public: eligible for a public build once approved.",
+          "enum": [
+            "private",
+            "public"
+          ]
+        },
+        "subjectApproval": {
+          "type": "string",
+          "description": "Whether the person the record is about has approved this item.",
+          "enum": [
+            "not_requested",
+            "requested",
+            "approved",
+            "declined"
+          ]
+        }
+      },
+      "required": [
+        "ref",
+        "id",
+        "publisher",
+        "title",
+        "titleBasis",
+        "published",
+        "publishedBasis",
+        "retrieval",
+        "sourceType",
+        "relation",
+        "namesSubject",
+        "summary",
+        "related",
+        "recordedOn",
+        "reviewedOn",
+        "visibility",
+        "subjectApproval"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
