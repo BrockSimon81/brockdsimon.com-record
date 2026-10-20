@@ -1,9 +1,10 @@
 {
   "$schema": "https://brockdsimon.com/profile.schema.json",
   "format": "brockdsimon.com/profile-record",
-  "formatVersion": "4.0",
+  "formatVersion": "4.1",
   "recordId": "https://brockdsimon.com/profile.jsonld#person",
   "canonicalUrl": "https://brockdsimon.com/profile.json",
+  "citationUrl": "https://brockdsimon.com/profile",
   "site": {
     "origin": "https://brockdsimon.com",
     "frontPage": {
@@ -37,11 +38,12 @@
         "/api",
         "/mcp",
         "/login",
-        "/auth"
+        "/auth",
+        "/posts"
       ]
     }
   },
-  "generatedAt": "2026-10-19T03:29:17.316Z",
+  "generatedAt": "2026-10-20T02:21:14.711Z",
   "reviewDate": "2026-10-16",
   "researchDate": "2026-10-18",
   "preview": false,
@@ -62,7 +64,24 @@
     "tagline": "This site isn't for humans.",
     "selfDescription": "Creating intelligent systems: 20+ years building solutions globally to understand behavior and drive action.",
     "biography": "Brock Simon is a product leader and advisor. Since January 2026 he has been co-founder and Chief Product Officer of Native, which describes its work as database reasoning for complex enterprise data. He has also been an external advisor to Bain & Company since January 2026, and an advisor to Provenance and to Eureka AI since December 2025.\n\nBefore Native he spent six years at Bain & Company in San Francisco: Expert Associate Partner from June 2019, then Expert Partner from July 2022 to November 2025, where he led AI initiatives, including work with OpenAI, for large enterprise clients. Before Bain he was an Expert Associate Partner at McKinsey & Company, in Chicago from 2015 and in Bangkok from 2017 to 2019. He spent a decade at dunnhumby, from analyst in Cincinnati in 2005 to Head of Solutions for Asia in Shanghai in 2015, by way of Atlanta, Bangkok, Portland and Izmir: he launched the dunnhumby and Tesco international partnership in Thailand, ran the Turkey business as Country Head, and led the establishment of several international markets.\n\nHe holds an MBA from Xavier University and a BA and MS in Mathematics and Statistics from Miami University. He lives in the San Francisco Bay Area and has been a seasonal ski coach at Palisades Tahoe since October 2021.",
-    "biographyClaimIds": [],
+    "biographyBasis": "written",
+    "biographyClaimIds": [
+      "c-native-cofounder-cpo",
+      "c-native-what",
+      "c-bain-external-advisor",
+      "c-provenance-advisor",
+      "c-eureka-advisor",
+      "c-bain-tenure",
+      "c-bain-ai-initiatives",
+      "c-mckinsey-tenure",
+      "c-dunnhumby-decade",
+      "c-dunnhumby-thailand-launch",
+      "c-dunnhumby-turkey-country-head",
+      "c-dunnhumby-international-markets",
+      "c-education",
+      "c-location",
+      "c-ski-coach"
+    ],
     "location": "San Francisco Bay Area, United States",
     "languages": []
   },
@@ -73,7 +92,7 @@
   "coverage": {
     "credentials": {
       "status": "partial",
-      "note": "A PSIA Level 1 instructor certification is stated in his LinkedIn ski-coaching description; recorded as a draft credential pending his review."
+      "note": "His approved ski-coaching role (self-reported, from his LinkedIn description) states that he is a PSIA Level 1 certified instructor. The dedicated credential record restating it awaits his line-by-line review, so this list is empty until then; the statement itself stands in the role."
     },
     "profiles": {
       "status": "partial",
@@ -83,6 +102,7 @@
   "roles": [
     {
       "id": "native-cpo",
+      "citation": "https://brockdsimon.com/profile#role-native-cpo",
       "kind": "founder",
       "kindLabel": "Founder role",
       "organisation": {
@@ -130,6 +150,7 @@
     },
     {
       "id": "bain-external-advisor",
+      "citation": "https://brockdsimon.com/profile#role-bain-external-advisor",
       "kind": "advisory",
       "kindLabel": "Advisory role",
       "organisation": {
@@ -155,7 +176,9 @@
       "milestones": [],
       "location": "San Francisco Bay Area, remote",
       "summary": "External advisor to Bain & Company since January 2026: advisory support on select projects.",
-      "claimIds": [],
+      "claimIds": [
+        "c-bain-external-advisor"
+      ],
       "outcomeIds": [],
       "sourceIds": [
         "owner-profile-2026-08-18",
@@ -170,6 +193,7 @@
     },
     {
       "id": "provenance-advisor",
+      "citation": "https://brockdsimon.com/profile#role-provenance-advisor",
       "kind": "advisory",
       "kindLabel": "Advisory role",
       "organisation": {
@@ -199,7 +223,9 @@
       "milestones": [],
       "location": "Remote; Provenance is based in London",
       "summary": "Advisor to Provenance since December 2025, working with the company to help build factually grounded sustainability data foundations for AI-enabled commerce: how claims about products are represented, validated and surfaced across the channels customers use, with an emphasis on transparency, trust and accurate consumer decision making.",
-      "claimIds": [],
+      "claimIds": [
+        "c-provenance-advisor"
+      ],
       "outcomeIds": [],
       "sourceIds": [
         "owner-profile-2026-08-18",
@@ -214,6 +240,7 @@
     },
     {
       "id": "eureka-advisor",
+      "citation": "https://brockdsimon.com/profile#role-eureka-advisor",
       "kind": "advisory",
       "kindLabel": "Advisory role",
       "organisation": {
@@ -243,7 +270,9 @@
       "milestones": [],
       "location": "Remote",
       "summary": "Advisor to Eureka AI since December 2025, on specific strategic initiatives involving large-scale telco data and its application to enterprise use cases.",
-      "claimIds": [],
+      "claimIds": [
+        "c-eureka-advisor"
+      ],
       "outcomeIds": [],
       "sourceIds": [
         "owner-profile-2026-08-18",
@@ -258,6 +287,7 @@
     },
     {
       "id": "palisades-ski-coach",
+      "citation": "https://brockdsimon.com/profile#role-palisades-ski-coach",
       "kind": "coaching",
       "kindLabel": "Coaching",
       "organisation": {
@@ -283,7 +313,9 @@
       "milestones": [],
       "location": "Olympic Valley, California",
       "summary": "Seasonal ski coach at Palisades Tahoe since October 2021, in a programme whose mission is to develop more high-level competitive skiers than any other in the US. PSIA Level 1 certified instructor; leads Mighty Mites teams (ages 5 to 9), guiding young athletes through accelerated, fundamentals-driven progression, regularly taking skiers from green terrain to confidently skiing blacks.",
-      "claimIds": [],
+      "claimIds": [
+        "c-ski-coach"
+      ],
       "outcomeIds": [],
       "sourceIds": [
         "owner-profile-2026-08-18",
@@ -298,6 +330,7 @@
     },
     {
       "id": "bain-expert-partner",
+      "citation": "https://brockdsimon.com/profile#role-bain-expert-partner",
       "kind": "employment",
       "kindLabel": "Employment",
       "organisation": {
@@ -332,6 +365,7 @@
       "location": "San Francisco, California",
       "summary": "Expert Partner at Bain & Company in San Francisco from July 2022 to November 2025, where he led AI initiatives, including work with OpenAI, for large enterprise clients. Bain's own team page listed him as a Partner in San Francisco in its Advanced Analytics and Retail practices, with expertise in retail, AI insights and solutions, and retail media networks.",
       "claimIds": [
+        "c-bain-tenure",
         "c-bain-ai-initiatives",
         "c-bain-practices"
       ],
@@ -350,6 +384,7 @@
     },
     {
       "id": "bain-expert-associate-partner",
+      "citation": "https://brockdsimon.com/profile#role-bain-expert-associate-partner",
       "kind": "employment",
       "kindLabel": "Employment",
       "organisation": {
@@ -377,7 +412,9 @@
       "milestones": [],
       "location": "San Francisco, California",
       "summary": "Expert Associate Partner at Bain & Company in San Francisco from June 2019 to July 2022.",
-      "claimIds": [],
+      "claimIds": [
+        "c-bain-tenure"
+      ],
       "outcomeIds": [],
       "sourceIds": [
         "linkedin-experience-2026-10-16"
@@ -391,6 +428,7 @@
     },
     {
       "id": "mckinsey-expert-associate-partner-bangkok",
+      "citation": "https://brockdsimon.com/profile#role-mckinsey-expert-associate-partner-bangkok",
       "kind": "employment",
       "kindLabel": "Employment",
       "organisation": {
@@ -424,7 +462,9 @@
       "milestones": [],
       "location": "Bangkok, Thailand",
       "summary": "Expert Associate Partner at McKinsey & Company in Bangkok from August 2017 to May 2019. Bain's team page describes four years at another global consulting firm as a leader in its Marketing and Retail practices, based in Chicago and Bangkok.",
-      "claimIds": [],
+      "claimIds": [
+        "c-mckinsey-tenure"
+      ],
       "outcomeIds": [],
       "sourceIds": [
         "linkedin-experience-2026-10-16",
@@ -440,6 +480,7 @@
     },
     {
       "id": "mckinsey-expert-associate-partner-chicago",
+      "citation": "https://brockdsimon.com/profile#role-mckinsey-expert-associate-partner-chicago",
       "kind": "employment",
       "kindLabel": "Employment",
       "organisation": {
@@ -473,7 +514,9 @@
       "milestones": [],
       "location": "Greater Chicago Area",
       "summary": "Expert Associate Partner at McKinsey & Company in Chicago from August 2015 to August 2017.",
-      "claimIds": [],
+      "claimIds": [
+        "c-mckinsey-tenure"
+      ],
       "outcomeIds": [],
       "sourceIds": [
         "linkedin-experience-2026-10-16",
@@ -488,6 +531,7 @@
     },
     {
       "id": "dunnhumby-head-of-solutions-asia",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-head-of-solutions-asia",
       "kind": "employment",
       "kindLabel": "Employment",
       "organisation": {
@@ -539,6 +583,7 @@
     },
     {
       "id": "dunnhumby-country-head-turkey",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-country-head-turkey",
       "kind": "employment",
       "kindLabel": "Employment",
       "organisation": {
@@ -583,6 +628,7 @@
     },
     {
       "id": "dunnhumby-retail-head-turkey",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-retail-head-turkey",
       "kind": "employment",
       "kindLabel": "Employment",
       "organisation": {
@@ -624,6 +670,7 @@
     },
     {
       "id": "dunnhumby-insight-director-turkey",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-insight-director-turkey",
       "kind": "employment",
       "kindLabel": "Employment",
       "organisation": {
@@ -665,6 +712,7 @@
     },
     {
       "id": "dunnhumby-solutions-lead-portland",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-solutions-lead-portland",
       "kind": "employment",
       "kindLabel": "Employment",
       "organisation": {
@@ -706,6 +754,7 @@
     },
     {
       "id": "dunnhumby-insight-director-thailand",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-insight-director-thailand",
       "kind": "employment",
       "kindLabel": "Employment",
       "organisation": {
@@ -749,6 +798,7 @@
     },
     {
       "id": "dunnhumby-senior-analyst",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-senior-analyst",
       "kind": "employment",
       "kindLabel": "Employment",
       "organisation": {
@@ -790,6 +840,7 @@
     },
     {
       "id": "dunnhumby-analyst",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-analyst",
       "kind": "employment",
       "kindLabel": "Employment",
       "organisation": {
@@ -831,6 +882,7 @@
     },
     {
       "id": "atl-mst-sida-intern",
+      "citation": "https://brockdsimon.com/profile#role-atl-mst-sida-intern",
       "kind": "early",
       "kindLabel": "Early career",
       "organisation": {
@@ -871,6 +923,7 @@
     },
     {
       "id": "miami-graduate-assistant",
+      "citation": "https://brockdsimon.com/profile#role-miami-graduate-assistant",
       "kind": "early",
       "kindLabel": "Early career",
       "organisation": {
@@ -914,6 +967,7 @@
   "education": [
     {
       "id": "xavier-mba",
+      "citation": "https://brockdsimon.com/profile#education-xavier-mba",
       "institution": "Xavier University",
       "qualification": "MBA",
       "start": null,
@@ -931,6 +985,7 @@
     },
     {
       "id": "miami-mathematics-statistics",
+      "citation": "https://brockdsimon.com/profile#education-miami-mathematics-statistics",
       "institution": "Miami University",
       "qualification": "BA and MS, Mathematics and Statistics",
       "start": null,
@@ -950,6 +1005,7 @@
   "expertise": [
     {
       "id": "enterprise-data-ai-products",
+      "citation": "https://brockdsimon.com/profile#expertise-enterprise-data-ai-products",
       "name": "Enterprise data and AI products",
       "description": "Building products that help large organisations understand and use their own data with AI, as co-founder and Chief Product Officer of Native.",
       "roleIds": [
@@ -967,6 +1023,7 @@
     },
     {
       "id": "ai-strategy-large-enterprises",
+      "citation": "https://brockdsimon.com/profile#expertise-ai-strategy-large-enterprises",
       "name": "AI strategy for large enterprises",
       "description": "Leading AI initiatives for large enterprise clients as an Expert Partner at Bain & Company, and continuing to advise Bain & Company as an external advisor.",
       "roleIds": [
@@ -985,6 +1042,7 @@
     },
     {
       "id": "advanced-analytics-leadership",
+      "citation": "https://brockdsimon.com/profile#expertise-advanced-analytics-leadership",
       "name": "Advanced analytics and data science leadership",
       "description": "Leading advanced analytics teams and solutions as an Expert Associate Partner at McKinsey & Company in Chicago and Bangkok, and at dunnhumby in Turkey and Asia.",
       "roleIds": [
@@ -1007,6 +1065,7 @@
     },
     {
       "id": "retail-customer-data",
+      "citation": "https://brockdsimon.com/profile#expertise-retail-customer-data",
       "name": "Retail customer data, loyalty and price and promotion analytics",
       "description": "A decade at dunnhumby working with grocery and retail clients in the US, Thailand, Turkey and across Asia: price and promotion optimisation, loyalty segmentation, promotion evaluation tools, and embedding customer measures into retailer strategy.",
       "roleIds": [
@@ -1047,6 +1106,7 @@
   "works": [
     {
       "id": "bain-data-monetization-2025",
+      "citation": "https://brockdsimon.com/profile#work-bain-data-monetization-2025",
       "title": "Unlocking Hidden Value: A New Approach to Data Monetization with AI",
       "publisher": "Bain & Company",
       "url": "https://www.bain.com/insights/unlocking-hidden-value-a-new-approach-to-data-monetization-with-ai/",
@@ -1058,11 +1118,20 @@
       "type": "article",
       "relation": "authored",
       "relationLabel": "Written by Brock Simon",
-      "coAuthors": [],
+      "coAuthors": [
+        "Bill Groves",
+        "Eric Sheng",
+        "Giorgio Saladino",
+        "Vineeth Gogineni"
+      ],
+      "authorPosition": 1,
       "authors": [],
-      "description": "First-named author, with Bill Groves, Eric Sheng, Giorgio Saladino and Vineeth Gogineni.",
-      "claimIds": [],
+      "description": "Subtitled 'Model Context Protocols are the key.' Byline read on the article's own page, 2026-10-19.",
+      "claimIds": [
+        "c-bain-article-data-monetization"
+      ],
       "sourceIds": [
+        "bain-insights-data-monetization-2025-06-10",
         "bain-team-page-2025-08-08"
       ],
       "evidence": "documented",
@@ -1073,6 +1142,7 @@
     },
     {
       "id": "bain-google-cloud-next-2025",
+      "citation": "https://brockdsimon.com/profile#work-bain-google-cloud-next-2025",
       "title": "Google Cloud Next 2025: AI Moves from Possibility to Foundation",
       "publisher": "Bain & Company",
       "url": "https://www.bain.com/insights/google-cloud-next-2025-ai-moves-from-possibility-to-foundation/",
@@ -1084,11 +1154,19 @@
       "type": "article",
       "relation": "authored",
       "relationLabel": "Written by Brock Simon",
-      "coAuthors": [],
+      "coAuthors": [
+        "Todd Papaioannou",
+        "Eric Sheng",
+        "Stuart Sim"
+      ],
+      "authorPosition": 1,
       "authors": [],
-      "description": "",
-      "claimIds": [],
+      "description": "Subtitled 'Seven takeaways for executives.' Byline read on the article's own page, 2026-10-19.",
+      "claimIds": [
+        "c-bain-article-google-cloud-next"
+      ],
       "sourceIds": [
+        "bain-insights-google-cloud-next-2025-04-14",
         "bain-team-page-2025-08-08"
       ],
       "evidence": "documented",
@@ -1099,6 +1177,7 @@
     },
     {
       "id": "bain-nvidia-gtc-2025",
+      "citation": "https://brockdsimon.com/profile#work-bain-nvidia-gtc-2025",
       "title": "Nvidia GTC 2025: AI Matures into Enterprise Infrastructure",
       "publisher": "Bain & Company",
       "url": "https://www.bain.com/insights/nvidia-gtc-2025-ai-matures-into-enterprise-infrastructure/",
@@ -1110,11 +1189,22 @@
       "type": "article",
       "relation": "authored",
       "relationLabel": "Written by Brock Simon",
-      "coAuthors": [],
+      "coAuthors": [
+        "Eric Sheng",
+        "Sarah Elk",
+        "Daniel Reznikov",
+        "Srikanth Munjuluri",
+        "Sandeep Singh",
+        "Apoorv Sharma"
+      ],
+      "authorPosition": 2,
       "authors": [],
-      "description": "",
-      "claimIds": [],
+      "description": "Subtitled 'Companies are changing the architecture for how they compete.' Byline read on the article's own page, 2026-10-19.",
+      "claimIds": [
+        "c-bain-article-nvidia-gtc"
+      ],
       "sourceIds": [
+        "bain-insights-nvidia-gtc-2025-03-24",
         "bain-team-page-2025-08-08"
       ],
       "evidence": "documented",
@@ -1127,6 +1217,7 @@
   "events": [
     {
       "id": "servicepath-executive-conversations-13",
+      "citation": "https://brockdsimon.com/profile#event-servicepath-executive-conversations-13",
       "name": "Executive Conversations",
       "organiser": "servicePath",
       "type": "podcast",
@@ -1158,6 +1249,7 @@
     },
     {
       "id": "provenance-ai-shopping-webinar",
+      "citation": "https://brockdsimon.com/profile#event-provenance-ai-shopping-webinar",
       "name": "The Future of AI Shopping: How Verified Product Data Boosts AI Discoverability",
       "organiser": "Provenance",
       "type": "webinar",
@@ -1190,6 +1282,7 @@
     },
     {
       "id": "maustrap-podcast-episode-2",
+      "citation": "https://brockdsimon.com/profile#event-maustrap-podcast-episode-2",
       "name": "MAUSTRAP Podcast",
       "organiser": "Mitchell De Young",
       "type": "podcast",
@@ -1225,6 +1318,7 @@
   "mentions": [
     {
       "id": "business-insider-2026-06-17",
+      "citation": "https://brockdsimon.com/profile#mention-business-insider-2026-06-17",
       "headline": "AI Token Hunger Games Are Coming for Software Engineers at Work",
       "publisher": "Business Insider",
       "url": "https://www.businessinsider.com/ai-token-economy-spending-workplace-budgets-usage-caps-software-engineer-2026-6",
@@ -1250,6 +1344,7 @@
   "projects": [
     {
       "id": "native",
+      "citation": "https://brockdsimon.com/profile#project-native",
       "name": "Native",
       "url": "https://www.usenative.ai/",
       "node": "https://brockdsimon.com/profile.jsonld#project-native",
@@ -1331,6 +1426,7 @@
     },
     {
       "id": "brockdsimon-com",
+      "citation": "https://brockdsimon.com/profile#project-brockdsimon-com",
       "name": "brockdsimon.com",
       "url": "https://brockdsimon.com/profile.json",
       "node": "https://brockdsimon.com/profile.jsonld#project-brockdsimon-com",
@@ -1377,6 +1473,7 @@
   "perspectives": [
     {
       "id": "ai-shopping-discovery-upstream",
+      "citation": "https://brockdsimon.com/profile#perspective-ai-shopping-discovery-upstream",
       "topic": "AI-mediated shopping and product data",
       "position": "The bigger shift in AI shopping is discovery moving upstream, before the shopper reaches a retailer. Systems that ground the difference between a marketing claim and a verified one do not yet exist, and both AI models and shoppers are still in a norming stage.",
       "quote": "To me, the bigger shift is watching that discovery move upstream",
@@ -1398,6 +1495,7 @@
     },
     {
       "id": "enterprise-ai-less-experimental",
+      "citation": "https://brockdsimon.com/profile#perspective-enterprise-ai-less-experimental",
       "topic": "Enterprise AI adoption",
       "position": "AI is less experimental than many executives assume. The advance that matters is putting agents on top of existing models, workflows and best practices, with humans in the loop: augmented decision-making is what is winning in the enterprise.",
       "url": "https://servicepath.co/podcast/revenue-growth-for-tech-execs-edition-13/",
@@ -1413,6 +1511,7 @@
     },
     {
       "id": "ai-compresses-design-to-deployment",
+      "citation": "https://brockdsimon.com/profile#perspective-ai-compresses-design-to-deployment",
       "topic": "AI and product decision-making",
       "position": "AI has compressed the time from product design to deployment and from insight to execution, which makes data understanding and data engineering the next bottlenecks for enterprises.",
       "quote": "AI has compressed the time from product design to deployment",
@@ -1433,6 +1532,7 @@
   "memberships": [
     {
       "id": "iit-marketing-analytics-advisory-council",
+      "citation": "https://brockdsimon.com/profile#membership-iit-marketing-analytics-advisory-council",
       "organisation": "Marketing Analytics Advisory Council, Stuart School of Business, Illinois Institute of Technology",
       "role": "Council member",
       "url": "https://www.iit.edu/stuart/about/board-advisors/marketing-analytics-advisory-council",
@@ -1452,6 +1552,7 @@
   "faq": [
     {
       "id": "still-at-bain",
+      "citation": "https://brockdsimon.com/profile#faq-still-at-bain",
       "question": "Is Brock Simon still at Bain & Company?",
       "answer": "No. He was Expert Associate Partner at Bain & Company from June 2019 and Expert Partner from July 2022 to November 2025, in San Francisco. Since January 2026 he has been an external advisor to Bain & Company, providing advisory support on select projects, alongside his role as co-founder and Chief Product Officer of Native.",
       "sourceIds": [
@@ -1459,6 +1560,8 @@
         "bain-team-page-2025-08-08"
       ],
       "claimIds": [
+        "c-bain-tenure",
+        "c-bain-external-advisor",
         "c-bain-practices"
       ],
       "recordedOn": "2026-10-17",
@@ -1468,6 +1571,7 @@
     },
     {
       "id": "what-is-native",
+      "citation": "https://brockdsimon.com/profile#faq-what-is-native",
       "question": "What is Native, and what is his role there?",
       "answer": "Native describes its work as database reasoning for complex enterprise data: it helps enterprises understand complex data by reasoning across the data itself, discovering structure, relationships, definitions, exceptions and gaps so teams can build reliable data foundations. Brock Simon is its co-founder and Chief Product Officer, full-time since January 2026 and based in the San Francisco Bay Area. Native's company page gives 2025 as its founding year and lists him among its people.",
       "sourceIds": [
@@ -1487,13 +1591,16 @@
     },
     {
       "id": "mckinsey-title",
+      "citation": "https://brockdsimon.com/profile#faq-mckinsey-title",
       "question": "What was his title at McKinsey & Company?",
       "answer": "Expert Associate Partner, in Chicago from August 2015 to August 2017 and in Bangkok from August 2017 to May 2019, as he records it on LinkedIn. Illinois Tech's Marketing Analytics Advisory Council page recorded the title as Expert associate principal, with a focus on marketing and digital analytics in retail and consumer packaged goods.",
       "sourceIds": [
         "linkedin-experience-2026-10-16",
         "iit-marketing-analytics-council"
       ],
-      "claimIds": [],
+      "claimIds": [
+        "c-mckinsey-tenure"
+      ],
       "recordedOn": "2026-10-17",
       "reviewedOn": null,
       "visibility": "public",
@@ -1501,6 +1608,7 @@
     },
     {
       "id": "where-did-he-study",
+      "citation": "https://brockdsimon.com/profile#faq-where-did-he-study",
       "question": "Where did he study?",
       "answer": "Miami University, where he took a BA and an MS in Mathematics and Statistics, and Xavier University, where he took an MBA. Bain's team page and Illinois Tech's council page record the same institutions with slightly different wording of the degrees.",
       "sourceIds": [
@@ -1508,7 +1616,9 @@
         "bain-team-page-2025-08-08",
         "iit-marketing-analytics-council"
       ],
-      "claimIds": [],
+      "claimIds": [
+        "c-education"
+      ],
       "recordedOn": "2026-10-17",
       "reviewedOn": null,
       "visibility": "public",
@@ -1516,6 +1626,7 @@
     },
     {
       "id": "same-person-dunnhumby",
+      "citation": "https://brockdsimon.com/profile#faq-same-person-dunnhumby",
       "question": "Is this the same Brock Simon who worked for dunnhumby in Turkey and Shanghai?",
       "answer": "Yes. His decade at dunnhumby, from 2005 to 2015, ran from Cincinnati through Atlanta, Bangkok, Portland and Izmir to Shanghai, ending as Head of Solutions for Asia. Bain's team page and his LinkedIn both record it. This record is not about other people who share the name.",
       "sourceIds": [
@@ -1523,6 +1634,7 @@
         "linkedin-experience-2026-10-16"
       ],
       "claimIds": [
+        "c-dunnhumby-decade",
         "c-dunnhumby-international-markets"
       ],
       "recordedOn": "2026-10-17",
@@ -1532,15 +1644,23 @@
     },
     {
       "id": "what-has-he-written",
+      "citation": "https://brockdsimon.com/profile#faq-what-has-he-written",
       "question": "What has he written or spoken about?",
-      "answer": "Three Bain & Company articles in 2025 on enterprise AI infrastructure, Google Cloud Next, Nvidia GTC and data monetisation with AI; a servicePath Executive Conversations podcast on agentic AI, personalisation, loyalty and data monetisation; a Provenance webinar on AI shopping and verified product data; and the MAUSTRAP Podcast on why he founded Native and how AI changes product decisions. profile.json lists each with its link.",
+      "answer": "Three Bain & Company articles in 2025, each co-authored: on data monetisation with AI (first-named of five authors, June 2025), Google Cloud Next (first-named of four, April 2025) and Nvidia GTC (second-named of seven, March 2025); a servicePath Executive Conversations podcast on agentic AI, personalisation, loyalty and data monetisation; a Provenance webinar on AI shopping and verified product data; and the MAUSTRAP Podcast on why he founded Native and how AI changes product decisions. profile.json lists each with its link and its byline.",
       "sourceIds": [
+        "bain-insights-data-monetization-2025-06-10",
+        "bain-insights-google-cloud-next-2025-04-14",
+        "bain-insights-nvidia-gtc-2025-03-24",
         "bain-team-page-2025-08-08",
         "servicepath-executive-conversations-13",
         "provenance-ai-shopping-webinar-2026-01",
         "linkedin-post-maustrap-2026"
       ],
-      "claimIds": [],
+      "claimIds": [
+        "c-bain-article-data-monetization",
+        "c-bain-article-google-cloud-next",
+        "c-bain-article-nvidia-gtc"
+      ],
       "recordedOn": "2026-10-17",
       "reviewedOn": null,
       "visibility": "public",
@@ -1550,6 +1670,7 @@
   "organisations": [
     {
       "id": "native",
+      "citation": "https://brockdsimon.com/profile#org-native",
       "name": "Native",
       "kind": "venture",
       "url": "https://www.usenative.ai/",
@@ -1563,6 +1684,7 @@
     },
     {
       "id": "bain",
+      "citation": "https://brockdsimon.com/profile#org-bain",
       "name": "Bain & Company",
       "kind": "employer",
       "url": "https://www.bain.com/",
@@ -1574,6 +1696,7 @@
     },
     {
       "id": "provenance",
+      "citation": "https://brockdsimon.com/profile#org-provenance",
       "name": "Provenance",
       "kind": "client",
       "url": "https://www.provenance.org/",
@@ -1589,6 +1712,7 @@
     },
     {
       "id": "eureka-ai",
+      "citation": "https://brockdsimon.com/profile#org-eureka-ai",
       "name": "Eureka AI",
       "kind": "client",
       "url": "https://eureka.ai/",
@@ -1604,6 +1728,7 @@
     },
     {
       "id": "palisades-tahoe",
+      "citation": "https://brockdsimon.com/profile#org-palisades-tahoe",
       "name": "Palisades Tahoe",
       "kind": "employer",
       "url": "https://www.palisadestahoe.com/",
@@ -1615,6 +1740,7 @@
     },
     {
       "id": "mckinsey",
+      "citation": "https://brockdsimon.com/profile#org-mckinsey",
       "name": "McKinsey & Company",
       "kind": "employer",
       "url": "https://www.mckinsey.com/",
@@ -1625,6 +1751,7 @@
     },
     {
       "id": "dunnhumby",
+      "citation": "https://brockdsimon.com/profile#org-dunnhumby",
       "name": "dunnhumby",
       "kind": "employer",
       "url": "https://www.dunnhumby.com/",
@@ -1635,6 +1762,7 @@
     },
     {
       "id": "miami-university",
+      "citation": "https://brockdsimon.com/profile#org-miami-university",
       "name": "Miami University",
       "kind": "employer",
       "url": "https://miamioh.edu/",
@@ -1646,6 +1774,7 @@
     },
     {
       "id": "atl-mst-sida",
+      "citation": "https://brockdsimon.com/profile#org-atl-mst-sida",
       "name": "ATL MST SIDA",
       "kind": "other",
       "note": "The Tunisian association that hosted his 2004 internship.",
@@ -1658,6 +1787,7 @@
   "claims": [
     {
       "id": "c-native-cofounder-cpo",
+      "citation": "https://brockdsimon.com/profile#claim-c-native-cofounder-cpo",
       "subject": "project:native",
       "kind": "contribution",
       "relationship": "helped_establish",
@@ -1669,7 +1799,24 @@
         "linkedin-experience-2026-10-16",
         "owner-profile-2026-08-18"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "business-insider-2026-06-17",
+          "locator": "Third-from-last paragraph of the story: he founded Native after advising on AI for Bain & Company. Supports the founding, not the title, the full-time status or the start month."
+        },
+        {
+          "sourceId": "native-linkedin-company-page",
+          "locator": "People listed on the company page: names him, without a title or date."
+        },
+        {
+          "sourceId": "linkedin-experience-2026-10-16",
+          "locator": "Experience section, Native entry: title, full-time, January 2026 to present, San Francisco Bay Area (self-reported)."
+        },
+        {
+          "sourceId": "owner-profile-2026-08-18",
+          "locator": "His maintained record, roles list: title and start month (self-reported)."
+        }
+      ],
       "date": {
         "value": "2026-01",
         "precision": "month",
@@ -1685,6 +1832,7 @@
     },
     {
       "id": "c-native-what",
+      "citation": "https://brockdsimon.com/profile#claim-c-native-what",
       "subject": "project:native",
       "kind": "context",
       "relationship": "context_only",
@@ -1693,7 +1841,12 @@
       "sourceIds": [
         "native-site-2026-09-29"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "native-site-2026-09-29",
+          "locator": "Hero ('built for your most complex enterprise data') and the section 'Understanding the data is still the bottleneck', step 'Database reasoning', as read on 2026-10-19. 'Helps enterprises understand complex data' paraphrases that section."
+        }
+      ],
       "date": null,
       "confidence": "high",
       "evidence": "documented",
@@ -1704,6 +1857,7 @@
     },
     {
       "id": "c-native-founded",
+      "citation": "https://brockdsimon.com/profile#claim-c-native-founded",
       "subject": "project:native",
       "kind": "context",
       "relationship": "context_only",
@@ -1712,7 +1866,12 @@
       "sourceIds": [
         "native-linkedin-company-page"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "native-linkedin-company-page",
+          "locator": "Company page, About: founded, headquarters and locations."
+        }
+      ],
       "date": null,
       "confidence": "medium",
       "note": "Company page only; no other page opened confirms the founding year.",
@@ -1724,6 +1883,7 @@
     },
     {
       "id": "c-site-built",
+      "citation": "https://brockdsimon.com/profile#claim-c-site-built",
       "subject": "project:brockdsimon-com",
       "kind": "contribution",
       "relationship": "authored",
@@ -1748,6 +1908,7 @@
     },
     {
       "id": "c-bain-ai-initiatives",
+      "citation": "https://brockdsimon.com/profile#claim-c-bain-ai-initiatives",
       "subject": "role:bain-expert-partner",
       "kind": "responsibility",
       "relationship": "led_team",
@@ -1757,7 +1918,16 @@
         "owner-profile-2026-08-18",
         "linkedin-experience-2026-10-16"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "linkedin-experience-2026-10-16",
+          "locator": "Experience section, Expert Partner entry: his own description of the role."
+        },
+        {
+          "sourceId": "owner-profile-2026-08-18",
+          "locator": "His maintained record, roles list: his own wording."
+        }
+      ],
       "date": null,
       "confidence": "high",
       "note": "His wording; no client is named. The wording is an open question for him.",
@@ -1769,6 +1939,7 @@
     },
     {
       "id": "c-bain-practices",
+      "citation": "https://brockdsimon.com/profile#claim-c-bain-practices",
       "subject": "role:bain-expert-partner",
       "kind": "career",
       "relationship": "held_role",
@@ -1777,7 +1948,12 @@
       "sourceIds": [
         "bain-team-page-2025-08-08"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "locator": "Title block under the name (Partner, San Francisco); 'About Brock', first sentence (the practices); the 'Expertise' list, which the page words 'Retail', 'AI, Insights, and Solutions' and 'Retail Media Networks'."
+        }
+      ],
       "date": null,
       "confidence": "high",
       "evidence": "documented",
@@ -1788,6 +1964,7 @@
     },
     {
       "id": "c-dunnhumby-international-markets",
+      "citation": "https://brockdsimon.com/profile#claim-c-dunnhumby-international-markets",
       "subject": "role:dunnhumby-head-of-solutions-asia",
       "kind": "career",
       "relationship": "held_role",
@@ -1796,7 +1973,12 @@
       "sourceIds": [
         "bain-team-page-2025-08-08"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "locator": "Biography, third paragraph, beginning 'Prior to joining us, Brock spent 10 years at dunnhumby'."
+        }
+      ],
       "date": null,
       "confidence": "high",
       "evidence": "documented",
@@ -1807,16 +1989,26 @@
     },
     {
       "id": "c-dunnhumby-turkey-country-head",
+      "citation": "https://brockdsimon.com/profile#claim-c-dunnhumby-turkey-country-head",
       "subject": "role:dunnhumby-country-head-turkey",
       "kind": "responsibility",
       "relationship": "led_team",
       "relationshipLabel": "Brock Simon led the team or remit named; others contributed.",
-      "statement": "He ran dunnhumby's Turkey business as Country Head from February 2012 to July 2013.",
+      "statement": "He was Country Head for dunnhumby in Turkey from February 2012 to July 2013.",
       "sourceIds": [
         "bain-team-page-2025-08-08",
         "linkedin-experience-2026-10-16"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "locator": "Biography, third paragraph: 'Country Head for Turkey'. The title only; the page gives no dates."
+        },
+        {
+          "sourceId": "linkedin-experience-2026-10-16",
+          "locator": "Experience section, 'Country Head, Turkey' entry: title and dates (self-reported)."
+        }
+      ],
       "date": {
         "value": "2012-02",
         "precision": "month",
@@ -1832,6 +2024,7 @@
     },
     {
       "id": "c-dunnhumby-thailand-launch",
+      "citation": "https://brockdsimon.com/profile#claim-c-dunnhumby-thailand-launch",
       "subject": "role:dunnhumby-insight-director-thailand",
       "kind": "contribution",
       "relationship": "helped_establish",
@@ -1840,7 +2033,12 @@
       "sourceIds": [
         "linkedin-experience-2026-10-16"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "linkedin-experience-2026-10-16",
+          "locator": "Experience section, 'Insight Director, Thailand' entry: his own description."
+        }
+      ],
       "date": {
         "value": "2008-02",
         "precision": "month",
@@ -1856,6 +2054,7 @@
     },
     {
       "id": "c-iit-council",
+      "citation": "https://brockdsimon.com/profile#claim-c-iit-council",
       "subject": "person",
       "kind": "association",
       "relationship": "named",
@@ -1864,7 +2063,12 @@
       "sourceIds": [
         "iit-marketing-analytics-council"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "iit-marketing-analytics-council",
+          "locator": "'Member Profiles', the last of seven entries. The entry's biography still gives McKinsey & Company as his employer and carries no dates."
+        }
+      ],
       "date": null,
       "confidence": "high",
       "evidence": "documented",
@@ -1875,6 +2079,7 @@
     },
     {
       "id": "c-business-insider-2026",
+      "citation": "https://brockdsimon.com/profile#claim-c-business-insider-2026",
       "subject": "person",
       "kind": "association",
       "relationship": "named",
@@ -1883,7 +2088,12 @@
       "sourceIds": [
         "business-insider-2026-06-17"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "business-insider-2026-06-17",
+          "locator": "Third-from-last paragraph of the story, beginning 'Brock Simon advised companies on AI'. The article gives no Bain title and no dates."
+        }
+      ],
       "date": {
         "value": "2026-06-17",
         "precision": "day",
@@ -1898,7 +2108,442 @@
       "subjectApproval": "approved"
     },
     {
+      "id": "c-bain-external-advisor",
+      "citation": "https://brockdsimon.com/profile#claim-c-bain-external-advisor",
+      "subject": "role:bain-external-advisor",
+      "kind": "career",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock Simon has been an external advisor to Bain & Company since January 2026, providing advisory support on select projects.",
+      "sourceIds": [
+        "linkedin-experience-2026-10-16",
+        "owner-profile-2026-08-18"
+      ],
+      "locators": [
+        {
+          "sourceId": "linkedin-experience-2026-10-16",
+          "locator": "Experience section, External Advisor entry: title, start month and description (self-reported)."
+        },
+        {
+          "sourceId": "owner-profile-2026-08-18",
+          "locator": "His maintained record, roles list (self-reported)."
+        }
+      ],
+      "date": {
+        "value": "2026-01",
+        "precision": "month",
+        "display": "January 2026"
+      },
+      "dateKind": "employment_start",
+      "confidence": "high",
+      "note": "No page by Bain or anyone else names the advisory role; the source hunt of 2026-10-18 found none.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-provenance-advisor",
+      "citation": "https://brockdsimon.com/profile#claim-c-provenance-advisor",
+      "subject": "role:provenance-advisor",
+      "kind": "career",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock Simon has been an advisor to Provenance since December 2025.",
+      "sourceIds": [
+        "linkedin-experience-2026-10-16",
+        "owner-profile-2026-08-18"
+      ],
+      "locators": [
+        {
+          "sourceId": "linkedin-experience-2026-10-16",
+          "locator": "Experience section, Provenance entry: title and start month (self-reported)."
+        },
+        {
+          "sourceId": "owner-profile-2026-08-18",
+          "locator": "His maintained record, roles list (self-reported)."
+        }
+      ],
+      "date": {
+        "value": "2025-12",
+        "precision": "month",
+        "display": "December 2025"
+      },
+      "dateKind": "employment_start",
+      "confidence": "high",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-eureka-advisor",
+      "citation": "https://brockdsimon.com/profile#claim-c-eureka-advisor",
+      "subject": "role:eureka-advisor",
+      "kind": "career",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock Simon has been an advisor to Eureka AI since December 2025.",
+      "sourceIds": [
+        "linkedin-experience-2026-10-16",
+        "owner-profile-2026-08-18"
+      ],
+      "locators": [
+        {
+          "sourceId": "linkedin-experience-2026-10-16",
+          "locator": "Experience section, Eureka AI entry: title and start month (self-reported)."
+        },
+        {
+          "sourceId": "owner-profile-2026-08-18",
+          "locator": "His maintained record, roles list (self-reported)."
+        }
+      ],
+      "date": {
+        "value": "2025-12",
+        "precision": "month",
+        "display": "December 2025"
+      },
+      "dateKind": "employment_start",
+      "confidence": "high",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-bain-tenure",
+      "citation": "https://brockdsimon.com/profile#claim-c-bain-tenure",
+      "subject": "role:bain-expert-partner",
+      "kind": "career",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock Simon was at Bain & Company in San Francisco from June 2019 to November 2025: Expert Associate Partner from June 2019, then Expert Partner from July 2022.",
+      "sourceIds": [
+        "linkedin-experience-2026-10-16",
+        "owner-profile-2026-08-18",
+        "bain-team-page-2025-08-08"
+      ],
+      "locators": [
+        {
+          "sourceId": "linkedin-experience-2026-10-16",
+          "locator": "Experience section, the two Bain & Company entries: titles, months and San Francisco (self-reported)."
+        },
+        {
+          "sourceId": "owner-profile-2026-08-18",
+          "locator": "His maintained record, roles list (self-reported)."
+        },
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "locator": "Title block: 'Partner, San Francisco' in the capture of 8 August 2025. Supports that Bain listed him as a partner in San Francisco; the page gives no dates and words the title differently."
+        }
+      ],
+      "date": {
+        "value": "2019-06",
+        "precision": "month",
+        "display": "June 2019"
+      },
+      "dateKind": "employment_start",
+      "confidence": "high",
+      "note": "The dates are his own; Bain's page corroborates the partnership and the office, not the dates. Bain's own wording of the title varies by capture; the role lists the variants.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-mckinsey-tenure",
+      "citation": "https://brockdsimon.com/profile#claim-c-mckinsey-tenure",
+      "subject": "person",
+      "kind": "career",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock Simon was Expert Associate Partner at McKinsey & Company, in Chicago from August 2015 to August 2017 and in Bangkok from August 2017 to May 2019.",
+      "sourceIds": [
+        "linkedin-experience-2026-10-16",
+        "bain-team-page-2025-08-08",
+        "iit-marketing-analytics-council"
+      ],
+      "locators": [
+        {
+          "sourceId": "linkedin-experience-2026-10-16",
+          "locator": "Experience section, the two McKinsey & Company entries: title, months and cities (self-reported)."
+        },
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "locator": "Biography, third paragraph: 'four years at another global consulting firm', 'based in both Chicago and Bangkok'. Supports the duration and the cities; the page does not name the firm."
+        },
+        {
+          "sourceId": "iit-marketing-analytics-council",
+          "locator": "'Member Profiles', his entry: names McKinsey & Company and gives the title as Expert associate principal; no dates. See x-mckinsey-title."
+        }
+      ],
+      "date": {
+        "value": "2015-08",
+        "precision": "month",
+        "display": "August 2015"
+      },
+      "dateKind": "employment_start",
+      "confidence": "high",
+      "note": "The title wording and the months are his own; Bain's page corroborates four years in Chicago and Bangkok without naming the firm, and Illinois Tech names the firm with a different title wording.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-dunnhumby-decade",
+      "citation": "https://brockdsimon.com/profile#claim-c-dunnhumby-decade",
+      "subject": "person",
+      "kind": "career",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock Simon spent a decade at dunnhumby, from Analyst in Cincinnati from July 2005 to Head of Solutions for Asia in Shanghai until July 2015, by way of Atlanta, Bangkok, Portland and Izmir.",
+      "sourceIds": [
+        "linkedin-experience-2026-10-16",
+        "bain-team-page-2025-08-08",
+        "iit-marketing-analytics-council"
+      ],
+      "locators": [
+        {
+          "sourceId": "linkedin-experience-2026-10-16",
+          "locator": "Experience section, the eight dunnhumby entries: titles, months and locations (self-reported)."
+        },
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "locator": "Biography, third paragraph: '10 years at dunnhumby'. Supports the decade, not the sequence of roles or cities."
+        },
+        {
+          "sourceId": "iit-marketing-analytics-council",
+          "locator": "'Member Profiles', his entry: 'over 10 years at dunnhumby in roles across the United States, Asia, Europe, and the Middle East'. Supports the decade and the regions."
+        }
+      ],
+      "date": {
+        "value": "2005-07",
+        "precision": "month",
+        "display": "July 2005"
+      },
+      "dateKind": "employment_start",
+      "confidence": "high",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-education",
+      "citation": "https://brockdsimon.com/profile#claim-c-education",
+      "subject": "person",
+      "kind": "career",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock Simon holds an MBA from Xavier University and a BA and MS in Mathematics and Statistics from Miami University.",
+      "sourceIds": [
+        "owner-profile-2026-08-18",
+        "bain-team-page-2025-08-08",
+        "iit-marketing-analytics-council"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-profile-2026-08-18",
+          "locator": "His maintained record, education (his wording of the degrees)."
+        },
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "locator": "Biography, fourth paragraph: 'a MSc in mathematics and statistics from Miami University and an MBA from Xavier University'. Same institutions; different wording of the Miami degrees."
+        },
+        {
+          "sourceId": "iit-marketing-analytics-council",
+          "locator": "'Member Profiles', his entry, last sentence: a Bachelor of Science in Mathematics and Statistics and a Master of Science in Mathematics from Miami University and an M.B.A. from Xavier University. Same institutions; different wording."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "The institutions are documented by two pages besides his own record; the wording of the Miami degrees differs by source (see x-degrees-wording). His own wording is published.",
+      "evidence": "documented",
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-location",
+      "citation": "https://brockdsimon.com/profile#claim-c-location",
+      "subject": "person",
+      "kind": "identity",
+      "relationship": "named",
+      "relationshipLabel": "A source names Brock Simon in connection with it.",
+      "statement": "Brock Simon is based in the San Francisco Bay Area.",
+      "sourceIds": [
+        "linkedin-experience-2026-10-16",
+        "owner-profile-2026-08-18"
+      ],
+      "locators": [
+        {
+          "sourceId": "linkedin-experience-2026-10-16",
+          "locator": "Experience section, Native entry: location (self-reported)."
+        },
+        {
+          "sourceId": "owner-profile-2026-08-18",
+          "locator": "His maintained record (self-reported)."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-ski-coach",
+      "citation": "https://brockdsimon.com/profile#claim-c-ski-coach",
+      "subject": "role:palisades-ski-coach",
+      "kind": "career",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock Simon has been a seasonal ski coach at Palisades Tahoe since October 2021.",
+      "sourceIds": [
+        "linkedin-experience-2026-10-16",
+        "owner-profile-2026-08-18"
+      ],
+      "locators": [
+        {
+          "sourceId": "linkedin-experience-2026-10-16",
+          "locator": "Experience section, Palisades Tahoe entry: title, seasonal, start month (self-reported)."
+        },
+        {
+          "sourceId": "owner-profile-2026-08-18",
+          "locator": "His maintained record, roles list (self-reported)."
+        }
+      ],
+      "date": {
+        "value": "2021-10",
+        "precision": "month",
+        "display": "October 2021"
+      },
+      "dateKind": "employment_start",
+      "confidence": "high",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-bain-article-data-monetization",
+      "citation": "https://brockdsimon.com/profile#claim-c-bain-article-data-monetization",
+      "subject": "work:bain-data-monetization-2025",
+      "kind": "authorship",
+      "relationship": "authored",
+      "relationshipLabel": "Brock Simon wrote or posted it.",
+      "statement": "Brock Simon is the first-named of five authors of 'Unlocking Hidden Value: A New Approach to Data Monetization with AI', published by Bain & Company on 10 June 2025, with Bill Groves, Eric Sheng, Giorgio Saladino and Vineeth Gogineni.",
+      "sourceIds": [
+        "bain-insights-data-monetization-2025-06-10",
+        "bain-team-page-2025-08-08"
+      ],
+      "locators": [
+        {
+          "sourceId": "bain-insights-data-monetization-2025-06-10",
+          "locator": "Byline under the headline, and 'Published on June 10, 2025' beneath it."
+        },
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "locator": "The page's list of his Bain Insights articles. Supports that Bain attributed the article to him; the byline order and co-authors come from the article's page."
+        }
+      ],
+      "date": {
+        "value": "2025-06-10",
+        "precision": "day",
+        "display": "10 June 2025"
+      },
+      "dateKind": "published",
+      "confidence": "high",
+      "evidence": "documented",
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-bain-article-google-cloud-next",
+      "citation": "https://brockdsimon.com/profile#claim-c-bain-article-google-cloud-next",
+      "subject": "work:bain-google-cloud-next-2025",
+      "kind": "authorship",
+      "relationship": "authored",
+      "relationshipLabel": "Brock Simon wrote or posted it.",
+      "statement": "Brock Simon is the first-named of four authors of 'Google Cloud Next 2025: AI Moves from Possibility to Foundation', published by Bain & Company on 14 April 2025, with Todd Papaioannou, Eric Sheng and Stuart Sim.",
+      "sourceIds": [
+        "bain-insights-google-cloud-next-2025-04-14",
+        "bain-team-page-2025-08-08"
+      ],
+      "locators": [
+        {
+          "sourceId": "bain-insights-google-cloud-next-2025-04-14",
+          "locator": "Byline under the headline, and 'Published on April 14, 2025' beneath it."
+        },
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "locator": "The page's list of his Bain Insights articles. Supports the attribution; byline order and co-authors come from the article's page."
+        }
+      ],
+      "date": {
+        "value": "2025-04-14",
+        "precision": "day",
+        "display": "14 April 2025"
+      },
+      "dateKind": "published",
+      "confidence": "high",
+      "evidence": "documented",
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-bain-article-nvidia-gtc",
+      "citation": "https://brockdsimon.com/profile#claim-c-bain-article-nvidia-gtc",
+      "subject": "work:bain-nvidia-gtc-2025",
+      "kind": "authorship",
+      "relationship": "authored",
+      "relationshipLabel": "Brock Simon wrote or posted it.",
+      "statement": "Brock Simon is the second-named of seven authors of 'Nvidia GTC 2025: AI Matures into Enterprise Infrastructure', published by Bain & Company on 24 March 2025: Eric Sheng is first, then Brock Simon, Sarah Elk, Daniel Reznikov, Srikanth Munjuluri, Sandeep Singh and Apoorv Sharma.",
+      "sourceIds": [
+        "bain-insights-nvidia-gtc-2025-03-24",
+        "bain-team-page-2025-08-08"
+      ],
+      "locators": [
+        {
+          "sourceId": "bain-insights-nvidia-gtc-2025-03-24",
+          "locator": "Byline under the headline, and 'Published on March 24, 2025' beneath it."
+        },
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "locator": "The page's list of his Bain Insights articles. Supports the attribution; byline order and co-authors come from the article's page."
+        }
+      ],
+      "date": {
+        "value": "2025-03-24",
+        "precision": "day",
+        "display": "24 March 2025"
+      },
+      "dateKind": "published",
+      "confidence": "high",
+      "evidence": "documented",
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
       "id": "c-spider2-leaderboard-2026-10",
+      "citation": "https://brockdsimon.com/profile#claim-c-spider2-leaderboard-2026-10",
       "subject": "project:native",
       "kind": "context",
       "relationship": "context_only",
@@ -1907,7 +2552,12 @@
       "sourceIds": [
         "spider2-leaderboard-2026-10-18"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "spider2-leaderboard-2026-10-18",
+          "locator": "Spider 2.0-Snow table, the row for Native mini (usenative.ai); rank and date are written into the row by the page's script."
+        }
+      ],
       "date": {
         "value": "2026-10-18",
         "precision": "day",
@@ -1924,6 +2574,7 @@
     },
     {
       "id": "c-bird-leaderboard-2026-10",
+      "citation": "https://brockdsimon.com/profile#claim-c-bird-leaderboard-2026-10",
       "subject": "project:native",
       "kind": "context",
       "relationship": "context_only",
@@ -1932,7 +2583,12 @@
       "sourceIds": [
         "bird-leaderboard-2026-10-18"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "bird-leaderboard-2026-10-18",
+          "locator": "Single-Model Leaderboard tab, Single Trained Model Track table, the row for Native mini: Test (%) column."
+        }
+      ],
       "date": {
         "value": "2026-10-18",
         "precision": "day",
@@ -1951,6 +2607,7 @@
   "outcomes": [
     {
       "id": "o-native-spider2-2026-02",
+      "citation": "https://brockdsimon.com/profile#outcome-o-native-spider2-2026-02",
       "subject": "project:native",
       "statement": "Native reported on 18 February 2026 that it ranked first on the Spider 2.0 benchmark.",
       "metric": "Position on the Spider 2.0 benchmark, as Native reports it",
@@ -1980,6 +2637,7 @@
     },
     {
       "id": "o-native-bird-2026-10",
+      "citation": "https://brockdsimon.com/profile#outcome-o-native-bird-2026-10",
       "subject": "project:native",
       "statement": "Native reported on 2 October 2026 a 4-billion-parameter database reasoning model it describes as on the Pareto frontier of the BIRD benchmark.",
       "metric": "BIRD benchmark result, as Native reports it",
@@ -2012,6 +2670,7 @@
   "corrections": [
     {
       "id": "x-mckinsey-title",
+      "citation": "https://brockdsimon.com/profile#correction-x-mckinsey-title",
       "kind": "conflict",
       "statement": "Illinois Tech records his McKinsey title as Expert associate principal; his LinkedIn gives Expert Associate Partner. Both are published, LinkedIn's wording leading, as title variants on the McKinsey roles.",
       "affects": [
@@ -2029,6 +2688,7 @@
     },
     {
       "id": "x-degrees-wording",
+      "citation": "https://brockdsimon.com/profile#correction-x-degrees-wording",
       "kind": "conflict",
       "statement": "Three sources word his degrees differently: his own record says BA and MS in Mathematics and Statistics; Bain's team page says an MSc in mathematics and statistics; Illinois Tech says a B.S. in Mathematics and Statistics and an M.S. in Mathematics. His own wording is published until he settles it.",
       "affects": [
@@ -2046,6 +2706,7 @@
     },
     {
       "id": "x-native-benchmarks",
+      "citation": "https://brockdsimon.com/profile#correction-x-native-benchmarks",
       "kind": "attribution_boundary",
       "statement": "Native's benchmark results are company results reported by Native, not Brock Simon's personal results. They are recorded as outcomes of the Native programme, never as his achievements.",
       "affects": [
@@ -2063,6 +2724,7 @@
     },
     {
       "id": "x-native-spider2-rank",
+      "citation": "https://brockdsimon.com/profile#correction-x-native-spider2-rank",
       "kind": "conflict",
       "statement": "Native's post of 18 February 2026 says it ranked first on Spider 2.0; the benchmark's leaderboard, as read on 18 October 2026, ranks Native mini second (96.53, dated 18 February 2026) behind Genloop's Sentinel Agent v2 Pro (96.70), which the table dates 1 March 2026, eleven days after the post. The table's own dates are consistent with first place on the day of the post; the post's claim is kept as dated and company-reported.",
       "affects": [
@@ -2079,6 +2741,7 @@
     },
     {
       "id": "x-native-bird-rank",
+      "citation": "https://brockdsimon.com/profile#correction-x-native-bird-rank",
       "kind": "conflict",
       "statement": "Native's post of 2 October 2026 describes its 4B model as third among single-model entries on the BIRD hidden test set; the leaderboard's Single Trained Model Track, as read on 18 October 2026, numbers it 6, with 76.86 in the Test column and no Dev score. Of the five entries above it, two are dated before the post (12 March and 3 June 2026), one three days before it (29 September 2026) and two after it (10 October 2026); the track does not say when each row was added.",
       "affects": [
@@ -2146,7 +2809,8 @@
       },
       "kind": "project",
       "text": "brockdsimon.com (Brock Simon wrote or posted it)",
-      "href": "https://brockdsimon.com/profile.jsonld#project-brockdsimon-com"
+      "href": "https://brockdsimon.com/profile.jsonld#project-brockdsimon-com",
+      "citation": "https://brockdsimon.com/profile#project-brockdsimon-com"
     },
     {
       "date": {
@@ -2156,7 +2820,8 @@
       },
       "kind": "role",
       "text": "Co-founder and Chief Product Officer, Native",
-      "href": "https://brockdsimon.com/profile.jsonld#role-native-cpo"
+      "href": "https://brockdsimon.com/profile.jsonld#role-native-cpo",
+      "citation": "https://brockdsimon.com/profile#role-native-cpo"
     },
     {
       "date": {
@@ -2166,7 +2831,8 @@
       },
       "kind": "role",
       "text": "External Advisor, Bain & Company",
-      "href": "https://brockdsimon.com/profile.jsonld#role-bain-external-advisor"
+      "href": "https://brockdsimon.com/profile.jsonld#role-bain-external-advisor",
+      "citation": "https://brockdsimon.com/profile#role-bain-external-advisor"
     },
     {
       "date": {
@@ -2176,7 +2842,8 @@
       },
       "kind": "role",
       "text": "Advisor, Provenance",
-      "href": "https://brockdsimon.com/profile.jsonld#role-provenance-advisor"
+      "href": "https://brockdsimon.com/profile.jsonld#role-provenance-advisor",
+      "citation": "https://brockdsimon.com/profile#role-provenance-advisor"
     },
     {
       "date": {
@@ -2186,7 +2853,8 @@
       },
       "kind": "role",
       "text": "Advisor, Eureka AI",
-      "href": "https://brockdsimon.com/profile.jsonld#role-eureka-advisor"
+      "href": "https://brockdsimon.com/profile.jsonld#role-eureka-advisor",
+      "citation": "https://brockdsimon.com/profile#role-eureka-advisor"
     },
     {
       "date": {
@@ -2196,7 +2864,8 @@
       },
       "kind": "work",
       "text": "Written by Brock Simon: Unlocking Hidden Value: A New Approach to Data Monetization with AI (Bain & Company)",
-      "href": "https://brockdsimon.com/profile.jsonld#work-bain-data-monetization-2025"
+      "href": "https://brockdsimon.com/profile.jsonld#work-bain-data-monetization-2025",
+      "citation": "https://brockdsimon.com/profile#work-bain-data-monetization-2025"
     },
     {
       "date": {
@@ -2206,7 +2875,8 @@
       },
       "kind": "work",
       "text": "Written by Brock Simon: Google Cloud Next 2025: AI Moves from Possibility to Foundation (Bain & Company)",
-      "href": "https://brockdsimon.com/profile.jsonld#work-bain-google-cloud-next-2025"
+      "href": "https://brockdsimon.com/profile.jsonld#work-bain-google-cloud-next-2025",
+      "citation": "https://brockdsimon.com/profile#work-bain-google-cloud-next-2025"
     },
     {
       "date": {
@@ -2216,7 +2886,8 @@
       },
       "kind": "work",
       "text": "Written by Brock Simon: Nvidia GTC 2025: AI Matures into Enterprise Infrastructure (Bain & Company)",
-      "href": "https://brockdsimon.com/profile.jsonld#work-bain-nvidia-gtc-2025"
+      "href": "https://brockdsimon.com/profile.jsonld#work-bain-nvidia-gtc-2025",
+      "citation": "https://brockdsimon.com/profile#work-bain-nvidia-gtc-2025"
     },
     {
       "date": {
@@ -2226,7 +2897,8 @@
       },
       "kind": "project",
       "text": "Native (Brock Simon helped establish it; not sole founder)",
-      "href": "https://brockdsimon.com/profile.jsonld#project-native"
+      "href": "https://brockdsimon.com/profile.jsonld#project-native",
+      "citation": "https://brockdsimon.com/profile#project-native"
     },
     {
       "date": {
@@ -2236,7 +2908,8 @@
       },
       "kind": "role",
       "text": "Expert Partner, Bain & Company (to November 2025)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-bain-expert-partner"
+      "href": "https://brockdsimon.com/profile.jsonld#role-bain-expert-partner",
+      "citation": "https://brockdsimon.com/profile#role-bain-expert-partner"
     },
     {
       "date": {
@@ -2246,7 +2919,8 @@
       },
       "kind": "role",
       "text": "Ski Coach, Palisades Tahoe",
-      "href": "https://brockdsimon.com/profile.jsonld#role-palisades-ski-coach"
+      "href": "https://brockdsimon.com/profile.jsonld#role-palisades-ski-coach",
+      "citation": "https://brockdsimon.com/profile#role-palisades-ski-coach"
     },
     {
       "date": {
@@ -2256,7 +2930,8 @@
       },
       "kind": "role",
       "text": "Expert Associate Partner, Bain & Company (to July 2022)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-bain-expert-associate-partner"
+      "href": "https://brockdsimon.com/profile.jsonld#role-bain-expert-associate-partner",
+      "citation": "https://brockdsimon.com/profile#role-bain-expert-associate-partner"
     },
     {
       "date": {
@@ -2266,7 +2941,8 @@
       },
       "kind": "role",
       "text": "Expert Associate Partner, McKinsey & Company (to May 2019)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-mckinsey-expert-associate-partner-bangkok"
+      "href": "https://brockdsimon.com/profile.jsonld#role-mckinsey-expert-associate-partner-bangkok",
+      "citation": "https://brockdsimon.com/profile#role-mckinsey-expert-associate-partner-bangkok"
     },
     {
       "date": {
@@ -2276,7 +2952,8 @@
       },
       "kind": "role",
       "text": "Expert Associate Partner, McKinsey & Company (to August 2017)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-mckinsey-expert-associate-partner-chicago"
+      "href": "https://brockdsimon.com/profile.jsonld#role-mckinsey-expert-associate-partner-chicago",
+      "citation": "https://brockdsimon.com/profile#role-mckinsey-expert-associate-partner-chicago"
     },
     {
       "date": {
@@ -2286,7 +2963,8 @@
       },
       "kind": "role",
       "text": "Head of Solutions, Asia, dunnhumby (to July 2015)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-head-of-solutions-asia"
+      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-head-of-solutions-asia",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-head-of-solutions-asia"
     },
     {
       "date": {
@@ -2296,7 +2974,8 @@
       },
       "kind": "role",
       "text": "Country Head, Turkey, dunnhumby (to July 2013)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-country-head-turkey"
+      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-country-head-turkey",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-country-head-turkey"
     },
     {
       "date": {
@@ -2306,7 +2985,8 @@
       },
       "kind": "role",
       "text": "Retail Head, Turkey, dunnhumby (to February 2012)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-retail-head-turkey"
+      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-retail-head-turkey",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-retail-head-turkey"
     },
     {
       "date": {
@@ -2316,7 +2996,8 @@
       },
       "kind": "role",
       "text": "Insight Director, Turkey, dunnhumby (to June 2011)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-insight-director-turkey"
+      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-insight-director-turkey",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-insight-director-turkey"
     },
     {
       "date": {
@@ -2326,7 +3007,8 @@
       },
       "kind": "role",
       "text": "Solutions Lead, dunnhumby (to May 2010)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-solutions-lead-portland"
+      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-solutions-lead-portland",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-solutions-lead-portland"
     },
     {
       "date": {
@@ -2336,7 +3018,8 @@
       },
       "kind": "role",
       "text": "Insight Director, Thailand, dunnhumby (to October 2009)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-insight-director-thailand"
+      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-insight-director-thailand",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-insight-director-thailand"
     },
     {
       "date": {
@@ -2346,7 +3029,8 @@
       },
       "kind": "role",
       "text": "Senior Analyst, dunnhumby (to February 2008)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-senior-analyst"
+      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-senior-analyst",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-senior-analyst"
     },
     {
       "date": {
@@ -2356,7 +3040,8 @@
       },
       "kind": "role",
       "text": "Analyst, dunnhumby (to January 2007)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-analyst"
+      "href": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-analyst",
+      "citation": "https://brockdsimon.com/profile#role-dunnhumby-analyst"
     },
     {
       "date": {
@@ -2366,7 +3051,8 @@
       },
       "kind": "role",
       "text": "International Intern, ATL MST SIDA (to September 2004)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-atl-mst-sida-intern"
+      "href": "https://brockdsimon.com/profile.jsonld#role-atl-mst-sida-intern",
+      "citation": "https://brockdsimon.com/profile#role-atl-mst-sida-intern"
     },
     {
       "date": {
@@ -2376,10 +3062,26 @@
       },
       "kind": "role",
       "text": "Graduate Assistant, Miami University (to May 2005)",
-      "href": "https://brockdsimon.com/profile.jsonld#role-miami-graduate-assistant"
+      "href": "https://brockdsimon.com/profile.jsonld#role-miami-graduate-assistant",
+      "citation": "https://brockdsimon.com/profile#role-miami-graduate-assistant"
     }
   ],
   "changelog": [
+    {
+      "date": "2026-10-19",
+      "change": "updated",
+      "paths": [
+        "format",
+        "citationUrl",
+        "identity.biographyClaimIds",
+        "claims",
+        "works",
+        "sources",
+        "coverage.credentials",
+        "site.crawlerPolicy"
+      ],
+      "summary": "Record format 4.1: every item carries a citation URL, its readable passage on the HTML page /profile; the biography lists the claims each sentence rests on; claims carry locators into their sources; the three Bain articles cite their own pages, with bylines and co-authors; robots.txt states the whole policy in every crawler group; the front page gains a link to the HTML page and a description."
+    },
     {
       "date": "2026-10-18",
       "change": "updated",
@@ -2470,6 +3172,7 @@
     {
       "ref": 1,
       "id": "owner-profile-2026-08-18",
+      "citation": "https://brockdsimon.com/profile#source-owner-profile-2026-08-18",
       "publisher": "Brock Simon",
       "title": "Brock Simon's maintained profile record, last verified by him on 2026-08-18",
       "titleBasis": "catalogue_label",
@@ -2499,6 +3202,7 @@
     {
       "ref": 2,
       "id": "linkedin-experience-2026-10-16",
+      "citation": "https://brockdsimon.com/profile#source-linkedin-experience-2026-10-16",
       "url": "https://www.linkedin.com/in/brock-simon/",
       "publisher": "LinkedIn",
       "title": "Brock Simon on LinkedIn: experience section",
@@ -2529,6 +3233,7 @@
     {
       "ref": 3,
       "id": "bain-team-page-2025-08-08",
+      "citation": "https://brockdsimon.com/profile#source-bain-team-page-2025-08-08",
       "url": "https://www.bain.com/our-team/brock-simon/",
       "archiveUrl": "https://web.archive.org/web/20250808044851/https://www.bain.com/our-team/brock-simon/",
       "publisher": "Bain & Company",
@@ -2546,7 +3251,9 @@
       "sourceType": "company_page",
       "relation": "about",
       "namesSubject": true,
-      "summary": "Bain's own profile of him while he was a partner, read from the archived capture on 2026-10-17: Partner, San Francisco; member of the Advanced Analytics and Retail practices; expertise listed as Retail, AI Insights and Solutions, and Retail Media Networks; over 15 years developing advanced analytics capabilities; 10 years at dunnhumby, leading the establishment of international markets, including Head of Analytics for the Asia region and Country Head for Turkey; 4 years at another global consulting firm as a leader in its Marketing and Retail practices, based in Chicago and Bangkok; MSc in mathematics and statistics from Miami University and an MBA from Xavier University. Bain removed the live page after his departure.",
+      "summary": "Bain's own profile of him while he was a partner, read from the archived capture on 2026-10-17: Partner, San Francisco; member of the Advanced Analytics and Retail practices; expertise listed as Retail, AI Insights and Solutions, and Retail Media Networks; over 15 years developing advanced analytics capabilities; 10 years at dunnhumby, leading the establishment of international markets, including Head of Analytics for the Asia region and Country Head for Turkey; 4 years at another global consulting firm as a leader in its Marketing and Retail practices, based in Chicago and Bangkok; MSc in mathematics and statistics from Miami University and an MBA from Xavier University. Bain removed the live page after his departure. Layout, read again on 2026-10-19: title block (Partner, San Francisco) under the name; 'About Brock' with the practices sentence; an 'Expertise' list of three; a four-paragraph biography whose third paragraph covers dunnhumby and the unnamed consulting firm and whose fourth gives the degrees.",
+      "quote": "Brock Simon is a member of our Advanced Analytics (AA) and Retail practices.",
+      "quoteLocator": "'About Brock', first sentence",
       "related": [],
       "recordedOn": "2026-10-17",
       "reviewedOn": null,
@@ -2556,6 +3263,7 @@
     {
       "ref": 4,
       "id": "iit-marketing-analytics-council",
+      "citation": "https://brockdsimon.com/profile#source-iit-marketing-analytics-council",
       "url": "https://www.iit.edu/stuart/about/board-advisors/marketing-analytics-advisory-council",
       "publisher": "Illinois Institute of Technology, Stuart School of Business",
       "title": "Marketing Analytics Advisory Council",
@@ -2570,8 +3278,9 @@
       "sourceType": "company_page",
       "relation": "about",
       "namesSubject": true,
-      "summary": "Lists Brock Simon as a council member with a biography: Expert associate principal at McKinsey & Company, focused on marketing and digital analytics in retail and consumer packaged goods; over 10 years at dunnhumby in the United States, Asia, Europe and the Middle East; B.S. in Mathematics and Statistics and M.S. in Mathematics from Miami University; M.B.A. from Xavier University. The page shows no date; the council meets each fall and spring semester.",
+      "summary": "Lists Brock Simon as a council member with a biography: Expert associate principal at McKinsey & Company, focused on marketing and digital analytics in retail and consumer packaged goods; over 10 years at dunnhumby in the United States, Asia, Europe and the Middle East; B.S. in Mathematics and Statistics and M.S. in Mathematics from Miami University; M.B.A. from Xavier University. The page shows no date; the council meets each fall and spring semester. Read again on 2026-10-19: his entry is the last of seven under 'Member Profiles', unchanged.",
       "quote": "Brock Simon, Expert associate principal, McKinsey & Company",
+      "quoteLocator": "'Member Profiles', the last of seven entries: name and title lines",
       "related": [],
       "recordedOn": "2026-10-17",
       "reviewedOn": null,
@@ -2581,6 +3290,7 @@
     {
       "ref": 5,
       "id": "servicepath-executive-conversations-13",
+      "citation": "https://brockdsimon.com/profile#source-servicepath-executive-conversations-13",
       "url": "https://servicepath.co/podcast/revenue-growth-for-tech-execs-edition-13/",
       "publisher": "servicePath",
       "title": "Executive Conversations: Revenue Growth for Tech Execs, Edition 13",
@@ -2610,6 +3320,7 @@
     {
       "ref": 6,
       "id": "provenance-ai-shopping-webinar-2026-01",
+      "citation": "https://brockdsimon.com/profile#source-provenance-ai-shopping-webinar-2026-01",
       "url": "https://www.provenance.org/news-insights/the-future-of-ai-shopping-how-verified-product-data-boosts-ai-discoverability",
       "publisher": "Provenance",
       "title": "The Future of AI Shopping: How Verified Product Data Boosts AI Discoverability",
@@ -2643,6 +3354,7 @@
     {
       "ref": 7,
       "id": "linkedin-post-maustrap-2026",
+      "citation": "https://brockdsimon.com/profile#source-linkedin-post-maustrap-2026",
       "url": "https://www.linkedin.com/posts/brock-simon_how-ai-is-changing-product-decision-making-activity-7457522836241321984-T3X-",
       "publisher": "LinkedIn",
       "title": "Brock Simon's post on the MAUSTRAP Podcast, episode 2",
@@ -2669,6 +3381,7 @@
     {
       "ref": 8,
       "id": "native-linkedin-company-page",
+      "citation": "https://brockdsimon.com/profile#source-native-linkedin-company-page",
       "url": "https://www.linkedin.com/company/usenative",
       "publisher": "Native",
       "title": "Native: company page on LinkedIn",
@@ -2693,6 +3406,7 @@
     {
       "ref": 9,
       "id": "native-spider2-2026-02-18",
+      "citation": "https://brockdsimon.com/profile#source-native-spider2-2026-02-18",
       "url": "https://www.usenative.ai/blog/native-ranks-first-spider-2",
       "publisher": "Native",
       "title": "Native ranks #1 on Spider 2.0",
@@ -2721,6 +3435,7 @@
     {
       "ref": 10,
       "id": "native-bird-2026-10-02",
+      "citation": "https://brockdsimon.com/profile#source-native-bird-2026-10-02",
       "url": "https://usenative.ai/blog/native-mini-bird",
       "publisher": "Native",
       "title": "A Pareto frontier Database Reasoning model in 4B parameters",
@@ -2749,6 +3464,7 @@
     {
       "ref": 11,
       "id": "business-insider-2026-06-17",
+      "citation": "https://brockdsimon.com/profile#source-business-insider-2026-06-17",
       "url": "https://www.businessinsider.com/ai-token-economy-spending-workplace-budgets-usage-caps-software-engineer-2026-6",
       "publisher": "Business Insider",
       "title": "AI Token Hunger Games Are Coming for Software Engineers at Work",
@@ -2761,14 +3477,16 @@
       "publishedBasis": "displayed",
       "retrieval": {
         "status": "fetched",
-        "checkedOn": "2026-10-17",
-        "via": "live"
+        "checkedOn": "2026-10-19",
+        "via": "live",
+        "note": "Read directly on 2026-10-17; read again by a Sonnet agent on 2026-10-19, when the full text was served to a plain request. The page's title tag carries the headline recorded here; its on-page heading reads 'The next office power struggle: AI tokens'. Byline Henry Chandonnet; the page's metadata gives dateModified 2026-07-21 for a spelling correction unrelated to him."
       },
       "sourceType": "press",
       "relation": "about",
       "namesSubject": true,
-      "summary": "Article of 17 June 2026 that names him once, in the sentence quoted, establishing the move from advising on AI at Bain & Company to founding Native.",
+      "summary": "Article of 17 June 2026 that names him once, in the sentence quoted, establishing the move from advising on AI at Bain & Company to founding Native. It gives no Bain title and no dates.",
       "quote": "advised companies on AI for Bain & Company before he founded his own startup, Native",
+      "quoteLocator": "Third-from-last paragraph of the story, beginning 'Brock Simon advised companies on AI'",
       "related": [],
       "recordedOn": "2026-10-17",
       "reviewedOn": null,
@@ -2778,6 +3496,7 @@
     {
       "ref": 12,
       "id": "youtube-maustrap-episode-2",
+      "citation": "https://brockdsimon.com/profile#source-youtube-maustrap-episode-2",
       "url": "https://www.youtube.com/watch?v=j5jrvyGV-tA",
       "publisher": "MAUSTRAP Podcast on YouTube",
       "title": "How AI Is Changing Product Decision-Making (From Dashboards to AI Agents) | Brock Simon",
@@ -2807,6 +3526,7 @@
     {
       "ref": 13,
       "id": "native-site-2026-09-29",
+      "citation": "https://brockdsimon.com/profile#source-native-site-2026-09-29",
       "url": "https://www.usenative.ai/",
       "publisher": "Native",
       "title": "Native: database reasoning infrastructure",
@@ -2815,13 +3535,16 @@
       "publishedBasis": "unknown",
       "retrieval": {
         "status": "fetched",
-        "checkedOn": "2026-09-29",
-        "via": "live"
+        "checkedOn": "2026-10-19",
+        "via": "live",
+        "note": "First read on 2026-09-29 for the company description. Read again on 2026-10-19 (a Sonnet agent): the hero reads 'built for your most complex enterprise data', and the section headed 'Understanding the data is still the bottleneck' says, under 'Database reasoning', that Native 'reasons directly across the data itself to discover structure, relationships, definitions, exceptions, and gaps'. The description's wording of 2026-09-29 stands; the phrase 'helps enterprises understand complex data' is a paraphrase of that section, not a quotation."
       },
       "sourceType": "company_page",
       "relation": "context",
       "namesSubject": false,
       "summary": "Native's public positioning, used for the company description only. The page does not name people.",
+      "quote": "built for your most complex enterprise data",
+      "quoteLocator": "Hero, first paragraph under the headline (as read on 2026-10-19)",
       "related": [],
       "recordedOn": "2026-10-16",
       "reviewedOn": null,
@@ -2831,6 +3554,7 @@
     {
       "ref": 14,
       "id": "provenance-brands-2026-09-29",
+      "citation": "https://brockdsimon.com/profile#source-provenance-brands-2026-09-29",
       "url": "https://www.provenance.org/solutions/for-brands",
       "publisher": "Provenance",
       "title": "Provenance for brands",
@@ -2855,6 +3579,7 @@
     {
       "ref": 15,
       "id": "provenance-framework-2026-09-29",
+      "citation": "https://brockdsimon.com/profile#source-provenance-framework-2026-09-29",
       "url": "https://www.provenance.org/framework",
       "publisher": "Provenance",
       "title": "The Provenance Framework",
@@ -2879,6 +3604,7 @@
     {
       "ref": 16,
       "id": "eureka-home-2026-09-29",
+      "citation": "https://brockdsimon.com/profile#source-eureka-home-2026-09-29",
       "url": "https://eureka.ai/",
       "publisher": "Eureka AI",
       "title": "Eureka AI: products and industries",
@@ -2903,6 +3629,7 @@
     {
       "ref": 17,
       "id": "eureka-omni-2026-09-29",
+      "citation": "https://brockdsimon.com/profile#source-eureka-omni-2026-09-29",
       "url": "https://eureka.ai/products/omni",
       "publisher": "Eureka AI",
       "title": "Omni market intelligence",
@@ -2926,7 +3653,125 @@
     },
     {
       "ref": 18,
+      "id": "bain-insights-data-monetization-2025-06-10",
+      "citation": "https://brockdsimon.com/profile#source-bain-insights-data-monetization-2025-06-10",
+      "url": "https://www.bain.com/insights/unlocking-hidden-value-a-new-approach-to-data-monetization-with-ai/",
+      "archiveUrl": "https://web.archive.org/web/20251113014917/https://www.bain.com/insights/unlocking-hidden-value-a-new-approach-to-data-monetization-with-ai/",
+      "publisher": "Bain & Company",
+      "title": "Unlocking Hidden Value: A New Approach to Data Monetization with AI",
+      "titleBasis": "page",
+      "published": {
+        "value": "2025-06-10",
+        "precision": "day",
+        "display": "10 June 2025"
+      },
+      "publishedBasis": "displayed",
+      "publishedNote": "The live page shows 'Published on June 10, 2025' under the byline; the page's Article metadata gives datePublished 2025-06-10.",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-19",
+        "via": "live",
+        "note": "Opened by a Sonnet agent on 2026-10-19 (live, and the Internet Archive capture of 13 November 2025), then fetched directly with curl the same day: h1, byline and date match. The byline shows names only; the page's metadata gave his title as Partner in the November 2025 capture and Alumni on the live page."
+      },
+      "sourceType": "publisher_page",
+      "relation": "authored",
+      "namesSubject": true,
+      "summary": "The article's own page. Byline: Brock Simon first of five authors, with Bill Groves, Eric Sheng, Giorgio Saladino and Vineeth Gogineni; subtitle 'Model Context Protocols are the key.'; published 10 June 2025.",
+      "quote": "By Brock Simon, Bill Groves, Eric Sheng, Giorgio Saladino, and Vineeth Gogineni",
+      "quoteLocator": "Byline under the headline",
+      "related": [
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "relationship": "related_coverage"
+        }
+      ],
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 19,
+      "id": "bain-insights-google-cloud-next-2025-04-14",
+      "citation": "https://brockdsimon.com/profile#source-bain-insights-google-cloud-next-2025-04-14",
+      "url": "https://www.bain.com/insights/google-cloud-next-2025-ai-moves-from-possibility-to-foundation/",
+      "archiveUrl": "https://web.archive.org/web/20260125084549/https://www.bain.com/insights/google-cloud-next-2025-ai-moves-from-possibility-to-foundation/",
+      "publisher": "Bain & Company",
+      "title": "Google Cloud Next 2025: AI Moves from Possibility to Foundation",
+      "titleBasis": "page",
+      "published": {
+        "value": "2025-04-14",
+        "precision": "day",
+        "display": "14 April 2025"
+      },
+      "publishedBasis": "displayed",
+      "publishedNote": "The live page shows 'Published on April 14, 2025' under the byline; the page's Article metadata gives datePublished 2025-04-14.",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-19",
+        "via": "live",
+        "note": "Opened by a Sonnet agent on 2026-10-19 (live, and the Internet Archive capture of 25 January 2026), then fetched directly with curl the same day: h1, byline and date match. The byline shows names only; the page's metadata gave his title as Alumni in both readings."
+      },
+      "sourceType": "publisher_page",
+      "relation": "authored",
+      "namesSubject": true,
+      "summary": "The article's own page. Byline: Brock Simon first of four authors, with Todd Papaioannou, Eric Sheng and Stuart Sim; subtitle 'Seven takeaways for executives.'; published 14 April 2025.",
+      "quote": "By Brock Simon, Todd Papaioannou, Eric Sheng, and Stuart Sim",
+      "quoteLocator": "Byline under the headline",
+      "related": [
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "relationship": "related_coverage"
+        }
+      ],
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 20,
+      "id": "bain-insights-nvidia-gtc-2025-03-24",
+      "citation": "https://brockdsimon.com/profile#source-bain-insights-nvidia-gtc-2025-03-24",
+      "url": "https://www.bain.com/insights/nvidia-gtc-2025-ai-matures-into-enterprise-infrastructure/",
+      "archiveUrl": "https://web.archive.org/web/20251205203008/https://www.bain.com/insights/nvidia-gtc-2025-ai-matures-into-enterprise-infrastructure/",
+      "publisher": "Bain & Company",
+      "title": "Nvidia GTC 2025: AI Matures into Enterprise Infrastructure",
+      "titleBasis": "page",
+      "published": {
+        "value": "2025-03-24",
+        "precision": "day",
+        "display": "24 March 2025"
+      },
+      "publishedBasis": "displayed",
+      "publishedNote": "The live page shows 'Published on March 24, 2025' under the byline; the page's Article metadata gives datePublished 2025-03-24.",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-19",
+        "via": "live",
+        "note": "Opened by a Sonnet agent on 2026-10-19 (live, and the Internet Archive capture of 5 December 2025), then fetched directly with curl the same day: h1, byline and date match. The byline shows names only; the page's metadata gave his title as Partner in the December 2025 capture and Alumni on the live page."
+      },
+      "sourceType": "publisher_page",
+      "relation": "authored",
+      "namesSubject": true,
+      "summary": "The article's own page. Byline: Eric Sheng first, Brock Simon second of seven authors, then Sarah Elk, Daniel Reznikov, Srikanth Munjuluri, Sandeep Singh and Apoorv Sharma; subtitle 'Companies are changing the architecture for how they compete.'; published 24 March 2025.",
+      "quote": "By Eric Sheng, Brock Simon, Sarah Elk, Daniel Reznikov, Srikanth Munjuluri, Sandeep Singh",
+      "quoteLocator": "Byline under the headline; the byline continues 'and Apoorv Sharma'",
+      "related": [
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "relationship": "related_coverage"
+        }
+      ],
+      "recordedOn": "2026-10-19",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 21,
       "id": "spider2-leaderboard-2026-10-18",
+      "citation": "https://brockdsimon.com/profile#source-spider2-leaderboard-2026-10-18",
       "url": "https://spider2-sql.github.io/",
       "publisher": "XLANG Lab",
       "title": "Spider 2.0",
@@ -2950,8 +3795,9 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 19,
+      "ref": 22,
       "id": "bird-leaderboard-2026-10-18",
+      "citation": "https://brockdsimon.com/profile#source-bird-leaderboard-2026-10-18",
       "url": "https://bird-bench.github.io/",
       "publisher": "BIRD benchmark project",
       "title": "BIRD-bench",
@@ -2978,7 +3824,7 @@
   "maintenance": {
     "maintainedBy": "owner_with_help",
     "ownerApproved": true,
-    "note": "This profile is generated from one record that Brock Simon maintains with help from an AI assistant. Every statement carries an evidence label, and the sources are listed. Company descriptions use only each company's own public website. Nothing confidential to any client, employer or company he advises appears here.",
+    "note": "This profile is generated from one record that Brock Simon maintains with help from an AI assistant. Every item carries an evidence label and lists its sources; the claims list holds atomic statements, with a locator into the source where known. Company descriptions use only each company's own public website. Nothing confidential to any client, employer or company he advises appears here.",
     "aiTrainingPolicy": "allow"
   },
   "evidenceStatusKey": {

@@ -21,10 +21,13 @@
       "name": "Brock Simon: profile record",
       "url": "https://brockdsimon.com/profile.json",
       "encodingFormat": "application/json",
-      "version": "4.0",
-      "dateModified": "2026-10-19T02:58:08.725Z",
+      "version": "4.1",
+      "dateModified": "2026-10-20T02:21:14.711Z",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "hasPart": {
+        "@id": "https://brockdsimon.com/profile#page"
       },
       "creativeWorkStatus": "Brock Simon has approved this record.",
       "conditionsOfAccess": "This site is public. The record is served to anyone; the owner's private workspace under the paths listed in crawlerPolicy.privatePaths is not part of it.",
@@ -81,6 +84,15 @@
           "@id": "https://brockdsimon.com/profile.jsonld#source-eureka-omni-2026-09-29"
         },
         {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-bain-insights-data-monetization-2025-06-10"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-bain-insights-google-cloud-next-2025-04-14"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-bain-insights-nvidia-gtc-2025-03-24"
+        },
+        {
           "@id": "https://brockdsimon.com/profile.jsonld#source-spider2-leaderboard-2026-10-18"
         },
         {
@@ -98,9 +110,14 @@
       "description": "Product leader and advisor: co-founder and Chief Product Officer at Native, external advisor to Bain & Company, and advisor to Provenance and Eureka AI. Former Expert Partner at Bain & Company, with earlier analytics leadership at McKinsey & Company and dunnhumby.",
       "disambiguatingDescription": "As of 2026-10-16, Brock Simon is co-founder and Chief Product Officer at Native (since January 2026) and holds advisory roles with Bain & Company (External Advisor), Provenance (Advisor), Eureka AI (Advisor). Brock is also a ski coach at Palisades Tahoe.",
       "url": "https://brockdsimon.com/",
-      "mainEntityOfPage": {
-        "@id": "https://brockdsimon.com/profile.jsonld#record"
-      },
+      "mainEntityOfPage": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#record"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile#page"
+        }
+      ],
       "jobTitle": [
         "Co-founder and Chief Product Officer",
         "External Advisor",
@@ -114,6 +131,7 @@
           "roleName": "Co-founder and Chief Product Officer",
           "startDate": "2026-01",
           "description": "Co-founder and Chief Product Officer of Native since January 2026, full-time, based in the San Francisco Bay Area. Business Insider reported in June 2026 that he advised companies on AI for Bain & Company before founding Native; Native's own company page lists him among its people.",
+          "url": "https://brockdsimon.com/profile#role-native-cpo",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-native"
           },
@@ -140,6 +158,7 @@
           "roleName": "External Advisor",
           "startDate": "2026-01",
           "description": "External advisor to Bain & Company since January 2026: advisory support on select projects.",
+          "url": "https://brockdsimon.com/profile#role-bain-external-advisor",
           "affiliation": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-bain"
           },
@@ -158,6 +177,7 @@
           "roleName": "Advisor",
           "startDate": "2025-12",
           "description": "Advisor to Provenance since December 2025, working with the company to help build factually grounded sustainability data foundations for AI-enabled commerce: how claims about products are represented, validated and surfaced across the channels customers use, with an emphasis on transparency, trust and accurate consumer decision making.",
+          "url": "https://brockdsimon.com/profile#role-provenance-advisor",
           "affiliation": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-provenance"
           },
@@ -176,6 +196,7 @@
           "roleName": "Advisor",
           "startDate": "2025-12",
           "description": "Advisor to Eureka AI since December 2025, on specific strategic initiatives involving large-scale telco data and its application to enterprise use cases.",
+          "url": "https://brockdsimon.com/profile#role-eureka-advisor",
           "affiliation": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-eureka-ai"
           },
@@ -194,6 +215,7 @@
           "roleName": "Ski Coach",
           "startDate": "2021-10",
           "description": "Seasonal ski coach at Palisades Tahoe since October 2021, in a programme whose mission is to develop more high-level competitive skiers than any other in the US. PSIA Level 1 certified instructor; leads Mighty Mites teams (ages 5 to 9), guiding young athletes through accelerated, fundamentals-driven progression, regularly taking skiers from green terrain to confidently skiing blacks.",
+          "url": "https://brockdsimon.com/profile#role-palisades-ski-coach",
           "affiliation": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-palisades-tahoe"
           },
@@ -215,6 +237,7 @@
           "startDate": "2022-07",
           "endDate": "2025-11",
           "description": "Expert Partner at Bain & Company in San Francisco from July 2022 to November 2025, where he led AI initiatives, including work with OpenAI, for large enterprise clients. Bain's own team page listed him as a Partner in San Francisco in its Advanced Analytics and Retail practices, with expertise in retail, AI insights and solutions, and retail media networks.",
+          "url": "https://brockdsimon.com/profile#role-bain-expert-partner",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-bain"
           },
@@ -237,6 +260,7 @@
           "startDate": "2019-06",
           "endDate": "2022-07",
           "description": "Expert Associate Partner at Bain & Company in San Francisco from June 2019 to July 2022.",
+          "url": "https://brockdsimon.com/profile#role-bain-expert-associate-partner",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-bain"
           },
@@ -253,6 +277,7 @@
           "startDate": "2017-08",
           "endDate": "2019-05",
           "description": "Expert Associate Partner at McKinsey & Company in Bangkok from August 2017 to May 2019. Bain's team page describes four years at another global consulting firm as a leader in its Marketing and Retail practices, based in Chicago and Bangkok.",
+          "url": "https://brockdsimon.com/profile#role-mckinsey-expert-associate-partner-bangkok",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-mckinsey"
           },
@@ -275,6 +300,7 @@
           "startDate": "2015-08",
           "endDate": "2017-08",
           "description": "Expert Associate Partner at McKinsey & Company in Chicago from August 2015 to August 2017.",
+          "url": "https://brockdsimon.com/profile#role-mckinsey-expert-associate-partner-chicago",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-mckinsey"
           },
@@ -294,6 +320,7 @@
           "startDate": "2013-07",
           "endDate": "2015-07",
           "description": "Head of Solutions for dunnhumby in Asia, based in Shanghai, from July 2013 to July 2015. Bain's team page describes his decade at dunnhumby as leading the establishment of many of its international markets, including Head of Analytics for the Asia region.",
+          "url": "https://brockdsimon.com/profile#role-dunnhumby-head-of-solutions-asia",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby"
           },
@@ -316,6 +343,7 @@
           "startDate": "2012-02",
           "endDate": "2013-07",
           "description": "Country Head for dunnhumby in Turkey from February 2012 to July 2013, one of the international markets he helped establish.",
+          "url": "https://brockdsimon.com/profile#role-dunnhumby-country-head-turkey",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby"
           },
@@ -335,6 +363,7 @@
           "startDate": "2011-06",
           "endDate": "2012-02",
           "description": "Promoted to lead dunnhumby's retail team in Turkey and its engagement with Tesco Kipa, from June 2011 to February 2012. Built and led a five-person team, embedded customer insights into a wide range of decisions, worked closely with commercial teams, and launched a targeted product range to grow sales and revenue; grew sales uplift and customer penetration through regular insights and tools, and redemption rates through a refocused targeted media strategy.",
+          "url": "https://brockdsimon.com/profile#role-dunnhumby-retail-head-turkey",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby"
           },
@@ -351,6 +380,7 @@
           "startDate": "2010-05",
           "endDate": "2011-06",
           "description": "Directed all analytics for dunnhumby in Turkey from May 2010 to June 2011, working closely with clients to standardise and rationalise product offerings. Developed and deployed a process and tool enabling all Tesco international markets to determine the strength of proposed promotions.",
+          "url": "https://brockdsimon.com/profile#role-dunnhumby-insight-director-turkey",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby"
           },
@@ -367,6 +397,7 @@
           "startDate": "2009-10",
           "endDate": "2010-05",
           "description": "Solutions Lead for dunnhumby in Portland, Oregon, from October 2009 to May 2010: optimised space allocations and created a new general merchandise loyalty segmentation for clients including Fred Meyer.",
+          "url": "https://brockdsimon.com/profile#role-dunnhumby-solutions-lead-portland",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby"
           },
@@ -383,6 +414,7 @@
           "startDate": "2008-02",
           "endDate": "2009-10",
           "description": "Insight Director for dunnhumby in Thailand from February 2008 to October 2009: launched the dunnhumby and Tesco International partnership and embedded customer measures into Tesco Lotus strategy.",
+          "url": "https://brockdsimon.com/profile#role-dunnhumby-insight-director-thailand",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby"
           },
@@ -399,6 +431,7 @@
           "startDate": "2007-01",
           "endDate": "2008-02",
           "description": "Senior Analyst at dunnhumby from January 2007 to February 2008; a key contributor to turning a pilot project with The Home Depot into a profitable long-term contract.",
+          "url": "https://brockdsimon.com/profile#role-dunnhumby-senior-analyst",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby"
           },
@@ -415,6 +448,7 @@
           "startDate": "2005-07",
           "endDate": "2007-01",
           "description": "Analyst at dunnhumby from July 2005 to January 2007, developing insights and capabilities for consumer packaged goods companies working with Kroger, specialising in price and promotion optimisation.",
+          "url": "https://brockdsimon.com/profile#role-dunnhumby-analyst",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby"
           },
@@ -431,6 +465,7 @@
           "startDate": "2004-05",
           "endDate": "2004-09",
           "description": "International Intern with ATL MST SIDA in Tunis from May to September 2004, selected to represent the US in the Salaam programme: helped create and distribute AIDS and STD education materials, and designed and analysed surveys on the level of AIDS awareness and education.",
+          "url": "https://brockdsimon.com/profile#role-atl-mst-sida-intern",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-atl-mst-sida"
           },
@@ -447,6 +482,7 @@
           "startDate": "2003-09",
           "endDate": "2005-05",
           "description": "Graduate Assistant at Miami University from September 2003 to May 2005: assisted professors with teaching and grading mathematics and statistics courses, and taught a section of first-semester calculus.",
+          "url": "https://brockdsimon.com/profile#role-miami-graduate-assistant",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-miami-university"
           },
@@ -462,6 +498,7 @@
           "@type": "EducationalOccupationalCredential",
           "@id": "https://brockdsimon.com/profile.jsonld#education-xavier-mba",
           "name": "MBA",
+          "url": "https://brockdsimon.com/profile#education-xavier-mba",
           "recognizedBy": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-named-xavier-university"
           },
@@ -481,6 +518,7 @@
           "@type": "EducationalOccupationalCredential",
           "@id": "https://brockdsimon.com/profile.jsonld#education-miami-mathematics-statistics",
           "name": "BA and MS, Mathematics and Statistics",
+          "url": "https://brockdsimon.com/profile#education-miami-mathematics-statistics",
           "recognizedBy": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-miami-university"
           },
@@ -502,6 +540,7 @@
           "@type": "OrganizationRole",
           "@id": "https://brockdsimon.com/profile.jsonld#membership-iit-marketing-analytics-advisory-council",
           "roleName": "Council member",
+          "url": "https://brockdsimon.com/profile#membership-iit-marketing-analytics-advisory-council",
           "memberOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-named-marketing-analytics-advisory-council-stuart-school-of-business-illinois-institute-of-technology"
           }
@@ -640,10 +679,29 @@
       "author": [
         {
           "@id": "https://brockdsimon.com/profile.jsonld#person"
+        },
+        {
+          "@type": "Person",
+          "name": "Bill Groves"
+        },
+        {
+          "@type": "Person",
+          "name": "Eric Sheng"
+        },
+        {
+          "@type": "Person",
+          "name": "Giorgio Saladino"
+        },
+        {
+          "@type": "Person",
+          "name": "Vineeth Gogineni"
         }
       ],
-      "description": "First-named author, with Bill Groves, Eric Sheng, Giorgio Saladino and Vineeth Gogineni.",
+      "description": "Subtitled 'Model Context Protocols are the key.' Byline read on the article's own page, 2026-10-19.",
       "subjectOf": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-bain-insights-data-monetization-2025-06-10"
+        },
         {
           "@id": "https://brockdsimon.com/profile.jsonld#source-bain-team-page-2025-08-08"
         }
@@ -661,9 +719,25 @@
       "author": [
         {
           "@id": "https://brockdsimon.com/profile.jsonld#person"
+        },
+        {
+          "@type": "Person",
+          "name": "Todd Papaioannou"
+        },
+        {
+          "@type": "Person",
+          "name": "Eric Sheng"
+        },
+        {
+          "@type": "Person",
+          "name": "Stuart Sim"
         }
       ],
+      "description": "Subtitled 'Seven takeaways for executives.' Byline read on the article's own page, 2026-10-19.",
       "subjectOf": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-bain-insights-google-cloud-next-2025-04-14"
+        },
         {
           "@id": "https://brockdsimon.com/profile.jsonld#source-bain-team-page-2025-08-08"
         }
@@ -680,10 +754,38 @@
       "datePublished": "2025-03-24",
       "author": [
         {
+          "@type": "Person",
+          "name": "Eric Sheng"
+        },
+        {
           "@id": "https://brockdsimon.com/profile.jsonld#person"
+        },
+        {
+          "@type": "Person",
+          "name": "Sarah Elk"
+        },
+        {
+          "@type": "Person",
+          "name": "Daniel Reznikov"
+        },
+        {
+          "@type": "Person",
+          "name": "Srikanth Munjuluri"
+        },
+        {
+          "@type": "Person",
+          "name": "Sandeep Singh"
+        },
+        {
+          "@type": "Person",
+          "name": "Apoorv Sharma"
         }
       ],
+      "description": "Subtitled 'Companies are changing the architecture for how they compete.' Byline read on the article's own page, 2026-10-19.",
       "subjectOf": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-bain-insights-nvidia-gtc-2025-03-24"
+        },
         {
           "@id": "https://brockdsimon.com/profile.jsonld#source-bain-team-page-2025-08-08"
         }
@@ -909,6 +1011,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-still-at-bain",
       "name": "Is Brock Simon still at Bain & Company?",
+      "url": "https://brockdsimon.com/profile#faq-still-at-bain",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -921,6 +1024,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-what-is-native",
       "name": "What is Native, and what is his role there?",
+      "url": "https://brockdsimon.com/profile#faq-what-is-native",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -933,6 +1037,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-mckinsey-title",
       "name": "What was his title at McKinsey & Company?",
+      "url": "https://brockdsimon.com/profile#faq-mckinsey-title",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -945,6 +1050,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-where-did-he-study",
       "name": "Where did he study?",
+      "url": "https://brockdsimon.com/profile#faq-where-did-he-study",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -957,6 +1063,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-same-person-dunnhumby",
       "name": "Is this the same Brock Simon who worked for dunnhumby in Turkey and Shanghai?",
+      "url": "https://brockdsimon.com/profile#faq-same-person-dunnhumby",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -969,12 +1076,13 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-what-has-he-written",
       "name": "What has he written or spoken about?",
+      "url": "https://brockdsimon.com/profile#faq-what-has-he-written",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Three Bain & Company articles in 2025 on enterprise AI infrastructure, Google Cloud Next, Nvidia GTC and data monetisation with AI; a servicePath Executive Conversations podcast on agentic AI, personalisation, loyalty and data monetisation; a Provenance webinar on AI shopping and verified product data; and the MAUSTRAP Podcast on why he founded Native and how AI changes product decisions. profile.json lists each with its link."
+        "text": "Three Bain & Company articles in 2025, each co-authored: on data monetisation with AI (first-named of five authors, June 2025), Google Cloud Next (first-named of four, April 2025) and Nvidia GTC (second-named of seven, March 2025); a servicePath Executive Conversations podcast on agentic AI, personalisation, loyalty and data monetisation; a Provenance webinar on AI shopping and verified product data; and the MAUSTRAP Podcast on why he founded Native and how AI changes product decisions. profile.json lists each with its link and its byline."
       }
     },
     {
@@ -1162,6 +1270,48 @@
       "url": "https://eureka.ai/products/omni",
       "publisher": {
         "@id": "https://brockdsimon.com/profile.jsonld#org-eureka-ai"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-bain-insights-data-monetization-2025-06-10",
+      "name": "Unlocking Hidden Value: A New Approach to Data Monetization with AI",
+      "url": "https://www.bain.com/insights/unlocking-hidden-value-a-new-approach-to-data-monetization-with-ai/",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-bain"
+      },
+      "datePublished": "2025-06-10",
+      "archivedAt": "https://web.archive.org/web/20251113014917/https://www.bain.com/insights/unlocking-hidden-value-a-new-approach-to-data-monetization-with-ai/",
+      "author": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-bain-insights-google-cloud-next-2025-04-14",
+      "name": "Google Cloud Next 2025: AI Moves from Possibility to Foundation",
+      "url": "https://www.bain.com/insights/google-cloud-next-2025-ai-moves-from-possibility-to-foundation/",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-bain"
+      },
+      "datePublished": "2025-04-14",
+      "archivedAt": "https://web.archive.org/web/20260125084549/https://www.bain.com/insights/google-cloud-next-2025-ai-moves-from-possibility-to-foundation/",
+      "author": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-bain-insights-nvidia-gtc-2025-03-24",
+      "name": "Nvidia GTC 2025: AI Matures into Enterprise Infrastructure",
+      "url": "https://www.bain.com/insights/nvidia-gtc-2025-ai-matures-into-enterprise-infrastructure/",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-bain"
+      },
+      "datePublished": "2025-03-24",
+      "archivedAt": "https://web.archive.org/web/20251205203008/https://www.bain.com/insights/nvidia-gtc-2025-ai-matures-into-enterprise-infrastructure/",
+      "author": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
       }
     },
     {
