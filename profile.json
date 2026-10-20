@@ -23,6 +23,7 @@
       "sitemap": "https://brockdsimon.com/sitemap.xml",
       "apiCatalog": "https://brockdsimon.com/.well-known/api-catalog",
       "mcp": "https://brockdsimon.com/record/mcp",
+      "mcpServerCard": "https://brockdsimon.com/record/mcp/server-card",
       "schema": "https://brockdsimon.com/profile.schema.json"
     },
     "access": {
@@ -44,7 +45,7 @@
       ]
     }
   },
-  "generatedAt": "2026-10-20T22:01:56.730Z",
+  "generatedAt": "2026-10-20T23:59:09.044Z",
   "reviewDate": "2026-10-16",
   "researchDate": "2026-10-18",
   "preview": false,
@@ -1671,6 +1672,23 @@
       ],
       "correctionIds": [],
       "recordedOn": "2026-10-17",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "mcp-server",
+      "citation": "https://brockdsimon.com/profile#faq-mcp-server",
+      "question": "Does Brock Simon have an MCP server?",
+      "answer": "Yes. The record is also served as a read-only MCP server at https://brockdsimon.com/record/mcp (Streamable HTTP, POST, no credentials). Its tools return the record's answers to questions about his experience, each item with its citation URL and evidence label, and the record's files are its resources. Its server card is at https://brockdsimon.com/record/mcp/server-card. It answers only from this record.",
+      "sourceIds": [
+        "owner-profile-2026-08-18"
+      ],
+      "claimIds": [
+        "c-site-built"
+      ],
+      "correctionIds": [],
+      "recordedOn": "2026-10-20",
       "reviewedOn": null,
       "visibility": "public",
       "subjectApproval": "approved"

@@ -146,6 +146,9 @@
             },
             "mcp": {
               "$ref": "#/$defs/url"
+            },
+            "mcpServerCard": {
+              "$ref": "#/$defs/url"
             }
           },
           "required": [
@@ -158,7 +161,8 @@
             "feed",
             "apiCatalog",
             "schema",
-            "mcp"
+            "mcp",
+            "mcpServerCard"
           ],
           "additionalProperties": false
         },

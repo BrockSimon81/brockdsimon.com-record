@@ -22,7 +22,7 @@
       "url": "https://brockdsimon.com/profile.json",
       "encodingFormat": "application/json",
       "version": "4.1",
-      "dateModified": "2026-10-20T21:37:01.722Z",
+      "dateModified": "2026-10-20T23:59:09.044Z",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -1083,6 +1083,19 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three Bain & Company articles in 2025, each co-authored: on data monetisation with AI (first-named of five authors, June 2025), Google Cloud Next (first-named of four, April 2025) and Nvidia GTC (second-named of seven, March 2025); a servicePath Executive Conversations podcast on agentic AI, personalisation, loyalty and data monetisation; a Provenance webinar on AI shopping and verified product data; and the MAUSTRAP Podcast on why he founded Native and how AI changes product decisions. profile.json lists each with its link and its byline."
+      }
+    },
+    {
+      "@type": "Question",
+      "@id": "https://brockdsimon.com/profile.jsonld#faq-mcp-server",
+      "name": "Does Brock Simon have an MCP server?",
+      "url": "https://brockdsimon.com/profile#faq-mcp-server",
+      "about": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The record is also served as a read-only MCP server at https://brockdsimon.com/record/mcp (Streamable HTTP, POST, no credentials). Its tools return the record's answers to questions about his experience, each item with its citation URL and evidence label, and the record's files are its resources. Its server card is at https://brockdsimon.com/record/mcp/server-card. It answers only from this record."
       }
     },
     {

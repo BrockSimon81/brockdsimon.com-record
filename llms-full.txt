@@ -325,6 +325,10 @@ Yes. His decade at dunnhumby, from 2005 to 2015, ran from Cincinnati through Atl
 
 Three Bain & Company articles in 2025, each co-authored: on data monetisation with AI (first-named of five authors, June 2025), Google Cloud Next (first-named of four, April 2025) and Nvidia GTC (second-named of seven, March 2025); a servicePath Executive Conversations podcast on agentic AI, personalisation, loyalty and data monetisation; a Provenance webinar on AI shopping and verified product data; and the MAUSTRAP Podcast on why he founded Native and how AI changes product decisions. profile.json lists each with its link and its byline. [bain-insights-data-monetization-2025-06-10, bain-insights-google-cloud-next-2025-04-14, bain-insights-nvidia-gtc-2025-03-24, bain-team-page-2025-08-08, servicepath-executive-conversations-13, provenance-ai-shopping-webinar-2026-01, linkedin-post-maustrap-2026]
 
+**Does Brock Simon have an MCP server?**
+
+Yes. The record is also served as a read-only MCP server at https://brockdsimon.com/record/mcp (Streamable HTTP, POST, no credentials). Its tools return the record's answers to questions about his experience, each item with its citation URL and evidence label, and the record's files are its resources. Its server card is at https://brockdsimon.com/record/mcp/server-card. It answers only from this record. [owner-profile-2026-08-18]
+
 ## Attribution boundaries and corrections
 
 - Illinois Tech records his McKinsey title as Expert associate principal; his LinkedIn gives Expert Associate Partner. Both are published, LinkedIn's wording leading, as title variants on the McKinsey roles. (conflict; kept both) [iit-marketing-analytics-council, linkedin-experience-2026-10-16]
