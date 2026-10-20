@@ -143,6 +143,9 @@
             },
             "schema": {
               "$ref": "#/$defs/url"
+            },
+            "mcp": {
+              "$ref": "#/$defs/url"
             }
           },
           "required": [
@@ -154,7 +157,8 @@
             "llmsFull",
             "feed",
             "apiCatalog",
-            "schema"
+            "schema",
+            "mcp"
           ],
           "additionalProperties": false
         },

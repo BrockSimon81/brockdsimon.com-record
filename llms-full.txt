@@ -435,7 +435,7 @@ Retrieval status says whether each source was actually read for this record, and
 ## Keys
 
 Evidence:
-- documented: Stated by an organisation other than Brock Simon: an employer, a partner, an organiser, a publisher, the press or a public registry.
+- documented: A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.
 - self_reported: Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.
 - owner_perspective: Brock Simon's own view or framing.
 

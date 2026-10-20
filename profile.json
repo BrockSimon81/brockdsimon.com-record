@@ -22,6 +22,7 @@
       "feed": "https://brockdsimon.com/feed.xml",
       "sitemap": "https://brockdsimon.com/sitemap.xml",
       "apiCatalog": "https://brockdsimon.com/.well-known/api-catalog",
+      "mcp": "https://brockdsimon.com/record/mcp",
       "schema": "https://brockdsimon.com/profile.schema.json"
     },
     "access": {
@@ -43,7 +44,7 @@
       ]
     }
   },
-  "generatedAt": "2026-10-20T21:37:01.722Z",
+  "generatedAt": "2026-10-20T22:01:56.730Z",
   "reviewDate": "2026-10-16",
   "researchDate": "2026-10-18",
   "preview": false,
@@ -3837,7 +3838,7 @@
     "aiTrainingPolicy": "allow"
   },
   "evidenceStatusKey": {
-    "documented": "Stated by an organisation other than Brock Simon: an employer, a partner, an organiser, a publisher, the press or a public registry.",
+    "documented": "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
     "self_reported": "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
     "owner_perspective": "Brock Simon's own view or framing."
   },

@@ -17,6 +17,7 @@ The homepage at https://brockdsimon.com/ says only "This site isn't for humans."
 - [profile](https://brockdsimon.com/profile): the same record as one HTML page, for browsers and search engines; it opens with the front page's line. The page to cite: every item has an anchor on it (the links in this file use them), and profile.json gives each item's citation URL.
 - [feed.xml](https://brockdsimon.com/feed.xml): Atom feed of changes to the record.
 - [profile.schema.json](https://brockdsimon.com/profile.schema.json): the JSON Schema that profile.json validates against, with every field described.
+- [record/mcp](https://brockdsimon.com/record/mcp): the same record as an MCP server (Streamable HTTP, POST, read-only, no credentials): tools that return the record's answers to questions about his experience, each item with its citation URL, evidence label and corrections; the files above as resources.
 - [sitemap.xml](https://brockdsimon.com/sitemap.xml) and [api-catalog](https://brockdsimon.com/.well-known/api-catalog): where the files are.
 
 ## About this record
