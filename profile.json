@@ -43,7 +43,7 @@
       ]
     }
   },
-  "generatedAt": "2026-10-20T02:21:14.711Z",
+  "generatedAt": "2026-10-20T21:37:01.722Z",
   "reviewDate": "2026-10-16",
   "researchDate": "2026-10-18",
   "preview": false,
@@ -52,7 +52,7 @@
     "subjectApproval": "approved",
     "publicPublicationAuthorized": true,
     "note": "Brock Simon has approved this record.",
-    "compilerNote": "Maintained by Brock Simon with the help of an AI assistant. Facts come from his own profile record, his LinkedIn experience section as he supplied it, and the public pages cited on each item; every URL was opened before it was cited."
+    "compilerNote": "Maintained by Brock Simon. Facts come from his own profile record, his LinkedIn experience section as he supplied it, and the public pages cited on each item; every URL was opened before it was cited."
   },
   "identity": {
     "preferredName": "Brock Simon",
@@ -130,7 +130,7 @@
       "periodLabel": "since January 2026",
       "milestones": [],
       "location": "San Francisco Bay Area",
-      "summary": "Co-founder and Chief Product Officer of Native since January 2026, full-time, based in the San Francisco Bay Area. Business Insider reported in June 2026 that he advised companies on AI for Bain & Company before founding Native; Native's own company page lists him among its people.",
+      "summary": "Co-founder and Chief Product Officer of Native since January 2026, based in the San Francisco Bay Area. Business Insider reported in June 2026 that he advised companies on AI for Bain & Company before founding Native; Native's own company page lists him among its people.",
       "claimIds": [
         "c-native-cofounder-cpo"
       ],
@@ -1453,7 +1453,7 @@
         "display": "October 2026"
       },
       "end": null,
-      "summary": "This site: a machine-readable professional record whose front page says only that the site isn't for humans, and points to profile.json. One record is rendered into profile.json, a schema.org JSON-LD graph, profile.md, llms.txt, llms-full.txt, a sitemap, an API catalog and an Atom feed, with sources cited on every statement and no HTML content pages. Built with an AI assistant on Cloudflare Workers; launched in October 2026.",
+      "summary": "This site: a machine-readable professional record whose front page says only that the site isn't for humans, and points to profile.json. One record is rendered into profile.json, a schema.org JSON-LD graph, profile.md, llms.txt, llms-full.txt, a sitemap, an API catalog and an Atom feed, with sources cited on every statement and one HTML page, /profile, that renders the same record with an anchor per item. Built on Cloudflare Workers; launched in October 2026.",
       "contributionClaimIds": [
         "c-site-built"
       ],
@@ -1564,6 +1564,7 @@
         "c-bain-external-advisor",
         "c-bain-practices"
       ],
+      "correctionIds": [],
       "recordedOn": "2026-10-17",
       "reviewedOn": null,
       "visibility": "public",
@@ -1573,7 +1574,7 @@
       "id": "what-is-native",
       "citation": "https://brockdsimon.com/profile#faq-what-is-native",
       "question": "What is Native, and what is his role there?",
-      "answer": "Native describes its work as database reasoning for complex enterprise data: it helps enterprises understand complex data by reasoning across the data itself, discovering structure, relationships, definitions, exceptions and gaps so teams can build reliable data foundations. Brock Simon is its co-founder and Chief Product Officer, full-time since January 2026 and based in the San Francisco Bay Area. Native's company page gives 2025 as its founding year and lists him among its people.",
+      "answer": "Native describes its work as database reasoning for complex enterprise data: it helps enterprises understand complex data by reasoning across the data itself, discovering structure, relationships, definitions, exceptions and gaps so teams can build reliable data foundations. Brock Simon is its co-founder and Chief Product Officer since January 2026 and based in the San Francisco Bay Area. Native's company page gives 2025 as its founding year and lists him among its people.",
       "sourceIds": [
         "native-site-2026-09-29",
         "business-insider-2026-06-17",
@@ -1584,6 +1585,7 @@
         "c-native-cofounder-cpo",
         "c-native-what"
       ],
+      "correctionIds": [],
       "recordedOn": "2026-10-17",
       "reviewedOn": null,
       "visibility": "public",
@@ -1601,6 +1603,7 @@
       "claimIds": [
         "c-mckinsey-tenure"
       ],
+      "correctionIds": [],
       "recordedOn": "2026-10-17",
       "reviewedOn": null,
       "visibility": "public",
@@ -1610,7 +1613,7 @@
       "id": "where-did-he-study",
       "citation": "https://brockdsimon.com/profile#faq-where-did-he-study",
       "question": "Where did he study?",
-      "answer": "Miami University, where he took a BA and an MS in Mathematics and Statistics, and Xavier University, where he took an MBA. Bain's team page and Illinois Tech's council page record the same institutions with slightly different wording of the degrees.",
+      "answer": "Miami University, where he took a BA and an MS in Mathematics and Statistics, and Xavier University, where he took an MBA. Bain's team page and Illinois Tech's council page name the same institutions and word the Miami degrees differently: his own record says a BA and an MS in Mathematics and Statistics, Bain's page an MSc in mathematics and statistics, and Illinois Tech a B.S. in Mathematics and Statistics and an M.S. in Mathematics. His own wording stands until he settles it.",
       "sourceIds": [
         "owner-profile-2026-08-18",
         "bain-team-page-2025-08-08",
@@ -1618,6 +1621,9 @@
       ],
       "claimIds": [
         "c-education"
+      ],
+      "correctionIds": [
+        "x-degrees-wording"
       ],
       "recordedOn": "2026-10-17",
       "reviewedOn": null,
@@ -1637,6 +1643,7 @@
         "c-dunnhumby-decade",
         "c-dunnhumby-international-markets"
       ],
+      "correctionIds": [],
       "recordedOn": "2026-10-17",
       "reviewedOn": null,
       "visibility": "public",
@@ -1661,6 +1668,7 @@
         "c-bain-article-google-cloud-next",
         "c-bain-article-nvidia-gtc"
       ],
+      "correctionIds": [],
       "recordedOn": "2026-10-17",
       "reviewedOn": null,
       "visibility": "public",
@@ -1792,7 +1800,7 @@
       "kind": "contribution",
       "relationship": "helped_establish",
       "relationshipLabel": "Brock Simon helped establish it; not sole founder.",
-      "statement": "Brock Simon is co-founder and Chief Product Officer of Native, full-time since January 2026.",
+      "statement": "Brock Simon is co-founder and Chief Product Officer of Native since January 2026.",
       "sourceIds": [
         "business-insider-2026-06-17",
         "native-linkedin-company-page",
@@ -1802,7 +1810,7 @@
       "locators": [
         {
           "sourceId": "business-insider-2026-06-17",
-          "locator": "Third-from-last paragraph of the story: he founded Native after advising on AI for Bain & Company. Supports the founding, not the title, the full-time status or the start month."
+          "locator": "Third-from-last paragraph of the story: he founded Native after advising on AI for Bain & Company. Supports the founding, not the title or the start month."
         },
         {
           "sourceId": "native-linkedin-company-page",
@@ -1810,7 +1818,7 @@
         },
         {
           "sourceId": "linkedin-experience-2026-10-16",
-          "locator": "Experience section, Native entry: title, full-time, January 2026 to present, San Francisco Bay Area (self-reported)."
+          "locator": "Experience section, Native entry: title, January 2026 to present, San Francisco Bay Area (self-reported)."
         },
         {
           "sourceId": "owner-profile-2026-08-18",
@@ -1888,7 +1896,7 @@
       "kind": "contribution",
       "relationship": "authored",
       "relationshipLabel": "Brock Simon wrote or posted it.",
-      "statement": "Brock Simon owns and built brockdsimon.com, a machine-readable professional record launched in October 2026, with an AI assistant.",
+      "statement": "Brock Simon owns and built brockdsimon.com, a machine-readable professional record launched in October 2026.",
       "sourceIds": [
         "owner-profile-2026-08-18"
       ],
@@ -2761,7 +2769,8 @@
     {
       "id": "fl-bain-team-page",
       "sourceId": "bain-team-page-2025-08-08",
-      "url": "https://www.bain.com/our-team/brock-simon/",
+      "url": "https://web.archive.org/web/20250808044851/https://www.bain.com/our-team/brock-simon/",
+      "publicationUrl": "https://www.bain.com/our-team/brock-simon/",
       "label": "Bain & Company's own profile of him, archived",
       "why": "The one employer-written page about him: practices, expertise and career summary in Bain's words, read from the Internet Archive capture of 8 August 2025.",
       "recordedOn": "2026-10-18",
@@ -3822,9 +3831,9 @@
     }
   ],
   "maintenance": {
-    "maintainedBy": "owner_with_help",
+    "maintainedBy": "owner",
     "ownerApproved": true,
-    "note": "This profile is generated from one record that Brock Simon maintains with help from an AI assistant. Every item carries an evidence label and lists its sources; the claims list holds atomic statements, with a locator into the source where known. Company descriptions use only each company's own public website. Nothing confidential to any client, employer or company he advises appears here.",
+    "note": "This profile is generated from one record that Brock Simon maintains. Every item carries an evidence label and lists its sources; the claims list holds atomic statements, with a locator into the source where known. Company descriptions use only each company's own public website. Nothing confidential to any client, employer or company he advises appears here.",
     "aiTrainingPolicy": "allow"
   },
   "evidenceStatusKey": {

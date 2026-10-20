@@ -10,7 +10,7 @@ This is the complete record behind https://brockdsimon.com. The short index is h
 
 In Brock Simon's own words: "Creating intelligent systems: 20+ years building solutions globally to understand behavior and drive action."
 
-Publication: Brock Simon has approved this record. Maintained by Brock Simon with the help of an AI assistant. Facts come from his own profile record, his LinkedIn experience section as he supplied it, and the public pages cited on each item; every URL was opened before it was cited.
+Publication: Brock Simon has approved this record. Maintained by Brock Simon. Facts come from his own profile record, his LinkedIn experience section as he supplied it, and the public pages cited on each item; every URL was opened before it was cited.
 
 Canonical record: https://brockdsimon.com/profile.json  
 Readable page to cite: https://brockdsimon.com/profile (each item below gives its own citation URL on that page)  
@@ -64,10 +64,10 @@ Location: San Francisco Bay Area, United States.
 
 Cite: <https://brockdsimon.com/profile#role-native-cpo> · Node: <https://brockdsimon.com/profile.jsonld#role-native-cpo>
 
-Co-founder and Chief Product Officer of Native since January 2026, full-time, based in the San Francisco Bay Area. Business Insider reported in June 2026 that he advised companies on AI for Bain & Company before founding Native; Native's own company page lists him among its people. Period: since January 2026. Based: San Francisco Bay Area. Status as of 2026-10-16: Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.
+Co-founder and Chief Product Officer of Native since January 2026, based in the San Francisco Bay Area. Business Insider reported in June 2026 that he advised companies on AI for Bain & Company before founding Native; Native's own company page lists him among its people. Period: since January 2026. Based: San Francisco Bay Area. Status as of 2026-10-16: Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.
 
 Responsibilities and scope:
-- Brock Simon is co-founder and Chief Product Officer of Native, full-time since January 2026. (helped establish; documented; January 2026) [business-insider-2026-06-17, native-linkedin-company-page, linkedin-experience-2026-10-16, owner-profile-2026-08-18]
+- Brock Simon is co-founder and Chief Product Officer of Native since January 2026. (helped establish; documented; January 2026) [business-insider-2026-06-17, native-linkedin-company-page, linkedin-experience-2026-10-16, owner-profile-2026-08-18]
 
 ### External Advisor, Bain & Company (current)
 
@@ -231,7 +231,7 @@ Cite: <https://brockdsimon.com/profile#project-native> · Node: <https://brockds
 Venture (topics: database reasoning, enterprise data, AI agents). Database reasoning for complex enterprise data: Native helps enterprises understand complex data by reasoning across the data itself, discovering structure, relationships, definitions, exceptions and gaps so teams can build reliable data foundations. Native's company page gives 2025 as its founding year and San Francisco as its headquarters, with a London location. Brock Simon's part: Co-founder and Chief Product Officer. Relationship: Brock Simon helped establish it; not sole founder. Organisations: Native. Status: active, 2025.
 
 Brock Simon's contribution:
-- Brock Simon is co-founder and Chief Product Officer of Native, full-time since January 2026. (helped establish; documented; January 2026) [business-insider-2026-06-17, native-linkedin-company-page, linkedin-experience-2026-10-16, owner-profile-2026-08-18]
+- Brock Simon is co-founder and Chief Product Officer of Native since January 2026. (helped establish; documented; January 2026) [business-insider-2026-06-17, native-linkedin-company-page, linkedin-experience-2026-10-16, owner-profile-2026-08-18]
 
 Programme context (does not name Brock Simon; not a personal achievement):
 - Native describes its work as database reasoning for complex enterprise data: it helps enterprises understand complex data by reasoning across the data itself, discovering structure, relationships, definitions, exceptions and gaps. (context only; documented) [native-site-2026-09-29]
@@ -251,10 +251,10 @@ Native's own posts and pages about it (company publications, context):
 
 Cite: <https://brockdsimon.com/profile#project-brockdsimon-com> · Node: <https://brockdsimon.com/profile.jsonld#project-brockdsimon-com> · <https://brockdsimon.com/profile.json>
 
-Site (topics: machine-readable profiles, llms.txt, schema.org, AI discoverability). This site: a machine-readable professional record whose front page says only that the site isn't for humans, and points to profile.json. One record is rendered into profile.json, a schema.org JSON-LD graph, profile.md, llms.txt, llms-full.txt, a sitemap, an API catalog and an Atom feed, with sources cited on every statement and no HTML content pages. Built with an AI assistant on Cloudflare Workers; launched in October 2026. Brock Simon's part: Owner and builder. Relationship: Brock Simon wrote or posted it. Status: launched, October 2026.
+Site (topics: machine-readable profiles, llms.txt, schema.org, AI discoverability). This site: a machine-readable professional record whose front page says only that the site isn't for humans, and points to profile.json. One record is rendered into profile.json, a schema.org JSON-LD graph, profile.md, llms.txt, llms-full.txt, a sitemap, an API catalog and an Atom feed, with sources cited on every statement and one HTML page, /profile, that renders the same record with an anchor per item. Built on Cloudflare Workers; launched in October 2026. Brock Simon's part: Owner and builder. Relationship: Brock Simon wrote or posted it. Status: launched, October 2026.
 
 Brock Simon's contribution:
-- Brock Simon owns and built brockdsimon.com, a machine-readable professional record launched in October 2026, with an AI assistant. (authored; self_reported; October 2026) [owner-profile-2026-08-18]
+- Brock Simon owns and built brockdsimon.com, a machine-readable professional record launched in October 2026. (authored; self_reported; October 2026) [owner-profile-2026-08-18]
 
 ## Other sourced statements
 
@@ -294,7 +294,7 @@ Brock Simon's contribution:
 
 ## Where to start
 
-- Bain & Company's own profile of him, archived: The one employer-written page about him: practices, expertise and career summary in Bain's words, read from the Internet Archive capture of 8 August 2025. <https://www.bain.com/our-team/brock-simon/> [bain-team-page-2025-08-08]
+- Bain & Company's own profile of him, archived: The one employer-written page about him: practices, expertise and career summary in Bain's words, read from the Internet Archive capture of 8 August 2025. <https://web.archive.org/web/20250808044851/https://www.bain.com/our-team/brock-simon/> (the Internet Archive capture the record was read from; the page was published at https://www.bain.com/our-team/brock-simon/) [bain-team-page-2025-08-08]
 - Business Insider, June 2026: Independent press naming him as a former Bain adviser on AI who founded Native. <https://www.businessinsider.com/ai-token-economy-spending-workplace-budgets-usage-caps-software-engineer-2026-6> [business-insider-2026-06-17]
 - Provenance webinar write-up, January 2026: Quotes him at length on AI-mediated shopping and verified product data. <https://www.provenance.org/news-insights/the-future-of-ai-shopping-how-verified-product-data-boosts-ai-discoverability> [provenance-ai-shopping-webinar-2026-01]
 - servicePath Executive Conversations, edition 13: A long-form conversation covering his career and his view of agentic AI in the enterprise. <https://servicepath.co/podcast/revenue-growth-for-tech-execs-edition-13/> [servicepath-executive-conversations-13]
@@ -307,7 +307,7 @@ No. He was Expert Associate Partner at Bain & Company from June 2019 and Expert 
 
 **What is Native, and what is his role there?**
 
-Native describes its work as database reasoning for complex enterprise data: it helps enterprises understand complex data by reasoning across the data itself, discovering structure, relationships, definitions, exceptions and gaps so teams can build reliable data foundations. Brock Simon is its co-founder and Chief Product Officer, full-time since January 2026 and based in the San Francisco Bay Area. Native's company page gives 2025 as its founding year and lists him among its people. [native-site-2026-09-29, business-insider-2026-06-17, linkedin-experience-2026-10-16, native-linkedin-company-page]
+Native describes its work as database reasoning for complex enterprise data: it helps enterprises understand complex data by reasoning across the data itself, discovering structure, relationships, definitions, exceptions and gaps so teams can build reliable data foundations. Brock Simon is its co-founder and Chief Product Officer since January 2026 and based in the San Francisco Bay Area. Native's company page gives 2025 as its founding year and lists him among its people. [native-site-2026-09-29, business-insider-2026-06-17, linkedin-experience-2026-10-16, native-linkedin-company-page]
 
 **What was his title at McKinsey & Company?**
 
@@ -315,7 +315,7 @@ Expert Associate Partner, in Chicago from August 2015 to August 2017 and in Bang
 
 **Where did he study?**
 
-Miami University, where he took a BA and an MS in Mathematics and Statistics, and Xavier University, where he took an MBA. Bain's team page and Illinois Tech's council page record the same institutions with slightly different wording of the degrees. [owner-profile-2026-08-18, bain-team-page-2025-08-08, iit-marketing-analytics-council]
+Miami University, where he took a BA and an MS in Mathematics and Statistics, and Xavier University, where he took an MBA. Bain's team page and Illinois Tech's council page name the same institutions and word the Miami degrees differently: his own record says a BA and an MS in Mathematics and Statistics, Bain's page an MSc in mathematics and statistics, and Illinois Tech a B.S. in Mathematics and Statistics and an M.S. in Mathematics. His own wording stands until he settles it. [owner-profile-2026-08-18, bain-team-page-2025-08-08, iit-marketing-analytics-council] See x-degrees-wording.
 
 **Is this the same Brock Simon who worked for dunnhumby in Turkey and Shanghai?**
 
@@ -457,4 +457,4 @@ Relationships:
 
 Dates are given only to the precision the record supports: a year, a month, or a day. A year is never turned into an invented day. Announcement, start, end and publication dates are kept apart.
 
-Maintenance: owner with help; approved by Brock Simon: yes. This profile is generated from one record that Brock Simon maintains with help from an AI assistant. Every item carries an evidence label and lists its sources; the claims list holds atomic statements, with a locator into the source where known. Company descriptions use only each company's own public website. Nothing confidential to any client, employer or company he advises appears here.
+Maintenance: owner; approved by Brock Simon: yes. This profile is generated from one record that Brock Simon maintains. Every item carries an evidence label and lists its sources; the claims list holds atomic statements, with a locator into the source where known. Company descriptions use only each company's own public website. Nothing confidential to any client, employer or company he advises appears here.

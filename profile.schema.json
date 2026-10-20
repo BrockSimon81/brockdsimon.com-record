@@ -2767,7 +2767,12 @@
           "$ref": "#/$defs/id"
         },
         "url": {
-          "$ref": "#/$defs/url"
+          "$ref": "#/$defs/url",
+          "description": "The page to open: the source's address, or, when the source was read from the Internet Archive, the capture it was read from."
+        },
+        "publicationUrl": {
+          "$ref": "#/$defs/url",
+          "description": "Present only when url is an archive capture: the address the page was published at, which may no longer serve it."
         },
         "label": {
           "type": "string",
@@ -3154,6 +3159,13 @@
           },
           "description": "Claims the answer rests on."
         },
+        "correctionIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Corrections or conflicts the answer rests on; each is in the corrections list."
+        },
         "recordedOn": {
           "$ref": "#/$defs/isoDay"
         },
@@ -3194,6 +3206,7 @@
         "answer",
         "sourceIds",
         "claimIds",
+        "correctionIds",
         "recordedOn",
         "reviewedOn",
         "visibility",
