@@ -22,7 +22,7 @@
       "url": "https://brockdsimon.com/profile.json",
       "encodingFormat": "application/json",
       "version": "4.1",
-      "dateModified": "2026-10-20T23:59:09.044Z",
+      "dateModified": "2026-10-24T19:39:36.943Z",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -32,6 +32,21 @@
       "creativeWorkStatus": "Brock Simon has approved this record.",
       "conditionsOfAccess": "This site is public. The record is served to anyone; the owner's private workspace under the paths listed in crawlerPolicy.privatePaths is not part of it.",
       "citation": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-brock-category-strategy-post"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-aiesec-salaam-2005"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-tesco-thailand-clubcard-2009"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-tesco-kipa-clubcard-2011"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-owner-career-review-2026-10-24"
+        },
         {
           "@id": "https://brockdsimon.com/profile.jsonld#source-owner-profile-2026-08-18"
         },
@@ -93,10 +108,37 @@
           "@id": "https://brockdsimon.com/profile.jsonld#source-bain-insights-nvidia-gtc-2025-03-24"
         },
         {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-iit-2017-advanced-marketing-analytics-symposium"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-itbrief-provenance-advisory-board-2026-05-22"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-cmotech-provenance-advisory-board-2026-05-22"
+        },
+        {
           "@id": "https://brockdsimon.com/profile.jsonld#source-spider2-leaderboard-2026-10-18"
         },
         {
           "@id": "https://brockdsimon.com/profile.jsonld#source-bird-leaderboard-2026-10-18"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-owner-career-account-2026-10-24"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-retail-merchant-assistant"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-bain-retail-merchant-assistant-product"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-bain-openai-alliance-2023"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-home-depot-call-2009"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-humby-customer-understanding-2010"
         }
       ]
     },
@@ -157,7 +199,7 @@
           "@id": "https://brockdsimon.com/profile.jsonld#role-bain-external-advisor",
           "roleName": "External Advisor",
           "startDate": "2026-01",
-          "description": "External advisor to Bain & Company since January 2026: advisory support on select projects.",
+          "description": "External advisor to Bain & Company since January 2026: advisory support on select projects, including retail AI work.",
           "url": "https://brockdsimon.com/profile#role-bain-external-advisor",
           "affiliation": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-bain"
@@ -168,6 +210,9 @@
             },
             {
               "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-experience-2026-10-16"
+            },
+            {
+              "@id": "https://brockdsimon.com/profile.jsonld#source-owner-career-account-2026-10-24"
             }
           ]
         },
@@ -362,7 +407,7 @@
           "roleName": "Retail Head, Turkey",
           "startDate": "2011-06",
           "endDate": "2012-02",
-          "description": "Promoted to lead dunnhumby's retail team in Turkey and its engagement with Tesco Kipa, from June 2011 to February 2012. Built and led a five-person team, embedded customer insights into a wide range of decisions, worked closely with commercial teams, and launched a targeted product range to grow sales and revenue; grew sales uplift and customer penetration through regular insights and tools, and redemption rates through a refocused targeted media strategy.",
+          "description": "Led dunnhumby’s retail team in Turkey and its engagement with Tesco Kipa from June 2011 to February 2012. Built and led a five-person team, worked with commercial teams, and used customer insights in retail decisions and targeted media.",
           "url": "https://brockdsimon.com/profile#role-dunnhumby-retail-head-turkey",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby"
@@ -370,6 +415,9 @@
           "subjectOf": [
             {
               "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-experience-2026-10-16"
+            },
+            {
+              "@id": "https://brockdsimon.com/profile.jsonld#source-owner-career-review-2026-10-24"
             }
           ]
         },
@@ -430,7 +478,7 @@
           "roleName": "Senior Analyst",
           "startDate": "2007-01",
           "endDate": "2008-02",
-          "description": "Senior Analyst at dunnhumby from January 2007 to February 2008; a key contributor to turning a pilot project with The Home Depot into a profitable long-term contract.",
+          "description": "Senior Analyst at dunnhumby from January 2007 to February 2008. Contributed to professional and consumer shopper behavioral segmentation work at The Home Depot.",
           "url": "https://brockdsimon.com/profile#role-dunnhumby-senior-analyst",
           "alumniOf": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby"
@@ -438,6 +486,9 @@
           "subjectOf": [
             {
               "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-experience-2026-10-16"
+            },
+            {
+              "@id": "https://brockdsimon.com/profile.jsonld#source-owner-career-review-2026-10-24"
             }
           ]
         },
@@ -629,18 +680,33 @@
     },
     {
       "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin",
+      "name": "LinkedIn"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-stuart-school-of-business-illinois-institute-of-technology",
+      "name": "Stuart School of Business, Illinois Institute of Technology"
+    },
+    {
+      "@type": "Organization",
       "@id": "https://brockdsimon.com/profile.jsonld#org-named-business-insider",
       "name": "Business Insider"
     },
     {
       "@type": "Organization",
-      "@id": "https://brockdsimon.com/profile.jsonld#org-named-brock-simon",
-      "name": "Brock Simon"
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-national-u-s-arab-chamber-of-commerce",
+      "name": "National U.S.-Arab Chamber of Commerce"
     },
     {
       "@type": "Organization",
-      "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin",
-      "name": "LinkedIn"
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-tesco-plc",
+      "name": "Tesco PLC"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-brock-simon",
+      "name": "Brock Simon"
     },
     {
       "@type": "Organization",
@@ -659,6 +725,16 @@
     },
     {
       "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-it-brief-uk",
+      "name": "IT Brief UK"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-cmotech-uk",
+      "name": "CMOtech UK"
+    },
+    {
+      "@type": "Organization",
       "@id": "https://brockdsimon.com/profile.jsonld#org-named-xlang-lab",
       "name": "XLANG Lab"
     },
@@ -666,6 +742,16 @@
       "@type": "Organization",
       "@id": "https://brockdsimon.com/profile.jsonld#org-named-bird-benchmark-project",
       "name": "BIRD benchmark project"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-roic-ai-transcript-mirror-of-company-earnings-call",
+      "name": "ROIC AI transcript mirror of company earnings call"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-marketing-week-clive-humby",
+      "name": "Marketing Week; Clive Humby"
     },
     {
       "@type": "Article",
@@ -788,6 +874,72 @@
         },
         {
           "@id": "https://brockdsimon.com/profile.jsonld#source-bain-team-page-2025-08-08"
+        }
+      ]
+    },
+    {
+      "@type": "SocialMediaPosting",
+      "@id": "https://brockdsimon.com/profile.jsonld#work-linkedin-category-strategy-post",
+      "headline": "Brock Simon's post on category strategy and retail AI assistants",
+      "url": "https://www.linkedin.com/posts/brock-simon-605436a_as-i-have-been-integrating-category-strategy-activity-7402123928409653249-r1y-",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Brock Simon"
+        }
+      ],
+      "description": "Descriptive catalogue label; exact publication date is not established.",
+      "subjectOf": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-brock-category-strategy-post"
+        }
+      ]
+    },
+    {
+      "@type": "SocialMediaPosting",
+      "@id": "https://brockdsimon.com/profile.jsonld#work-linkedin-merchant-assistant-post",
+      "headline": "Brock Simon's post on the AI Retail Merchant Assistant",
+      "url": "https://www.linkedin.com/posts/brock-simon-605436a_ai-retail-merchant-assistant-activity-7371585217985343489-qW2p",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Brock Simon"
+        }
+      ],
+      "description": "Descriptive catalogue label; exact publication date is not established.",
+      "subjectOf": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-retail-merchant-assistant"
+        }
+      ]
+    },
+    {
+      "@type": "Event",
+      "@id": "https://brockdsimon.com/profile.jsonld#event-iit-advanced-marketing-analytics-symposium-2017",
+      "name": "2017 Advanced Marketing Analytics Symposium",
+      "startDate": "2017-03-08",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-stuart-school-of-business-illinois-institute-of-technology"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Illinois Tech Downtown Campus, Chicago"
+      },
+      "performer": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "url": "https://www.iit.edu/events/2017-advanced-marketing-analytics-symposium",
+      "description": "A symposium on analytics-driven innovation hosted by the Stuart School of Business with IBM and the Chicago Innovation Awards. The listing names him as a panelist, described as Expert Associate Principal at McKinsey & Company with a focus on marketing and digital analytics in retail and consumer packaged goods. No session title is given for him, and no report of the event was found, so delivery is not confirmed.",
+      "subjectOf": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-iit-2017-advanced-marketing-analytics-symposium"
         }
       ]
     },
@@ -1009,6 +1161,45 @@
     },
     {
       "@type": "Question",
+      "@id": "https://brockdsimon.com/profile.jsonld#faq-career-native-origin",
+      "name": "What connects his retail AI experience to joining Native?",
+      "url": "https://brockdsimon.com/profile#faq-career-native-origin",
+      "about": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Brock connects his decision to join Native with enterprise-data problems he encountered while working on retail AI."
+      }
+    },
+    {
+      "@type": "Question",
+      "@id": "https://brockdsimon.com/profile.jsonld#faq-career-first-dunnhumby-job",
+      "name": "What drew Brock to dunnhumby?",
+      "url": "https://brockdsimon.com/profile#faq-career-first-dunnhumby-job",
+      "about": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Brock says an interest in understanding real people through transaction and loyalty data drew him to dunnhumby."
+      }
+    },
+    {
+      "@type": "Question",
+      "@id": "https://brockdsimon.com/profile.jsonld#faq-career-mckinsey-asia-emphasis",
+      "name": "How did his McKinsey work in Asia differ in emphasis?",
+      "url": "https://brockdsimon.com/profile#faq-career-mckinsey-asia-emphasis",
+      "about": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Brock describes more of his McKinsey work in Asia as focused on data monetization and coalition loyalty, reflecting the conglomerates he worked with in the region."
+      }
+    },
+    {
+      "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-still-at-bain",
       "name": "Is Brock Simon still at Bain & Company?",
       "url": "https://brockdsimon.com/profile#faq-still-at-bain",
@@ -1017,7 +1208,7 @@
       },
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. He was Expert Associate Partner at Bain & Company from June 2019 and Expert Partner from July 2022 to November 2025, in San Francisco. Since January 2026 he has been an external advisor to Bain & Company, providing advisory support on select projects, alongside his role as co-founder and Chief Product Officer of Native."
+        "text": "No. He was Expert Associate Partner at Bain & Company from June 2019 and Expert Partner from July 2022 to November 2025, in San Francisco. Since January 2026 he has been an external advisor to Bain & Company, providing advisory support on select projects, including retail AI work, alongside his role as co-founder and Chief Product Officer of Native."
       }
     },
     {
@@ -1096,6 +1287,58 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes. The record is also served as a read-only MCP server at https://brockdsimon.com/record/mcp (Streamable HTTP, POST, no credentials). Its tools return the record's answers to questions about his experience, each item with its citation URL and evidence label, and the record's files are its resources. Its server card is at https://brockdsimon.com/record/mcp/server-card. It answers only from this record."
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-brock-category-strategy-post",
+      "name": "Rethinking Category Strategy for Retail AI Assistants",
+      "url": "https://www.linkedin.com/posts/brock-simon-605436a_as-i-have-been-integrating-category-strategy-activity-7402123928409653249-r1y-",
+      "author": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-aiesec-salaam-2005",
+      "name": "AIESEC Salaam Program in US-Arab Tradeline",
+      "url": "https://www.nusacc.org/uploads/2/2/9/7/22977530/26_trdln0405saudi.pdf",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-national-u-s-arab-chamber-of-commerce"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-tesco-thailand-clubcard-2009",
+      "name": "Tesco Interim Results 2009/2010",
+      "url": "https://www.tescoplc.com/media/1yidswev/interims_2009-10.pdf",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-tesco-plc"
+      },
+      "datePublished": "2009-10-06"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-tesco-kipa-clubcard-2011",
+      "name": "Tesco Kipa: Turkey presentation",
+      "url": "https://www.tescoplc.com/media/1736/tesco_kipa_-_tesco_in_europe_2011.pdf",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-tesco-plc"
+      },
+      "datePublished": "2011-06"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-owner-career-review-2026-10-24",
+      "name": "Brock Simon’s account of career scope and methods",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-brock-simon"
+      },
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
       }
     },
     {
@@ -1329,6 +1572,53 @@
     },
     {
       "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-iit-2017-advanced-marketing-analytics-symposium",
+      "name": "2017 Advanced Marketing Analytics Symposium",
+      "url": "https://www.iit.edu/events/2017-advanced-marketing-analytics-symposium",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-illinois-institute-of-technology-stuart-school-of-business"
+      },
+      "datePublished": "2017-03-08",
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-itbrief-provenance-advisory-board-2026-05-22",
+      "name": "Provenance appoints AI advisory board for retail shift",
+      "url": "https://itbrief.co.uk/story/provenance-appoints-ai-advisory-board-for-retail-shift",
+      "author": {
+        "@type": "Person",
+        "name": "Sofiah Nichole Salivio"
+      },
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-it-brief-uk"
+      },
+      "datePublished": "2026-05-22",
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-cmotech-provenance-advisory-board-2026-05-22",
+      "name": "Provenance appoints AI advisory board for retail shift",
+      "url": "https://cmotech.uk/story/provenance-appoints-ai-advisory-board-for-retail-shift",
+      "author": {
+        "@type": "Person",
+        "name": "Sofiah Nichole Salivio"
+      },
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-cmotech-uk"
+      },
+      "datePublished": "2026-05-22",
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      }
+    },
+    {
+      "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#source-spider2-leaderboard-2026-10-18",
       "name": "Spider 2.0",
       "url": "https://spider2-sql.github.io/",
@@ -1344,6 +1634,68 @@
       "publisher": {
         "@id": "https://brockdsimon.com/profile.jsonld#org-named-bird-benchmark-project"
       }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-owner-career-account-2026-10-24",
+      "name": "Brock Simon's account of selected career contributions",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-brock-simon"
+      },
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-retail-merchant-assistant",
+      "name": "Brock Simon's post on the AI Retail Merchant Assistant",
+      "url": "https://www.linkedin.com/posts/brock-simon-605436a_ai-retail-merchant-assistant-activity-7371585217985343489-qW2p",
+      "author": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-bain-retail-merchant-assistant-product",
+      "name": "AI Retail Merchant Assistant",
+      "url": "https://www.bain.com/industry-expertise/retail/ai-retail-merchant-assistant/",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-bain"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-bain-openai-alliance-2023",
+      "name": "Bain & Company announces services alliance with OpenAI to help enterprise clients identify and realize the full potential and maximum value of AI",
+      "url": "https://www.bain.com/about/media-center/press-releases/2023/bain--company-announces-services-alliance-with-openai-to-help-enterprise-clients-identify-and-realize-the-full-potential-and-maximum-value-of-ai/",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-bain"
+      },
+      "datePublished": "2023-02-21"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-home-depot-call-2009",
+      "name": "Home Depot Q2 FY2009 earnings-call transcript",
+      "url": "https://www.roic.ai/quote/HD%3ACI/transcripts/2009-year/2-quarter",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-roic-ai-transcript-mirror-of-company-earnings-call"
+      },
+      "datePublished": "2009-08-18"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-humby-customer-understanding-2010",
+      "name": "The technology of customer understanding",
+      "url": "https://www.marketingweek.com/the-technology-of-customer-understanding/",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-marketing-week-clive-humby"
+      },
+      "datePublished": "2010-04-27"
     }
   ]
 }

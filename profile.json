@@ -45,7 +45,7 @@
       ]
     }
   },
-  "generatedAt": "2026-10-20T23:59:09.044Z",
+  "generatedAt": "2026-10-24T23:25:29.476Z",
   "reviewDate": "2026-10-16",
   "researchDate": "2026-10-18",
   "preview": false,
@@ -177,14 +177,15 @@
       "periodLabel": "since January 2026",
       "milestones": [],
       "location": "San Francisco Bay Area, remote",
-      "summary": "External advisor to Bain & Company since January 2026: advisory support on select projects.",
+      "summary": "External advisor to Bain & Company since January 2026: advisory support on select projects, including retail AI work.",
       "claimIds": [
         "c-bain-external-advisor"
       ],
       "outcomeIds": [],
       "sourceIds": [
         "owner-profile-2026-08-18",
-        "linkedin-experience-2026-10-16"
+        "linkedin-experience-2026-10-16",
+        "owner-career-account-2026-10-24"
       ],
       "evidence": "self_reported",
       "url": "https://brockdsimon.com/profile.jsonld#role-bain-external-advisor",
@@ -209,7 +210,13 @@
         ]
       },
       "title": "Advisor",
-      "titleVariants": [],
+      "titleVariants": [
+        {
+          "title": "Strategic Advisory Board member",
+          "sourceId": "itbrief-provenance-advisory-board-2026-05-22",
+          "note": "as trade press reported the board on 22 May 2026"
+        }
+      ],
       "status": "current",
       "statusLabel": "Current",
       "statusAsOf": "2026-10-16",
@@ -367,6 +374,7 @@
       "location": "San Francisco, California",
       "summary": "Expert Partner at Bain & Company in San Francisco from July 2022 to November 2025, where he led AI initiatives, including work with OpenAI, for large enterprise clients. Bain's own team page listed him as a Partner in San Francisco in its Advanced Analytics and Retail practices, with expertise in retail, AI insights and solutions, and retail media networks.",
       "claimIds": [
+        "c-bain-retail-merchant-assistant",
         "c-bain-tenure",
         "c-bain-ai-initiatives",
         "c-bain-practices"
@@ -415,7 +423,8 @@
       "location": "San Francisco, California",
       "summary": "Expert Associate Partner at Bain & Company in San Francisco from June 2019 to July 2022.",
       "claimIds": [
-        "c-bain-tenure"
+        "c-bain-tenure",
+        "c-career-bain-earlier-scope"
       ],
       "outcomeIds": [],
       "sourceIds": [
@@ -465,7 +474,9 @@
       "location": "Bangkok, Thailand",
       "summary": "Expert Associate Partner at McKinsey & Company in Bangkok from August 2017 to May 2019. Bain's team page describes four years at another global consulting firm as a leader in its Marketing and Retail practices, based in Chicago and Bangkok.",
       "claimIds": [
-        "c-mckinsey-tenure"
+        "c-mckinsey-tenure",
+        "c-career-mckinsey-scope",
+        "c-career-mckinsey-asia-emphasis"
       ],
       "outcomeIds": [],
       "sourceIds": [
@@ -497,6 +508,11 @@
           "title": "Expert associate principal",
           "sourceId": "iit-marketing-analytics-council",
           "note": "as recorded by Illinois Tech"
+        },
+        {
+          "title": "Expert Associate Principal",
+          "sourceId": "iit-2017-advanced-marketing-analytics-symposium",
+          "note": "as Illinois Tech's symposium listing of 8 March 2017 gives it"
         }
       ],
       "status": "former",
@@ -517,7 +533,9 @@
       "location": "Greater Chicago Area",
       "summary": "Expert Associate Partner at McKinsey & Company in Chicago from August 2015 to August 2017.",
       "claimIds": [
-        "c-mckinsey-tenure"
+        "c-mckinsey-tenure",
+        "c-career-mckinsey-scope",
+        "c-career-mckinsey-asia-emphasis"
       ],
       "outcomeIds": [],
       "sourceIds": [
@@ -568,7 +586,10 @@
       "location": "Shanghai, China",
       "summary": "Head of Solutions for dunnhumby in Asia, based in Shanghai, from July 2013 to July 2015. Bain's team page describes his decade at dunnhumby as leading the establishment of many of its international markets, including Head of Analytics for the Asia region.",
       "claimIds": [
-        "c-dunnhumby-international-markets"
+        "c-dunnhumby-international-markets",
+        "c-career-regional-segmentation",
+        "c-career-thailand-retail-media",
+        "c-career-asia-remit"
       ],
       "outcomeIds": [],
       "sourceIds": [
@@ -614,7 +635,8 @@
       "location": "Türkiye",
       "summary": "Country Head for dunnhumby in Turkey from February 2012 to July 2013, one of the international markets he helped establish.",
       "claimIds": [
-        "c-dunnhumby-turkey-country-head"
+        "c-dunnhumby-turkey-country-head",
+        "c-career-turkey-office-scope"
       ],
       "outcomeIds": [],
       "sourceIds": [
@@ -657,16 +679,17 @@
       "periodLabel": "June 2011 to February 2012",
       "milestones": [],
       "location": "Izmir, Turkey",
-      "summary": "Promoted to lead dunnhumby's retail team in Turkey and its engagement with Tesco Kipa, from June 2011 to February 2012. Built and led a five-person team, embedded customer insights into a wide range of decisions, worked closely with commercial teams, and launched a targeted product range to grow sales and revenue; grew sales uplift and customer penetration through regular insights and tools, and redemption rates through a refocused targeted media strategy.",
+      "summary": "Led dunnhumby’s retail team in Turkey and its engagement with Tesco Kipa from June 2011 to February 2012. Built and led a five-person team, worked with commercial teams, and used customer insights in retail decisions and targeted media.",
       "claimIds": [],
       "outcomeIds": [],
       "sourceIds": [
-        "linkedin-experience-2026-10-16"
+        "linkedin-experience-2026-10-16",
+        "owner-career-review-2026-10-24"
       ],
       "evidence": "self_reported",
       "url": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-retail-head-turkey",
       "recordedOn": "2026-10-17",
-      "reviewedOn": "2026-10-17",
+      "reviewedOn": "2026-10-24",
       "visibility": "public",
       "subjectApproval": "approved"
     },
@@ -700,7 +723,9 @@
       "milestones": [],
       "location": "London, UK and Izmir, Turkey",
       "summary": "Directed all analytics for dunnhumby in Turkey from May 2010 to June 2011, working closely with clients to standardise and rationalise product offerings. Developed and deployed a process and tool enabling all Tesco international markets to determine the strength of proposed promotions.",
-      "claimIds": [],
+      "claimIds": [
+        "c-career-turkey-clubcard"
+      ],
       "outcomeIds": [],
       "sourceIds": [
         "linkedin-experience-2026-10-16"
@@ -785,7 +810,8 @@
       "location": "Bangkok, Thailand",
       "summary": "Insight Director for dunnhumby in Thailand from February 2008 to October 2009: launched the dunnhumby and Tesco International partnership and embedded customer measures into Tesco Lotus strategy.",
       "claimIds": [
-        "c-dunnhumby-thailand-launch"
+        "c-dunnhumby-thailand-launch",
+        "c-career-thailand-clubcard"
       ],
       "outcomeIds": [],
       "sourceIds": [
@@ -827,16 +853,19 @@
       "periodLabel": "January 2007 to February 2008",
       "milestones": [],
       "location": "Cincinnati, Ohio and Atlanta, Georgia",
-      "summary": "Senior Analyst at dunnhumby from January 2007 to February 2008; a key contributor to turning a pilot project with The Home Depot into a profitable long-term contract.",
-      "claimIds": [],
+      "summary": "Senior Analyst at dunnhumby from January 2007 to February 2008. Contributed to professional and consumer shopper behavioral segmentation work at The Home Depot.",
+      "claimIds": [
+        "c-home-depot-shopper-segmentation"
+      ],
       "outcomeIds": [],
       "sourceIds": [
-        "linkedin-experience-2026-10-16"
+        "linkedin-experience-2026-10-16",
+        "owner-career-review-2026-10-24"
       ],
       "evidence": "self_reported",
       "url": "https://brockdsimon.com/profile.jsonld#role-dunnhumby-senior-analyst",
       "recordedOn": "2026-10-17",
-      "reviewedOn": "2026-10-17",
+      "reviewedOn": "2026-10-24",
       "visibility": "public",
       "subjectApproval": "approved"
     },
@@ -870,7 +899,9 @@
       "milestones": [],
       "location": "Cincinnati, Ohio",
       "summary": "Analyst at dunnhumby from July 2005 to January 2007, developing insights and capabilities for consumer packaged goods companies working with Kroger, specialising in price and promotion optimisation.",
-      "claimIds": [],
+      "claimIds": [
+        "c-career-first-dunnhumby-job"
+      ],
       "outcomeIds": [],
       "sourceIds": [
         "linkedin-experience-2026-10-16"
@@ -911,7 +942,9 @@
       "milestones": [],
       "location": "Tunis, Tunisia",
       "summary": "International Intern with ATL MST SIDA in Tunis from May to September 2004, selected to represent the US in the Salaam programme: helped create and distribute AIDS and STD education materials, and designed and analysed surveys on the level of AIDS awareness and education.",
-      "claimIds": [],
+      "claimIds": [
+        "c-career-tunisia-salaam"
+      ],
       "outcomeIds": [],
       "sourceIds": [
         "linkedin-experience-2026-10-16"
@@ -1013,13 +1046,18 @@
       "roleIds": [
         "native-cpo"
       ],
-      "claimIds": [],
+      "claimIds": [
+        "c-native-cofounder-cpo",
+        "c-bain-article-data-monetization",
+        "c-bain-article-google-cloud-next",
+        "c-bain-article-nvidia-gtc"
+      ],
       "sourceIds": [
         "owner-profile-2026-08-18"
       ],
       "evidence": "owner_perspective",
       "recordedOn": "2026-10-16",
-      "reviewedOn": "2026-10-16",
+      "reviewedOn": "2026-10-24",
       "visibility": "public",
       "subjectApproval": "approved"
     },
@@ -1032,13 +1070,18 @@
         "bain-expert-partner",
         "bain-external-advisor"
       ],
-      "claimIds": [],
+      "claimIds": [
+        "c-bain-retail-merchant-assistant",
+        "c-bain-tenure",
+        "c-bain-ai-initiatives",
+        "c-bain-practices"
+      ],
       "sourceIds": [
         "owner-profile-2026-08-18"
       ],
       "evidence": "owner_perspective",
       "recordedOn": "2026-10-16",
-      "reviewedOn": "2026-10-16",
+      "reviewedOn": "2026-10-24",
       "visibility": "public",
       "subjectApproval": "approved"
     },
@@ -1046,14 +1089,22 @@
       "id": "advanced-analytics-leadership",
       "citation": "https://brockdsimon.com/profile#expertise-advanced-analytics-leadership",
       "name": "Advanced analytics and data science leadership",
-      "description": "Leading advanced analytics teams and solutions as an Expert Associate Partner at McKinsey & Company in Chicago and Bangkok, and at dunnhumby in Turkey and Asia.",
+      "description": "Leading advanced analytics teams and solutions as an Expert Associate Partner at McKinsey & Company in Chicago and Bangkok, and at dunnhumby in Turkey and Asia. Topics include data monetization and coalition and conglomerate loyalty.",
       "roleIds": [
         "mckinsey-expert-associate-partner-bangkok",
         "mckinsey-expert-associate-partner-chicago",
         "dunnhumby-head-of-solutions-asia",
         "dunnhumby-country-head-turkey"
       ],
-      "claimIds": [],
+      "claimIds": [
+        "c-mckinsey-tenure",
+        "c-career-mckinsey-scope",
+        "c-career-mckinsey-asia-emphasis",
+        "c-dunnhumby-international-markets",
+        "c-career-regional-segmentation",
+        "c-career-thailand-retail-media",
+        "c-career-asia-remit"
+      ],
       "sourceIds": [
         "bain-team-page-2025-08-08",
         "linkedin-experience-2026-10-16",
@@ -1061,7 +1112,7 @@
       ],
       "evidence": "owner_perspective",
       "recordedOn": "2026-10-16",
-      "reviewedOn": "2026-10-16",
+      "reviewedOn": "2026-10-24",
       "visibility": "public",
       "subjectApproval": "approved"
     },
@@ -1078,14 +1129,18 @@
         "dunnhumby-insight-director-turkey",
         "dunnhumby-retail-head-turkey"
       ],
-      "claimIds": [],
+      "claimIds": [
+        "c-home-depot-shopper-segmentation",
+        "c-rolling-ball-use",
+        "c-bain-retail-merchant-assistant"
+      ],
       "sourceIds": [
         "linkedin-experience-2026-10-16",
         "bain-team-page-2025-08-08"
       ],
       "evidence": "owner_perspective",
       "recordedOn": "2026-10-17",
-      "reviewedOn": "2026-10-17",
+      "reviewedOn": "2026-10-24",
       "visibility": "public",
       "subjectApproval": "approved"
     }
@@ -1214,9 +1269,98 @@
       "reviewedOn": null,
       "visibility": "public",
       "subjectApproval": "approved"
+    },
+    {
+      "id": "linkedin-category-strategy-post",
+      "citation": "https://brockdsimon.com/profile#work-linkedin-category-strategy-post",
+      "title": "Brock Simon's post on category strategy and retail AI assistants",
+      "publisher": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/brock-simon-605436a_as-i-have-been-integrating-category-strategy-activity-7402123928409653249-r1y-",
+      "date": null,
+      "type": "post",
+      "relation": "authored",
+      "relationLabel": "Written by Brock Simon",
+      "coAuthors": [],
+      "authors": [
+        "Brock Simon"
+      ],
+      "description": "Descriptive catalogue label; exact publication date is not established.",
+      "claimIds": [
+        "c-linkedin-category-strategy-post"
+      ],
+      "sourceIds": [
+        "brock-category-strategy-post"
+      ],
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "linkedin-merchant-assistant-post",
+      "citation": "https://brockdsimon.com/profile#work-linkedin-merchant-assistant-post",
+      "title": "Brock Simon's post on the AI Retail Merchant Assistant",
+      "publisher": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/brock-simon-605436a_ai-retail-merchant-assistant-activity-7371585217985343489-qW2p",
+      "date": null,
+      "type": "post",
+      "relation": "authored",
+      "relationLabel": "Written by Brock Simon",
+      "coAuthors": [],
+      "authors": [
+        "Brock Simon"
+      ],
+      "description": "Descriptive catalogue label; exact publication date is not established.",
+      "claimIds": [
+        "c-linkedin-merchant-assistant-post"
+      ],
+      "sourceIds": [
+        "linkedin-retail-merchant-assistant"
+      ],
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
     }
   ],
   "events": [
+    {
+      "id": "iit-advanced-marketing-analytics-symposium-2017",
+      "citation": "https://brockdsimon.com/profile#event-iit-advanced-marketing-analytics-symposium-2017",
+      "name": "2017 Advanced Marketing Analytics Symposium",
+      "organiser": "Stuart School of Business, Illinois Institute of Technology",
+      "type": "panel",
+      "role": "panelist",
+      "roleLabel": "Panelist",
+      "date": {
+        "value": "2017-03-08",
+        "precision": "day",
+        "display": "8 March 2017"
+      },
+      "dateKind": "event",
+      "endDate": null,
+      "location": "Illinois Tech Downtown Campus, Chicago",
+      "coSpeakers": [],
+      "url": "https://www.iit.edu/events/2017-advanced-marketing-analytics-symposium",
+      "recording": "none_known",
+      "description": "A symposium on analytics-driven innovation hosted by the Stuart School of Business with IBM and the Chicago Innovation Awards. The listing names him as a panelist, described as Expert Associate Principal at McKinsey & Company with a focus on marketing and digital analytics in retail and consumer packaged goods. No session title is given for him, and no report of the event was found, so delivery is not confirmed.",
+      "status": "advertised",
+      "statusLabel": "Advertised (delivery not confirmed)",
+      "deliveryConfirmed": false,
+      "claimIds": [
+        "c-mckinsey-symposium-2017"
+      ],
+      "sourceIds": [
+        "iit-2017-advanced-marketing-analytics-symposium"
+      ],
+      "evidence": "documented",
+      "recordedOn": "2026-10-18",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
     {
       "id": "servicepath-executive-conversations-13",
       "citation": "https://brockdsimon.com/profile#event-servicepath-executive-conversations-13",
@@ -1553,13 +1697,65 @@
   ],
   "faq": [
     {
+      "id": "career-native-origin",
+      "citation": "https://brockdsimon.com/profile#faq-career-native-origin",
+      "question": "What connects his retail AI experience to joining Native?",
+      "answer": "Brock connects his decision to join Native with enterprise-data problems he encountered while working on retail AI.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "claimIds": [
+        "c-career-native-origin"
+      ],
+      "correctionIds": [],
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "career-first-dunnhumby-job",
+      "citation": "https://brockdsimon.com/profile#faq-career-first-dunnhumby-job",
+      "question": "What drew Brock to dunnhumby?",
+      "answer": "Brock says an interest in understanding real people through transaction and loyalty data drew him to dunnhumby.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "claimIds": [
+        "c-career-first-dunnhumby-job"
+      ],
+      "correctionIds": [],
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "career-mckinsey-asia-emphasis",
+      "citation": "https://brockdsimon.com/profile#faq-career-mckinsey-asia-emphasis",
+      "question": "How did his McKinsey work in Asia differ in emphasis?",
+      "answer": "Brock describes more of his McKinsey work in Asia as focused on data monetization and coalition loyalty, reflecting the conglomerates he worked with in the region.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "claimIds": [
+        "c-career-mckinsey-asia-emphasis"
+      ],
+      "correctionIds": [],
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
       "id": "still-at-bain",
       "citation": "https://brockdsimon.com/profile#faq-still-at-bain",
       "question": "Is Brock Simon still at Bain & Company?",
-      "answer": "No. He was Expert Associate Partner at Bain & Company from June 2019 and Expert Partner from July 2022 to November 2025, in San Francisco. Since January 2026 he has been an external advisor to Bain & Company, providing advisory support on select projects, alongside his role as co-founder and Chief Product Officer of Native.",
+      "answer": "No. He was Expert Associate Partner at Bain & Company from June 2019 and Expert Partner from July 2022 to November 2025, in San Francisco. Since January 2026 he has been an external advisor to Bain & Company, providing advisory support on select projects, including retail AI work, alongside his role as co-founder and Chief Product Officer of Native.",
       "sourceIds": [
         "linkedin-experience-2026-10-16",
-        "bain-team-page-2025-08-08"
+        "bain-team-page-2025-08-08",
+        "owner-career-account-2026-10-24"
       ],
       "claimIds": [
         "c-bain-tenure",
@@ -1812,6 +2008,609 @@
     }
   ],
   "claims": [
+    {
+      "id": "c-linkedin-category-strategy-post",
+      "citation": "https://brockdsimon.com/profile#claim-c-linkedin-category-strategy-post",
+      "subject": "person",
+      "kind": "authorship",
+      "relationship": "authored",
+      "relationshipLabel": "Brock Simon wrote or posted it.",
+      "statement": "Brock Simon's post on category strategy and retail AI assistants.",
+      "sourceIds": [
+        "brock-category-strategy-post"
+      ],
+      "locators": [
+        {
+          "sourceId": "brock-category-strategy-post",
+          "locator": "Public post text and author attribution."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "Authorship of a public post; substantive personal accounts remain self-reported.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-linkedin-merchant-assistant-post",
+      "citation": "https://brockdsimon.com/profile#claim-c-linkedin-merchant-assistant-post",
+      "subject": "person",
+      "kind": "authorship",
+      "relationship": "authored",
+      "relationshipLabel": "Brock Simon wrote or posted it.",
+      "statement": "Brock Simon's post on the AI Retail Merchant Assistant.",
+      "sourceIds": [
+        "linkedin-retail-merchant-assistant"
+      ],
+      "locators": [
+        {
+          "sourceId": "linkedin-retail-merchant-assistant",
+          "locator": "Public post text and author attribution."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "Authorship of a public post; substantive personal accounts remain self-reported.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-tunisia-salaam",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-tunisia-salaam",
+      "subject": "role:atl-mst-sida-intern",
+      "kind": "context",
+      "relationship": "context_only",
+      "relationshipLabel": "Context: a fact about the organisation or programme that does not name Brock Simon.",
+      "statement": "AIESEC organized the Salaam program, whose participating countries included Tunisia.",
+      "sourceIds": [
+        "aiesec-salaam-2005"
+      ],
+      "locators": [
+        {
+          "sourceId": "aiesec-salaam-2005",
+          "locator": "Printed page 4: Salaam Program introduction, organizer and participating countries."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "Program context only; this source does not establish Brock’s individual contribution or results.",
+      "evidence": "documented",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-thailand-clubcard",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-thailand-clubcard",
+      "subject": "role:dunnhumby-insight-director-thailand",
+      "kind": "context",
+      "relationship": "context_only",
+      "relationshipLabel": "Context: a fact about the organisation or programme that does not name Brock Simon.",
+      "statement": "Tesco reported that Clubcard launched in Thailand in August 2009.",
+      "sourceIds": [
+        "tesco-thailand-clubcard-2009"
+      ],
+      "locators": [
+        {
+          "sourceId": "tesco-thailand-clubcard-2009",
+          "locator": "Printed page 5, Tesco Lotus in Thailand paragraph, continuing on page 6."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "Program context only; this source does not establish Brock’s individual contribution or results.",
+      "evidence": "documented",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-turkey-clubcard",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-turkey-clubcard",
+      "subject": "role:dunnhumby-insight-director-turkey",
+      "kind": "context",
+      "relationship": "context_only",
+      "relationshipLabel": "Context: a fact about the organisation or programme that does not name Brock Simon.",
+      "statement": "Tesco Kipa reported that Clubcard launched in March 2011.",
+      "sourceIds": [
+        "tesco-kipa-clubcard-2011"
+      ],
+      "locators": [
+        {
+          "sourceId": "tesco-kipa-clubcard-2011",
+          "locator": "PDF page 1, slide numbered 2, Recent Developments: Clubcard launch in March 2011."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "Program context only; this source does not establish Brock’s individual contribution or results.",
+      "evidence": "documented",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-first-dunnhumby-job",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-first-dunnhumby-job",
+      "subject": "role:dunnhumby-analyst",
+      "kind": "career",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock says an interest in understanding real people through transaction and loyalty data drew him to dunnhumby.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-review-2026-10-24",
+          "locator": "Owner account of first dunnhumby job, wording approved on 24 October 2026."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His own account; employer and university sources do not independently establish every detail.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-education-experience",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-education-experience",
+      "subject": "person",
+      "kind": "career",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock describes a semester in Luxembourg, completing his undergraduate studies in three years, and studying graduate economics alongside mathematics. His studies included applied statistics, optimization, topology and abstract algebra.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-review-2026-10-24",
+          "locator": "Owner account of education experience, wording approved on 24 October 2026."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His own account; employer and university sources do not independently establish every detail.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-asia-remit",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-asia-remit",
+      "subject": "role:dunnhumby-head-of-solutions-asia",
+      "kind": "responsibility",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock describes his Asia remit as China, Thailand, Malaysia, India, South Korea, and a little in Japan.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-review-2026-10-24",
+          "locator": "Owner account of asia remit, wording approved on 24 October 2026."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His own account; employer and university sources do not independently establish every detail.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-thailand-retail-media",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-thailand-retail-media",
+      "subject": "role:dunnhumby-head-of-solutions-asia",
+      "kind": "contribution",
+      "relationship": "worked_on",
+      "relationshipLabel": "Brock Simon worked on it; a source says so, without claiming sole ownership.",
+      "statement": "Brock worked on in-store retail media in Thailand during his regional Asia role, though it was not his main focus.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-review-2026-10-24",
+          "locator": "Owner account of thailand retail media, wording approved on 24 October 2026."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His own account; employer and university sources do not independently establish every detail.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-turkey-office-scope",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-turkey-office-scope",
+      "subject": "role:dunnhumby-country-head-turkey",
+      "kind": "responsibility",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock led analytics in Turkey, then the Izmir retail office. As Country Head, he was responsible for both Izmir and Istanbul while based in Izmir.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-review-2026-10-24",
+          "locator": "Owner account of turkey office scope, wording approved on 24 October 2026."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His own account; employer and university sources do not independently establish every detail.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-data-t",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-data-t",
+      "subject": "person",
+      "kind": "contribution",
+      "relationship": "worked_on",
+      "relationshipLabel": "Brock Simon worked on it; a source says so, without claiming sole ownership.",
+      "statement": "Brock is familiar with the Data T approach and uses it: a focused, deep investigation followed by testing whether an insight generalizes, and it is especially useful with AI.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-review-2026-10-24",
+          "locator": "Owner account of data t, wording approved on 24 October 2026."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His account of using the approach and his perspective on its usefulness with AI; no claim of invention.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-regional-segmentation",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-regional-segmentation",
+      "subject": "role:dunnhumby-head-of-solutions-asia",
+      "kind": "contribution",
+      "relationship": "worked_on",
+      "relationshipLabel": "Brock Simon worked on it; a source says so, without claiming sole ownership.",
+      "statement": "Brock adapted Customer DNA, lifestyle and loyalty segmentations to local shopping behavior and product signals.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-review-2026-10-24",
+          "locator": "Owner account of regional segmentation, wording approved on 24 October 2026."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His own account; employer and university sources do not independently establish every detail.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-mckinsey-asia-emphasis",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-mckinsey-asia-emphasis",
+      "subject": "org:mckinsey",
+      "kind": "career",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock describes more of his McKinsey work in Asia as focused on data monetization and coalition loyalty, reflecting the conglomerates he worked with in the region.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-review-2026-10-24",
+          "locator": "Owner account of mckinsey asia emphasis, wording approved on 24 October 2026."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His own account; employer and university sources do not independently establish every detail.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-mckinsey-scope",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-mckinsey-scope",
+      "subject": "org:mckinsey",
+      "kind": "responsibility",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "At McKinsey, Brock worked on retail and consumer packaged goods analytics, data monetization, coalition and conglomerate loyalty, telco data monetization, and building analytics and insight capabilities.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-review-2026-10-24",
+          "locator": "Owner account of mckinsey scope, wording approved on 24 October 2026."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His own account; employer and university sources do not independently establish every detail.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-bain-earlier-scope",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-bain-earlier-scope",
+      "subject": "role:bain-expert-associate-partner",
+      "kind": "responsibility",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "At Bain, Brock worked across retail, healthcare and insurance, consumer packaged goods, and digital media. His work included data monetization, loyalty programs, and building analytics capabilities.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-review-2026-10-24",
+          "locator": "Owner account of bain earlier scope, wording approved on 24 October 2026."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His own account; employer and university sources do not independently establish every detail.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-career-native-origin",
+      "citation": "https://brockdsimon.com/profile#claim-c-career-native-origin",
+      "subject": "project:native",
+      "kind": "career",
+      "relationship": "held_role",
+      "relationshipLabel": "Brock Simon held this role.",
+      "statement": "Brock connects his decision to join Native with enterprise-data problems he encountered while working on retail AI.",
+      "sourceIds": [
+        "owner-career-review-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-review-2026-10-24",
+          "locator": "Owner account of native origin, wording approved on 24 October 2026."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His own account; employer and university sources do not independently establish every detail.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-bain-openai-alliance-context",
+      "citation": "https://brockdsimon.com/profile#claim-c-bain-openai-alliance-context",
+      "subject": "org:bain",
+      "kind": "context",
+      "relationship": "context_only",
+      "relationshipLabel": "Context: a fact about the organisation or programme that does not name Brock Simon.",
+      "statement": "Bain announced a services alliance with OpenAI on 21 February 2023.",
+      "sourceIds": [
+        "bain-openai-alliance-2023"
+      ],
+      "locators": [
+        {
+          "sourceId": "bain-openai-alliance-2023",
+          "locator": "Dated press-release heading and opening announcement."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "Company partnership context only; the announcement does not attribute the alliance or product work to Brock Simon.",
+      "evidence": "documented",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-home-depot-segmentation-context",
+      "citation": "https://brockdsimon.com/profile#claim-c-home-depot-segmentation-context",
+      "subject": "role:dunnhumby-senior-analyst",
+      "kind": "context",
+      "relationship": "context_only",
+      "relationshipLabel": "Context: a fact about the organisation or programme that does not name Brock Simon.",
+      "statement": "In its August 2009 earnings call, Home Depot described using dunnhumby data to distinguish professional shopping patterns by buying behavior rather than SIC classification.",
+      "sourceIds": [
+        "home-depot-call-2009"
+      ],
+      "locators": [
+        {
+          "sourceId": "home-depot-call-2009",
+          "locator": "Q&A response to Budd Bugatch: buying behavior rather than SIC classification, and sub-segments of pro-like buying behavior."
+        }
+      ],
+      "date": null,
+      "confidence": "medium",
+      "note": "Company context from indexed transcript passages; direct retrieval failed. The passage does not name Brock or independently establish his contribution. The call date is not a date for his contribution.",
+      "evidence": "documented",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-rolling-ball-method-context",
+      "citation": "https://brockdsimon.com/profile#claim-c-rolling-ball-method-context",
+      "subject": "org:dunnhumby",
+      "kind": "context",
+      "relationship": "context_only",
+      "relationshipLabel": "Context: a fact about the organisation or programme that does not name Brock Simon.",
+      "statement": "Clive Humby described Rolling Ball as finding associations between products using seed products, and Customer DNA as drawing shopping preferences from purchase behavior.",
+      "sourceIds": [
+        "humby-customer-understanding-2010"
+      ],
+      "locators": [
+        {
+          "sourceId": "humby-customer-understanding-2010",
+          "locator": "Sections: Segmenting products and customers; Creating customer DNA."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "Published method context only; this article does not name Brock or establish his invention of the methods.",
+      "evidence": "documented",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-bain-retail-merchant-assistant-context",
+      "citation": "https://brockdsimon.com/profile#claim-c-bain-retail-merchant-assistant-context",
+      "subject": "org:bain",
+      "kind": "context",
+      "relationship": "context_only",
+      "relationshipLabel": "Context: a fact about the organisation or programme that does not name Brock Simon.",
+      "statement": "Bain describes its AI Retail Merchant Assistant as combining data and analytics within merchandising workflows.",
+      "sourceIds": [
+        "bain-retail-merchant-assistant-product"
+      ],
+      "locators": [
+        {
+          "sourceId": "bain-retail-merchant-assistant-product",
+          "locator": "Opening product description below the AI Retail Merchant Assistant heading."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "Company product context; this page does not attribute a contribution or results to Brock Simon.",
+      "evidence": "documented",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-bain-retail-merchant-assistant",
+      "citation": "https://brockdsimon.com/profile#claim-c-bain-retail-merchant-assistant",
+      "subject": "role:bain-expert-partner",
+      "kind": "contribution",
+      "relationship": "worked_on",
+      "relationshipLabel": "Brock Simon worked on it; a source says so, without claiming sole ownership.",
+      "statement": "Brock Simon participated in building Bain’s Retail Merchant Assistant.",
+      "sourceIds": [
+        "owner-career-account-2026-10-24",
+        "linkedin-retail-merchant-assistant"
+      ],
+      "locators": [
+        {
+          "sourceId": "linkedin-retail-merchant-assistant",
+          "locator": "Opening paragraph: his account of the team building the AI Retail Merchant Assistant at Bain."
+        },
+        {
+          "sourceId": "owner-career-account-2026-10-24",
+          "locator": "Account of Retail Merchant Assistant participation."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His own account of participation; no leadership or individual responsibility for company results is claimed.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-home-depot-shopper-segmentation",
+      "citation": "https://brockdsimon.com/profile#claim-c-home-depot-shopper-segmentation",
+      "subject": "role:dunnhumby-senior-analyst",
+      "kind": "contribution",
+      "relationship": "worked_on",
+      "relationshipLabel": "Brock Simon worked on it; a source says so, without claiming sole ownership.",
+      "statement": "Brock Simon contributed to professional and consumer shopper behavioral segmentation work at The Home Depot.",
+      "sourceIds": [
+        "owner-career-account-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-account-2026-10-24",
+          "locator": "Account of professional and consumer shopper segmentation."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His contribution is self-reported. This does not attribute financial results or contract outcomes to him.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-rolling-ball-use",
+      "citation": "https://brockdsimon.com/profile#claim-c-rolling-ball-use",
+      "subject": "person",
+      "kind": "contribution",
+      "relationship": "worked_on",
+      "relationshipLabel": "Brock Simon worked on it; a source says so, without claiming sole ownership.",
+      "statement": "Brock Simon used the Rolling Ball technique to develop and test segmentation ideas.",
+      "sourceIds": [
+        "owner-career-account-2026-10-24"
+      ],
+      "locators": [
+        {
+          "sourceId": "owner-career-account-2026-10-24",
+          "locator": "Account of using Rolling Ball."
+        }
+      ],
+      "date": null,
+      "confidence": "high",
+      "note": "His own account of applying the technique, not a claim that he invented it.",
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
     {
       "id": "c-native-cofounder-cpo",
       "citation": "https://brockdsimon.com/profile#claim-c-native-cofounder-cpo",
@@ -2141,12 +2940,17 @@
       "kind": "career",
       "relationship": "held_role",
       "relationshipLabel": "Brock Simon held this role.",
-      "statement": "Brock Simon has been an external advisor to Bain & Company since January 2026, providing advisory support on select projects.",
+      "statement": "Brock Simon has been an external advisor to Bain & Company since January 2026, providing advisory support on select projects, including retail AI work.",
       "sourceIds": [
         "linkedin-experience-2026-10-16",
-        "owner-profile-2026-08-18"
+        "owner-profile-2026-08-18",
+        "owner-career-account-2026-10-24"
       ],
       "locators": [
+        {
+          "sourceId": "owner-career-account-2026-10-24",
+          "locator": "Account of external-advisor scope: retail AI work."
+        },
         {
           "sourceId": "linkedin-experience-2026-10-16",
           "locator": "Experience section, External Advisor entry: title, start month and description (self-reported)."
@@ -2569,6 +3373,59 @@
       "subjectApproval": "approved"
     },
     {
+      "id": "c-mckinsey-symposium-2017",
+      "citation": "https://brockdsimon.com/profile#claim-c-mckinsey-symposium-2017",
+      "subject": "role:mckinsey-expert-associate-partner-chicago",
+      "kind": "appearance",
+      "relationship": "spoke_at",
+      "relationshipLabel": "Brock Simon spoke at it.",
+      "statement": "He was a listed panelist at Illinois Tech's 2017 Advanced Marketing Analytics Symposium in Chicago on 8 March 2017, described as Expert Associate Principal at McKinsey & Company.",
+      "sourceIds": [
+        "iit-2017-advanced-marketing-analytics-symposium"
+      ],
+      "locators": [],
+      "date": {
+        "value": "2017-03-08",
+        "precision": "day",
+        "display": "8 March 2017"
+      },
+      "dateKind": "event",
+      "confidence": "high",
+      "note": "An event listing, so delivery is not confirmed by a report of the event.",
+      "evidence": "documented",
+      "recordedOn": "2026-10-18",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "c-provenance-advisory-board-2026",
+      "citation": "https://brockdsimon.com/profile#claim-c-provenance-advisory-board-2026",
+      "subject": "role:provenance-advisor",
+      "kind": "association",
+      "relationship": "named",
+      "relationshipLabel": "A source names Brock Simon in connection with it.",
+      "statement": "Trade press reported on 22 May 2026 that Provenance had formed a Strategic Advisory Board of four members, him among them.",
+      "sourceIds": [
+        "itbrief-provenance-advisory-board-2026-05-22",
+        "cmotech-provenance-advisory-board-2026-05-22"
+      ],
+      "locators": [],
+      "date": {
+        "value": "2026-05-22",
+        "precision": "day",
+        "display": "22 May 2026"
+      },
+      "dateKind": "announced",
+      "confidence": "high",
+      "note": "The reports describe him as Partner at Bain & Company; the record's own account is Advisor since December 2025. See correction x-provenance-board-wording.",
+      "evidence": "documented",
+      "recordedOn": "2026-10-18",
+      "reviewedOn": "2026-10-24",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
       "id": "c-spider2-leaderboard-2026-10",
       "citation": "https://brockdsimon.com/profile#claim-c-spider2-leaderboard-2026-10",
       "subject": "project:native",
@@ -2745,6 +3602,25 @@
         "native-bird-2026-10-02"
       ],
       "resolution": "corrected",
+      "recordedOn": "2026-10-18",
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "x-provenance-board-wording",
+      "citation": "https://brockdsimon.com/profile#correction-x-provenance-board-wording",
+      "kind": "conflict",
+      "statement": "Trade reports of 22 May 2026 list him on Provenance's Strategic Advisory Board as Partner at Bain & Company; the record's own account is Advisor to Provenance since December 2025 and External Advisor to Bain since January 2026. Both are kept: the reports date the board's announcement, not his start, and use a Bain title he no longer held.",
+      "affects": [
+        "roles.provenance-advisor",
+        "roles.bain-external-advisor"
+      ],
+      "sourceIds": [
+        "itbrief-provenance-advisory-board-2026-05-22",
+        "cmotech-provenance-advisory-board-2026-05-22",
+        "linkedin-experience-2026-10-16"
+      ],
+      "resolution": "kept_both",
       "recordedOn": "2026-10-18",
       "visibility": "public",
       "subjectApproval": "approved"
@@ -2974,6 +3850,17 @@
     },
     {
       "date": {
+        "value": "2017-03-08",
+        "precision": "day",
+        "display": "8 March 2017"
+      },
+      "kind": "event",
+      "text": "Panelist: 2017 Advanced Marketing Analytics Symposium (advertised)",
+      "href": "https://brockdsimon.com/profile.jsonld#event-iit-advanced-marketing-analytics-symposium-2017",
+      "citation": "https://brockdsimon.com/profile#event-iit-advanced-marketing-analytics-symposium-2017"
+    },
+    {
+      "date": {
         "value": "2015-08",
         "precision": "month",
         "display": "August 2015"
@@ -3199,6 +4086,150 @@
   "sources": [
     {
       "ref": 1,
+      "id": "brock-category-strategy-post",
+      "citation": "https://brockdsimon.com/profile#source-brock-category-strategy-post",
+      "url": "https://www.linkedin.com/posts/brock-simon-605436a_as-i-have-been-integrating-category-strategy-activity-7402123928409653249-r1y-",
+      "publisher": "LinkedIn",
+      "title": "Rethinking Category Strategy for Retail AI Assistants",
+      "titleBasis": "page",
+      "author": "Brock Simon",
+      "published": null,
+      "publishedBasis": "unknown",
+      "publishedNote": "Relative age only; no exact date inferred.",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-24",
+        "via": "live",
+        "note": "Public post text read, opening three paragraphs on category strategy and retail AI assistants."
+      },
+      "sourceType": "linkedin",
+      "relation": "authored",
+      "namesSubject": true,
+      "summary": "Brock’s own published perspective on category strategy and retail AI assistants; not independent proof of client delivery.",
+      "related": [],
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 2,
+      "id": "aiesec-salaam-2005",
+      "citation": "https://brockdsimon.com/profile#source-aiesec-salaam-2005",
+      "url": "https://www.nusacc.org/uploads/2/2/9/7/22977530/26_trdln0405saudi.pdf",
+      "publisher": "National U.S.-Arab Chamber of Commerce",
+      "title": "AIESEC Salaam Program in US-Arab Tradeline",
+      "titleBasis": "catalogue_label",
+      "published": null,
+      "publishedBasis": "unknown",
+      "publishedNote": "Issue dated March/April 2005; no single publication day asserted.",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-24",
+        "via": "live",
+        "note": "PDF text retrieved; relevant passage checked. Printed page 4: Salaam Program introduction, organizer and participating countries."
+      },
+      "sourceType": "press",
+      "relation": "context",
+      "namesSubject": false,
+      "summary": "Program established in 2003 and participating countries including Tunisia; printed page 4. Does not support: Brock's participation or specific internship duties.",
+      "related": [],
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 3,
+      "id": "tesco-thailand-clubcard-2009",
+      "citation": "https://brockdsimon.com/profile#source-tesco-thailand-clubcard-2009",
+      "url": "https://www.tescoplc.com/media/1yidswev/interims_2009-10.pdf",
+      "publisher": "Tesco PLC",
+      "title": "Tesco Interim Results 2009/2010",
+      "titleBasis": "catalogue_label",
+      "published": {
+        "value": "2009-10-06",
+        "precision": "day",
+        "display": "6 October 2009"
+      },
+      "publishedBasis": "displayed",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-24",
+        "via": "live",
+        "note": "PDF text retrieved; relevant passage checked. Printed page 5, Tesco Lotus in Thailand paragraph, continuing on page 6."
+      },
+      "sourceType": "company_page",
+      "relation": "context",
+      "namesSubject": false,
+      "summary": "August 2009 Thailand Clubcard launch; printed page 5, continuing on page 6. Does not support: Brock's individual launch responsibility or attribution of program totals to him.",
+      "related": [],
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 4,
+      "id": "tesco-kipa-clubcard-2011",
+      "citation": "https://brockdsimon.com/profile#source-tesco-kipa-clubcard-2011",
+      "url": "https://www.tescoplc.com/media/1736/tesco_kipa_-_tesco_in_europe_2011.pdf",
+      "publisher": "Tesco PLC",
+      "title": "Tesco Kipa: Turkey presentation",
+      "titleBasis": "catalogue_label",
+      "published": {
+        "value": "2011-06",
+        "precision": "month",
+        "display": "June 2011"
+      },
+      "publishedBasis": "displayed",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-24",
+        "via": "live",
+        "note": "PDF text retrieved; relevant passage checked. PDF page 1, slide numbered 2, Recent Developments: Clubcard launch in March 2011."
+      },
+      "sourceType": "company_page",
+      "relation": "context",
+      "namesSubject": false,
+      "summary": "Clubcard launched in March 2011; slide 2 on PDF page 1. Does not support: Brock's personal involvement or results.",
+      "related": [],
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 5,
+      "id": "owner-career-review-2026-10-24",
+      "citation": "https://brockdsimon.com/profile#source-owner-career-review-2026-10-24",
+      "publisher": "Brock Simon",
+      "title": "Brock Simon’s account of career scope and methods",
+      "titleBasis": "catalogue_label",
+      "published": null,
+      "publishedBasis": "unknown",
+      "retrieval": {
+        "status": "supplied",
+        "checkedOn": "2026-10-24",
+        "via": "supplied"
+      },
+      "sourceType": "owner_statement",
+      "relation": "about",
+      "namesSubject": true,
+      "summary": "His account of career scope, office responsibilities, education, motivations and methods, including his use of Data T and his view that it is especially useful with AI.",
+      "related": [],
+      "supplied": {
+        "by": "owner",
+        "on": "2026-10-24",
+        "captureDate": null
+      },
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 6,
       "id": "owner-profile-2026-08-18",
       "citation": "https://brockdsimon.com/profile#source-owner-profile-2026-08-18",
       "publisher": "Brock Simon",
@@ -3228,7 +4259,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 2,
+      "ref": 7,
       "id": "linkedin-experience-2026-10-16",
       "citation": "https://brockdsimon.com/profile#source-linkedin-experience-2026-10-16",
       "url": "https://www.linkedin.com/in/brock-simon/",
@@ -3259,7 +4290,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 3,
+      "ref": 8,
       "id": "bain-team-page-2025-08-08",
       "citation": "https://brockdsimon.com/profile#source-bain-team-page-2025-08-08",
       "url": "https://www.bain.com/our-team/brock-simon/",
@@ -3289,7 +4320,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 4,
+      "ref": 9,
       "id": "iit-marketing-analytics-council",
       "citation": "https://brockdsimon.com/profile#source-iit-marketing-analytics-council",
       "url": "https://www.iit.edu/stuart/about/board-advisors/marketing-analytics-advisory-council",
@@ -3316,7 +4347,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 5,
+      "ref": 10,
       "id": "servicepath-executive-conversations-13",
       "citation": "https://brockdsimon.com/profile#source-servicepath-executive-conversations-13",
       "url": "https://servicepath.co/podcast/revenue-growth-for-tech-execs-edition-13/",
@@ -3346,7 +4377,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 6,
+      "ref": 11,
       "id": "provenance-ai-shopping-webinar-2026-01",
       "citation": "https://brockdsimon.com/profile#source-provenance-ai-shopping-webinar-2026-01",
       "url": "https://www.provenance.org/news-insights/the-future-of-ai-shopping-how-verified-product-data-boosts-ai-discoverability",
@@ -3380,7 +4411,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 7,
+      "ref": 12,
       "id": "linkedin-post-maustrap-2026",
       "citation": "https://brockdsimon.com/profile#source-linkedin-post-maustrap-2026",
       "url": "https://www.linkedin.com/posts/brock-simon_how-ai-is-changing-product-decision-making-activity-7457522836241321984-T3X-",
@@ -3407,7 +4438,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 8,
+      "ref": 13,
       "id": "native-linkedin-company-page",
       "citation": "https://brockdsimon.com/profile#source-native-linkedin-company-page",
       "url": "https://www.linkedin.com/company/usenative",
@@ -3432,7 +4463,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 9,
+      "ref": 14,
       "id": "native-spider2-2026-02-18",
       "citation": "https://brockdsimon.com/profile#source-native-spider2-2026-02-18",
       "url": "https://www.usenative.ai/blog/native-ranks-first-spider-2",
@@ -3461,7 +4492,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 10,
+      "ref": 15,
       "id": "native-bird-2026-10-02",
       "citation": "https://brockdsimon.com/profile#source-native-bird-2026-10-02",
       "url": "https://usenative.ai/blog/native-mini-bird",
@@ -3490,7 +4521,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 11,
+      "ref": 16,
       "id": "business-insider-2026-06-17",
       "citation": "https://brockdsimon.com/profile#source-business-insider-2026-06-17",
       "url": "https://www.businessinsider.com/ai-token-economy-spending-workplace-budgets-usage-caps-software-engineer-2026-6",
@@ -3522,7 +4553,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 12,
+      "ref": 17,
       "id": "youtube-maustrap-episode-2",
       "citation": "https://brockdsimon.com/profile#source-youtube-maustrap-episode-2",
       "url": "https://www.youtube.com/watch?v=j5jrvyGV-tA",
@@ -3552,7 +4583,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 13,
+      "ref": 18,
       "id": "native-site-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-native-site-2026-09-29",
       "url": "https://www.usenative.ai/",
@@ -3580,7 +4611,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 14,
+      "ref": 19,
       "id": "provenance-brands-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-provenance-brands-2026-09-29",
       "url": "https://www.provenance.org/solutions/for-brands",
@@ -3605,7 +4636,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 15,
+      "ref": 20,
       "id": "provenance-framework-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-provenance-framework-2026-09-29",
       "url": "https://www.provenance.org/framework",
@@ -3630,7 +4661,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 16,
+      "ref": 21,
       "id": "eureka-home-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-eureka-home-2026-09-29",
       "url": "https://eureka.ai/",
@@ -3655,7 +4686,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 17,
+      "ref": 22,
       "id": "eureka-omni-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-eureka-omni-2026-09-29",
       "url": "https://eureka.ai/products/omni",
@@ -3680,7 +4711,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 18,
+      "ref": 23,
       "id": "bain-insights-data-monetization-2025-06-10",
       "citation": "https://brockdsimon.com/profile#source-bain-insights-data-monetization-2025-06-10",
       "url": "https://www.bain.com/insights/unlocking-hidden-value-a-new-approach-to-data-monetization-with-ai/",
@@ -3719,7 +4750,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 19,
+      "ref": 24,
       "id": "bain-insights-google-cloud-next-2025-04-14",
       "citation": "https://brockdsimon.com/profile#source-bain-insights-google-cloud-next-2025-04-14",
       "url": "https://www.bain.com/insights/google-cloud-next-2025-ai-moves-from-possibility-to-foundation/",
@@ -3758,7 +4789,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 20,
+      "ref": 25,
       "id": "bain-insights-nvidia-gtc-2025-03-24",
       "citation": "https://brockdsimon.com/profile#source-bain-insights-nvidia-gtc-2025-03-24",
       "url": "https://www.bain.com/insights/nvidia-gtc-2025-ai-matures-into-enterprise-infrastructure/",
@@ -3797,7 +4828,116 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 21,
+      "ref": 26,
+      "id": "iit-2017-advanced-marketing-analytics-symposium",
+      "citation": "https://brockdsimon.com/profile#source-iit-2017-advanced-marketing-analytics-symposium",
+      "url": "https://www.iit.edu/events/2017-advanced-marketing-analytics-symposium",
+      "publisher": "Illinois Institute of Technology, Stuart School of Business",
+      "title": "2017 Advanced Marketing Analytics Symposium",
+      "titleBasis": "page",
+      "published": {
+        "value": "2017-03-08",
+        "precision": "day",
+        "display": "8 March 2017"
+      },
+      "publishedBasis": "displayed",
+      "publishedNote": "The date displayed is the event date (March 8, 2017); the page shows no posting date.",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-18",
+        "via": "live",
+        "note": "Opened three times by a Sonnet agent on 2026-10-18, then checked directly from this workspace with curl on 2026-10-18: title, event date and the quoted sentence match the page as served. The listing puts his name and title on separate lines, so the earlier joined excerpt was replaced by the biography's first sentence."
+      },
+      "sourceType": "event_page",
+      "relation": "about",
+      "namesSubject": true,
+      "summary": "Event listing naming him as a panelist, with a biography: Expert Associate Principal at McKinsey & Company, focused on marketing and digital analytics in retail and consumer packaged goods; over ten years at dunnhumby across the US, Asia, Europe and the Middle East; an MBA from Xavier University, and a Master of Science in Mathematics and a Bachelor of Science in Mathematics and Statistics from Miami University. The only dated third-party page from his McKinsey years found on 2026-10-18.",
+      "quote": "Brock Simon is an Expert Associate Principal at McKinsey & Company",
+      "quoteLocator": "Panelists section, first sentence of his biography",
+      "related": [],
+      "recordedOn": "2026-10-18",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 27,
+      "id": "itbrief-provenance-advisory-board-2026-05-22",
+      "citation": "https://brockdsimon.com/profile#source-itbrief-provenance-advisory-board-2026-05-22",
+      "url": "https://itbrief.co.uk/story/provenance-appoints-ai-advisory-board-for-retail-shift",
+      "publisher": "IT Brief UK",
+      "title": "Provenance appoints AI advisory board for retail shift",
+      "titleBasis": "page",
+      "author": "Sofiah Nichole Salivio",
+      "published": {
+        "value": "2026-05-22",
+        "precision": "day",
+        "display": "22 May 2026"
+      },
+      "publishedBasis": "displayed",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-18",
+        "via": "live",
+        "note": "Opened by a Haiku agent on 2026-10-18, then checked directly from this workspace with curl on 2026-10-18: title, date (Fri, 22nd May 2026), byline and the quoted words match the page as served."
+      },
+      "sourceType": "press",
+      "relation": "about",
+      "namesSubject": true,
+      "summary": "Trade report of 22 May 2026 that Provenance has formed a Strategic Advisory Board of four named members, him among them, described as Partner at Bain & Company, to advise on product strategy, enterprise partnerships and verified product data in digital commerce. The article also carries a direct quotation from him on brands preparing to be recommended by AI rather than found by search. The first page outside LinkedIn that ties him to Provenance. It names Provenance's clients and backers; those are not carried into the record.",
+      "quote": "Brock Simon, Partner at Bain & Company",
+      "quoteLocator": "Third paragraph, the list of board members",
+      "related": [
+        {
+          "sourceId": "cmotech-provenance-advisory-board-2026-05-22",
+          "relationship": "same_announcement"
+        }
+      ],
+      "recordedOn": "2026-10-18",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 28,
+      "id": "cmotech-provenance-advisory-board-2026-05-22",
+      "citation": "https://brockdsimon.com/profile#source-cmotech-provenance-advisory-board-2026-05-22",
+      "url": "https://cmotech.uk/story/provenance-appoints-ai-advisory-board-for-retail-shift",
+      "publisher": "CMOtech UK",
+      "title": "Provenance appoints AI advisory board for retail shift",
+      "titleBasis": "page",
+      "author": "Sofiah Nichole Salivio",
+      "published": {
+        "value": "2026-05-22",
+        "precision": "day",
+        "display": "22 May 2026"
+      },
+      "publishedBasis": "displayed",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-18",
+        "via": "live",
+        "note": "Opened by a Haiku agent on 2026-10-18, then checked directly from this workspace with curl on 2026-10-18. The body text, byline, date and quotation are identical to the IT Brief UK report (checked by diff): a second copy of the same announcement on a sister site, not independent confirmation."
+      },
+      "sourceType": "press",
+      "relation": "about",
+      "namesSubject": true,
+      "summary": "The same report of Provenance's Strategic Advisory Board, with the same four members, the same description of him and the same quotation from him.",
+      "quote": "Brock Simon, Partner at Bain & Company",
+      "quoteLocator": "Third paragraph, the list of board members",
+      "related": [
+        {
+          "sourceId": "itbrief-provenance-advisory-board-2026-05-22",
+          "relationship": "same_announcement"
+        }
+      ],
+      "recordedOn": "2026-10-18",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 29,
       "id": "spider2-leaderboard-2026-10-18",
       "citation": "https://brockdsimon.com/profile#source-spider2-leaderboard-2026-10-18",
       "url": "https://spider2-sql.github.io/",
@@ -3823,7 +4963,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 22,
+      "ref": 30,
       "id": "bird-leaderboard-2026-10-18",
       "citation": "https://brockdsimon.com/profile#source-bird-leaderboard-2026-10-18",
       "url": "https://bird-bench.github.io/",
@@ -3844,6 +4984,179 @@
       "summary": "The benchmark's own site (heading BIRD-SQL). Its Single Trained Model Track, as read on 2026-10-18, lists Native mini by Native (size 4B, self-consistency Many, dated Sep 05, 2026) with 76.86 in the Test (%) column and no Dev (%) score, numbered 6 among the model rows below the Human Performance line. The same figure, 76.86, also appears for an unrelated entry in the Overall Leaderboard. It credits organisations, not people.",
       "related": [],
       "recordedOn": "2026-10-18",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 31,
+      "id": "owner-career-account-2026-10-24",
+      "citation": "https://brockdsimon.com/profile#source-owner-career-account-2026-10-24",
+      "publisher": "Brock Simon",
+      "title": "Brock Simon's account of selected career contributions",
+      "titleBasis": "catalogue_label",
+      "published": null,
+      "publishedBasis": "unknown",
+      "retrieval": {
+        "status": "supplied",
+        "checkedOn": "2026-10-24",
+        "via": "supplied"
+      },
+      "sourceType": "owner_statement",
+      "relation": "about",
+      "namesSubject": true,
+      "summary": "His account of retail AI advisory work, participation in building the Retail Merchant Assistant, professional and consumer shopper segmentation at The Home Depot, and use of the Rolling Ball technique.",
+      "related": [],
+      "supplied": {
+        "by": "owner",
+        "on": "2026-10-24",
+        "captureDate": null
+      },
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 32,
+      "id": "linkedin-retail-merchant-assistant",
+      "citation": "https://brockdsimon.com/profile#source-linkedin-retail-merchant-assistant",
+      "url": "https://www.linkedin.com/posts/brock-simon-605436a_ai-retail-merchant-assistant-activity-7371585217985343489-qW2p",
+      "publisher": "LinkedIn",
+      "title": "Brock Simon's post on the AI Retail Merchant Assistant",
+      "titleBasis": "catalogue_label",
+      "author": "Brock Simon",
+      "published": null,
+      "publishedBasis": "unknown",
+      "publishedNote": "The public page shows relative age only; no exact publication date is asserted.",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-24",
+        "via": "live",
+        "note": "Public post text retrieved in full. Opening paragraph gives his account of the team building the assistant."
+      },
+      "sourceType": "linkedin",
+      "relation": "authored",
+      "namesSubject": true,
+      "summary": "Brock's published account of participating in building the AI Retail Merchant Assistant at Bain. This is his own account, not independent attribution.",
+      "related": [],
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 33,
+      "id": "bain-retail-merchant-assistant-product",
+      "citation": "https://brockdsimon.com/profile#source-bain-retail-merchant-assistant-product",
+      "url": "https://www.bain.com/industry-expertise/retail/ai-retail-merchant-assistant/",
+      "publisher": "Bain & Company",
+      "title": "AI Retail Merchant Assistant",
+      "titleBasis": "page",
+      "published": null,
+      "publishedBasis": "unknown",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-24",
+        "via": "live",
+        "note": "Product page text retrieved in full; opening description below the title describes data, analytics and merchandising workflows. No publication or launch date is displayed."
+      },
+      "sourceType": "company_page",
+      "relation": "context",
+      "namesSubject": false,
+      "summary": "Bain's description of its AI Retail Merchant Assistant. Product context only; the page does not name Brock or document his contribution.",
+      "related": [],
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 34,
+      "id": "bain-openai-alliance-2023",
+      "citation": "https://brockdsimon.com/profile#source-bain-openai-alliance-2023",
+      "url": "https://www.bain.com/about/media-center/press-releases/2023/bain--company-announces-services-alliance-with-openai-to-help-enterprise-clients-identify-and-realize-the-full-potential-and-maximum-value-of-ai/",
+      "publisher": "Bain & Company",
+      "title": "Bain & Company announces services alliance with OpenAI to help enterprise clients identify and realize the full potential and maximum value of AI",
+      "titleBasis": "page",
+      "published": {
+        "value": "2023-02-21",
+        "precision": "day",
+        "display": "21 February 2023"
+      },
+      "publishedBasis": "displayed",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-24",
+        "via": "live",
+        "note": "Page text read on 2026-10-24; relevant sections and displayed publication date checked."
+      },
+      "sourceType": "company_page",
+      "relation": "context",
+      "namesSubject": false,
+      "summary": "Alliance announcement and date. Does not support: Brock's personal role in the alliance or product.",
+      "related": [],
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 35,
+      "id": "home-depot-call-2009",
+      "citation": "https://brockdsimon.com/profile#source-home-depot-call-2009",
+      "url": "https://www.roic.ai/quote/HD%3ACI/transcripts/2009-year/2-quarter",
+      "publisher": "ROIC AI transcript mirror of company earnings call",
+      "title": "Home Depot Q2 FY2009 earnings-call transcript",
+      "titleBasis": "catalogue_label",
+      "published": {
+        "value": "2009-08-18",
+        "precision": "day",
+        "display": "18 August 2009"
+      },
+      "publishedBasis": "catalogue",
+      "retrieval": {
+        "status": "partial",
+        "checkedOn": "2026-10-24",
+        "via": "live",
+        "note": "Direct fetch failed for the intake URL and the discovered HD:CI copy. Search-indexed transcript passages were read on 2026-10-24, including the response to Budd Bugatch about buying behavior rather than SIC classification. This is partial access, not full-page verification."
+      },
+      "sourceType": "press",
+      "relation": "context",
+      "namesSubject": false,
+      "summary": "Company discussion of dunnhumby tools and pro/consumer segmentation using buying behavior rather than SIC classification. Does not support: Brock is named, his individual contribution is independently credited, or a corporate financial result is his.",
+      "related": [],
+      "recordedOn": "2026-10-24",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 36,
+      "id": "humby-customer-understanding-2010",
+      "citation": "https://brockdsimon.com/profile#source-humby-customer-understanding-2010",
+      "url": "https://www.marketingweek.com/the-technology-of-customer-understanding/",
+      "publisher": "Marketing Week; Clive Humby",
+      "title": "The technology of customer understanding",
+      "titleBasis": "page",
+      "published": {
+        "value": "2010-04-27",
+        "precision": "day",
+        "display": "27 April 2010"
+      },
+      "publishedBasis": "displayed",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-24",
+        "via": "live",
+        "note": "Page text read on 2026-10-24; relevant sections and displayed publication date checked."
+      },
+      "sourceType": "press",
+      "relation": "context",
+      "namesSubject": false,
+      "summary": "Public explanation of Customer DNA, seed products and Rolling Ball. Does not support: Brock invented these methods, or every procedural step in his account is published here.",
+      "related": [],
+      "recordedOn": "2026-10-24",
       "reviewedOn": null,
       "visibility": "public",
       "subjectApproval": "approved"
