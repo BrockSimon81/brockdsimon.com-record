@@ -28,7 +28,7 @@
     },
     "access": {
       "private": false,
-      "note": "This site is public. The record is served to anyone; the owner's private workspace under the paths listed in crawlerPolicy.privatePaths is not part of it."
+      "note": "This site is public. Only the permitted generated record and its read-only interfaces are served. Reserved paths listed in crawlerPolicy.privatePaths are excluded from crawler access."
     },
     "crawlerPolicy": {
       "searchAndAnswerEngines": "allowed",
@@ -45,7 +45,7 @@
       ]
     }
   },
-  "generatedAt": "2026-10-25T03:26:46.983Z",
+  "generatedAt": "2026-10-26T20:00:58.573Z",
   "reviewDate": "2026-10-16",
   "researchDate": "2026-10-18",
   "preview": false,
@@ -54,7 +54,7 @@
     "subjectApproval": "approved",
     "publicPublicationAuthorized": true,
     "note": "Brock Simon has approved this record.",
-    "compilerNote": "Maintained by Brock Simon. Facts come from his own profile record, his LinkedIn experience section as he supplied it, and the public pages cited on each item; every URL was opened before it was cited."
+    "compilerNote": "Maintained by Brock Simon. Sources include his own statements, supplied LinkedIn material and public publications. Each source records its retrieval status, date and limitations; some evidence is available only through archives, partial text or indexed excerpts."
   },
   "identity": {
     "preferredName": "Brock Simon",
@@ -65,7 +65,7 @@
     "headline": "Product leader and advisor: co-founder and Chief Product Officer at Native, external advisor to Bain & Company, and advisor to Provenance and Eureka AI. Former Expert Partner at Bain & Company, with earlier analytics leadership at McKinsey & Company and dunnhumby.",
     "tagline": "This site isn't for humans.",
     "selfDescription": "Creating intelligent systems: 20+ years building solutions globally to understand behavior and drive action.",
-    "biography": "Brock Simon is a product leader and advisor. Since January 2026 he has been co-founder and Chief Product Officer of Native, which describes its work as database reasoning for complex enterprise data. He has also been an external advisor to Bain & Company since January 2026, and an advisor to Provenance and to Eureka AI since December 2025.\n\nBefore Native he spent six years at Bain & Company in San Francisco: Expert Associate Partner from June 2019, then Expert Partner from July 2022 to November 2025, where he led AI initiatives, including work with OpenAI, for large enterprise clients. Before Bain he was an Expert Associate Partner at McKinsey & Company, in Chicago from 2015 and in Bangkok from 2017 to 2019. He spent a decade at dunnhumby, from analyst in Cincinnati in 2005 to Head of Solutions for Asia in Shanghai in 2015, by way of Atlanta, Bangkok, Portland and Izmir: he launched the dunnhumby and Tesco international partnership in Thailand, ran the Turkey business as Country Head, and led the establishment of several international markets.\n\nHe holds an MBA from Xavier University and a BA and MS in Mathematics and Statistics from Miami University. He lives in the San Francisco Bay Area and has been a seasonal ski coach at Palisades Tahoe since October 2021.",
+    "biography": "Brock Simon is a product leader and advisor. Since January 2026 he has been co-founder and Chief Product Officer of Native, which describes its work as database reasoning for complex enterprise data. He has also been an external advisor to Bain & Company since January 2026, and an advisor to Provenance and to Eureka AI since December 2025.\n\nBefore Native he spent six years at Bain & Company in San Francisco: Expert Associate Partner from June 2019, then Expert Partner from July 2022 to November 2025, where he led AI initiatives, including work with OpenAI, for large enterprise clients. Before Bain he was an Expert Associate Partner at McKinsey & Company, in Chicago from 2015 and in Bangkok from 2017 to 2019. He spent a decade at dunnhumby, from analyst in Cincinnati in 2005 to Head of Solutions for Asia in Shanghai in 2015, by way of Atlanta, Bangkok, Portland and Izmir: he launched the dunnhumby and Tesco international partnership in Thailand, ran the Turkey business as Country Head, and led the establishment of several international markets.\n\nHe holds an MBA from Xavier University and a BS in Mathematics and Statistics and an MS in Mathematics from Miami University. He lives in the San Francisco Bay Area and has been a seasonal ski coach at Palisades Tahoe since October 2021.",
     "biographyBasis": "written",
     "biographyClaimIds": [
       "c-native-cofounder-cpo",
@@ -94,11 +94,11 @@
   "coverage": {
     "credentials": {
       "status": "partial",
-      "note": "His approved ski-coaching role (self-reported, from his LinkedIn description) states that he is a PSIA Level 1 certified instructor. The dedicated credential record restating it awaits his line-by-line review, so this list is empty until then; the statement itself stands in the role."
+      "note": "PSIA Level 1 certified instructor is self-reported in his LinkedIn ski-coaching description. No independent credential verification or award date is recorded."
     },
     "profiles": {
       "status": "partial",
-      "note": "LinkedIn is the verified profile. His GitHub profile links this site and is recorded as a draft."
+      "note": "LinkedIn is the published verified profile. A reciprocal website link alone does not establish an independently verified identity or affiliation."
     }
   },
   "roles": [
@@ -1022,17 +1022,18 @@
       "id": "miami-mathematics-statistics",
       "citation": "https://brockdsimon.com/profile#education-miami-mathematics-statistics",
       "institution": "Miami University",
-      "qualification": "BA and MS, Mathematics and Statistics",
+      "qualification": "BS in Mathematics and Statistics; MS in Mathematics",
       "start": null,
       "end": null,
       "sourceIds": [
-        "bain-team-page-2025-08-08",
+        "owner-degree-correction-2026-10-25",
         "iit-marketing-analytics-council",
+        "bain-team-page-2025-08-08",
         "owner-profile-2026-08-18"
       ],
       "evidence": "documented",
       "recordedOn": "2026-10-16",
-      "reviewedOn": "2026-10-16",
+      "reviewedOn": "2026-10-25",
       "visibility": "public",
       "subjectApproval": "approved"
     }
@@ -1162,6 +1163,35 @@
   ],
   "works": [
     {
+      "id": "servicepath-agentic-ai-retail-pricing",
+      "citation": "https://brockdsimon.com/profile#work-servicepath-agentic-ai-retail-pricing",
+      "title": "From 3 Days to 15 Minutes: How Agentic AI is Revolutionizing Retail Pricing and Customer Analytics",
+      "publisher": "LinkedIn / servicePath",
+      "url": "https://www.linkedin.com/pulse/from-3-days-15-minutes-how-agentic-ai-revolutionizing-daniel-kube-i9tqc/",
+      "date": {
+        "value": "2025-12-10",
+        "precision": "day",
+        "display": "10 December 2025"
+      },
+      "type": "interview",
+      "relation": "about",
+      "relationLabel": "About Brock Simon",
+      "coAuthors": [],
+      "authors": [
+        "Daniel Kube"
+      ],
+      "description": "Daniel Kube's companion written article for the existing Executive Conversations edition 13 appearance. It is not another interview event. The displayed publication date is 10 December 2025; its episode header separately says 12 December. Reported pricing/prototyping improvements are attributed accounts, not independently verified personal outcomes.",
+      "claimIds": [],
+      "sourceIds": [
+        "servicepath-agentic-ai-retail-pricing-article"
+      ],
+      "evidence": "documented",
+      "recordedOn": "2026-10-25",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
       "id": "bain-data-monetization-2025",
       "citation": "https://brockdsimon.com/profile#work-bain-data-monetization-2025",
       "title": "Unlocking Hidden Value: A New Approach to Data Monetization with AI",
@@ -1266,6 +1296,105 @@
       ],
       "evidence": "documented",
       "recordedOn": "2026-10-17",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "linkedin-turkey-inflation-reflections",
+      "citation": "https://brockdsimon.com/profile#work-linkedin-turkey-inflation-reflections",
+      "title": "Grocery-retail lessons from Turkey during inflation",
+      "publisher": "LinkedIn",
+      "date": null,
+      "type": "post",
+      "relation": "authored",
+      "relationLabel": "Written by Brock Simon",
+      "coAuthors": [],
+      "authors": [
+        "Brock Simon"
+      ],
+      "description": "A self-reported account of grocery retail under inflation in Turkey: price indexes, local competition, fixed-price promotions, trader arbitrage and quality. This catalogue label identifies text observed in the public profile Activity section. The source URL identifies that observation location, not a direct publication link; the original post permalink and publication date remain unverified.",
+      "claimIds": [],
+      "sourceIds": [
+        "linkedin-turkey-inflation-reflections"
+      ],
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-25",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "sonia-parekh-ai-retail-presentation",
+      "citation": "https://brockdsimon.com/profile#work-sonia-parekh-ai-retail-presentation",
+      "title": "AI in Retail: Insights from Industry Leaders",
+      "publisher": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/soniavparekh-retail-technology-leader_ai-in-retail-insights-from-industry-leaders-activity-7394041122626580480-LEdC",
+      "date": null,
+      "type": "other",
+      "relation": "mention",
+      "relationLabel": "Mentions Brock Simon",
+      "coAuthors": [],
+      "authors": [
+        "Sonia Verma Parekh"
+      ],
+      "description": "Original industry presentation by Sonia Verma Parekh; Brock is a featured contributor and quoted expert. The later Customer Experience Magazine article derives its quotation from this presentation. Publication date is not established.",
+      "claimIds": [],
+      "sourceIds": [
+        "sonia-parekh-ai-retail-industry-leaders"
+      ],
+      "evidence": "documented",
+      "recordedOn": "2026-10-25",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "linkedin-gtc-reflections",
+      "citation": "https://brockdsimon.com/profile#work-linkedin-gtc-reflections",
+      "title": "Brock Simon's NVIDIA GTC 2026 reflections",
+      "publisher": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/brock-simon-605436a_its-funny-how-much-nvidia-gtc-2026-looked-activity-7447446142310838272-Bmlf",
+      "date": null,
+      "type": "post",
+      "relation": "authored",
+      "relationLabel": "Written by Brock Simon",
+      "coAuthors": [],
+      "authors": [
+        "Brock Simon"
+      ],
+      "description": "Descriptive catalogue label for Brock's reflections on NVIDIA GTC 2026: local AI, physical systems, tool-selection accuracy and reliable enterprise data. Related to his 2025 Bain GTC article. Exact publication date is not established.",
+      "claimIds": [],
+      "sourceIds": [
+        "linkedin-gtc-reflections"
+      ],
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-25",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "linkedin-databricks-enterprise-context",
+      "citation": "https://brockdsimon.com/profile#work-linkedin-databricks-enterprise-context",
+      "title": "Brock Simon's Databricks Summit and enterprise-context reflections",
+      "publisher": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/brock-simon_databricks-summit-was-great-this-year-and-activity-7474575241399422977-qipH",
+      "date": null,
+      "type": "post",
+      "relation": "authored",
+      "relationLabel": "Written by Brock Simon",
+      "coAuthors": [],
+      "authors": [
+        "Brock Simon"
+      ],
+      "description": "Descriptive catalogue label for Brock's perspective on Databricks Summit and business context discovered from enterprise data, relationships and usage. His discussion of Native does not establish sole responsibility for company outcomes. Exact publication date is not established.",
+      "claimIds": [],
+      "sourceIds": [
+        "linkedin-databricks-enterprise-context"
+      ],
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-25",
       "reviewedOn": null,
       "visibility": "public",
       "subjectApproval": "approved"
@@ -1378,14 +1507,17 @@
         "Daniel Kube, host"
       ],
       "url": "https://servicepath.co/podcast/revenue-growth-for-tech-execs-edition-13/",
-      "recording": "not_checked",
+      "recordingUrl": "https://www.youtube.com/watch?v=pBOU9QLLnC8",
+      "recording": "available",
       "description": "A long-form conversation with servicePath's CEO on how Kroger, Tesco and Asia's mobile-first markets shaped personalisation and loyalty; agentic AI for pricing, promotion and assortment decisions; human-in-the-loop versus full automation; data monetisation models for AI training, referencing and usage-based access; building playgrounds for AI experimentation within governance; the rubric he uses to test ideas; and career advice for quants, builders and operators. The page shows no date.",
       "status": "past",
       "statusLabel": "Past",
       "deliveryConfirmed": true,
       "claimIds": [],
       "sourceIds": [
-        "servicepath-executive-conversations-13"
+        "servicepath-executive-conversations-13",
+        "servicepath-executive-conversations-13-recording",
+        "servicepath-agentic-ai-retail-pricing-article"
       ],
       "evidence": "documented",
       "recordedOn": "2026-10-17",
@@ -1411,6 +1543,7 @@
         "Jennifer Blease-Williams"
       ],
       "url": "https://www.provenance.org/news-insights/the-future-of-ai-shopping-how-verified-product-data-boosts-ai-discoverability",
+      "recordingUrl": "https://vimeo.com/1154361796",
       "recording": "available",
       "description": "A Provenance webinar on AI-mediated shopping, verified product data and discoverability. Provenance's write-up of 22 January 2026 quotes him on discovery moving upstream, on the absence of systems to ground the difference between a marketing claim and a verified one, and on the norming stage of AI models and shoppers. The webinar's own date is not stated.",
       "status": "past",
@@ -1418,7 +1551,8 @@
       "deliveryConfirmed": true,
       "claimIds": [],
       "sourceIds": [
-        "provenance-ai-shopping-webinar-2026-01"
+        "provenance-ai-shopping-webinar-2026-01",
+        "provenance-webinar-vimeo-2026-01-14"
       ],
       "evidence": "documented",
       "recordedOn": "2026-10-17",
@@ -1482,6 +1616,56 @@
       ],
       "evidence": "documented",
       "recordedOn": "2026-10-17",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "itbrief-provenance-advisory-board-2026",
+      "citation": "https://brockdsimon.com/profile#mention-itbrief-provenance-advisory-board-2026",
+      "headline": "Provenance appoints AI advisory board for retail shift",
+      "publisher": "IT Brief UK",
+      "url": "https://itbrief.co.uk/story/provenance-appoints-ai-advisory-board-for-retail-shift",
+      "date": {
+        "value": "2026-05-22",
+        "precision": "day",
+        "display": "22 May 2026"
+      },
+      "relation": "mentions",
+      "relationLabel": "Mentions Brock Simon",
+      "topic": "Provenance's Strategic Advisory Board",
+      "quote": "Brock Simon, Partner at Bain & Company",
+      "sourceIds": [
+        "itbrief-provenance-advisory-board-2026-05-22",
+        "cmotech-provenance-advisory-board-2026-05-22"
+      ],
+      "evidence": "documented",
+      "recordedOn": "2026-10-18",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "id": "cxm-retail-ai-customer-experience",
+      "citation": "https://brockdsimon.com/profile#mention-cxm-retail-ai-customer-experience",
+      "headline": "AI Arrived in Retail. Did Better CX Come With It?",
+      "publisher": "Customer Experience Magazine",
+      "author": "Sandra Radlovacki",
+      "url": "https://cxm.world/customer-experience/ai-arrived-in-retail-did-better-cx-come-with-it/",
+      "date": {
+        "value": "2025-12-01",
+        "precision": "day",
+        "display": "1 December 2025"
+      },
+      "relation": "quotes",
+      "relationLabel": "Quotes Brock Simon",
+      "topic": "Retail AI and customer experience; derivative of Sonia Verma Parekh's industry-leader presentation, not a separate interview",
+      "sourceIds": [
+        "cxm-retail-ai-customer-experience-2025",
+        "sonia-parekh-ai-retail-industry-leaders"
+      ],
+      "evidence": "documented",
+      "recordedOn": "2026-10-25",
       "reviewedOn": null,
       "visibility": "public",
       "subjectApproval": "approved"
@@ -1599,7 +1783,7 @@
         "display": "October 2026"
       },
       "end": null,
-      "summary": "This site: a machine-readable professional record whose front page says only that the site isn't for humans, and points to profile.json. One record is rendered into profile.json, a schema.org JSON-LD graph, profile.md, llms.txt, llms-full.txt, a sitemap, an API catalog and an Atom feed, with sources cited on every statement and one HTML page, /profile, that renders the same record with an anchor per item. Built on Cloudflare Workers; launched in October 2026.",
+      "summary": "This site: a machine-readable professional record whose front page says only that the site isn't for humans, and points to profile.json. One record is rendered into profile.json, a schema.org JSON-LD graph, profile.md, llms.txt, llms-full.txt, a sitemap, an API catalog and an Atom feed, with sources cited on every item and one HTML page, /profile, that renders the same record with an anchor per item. Built on Cloudflare Workers; launched in October 2026.",
       "contributionClaimIds": [
         "c-site-built"
       ],
@@ -1674,7 +1858,24 @@
       "subjectApproval": "approved"
     }
   ],
-  "credentials": [],
+  "credentials": [
+    {
+      "id": "psia-level-1",
+      "citation": "https://brockdsimon.com/profile#credential-psia-level-1",
+      "name": "PSIA Level 1 certified instructor",
+      "issuer": "PSIA",
+      "type": "certification",
+      "date": null,
+      "sourceIds": [
+        "linkedin-experience-2026-10-16"
+      ],
+      "evidence": "self_reported",
+      "recordedOn": "2026-10-18",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    }
+  ],
   "memberships": [
     {
       "id": "iit-marketing-analytics-advisory-council",
@@ -1811,8 +2012,9 @@
       "id": "where-did-he-study",
       "citation": "https://brockdsimon.com/profile#faq-where-did-he-study",
       "question": "Where did he study?",
-      "answer": "Miami University, where he took a BA and an MS in Mathematics and Statistics, and Xavier University, where he took an MBA. Bain's team page and Illinois Tech's council page name the same institutions and word the Miami degrees differently: his own record says a BA and an MS in Mathematics and Statistics, Bain's page an MSc in mathematics and statistics, and Illinois Tech a B.S. in Mathematics and Statistics and an M.S. in Mathematics. His own wording stands until he settles it.",
+      "answer": "Miami University: BS in Mathematics and Statistics and MS in Mathematics. Xavier University: MBA. The corrected wording agrees with Illinois Tech and the owner-approved résumé evidence. The earlier BA wording was an error; Bain’s historical biography uses MSc in mathematics and statistics. No diploma or degree dates have been verified.",
       "sourceIds": [
+        "owner-degree-correction-2026-10-25",
         "owner-profile-2026-08-18",
         "bain-team-page-2025-08-08",
         "iit-marketing-analytics-council"
@@ -1989,7 +2191,7 @@
       "name": "Miami University",
       "kind": "employer",
       "url": "https://miamioh.edu/",
-      "note": "Also where he took his BA and MS (see education).",
+      "note": "Also where he took his BS in Mathematics and Statistics and MS in Mathematics (see education).",
       "sourceIds": [],
       "recordedOn": "2026-10-17",
       "visibility": "public",
@@ -2700,7 +2902,7 @@
       ],
       "date": null,
       "confidence": "medium",
-      "note": "Company page only; no other page opened confirms the founding year.",
+      "note": "Company-reported founding year; independent confirmation is not established.",
       "evidence": "documented",
       "recordedOn": "2026-10-18",
       "reviewedOn": null,
@@ -2756,7 +2958,7 @@
       ],
       "date": null,
       "confidence": "high",
-      "note": "His wording; no client is named. The wording is an open question for him.",
+      "note": "His account of his contribution; no client is named. Publication approval does not independently corroborate individual leadership or client results.",
       "evidence": "self_reported",
       "recordedOn": "2026-10-18",
       "reviewedOn": "2026-10-16",
@@ -2967,7 +3169,7 @@
       },
       "dateKind": "employment_start",
       "confidence": "high",
-      "note": "No page by Bain or anyone else names the advisory role; the source hunt of 2026-10-18 found none.",
+      "note": "The advisory role is self-reported; third-party corroboration was not established as of 2026-10-18.",
       "evidence": "self_reported",
       "recordedOn": "2026-10-19",
       "reviewedOn": null,
@@ -3173,32 +3375,37 @@
       "kind": "career",
       "relationship": "held_role",
       "relationshipLabel": "Brock Simon held this role.",
-      "statement": "Brock Simon holds an MBA from Xavier University and a BA and MS in Mathematics and Statistics from Miami University.",
+      "statement": "Brock Simon holds a BS in Mathematics and Statistics and an MS in Mathematics from Miami University, and an MBA from Xavier University.",
       "sourceIds": [
-        "owner-profile-2026-08-18",
+        "owner-degree-correction-2026-10-25",
+        "iit-marketing-analytics-council",
         "bain-team-page-2025-08-08",
-        "iit-marketing-analytics-council"
+        "owner-profile-2026-08-18"
       ],
       "locators": [
         {
-          "sourceId": "owner-profile-2026-08-18",
-          "locator": "His maintained record, education (his wording of the degrees)."
-        },
-        {
-          "sourceId": "bain-team-page-2025-08-08",
-          "locator": "Biography, fourth paragraph: 'a MSc in mathematics and statistics from Miami University and an MBA from Xavier University'. Same institutions; different wording of the Miami degrees."
+          "sourceId": "owner-degree-correction-2026-10-25",
+          "locator": "Owner correction and education sections of two résumé versions: BS Mathematics & Statistics; MS Mathematics; MBA Xavier University."
         },
         {
           "sourceId": "iit-marketing-analytics-council",
-          "locator": "'Member Profiles', his entry, last sentence: a Bachelor of Science in Mathematics and Statistics and a Master of Science in Mathematics from Miami University and an M.B.A. from Xavier University. Same institutions; different wording."
+          "locator": "Member Profiles, Brock Simon entry, final sentence: Bachelor of Science in Mathematics and Statistics, Master of Science in Mathematics, and MBA."
+        },
+        {
+          "sourceId": "bain-team-page-2025-08-08",
+          "locator": "Biography, fourth paragraph: MSc in mathematics and statistics and MBA. Historical wording differs from the corrected record."
+        },
+        {
+          "sourceId": "owner-profile-2026-08-18",
+          "locator": "Earlier owner statement used BA and combined the Miami degree subjects; corrected by the later owner statement."
         }
       ],
       "date": null,
       "confidence": "high",
-      "note": "The institutions are documented by two pages besides his own record; the wording of the Miami degrees differs by source (see x-degrees-wording). His own wording is published.",
+      "note": "Corrected wording follows the owner-approved résumé evidence and agrees with Illinois Tech. Résumé versions are not independent corroboration or diplomas. Degree dates are not established; source-specific historical wording remains in x-degrees-wording.",
       "evidence": "documented",
       "recordedOn": "2026-10-19",
-      "reviewedOn": null,
+      "reviewedOn": "2026-10-25",
       "visibility": "public",
       "subjectApproval": "approved"
     },
@@ -3559,7 +3766,8 @@
       "statement": "Illinois Tech records his McKinsey title as Expert associate principal; his LinkedIn gives Expert Associate Partner. Both are published, LinkedIn's wording leading, as title variants on the McKinsey roles.",
       "affects": [
         "roles.mckinsey-expert-associate-partner-chicago",
-        "roles.mckinsey-expert-associate-partner-bangkok"
+        "roles.mckinsey-expert-associate-partner-bangkok",
+        "claims.c-mckinsey-tenure"
       ],
       "sourceIds": [
         "iit-marketing-analytics-council",
@@ -3574,16 +3782,19 @@
       "id": "x-degrees-wording",
       "citation": "https://brockdsimon.com/profile#correction-x-degrees-wording",
       "kind": "conflict",
-      "statement": "Three sources word his degrees differently: his own record says BA and MS in Mathematics and Statistics; Bain's team page says an MSc in mathematics and statistics; Illinois Tech says a B.S. in Mathematics and Statistics and an M.S. in Mathematics. His own wording is published until he settles it.",
+      "statement": "The earlier owner record described a BA and MS in Mathematics and Statistics. The corrected wording is BS in Mathematics and Statistics and MS in Mathematics from Miami University, consistent with the owner-approved résumé evidence and Illinois Tech. Bain’s historical biography says MSc in mathematics and statistics. The MBA is from Xavier University. No diploma or degree dates have been verified.",
       "affects": [
-        "education.miami-mathematics-statistics"
+        "education.miami-mathematics-statistics",
+        "claims.c-education",
+        "faq.where-did-he-study"
       ],
       "sourceIds": [
+        "owner-degree-correction-2026-10-25",
         "owner-profile-2026-08-18",
         "bain-team-page-2025-08-08",
         "iit-marketing-analytics-council"
       ],
-      "resolution": "unresolved",
+      "resolution": "corrected",
       "recordedOn": "2026-10-18",
       "visibility": "public",
       "subjectApproval": "approved"
@@ -3613,7 +3824,9 @@
       "statement": "Trade reports of 22 May 2026 list him on Provenance's Strategic Advisory Board as Partner at Bain & Company; the record's own account is Advisor to Provenance since December 2025 and External Advisor to Bain since January 2026. Both are kept: the reports date the board's announcement, not his start, and use a Bain title he no longer held.",
       "affects": [
         "roles.provenance-advisor",
-        "roles.bain-external-advisor"
+        "roles.bain-external-advisor",
+        "mentions.itbrief-provenance-advisory-board-2026",
+        "claims.c-provenance-advisory-board-2026"
       ],
       "sourceIds": [
         "itbrief-provenance-advisory-board-2026-05-22",
@@ -3737,6 +3950,17 @@
       "text": "External Advisor, Bain & Company",
       "href": "https://brockdsimon.com/profile.jsonld#role-bain-external-advisor",
       "citation": "https://brockdsimon.com/profile#role-bain-external-advisor"
+    },
+    {
+      "date": {
+        "value": "2025-12-10",
+        "precision": "day",
+        "display": "10 December 2025"
+      },
+      "kind": "work",
+      "text": "About Brock Simon: From 3 Days to 15 Minutes: How Agentic AI is Revolutionizing Retail Pricing and Customer Analytics (LinkedIn / servicePath)",
+      "href": "https://brockdsimon.com/profile.jsonld#work-servicepath-agentic-ai-retail-pricing",
+      "citation": "https://brockdsimon.com/profile#work-servicepath-agentic-ai-retail-pricing"
     },
     {
       "date": {
@@ -4009,7 +4233,7 @@
         "featuredLinks",
         "coverage"
       ],
-      "summary": "Record format 4.0: organisations as their own list; atomic claims, outcomes, recognitions, corrections, featured links and section coverage; every item carries Brock's approval state and a visibility level. Drafts awaiting his decision stay out of production."
+      "summary": "Record format 4.0: organisations as their own list; atomic claims, outcomes, recognitions, corrections, featured links and section coverage; every item carries Brock's approval state and a visibility level."
     },
     {
       "date": "2026-10-18",
@@ -4043,7 +4267,7 @@
         "projects.brockdsimon-com",
         "faq"
       ],
-      "summary": "Research intake: Illinois Tech advisory council membership; servicePath, Provenance and MAUSTRAP appearances; a Business Insider mention; three perspectives; Native and this site as projects; six questions and answers; each with its source, verified by opening the page."
+      "summary": "Added Illinois Tech advisory council membership; servicePath, Provenance and MAUSTRAP appearances; a Business Insider mention; three perspectives; Native and this site as projects; six questions and answers, with item-level sources."
     },
     {
       "date": "2026-10-17",
@@ -4086,6 +4310,274 @@
   "sources": [
     {
       "ref": 1,
+      "id": "linkedin-turkey-inflation-reflections",
+      "citation": "https://brockdsimon.com/profile#source-linkedin-turkey-inflation-reflections",
+      "url": "https://www.linkedin.com/in/brock-simon",
+      "publisher": "LinkedIn",
+      "title": "Grocery-retail lessons from Turkey during inflation",
+      "titleBasis": "catalogue_label",
+      "author": "Brock Simon",
+      "published": null,
+      "publishedBasis": "unknown",
+      "publishedNote": "Only relative age was displayed; an exact publication date is not established.",
+      "retrieval": {
+        "status": "partial",
+        "checkedOn": "2026-10-26",
+        "via": "live",
+        "note": "Only search-indexed public profile Activity text was available; direct profile access returned HTTP 429. The source URL is the observed author-profile location, not a direct publication link. The original post permalink and exact publication date remain unverified."
+      },
+      "sourceType": "linkedin",
+      "relation": "authored",
+      "namesSubject": true,
+      "summary": "Brock’s first-person account of adapting price indexes, competitor sets, local pricing, fixed-price promotions, responses to trader arbitrage and product-quality decisions while working in Turkish grocery retail. This is his account of experience and judgment, not independent corroboration of individual events or results.",
+      "quoteLocator": "Public profile Activity entry beginning “This Bain article gave me flashbacks to grocery retail in Turkey back in the 2010s.”",
+      "related": [],
+      "recordedOn": "2026-10-25",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 2,
+      "id": "owner-degree-correction-2026-10-25",
+      "citation": "https://brockdsimon.com/profile#source-owner-degree-correction-2026-10-25",
+      "publisher": "Brock Simon",
+      "title": "Owner correction of degree wording",
+      "titleBasis": "catalogue_label",
+      "published": null,
+      "publishedBasis": "unknown",
+      "retrieval": {
+        "status": "supplied",
+        "checkedOn": "2026-10-25",
+        "via": "supplied",
+        "note": "Owner-approved correction and degree lines in two owner-supplied résumé versions. No diploma was inspected."
+      },
+      "sourceType": "owner_statement",
+      "relation": "about",
+      "namesSubject": true,
+      "summary": "Brock accepted the correction of the earlier BA wording to BS. His résumé versions state BS in Mathematics and Statistics and MS in Mathematics from Miami University, and MBA from Xavier University. They are versions of his own account, not independent documents of graduation or diploma scans.",
+      "related": [],
+      "supplied": {
+        "by": "owner",
+        "on": "2026-10-25",
+        "captureDate": null,
+        "note": "Owner-approved degree correction, checked against the education sections of two owner résumé versions."
+      },
+      "recordedOn": "2026-10-25",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 3,
+      "id": "servicepath-executive-conversations-13-recording",
+      "citation": "https://brockdsimon.com/profile#source-servicepath-executive-conversations-13-recording",
+      "url": "https://www.youtube.com/watch?v=pBOU9QLLnC8",
+      "publisher": "servicePath (YouTube)",
+      "title": "Podcast: Revenue Growth for Tech Execs. EDITION 13: Daniel Kube and Brock Simon",
+      "titleBasis": "page",
+      "author": "servicePath",
+      "published": null,
+      "publishedBasis": "unknown",
+      "retrieval": {
+        "status": "partial",
+        "checkedOn": "2026-10-25",
+        "via": "live",
+        "note": "The publisher landing page embeds this video. YouTube oEmbed confirms the title and servicePath account. No event or upload date is established by that metadata; the complete recording was not reviewed."
+      },
+      "sourceType": "video",
+      "relation": "about",
+      "namesSubject": true,
+      "summary": "Original publisher recording for the existing Executive Conversations edition 13 appearance with Daniel Kube and Brock Simon.",
+      "quoteLocator": "Publisher page embedded video; YouTube oEmbed title and author_name",
+      "related": [
+        {
+          "sourceId": "servicepath-executive-conversations-13",
+          "relationship": "recording_of"
+        },
+        {
+          "sourceId": "servicepath-agentic-ai-retail-pricing-article",
+          "relationship": "same_episode"
+        }
+      ],
+      "recordedOn": "2026-10-25",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 4,
+      "id": "cxm-retail-ai-customer-experience-2025",
+      "citation": "https://brockdsimon.com/profile#source-cxm-retail-ai-customer-experience-2025",
+      "url": "https://cxm.world/customer-experience/ai-arrived-in-retail-did-better-cx-come-with-it/",
+      "publisher": "Customer Experience Magazine",
+      "title": "AI Arrived in Retail. Did Better CX Come With It?",
+      "titleBasis": "page",
+      "author": "Sandra Radlovacki",
+      "published": {
+        "value": "2025-12-01",
+        "precision": "day",
+        "display": "1 December 2025"
+      },
+      "publishedBasis": "displayed",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-25",
+        "via": "live"
+      },
+      "sourceType": "press",
+      "relation": "about",
+      "namesSubject": true,
+      "summary": "Third-party coverage quotes Brock on agentic AI reducing the friction of using customer data. The 'Back to Basics' section links Sonia Verma Parekh's industry-leader presentation as its source. This is derivative quotation coverage, not a separate interview. Its Bain title is historical source wording.",
+      "quoteLocator": "'Back to Basics', Brock Simon paragraph and linked presentation",
+      "related": [
+        {
+          "sourceId": "sonia-parekh-ai-retail-industry-leaders",
+          "relationship": "underlying_report"
+        }
+      ],
+      "recordedOn": "2026-10-25",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 5,
+      "id": "sonia-parekh-ai-retail-industry-leaders",
+      "citation": "https://brockdsimon.com/profile#source-sonia-parekh-ai-retail-industry-leaders",
+      "url": "https://www.linkedin.com/posts/soniavparekh-retail-technology-leader_ai-in-retail-insights-from-industry-leaders-activity-7394041122626580480-LEdC",
+      "publisher": "LinkedIn",
+      "title": "AI in Retail: Insights from Industry Leaders",
+      "titleBasis": "page",
+      "author": "Sonia Verma Parekh",
+      "published": null,
+      "publishedBasis": "unknown",
+      "publishedNote": "Only relative age was available; no date is inferred from the activity identifier.",
+      "retrieval": {
+        "status": "partial",
+        "checkedOn": "2026-10-25",
+        "via": "live",
+        "note": "Public post text identifies Brock as a contributor. Attachment length and the page-three locator have not been independently verified."
+      },
+      "sourceType": "linkedin",
+      "relation": "about",
+      "namesSubject": true,
+      "summary": "Original industry-leader presentation featuring Brock among its contributors. Customer Experience Magazine subsequently cites this presentation for his views on agentic AI, reduced data friction and customer focus. Brock is a featured contributor, not the presentation's author.",
+      "related": [
+        {
+          "sourceId": "cxm-retail-ai-customer-experience-2025",
+          "relationship": "original_of"
+        }
+      ],
+      "recordedOn": "2026-10-25",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 6,
+      "id": "servicepath-agentic-ai-retail-pricing-article",
+      "citation": "https://brockdsimon.com/profile#source-servicepath-agentic-ai-retail-pricing-article",
+      "url": "https://www.linkedin.com/pulse/from-3-days-15-minutes-how-agentic-ai-revolutionizing-daniel-kube-i9tqc/",
+      "publisher": "LinkedIn / servicePath",
+      "title": "From 3 Days to 15 Minutes: How Agentic AI is Revolutionizing Retail Pricing and Customer Analytics",
+      "titleBasis": "page",
+      "author": "Daniel Kube",
+      "published": {
+        "value": "2025-12-10",
+        "precision": "day",
+        "display": "10 December 2025"
+      },
+      "publishedBasis": "displayed",
+      "publishedNote": "The page displays Published Dec 10, 2025. Its episode header separately says December 12, 2025; neither establishes the interview recording date.",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-25",
+        "via": "live"
+      },
+      "sourceType": "press",
+      "relation": "about",
+      "namesSubject": true,
+      "summary": "Interview-based companion article for Executive Conversations edition 13, covering Brock's career, retail pricing, customer analytics, rapid prototyping and human judgment. The performance language is the article's account, not an independently measured personal result. The Bain Partner description is historical source wording.",
+      "quoteLocator": "Article byline and publication line; Executive Conversations Episode 13 header",
+      "related": [
+        {
+          "sourceId": "servicepath-executive-conversations-13",
+          "relationship": "same_episode"
+        },
+        {
+          "sourceId": "servicepath-executive-conversations-13-recording",
+          "relationship": "same_episode"
+        }
+      ],
+      "recordedOn": "2026-10-25",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 7,
+      "id": "linkedin-gtc-reflections",
+      "citation": "https://brockdsimon.com/profile#source-linkedin-gtc-reflections",
+      "url": "https://www.linkedin.com/posts/brock-simon-605436a_its-funny-how-much-nvidia-gtc-2026-looked-activity-7447446142310838272-Bmlf",
+      "publisher": "LinkedIn",
+      "title": "Brock Simon's NVIDIA GTC 2026 reflections",
+      "titleBasis": "catalogue_label",
+      "author": "Brock Simon",
+      "published": null,
+      "publishedBasis": "unknown",
+      "publishedNote": "The public page displays relative age only; no publication date is inferred from the activity identifier.",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-25",
+        "via": "live"
+      },
+      "sourceType": "linkedin",
+      "relation": "authored",
+      "namesSubject": true,
+      "summary": "Brock's authored perspective on local AI, physical systems, choosing tools and skills accurately, and structured enterprise data. A follow-up perspective to his 2025 Bain GTC article; it does not establish personal responsibility for company outcomes.",
+      "quoteLocator": "Post body, opening reflection and takeaways",
+      "related": [
+        {
+          "sourceId": "bain-insights-nvidia-gtc-2025-03-24",
+          "relationship": "related_coverage"
+        }
+      ],
+      "recordedOn": "2026-10-25",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 8,
+      "id": "linkedin-databricks-enterprise-context",
+      "citation": "https://brockdsimon.com/profile#source-linkedin-databricks-enterprise-context",
+      "url": "https://www.linkedin.com/posts/brock-simon_databricks-summit-was-great-this-year-and-activity-7474575241399422977-qipH",
+      "publisher": "LinkedIn",
+      "title": "Brock Simon's Databricks Summit and enterprise-context reflections",
+      "titleBasis": "catalogue_label",
+      "author": "Brock Simon",
+      "published": null,
+      "publishedBasis": "unknown",
+      "publishedNote": "The public page displays relative age only; no publication date is inferred from the activity identifier.",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-25",
+        "via": "live"
+      },
+      "sourceType": "linkedin",
+      "relation": "authored",
+      "namesSubject": true,
+      "summary": "Brock's authored perspective on discovering business context in enterprise tables, queries, dashboards, relationships and usage. He relates this to Native's work; the post does not attribute all Native or Databricks outcomes to him individually.",
+      "quoteLocator": "Post body, Genie Ontology and Native paragraphs",
+      "related": [],
+      "recordedOn": "2026-10-25",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 9,
       "id": "brock-category-strategy-post",
       "citation": "https://brockdsimon.com/profile#source-brock-category-strategy-post",
       "url": "https://www.linkedin.com/posts/brock-simon-605436a_as-i-have-been-integrating-category-strategy-activity-7402123928409653249-r1y-",
@@ -4113,7 +4605,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 2,
+      "ref": 10,
       "id": "aiesec-salaam-2005",
       "citation": "https://brockdsimon.com/profile#source-aiesec-salaam-2005",
       "url": "https://www.nusacc.org/uploads/2/2/9/7/22977530/26_trdln0405saudi.pdf",
@@ -4140,7 +4632,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 3,
+      "ref": 11,
       "id": "tesco-thailand-clubcard-2009",
       "citation": "https://brockdsimon.com/profile#source-tesco-thailand-clubcard-2009",
       "url": "https://www.tescoplc.com/media/1yidswev/interims_2009-10.pdf",
@@ -4170,7 +4662,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 4,
+      "ref": 12,
       "id": "tesco-kipa-clubcard-2011",
       "citation": "https://brockdsimon.com/profile#source-tesco-kipa-clubcard-2011",
       "url": "https://www.tescoplc.com/media/1736/tesco_kipa_-_tesco_in_europe_2011.pdf",
@@ -4200,7 +4692,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 5,
+      "ref": 13,
       "id": "owner-career-review-2026-10-24",
       "citation": "https://brockdsimon.com/profile#source-owner-career-review-2026-10-24",
       "publisher": "Brock Simon",
@@ -4229,7 +4721,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 6,
+      "ref": 14,
       "id": "owner-profile-2026-08-18",
       "citation": "https://brockdsimon.com/profile#source-owner-profile-2026-08-18",
       "publisher": "Brock Simon",
@@ -4245,7 +4737,7 @@
       "sourceType": "owner_statement",
       "relation": "about",
       "namesSubject": true,
-      "summary": "Brock's own statement of his roles, background and education, kept in his personal context files and last verified by him on 2026-08-18.",
+      "summary": "Brock's owner-maintained statement of his roles, background and education, last verified by him on 2026-08-18.",
       "related": [],
       "supplied": {
         "by": "owner",
@@ -4259,7 +4751,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 7,
+      "ref": 15,
       "id": "linkedin-experience-2026-10-16",
       "citation": "https://brockdsimon.com/profile#source-linkedin-experience-2026-10-16",
       "url": "https://www.linkedin.com/in/brock-simon/",
@@ -4290,7 +4782,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 8,
+      "ref": 16,
       "id": "bain-team-page-2025-08-08",
       "citation": "https://brockdsimon.com/profile#source-bain-team-page-2025-08-08",
       "url": "https://www.bain.com/our-team/brock-simon/",
@@ -4320,7 +4812,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 9,
+      "ref": 17,
       "id": "iit-marketing-analytics-council",
       "citation": "https://brockdsimon.com/profile#source-iit-marketing-analytics-council",
       "url": "https://www.iit.edu/stuart/about/board-advisors/marketing-analytics-advisory-council",
@@ -4347,7 +4839,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 10,
+      "ref": 18,
       "id": "servicepath-executive-conversations-13",
       "citation": "https://brockdsimon.com/profile#source-servicepath-executive-conversations-13",
       "url": "https://servicepath.co/podcast/revenue-growth-for-tech-execs-edition-13/",
@@ -4366,7 +4858,16 @@
       "namesSubject": true,
       "summary": "Podcast episode page with Brock Simon as guest and servicePath's CEO Daniel Kube in conversation; lists the topics covered and summarises his career through dunnhumby, McKinsey and Bain. No publication date is shown on the page.",
       "quote": "Brock's journey runs through dunnhumby (Kroger & Tesco loyalty and data science",
-      "related": [],
+      "related": [
+        {
+          "sourceId": "servicepath-agentic-ai-retail-pricing-article",
+          "relationship": "same_episode"
+        },
+        {
+          "sourceId": "servicepath-executive-conversations-13-recording",
+          "relationship": "same_episode"
+        }
+      ],
       "media": {
         "audio": true,
         "transcript": "not_checked"
@@ -4377,7 +4878,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 11,
+      "ref": 19,
       "id": "provenance-ai-shopping-webinar-2026-01",
       "citation": "https://brockdsimon.com/profile#source-provenance-ai-shopping-webinar-2026-01",
       "url": "https://www.provenance.org/news-insights/the-future-of-ai-shopping-how-verified-product-data-boosts-ai-discoverability",
@@ -4400,7 +4901,12 @@
       "namesSubject": true,
       "summary": "Provenance's write-up, published 22 January 2026, of its webinar with Jessi Baker MBE, Brock Simon, Giles Pavey and Jennifer Blease-Williams; quotes him four times on discovery moving upstream, the systems needed to ground product claims, and the norming stage of AI models. The webinar date is not stated; the page links to a 45-minute recording.",
       "quote": "To me, the bigger shift is watching that discovery move upstream",
-      "related": [],
+      "related": [
+        {
+          "sourceId": "provenance-webinar-vimeo-2026-01-14",
+          "relationship": "same_episode"
+        }
+      ],
       "media": {
         "video": true,
         "transcript": "not_checked"
@@ -4411,7 +4917,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 12,
+      "ref": 20,
       "id": "linkedin-post-maustrap-2026",
       "citation": "https://brockdsimon.com/profile#source-linkedin-post-maustrap-2026",
       "url": "https://www.linkedin.com/posts/brock-simon_how-ai-is-changing-product-decision-making-activity-7457522836241321984-T3X-",
@@ -4438,7 +4944,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 13,
+      "ref": 21,
       "id": "native-linkedin-company-page",
       "citation": "https://brockdsimon.com/profile#source-native-linkedin-company-page",
       "url": "https://www.linkedin.com/company/usenative",
@@ -4463,7 +4969,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 14,
+      "ref": 22,
       "id": "native-spider2-2026-02-18",
       "citation": "https://brockdsimon.com/profile#source-native-spider2-2026-02-18",
       "url": "https://www.usenative.ai/blog/native-ranks-first-spider-2",
@@ -4492,7 +4998,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 15,
+      "ref": 23,
       "id": "native-bird-2026-10-02",
       "citation": "https://brockdsimon.com/profile#source-native-bird-2026-10-02",
       "url": "https://usenative.ai/blog/native-mini-bird",
@@ -4521,7 +5027,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 16,
+      "ref": 24,
       "id": "business-insider-2026-06-17",
       "citation": "https://brockdsimon.com/profile#source-business-insider-2026-06-17",
       "url": "https://www.businessinsider.com/ai-token-economy-spending-workplace-budgets-usage-caps-software-engineer-2026-6",
@@ -4538,7 +5044,7 @@
         "status": "fetched",
         "checkedOn": "2026-10-19",
         "via": "live",
-        "note": "Read directly on 2026-10-17; read again by a Sonnet agent on 2026-10-19, when the full text was served to a plain request. The page's title tag carries the headline recorded here; its on-page heading reads 'The next office power struggle: AI tokens'. Byline Henry Chandonnet; the page's metadata gives dateModified 2026-07-21 for a spelling correction unrelated to him."
+        "note": "Full article retrieved on 2026-10-19. The title tag carries the recorded headline; the on-page heading is 'The next office power struggle: AI tokens'. Byline: Henry Chandonnet. Metadata gives dateModified 2026-07-21 for an unrelated spelling correction."
       },
       "sourceType": "press",
       "relation": "about",
@@ -4553,7 +5059,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 17,
+      "ref": 25,
       "id": "youtube-maustrap-episode-2",
       "citation": "https://brockdsimon.com/profile#source-youtube-maustrap-episode-2",
       "url": "https://www.youtube.com/watch?v=j5jrvyGV-tA",
@@ -4583,7 +5089,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 18,
+      "ref": 26,
       "id": "native-site-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-native-site-2026-09-29",
       "url": "https://www.usenative.ai/",
@@ -4596,7 +5102,7 @@
         "status": "fetched",
         "checkedOn": "2026-10-19",
         "via": "live",
-        "note": "First read on 2026-09-29 for the company description. Read again on 2026-10-19 (a Sonnet agent): the hero reads 'built for your most complex enterprise data', and the section headed 'Understanding the data is still the bottleneck' says, under 'Database reasoning', that Native 'reasons directly across the data itself to discover structure, relationships, definitions, exceptions, and gaps'. The description's wording of 2026-09-29 stands; the phrase 'helps enterprises understand complex data' is a paraphrase of that section, not a quotation."
+        "note": "Company positioning checked on 2026-10-19. The 'Understanding the data is still the bottleneck' section describes database reasoning across structure, relationships, definitions, exceptions and gaps. The company description is a paraphrase, not a quotation; the page does not establish an individual contribution."
       },
       "sourceType": "company_page",
       "relation": "context",
@@ -4611,7 +5117,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 19,
+      "ref": 27,
       "id": "provenance-brands-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-provenance-brands-2026-09-29",
       "url": "https://www.provenance.org/solutions/for-brands",
@@ -4636,7 +5142,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 20,
+      "ref": 28,
       "id": "provenance-framework-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-provenance-framework-2026-09-29",
       "url": "https://www.provenance.org/framework",
@@ -4661,7 +5167,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 21,
+      "ref": 29,
       "id": "eureka-home-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-eureka-home-2026-09-29",
       "url": "https://eureka.ai/",
@@ -4686,7 +5192,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 22,
+      "ref": 30,
       "id": "eureka-omni-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-eureka-omni-2026-09-29",
       "url": "https://eureka.ai/products/omni",
@@ -4711,7 +5217,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 23,
+      "ref": 31,
       "id": "bain-insights-data-monetization-2025-06-10",
       "citation": "https://brockdsimon.com/profile#source-bain-insights-data-monetization-2025-06-10",
       "url": "https://www.bain.com/insights/unlocking-hidden-value-a-new-approach-to-data-monetization-with-ai/",
@@ -4730,7 +5236,7 @@
         "status": "fetched",
         "checkedOn": "2026-10-19",
         "via": "live",
-        "note": "Opened by a Sonnet agent on 2026-10-19 (live, and the Internet Archive capture of 13 November 2025), then fetched directly with curl the same day: h1, byline and date match. The byline shows names only; the page's metadata gave his title as Partner in the November 2025 capture and Alumni on the live page."
+        "note": "Live page and 13 November 2025 archive checked on 2026-10-19: headline, byline and publication date agree. Metadata describes Brock as Partner in the archive and Alumni on the live page; these are source-specific historical labels."
       },
       "sourceType": "publisher_page",
       "relation": "authored",
@@ -4750,7 +5256,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 24,
+      "ref": 32,
       "id": "bain-insights-google-cloud-next-2025-04-14",
       "citation": "https://brockdsimon.com/profile#source-bain-insights-google-cloud-next-2025-04-14",
       "url": "https://www.bain.com/insights/google-cloud-next-2025-ai-moves-from-possibility-to-foundation/",
@@ -4769,7 +5275,7 @@
         "status": "fetched",
         "checkedOn": "2026-10-19",
         "via": "live",
-        "note": "Opened by a Sonnet agent on 2026-10-19 (live, and the Internet Archive capture of 25 January 2026), then fetched directly with curl the same day: h1, byline and date match. The byline shows names only; the page's metadata gave his title as Alumni in both readings."
+        "note": "Live page and 25 January 2026 archive checked on 2026-10-19: headline, byline and publication date agree. Metadata describes Brock as Alumni in both versions."
       },
       "sourceType": "publisher_page",
       "relation": "authored",
@@ -4789,7 +5295,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 25,
+      "ref": 33,
       "id": "bain-insights-nvidia-gtc-2025-03-24",
       "citation": "https://brockdsimon.com/profile#source-bain-insights-nvidia-gtc-2025-03-24",
       "url": "https://www.bain.com/insights/nvidia-gtc-2025-ai-matures-into-enterprise-infrastructure/",
@@ -4808,7 +5314,7 @@
         "status": "fetched",
         "checkedOn": "2026-10-19",
         "via": "live",
-        "note": "Opened by a Sonnet agent on 2026-10-19 (live, and the Internet Archive capture of 5 December 2025), then fetched directly with curl the same day: h1, byline and date match. The byline shows names only; the page's metadata gave his title as Partner in the December 2025 capture and Alumni on the live page."
+        "note": "Live page and 5 December 2025 archive checked on 2026-10-19: headline, byline and publication date agree. Metadata describes Brock as Partner in the archive and Alumni on the live page; these are source-specific historical labels."
       },
       "sourceType": "publisher_page",
       "relation": "authored",
@@ -4820,6 +5326,10 @@
         {
           "sourceId": "bain-team-page-2025-08-08",
           "relationship": "related_coverage"
+        },
+        {
+          "sourceId": "linkedin-gtc-reflections",
+          "relationship": "related_coverage"
         }
       ],
       "recordedOn": "2026-10-19",
@@ -4828,7 +5338,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 26,
+      "ref": 34,
       "id": "iit-2017-advanced-marketing-analytics-symposium",
       "citation": "https://brockdsimon.com/profile#source-iit-2017-advanced-marketing-analytics-symposium",
       "url": "https://www.iit.edu/events/2017-advanced-marketing-analytics-symposium",
@@ -4846,7 +5356,7 @@
         "status": "fetched",
         "checkedOn": "2026-10-18",
         "via": "live",
-        "note": "Opened three times by a Sonnet agent on 2026-10-18, then checked directly from this workspace with curl on 2026-10-18: title, event date and the quoted sentence match the page as served. The listing puts his name and title on separate lines, so the earlier joined excerpt was replaced by the biography's first sentence."
+        "note": "Event listing checked on 2026-10-18. The title, event date and biography passage were readable. This is an advertised panel listing; it does not confirm that he delivered a session."
       },
       "sourceType": "event_page",
       "relation": "about",
@@ -4861,7 +5371,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 27,
+      "ref": 35,
       "id": "itbrief-provenance-advisory-board-2026-05-22",
       "citation": "https://brockdsimon.com/profile#source-itbrief-provenance-advisory-board-2026-05-22",
       "url": "https://itbrief.co.uk/story/provenance-appoints-ai-advisory-board-for-retail-shift",
@@ -4879,12 +5389,12 @@
         "status": "fetched",
         "checkedOn": "2026-10-18",
         "via": "live",
-        "note": "Opened by a Haiku agent on 2026-10-18, then checked directly from this workspace with curl on 2026-10-18: title, date (Fri, 22nd May 2026), byline and the quoted words match the page as served."
+        "note": "Title, displayed date (22 May 2026), byline and quotation checked on 2026-10-18. Its Bain Partner description is historical source wording, not evidence of a current partner role."
       },
       "sourceType": "press",
       "relation": "about",
       "namesSubject": true,
-      "summary": "Trade report of 22 May 2026 that Provenance has formed a Strategic Advisory Board of four named members, him among them, described as Partner at Bain & Company, to advise on product strategy, enterprise partnerships and verified product data in digital commerce. The article also carries a direct quotation from him on brands preparing to be recommended by AI rather than found by search. The first page outside LinkedIn that ties him to Provenance. It names Provenance's clients and backers; those are not carried into the record.",
+      "summary": "Trade report of 22 May 2026 that Provenance has formed a Strategic Advisory Board of four named members, him among them, described as Partner at Bain & Company, to advise on product strategy, enterprise partnerships and verified product data in digital commerce. The article also carries a direct quotation from him on brands preparing to be recommended by AI rather than found by search.",
       "quote": "Brock Simon, Partner at Bain & Company",
       "quoteLocator": "Third paragraph, the list of board members",
       "related": [
@@ -4899,7 +5409,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 28,
+      "ref": 36,
       "id": "cmotech-provenance-advisory-board-2026-05-22",
       "citation": "https://brockdsimon.com/profile#source-cmotech-provenance-advisory-board-2026-05-22",
       "url": "https://cmotech.uk/story/provenance-appoints-ai-advisory-board-for-retail-shift",
@@ -4917,7 +5427,7 @@
         "status": "fetched",
         "checkedOn": "2026-10-18",
         "via": "live",
-        "note": "Opened by a Haiku agent on 2026-10-18, then checked directly from this workspace with curl on 2026-10-18. The body text, byline, date and quotation are identical to the IT Brief UK report (checked by diff): a second copy of the same announcement on a sister site, not independent confirmation."
+        "note": "Checked on 2026-10-18. Body, byline, date and quotation match the IT Brief UK report: a copy of the same announcement on a sister site, not independent confirmation."
       },
       "sourceType": "press",
       "relation": "about",
@@ -4937,7 +5447,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 29,
+      "ref": 37,
       "id": "spider2-leaderboard-2026-10-18",
       "citation": "https://brockdsimon.com/profile#source-spider2-leaderboard-2026-10-18",
       "url": "https://spider2-sql.github.io/",
@@ -4950,7 +5460,7 @@
         "status": "fetched",
         "checkedOn": "2026-10-18",
         "via": "live",
-        "note": "Opened twice by a Sonnet agent on 2026-10-18, then read directly from this workspace on 2026-10-18 with curl (HTML) and in the in-app browser (rendered table). The rendered table shows a rank number and a date on every row; the page's script writes them from row order and each row's date attribute, which is why the HTML alone shows neither."
+        "note": "Leaderboard checked on 2026-10-18. Rank numbers and dates are populated in the rendered table from row order and date attributes; raw HTML alone omits those displayed values. The cited position is the rendered Spider 2.0-Snow table at that date."
       },
       "sourceType": "other",
       "relation": "context",
@@ -4963,7 +5473,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 30,
+      "ref": 38,
       "id": "bird-leaderboard-2026-10-18",
       "citation": "https://brockdsimon.com/profile#source-bird-leaderboard-2026-10-18",
       "url": "https://bird-bench.github.io/",
@@ -4976,7 +5486,7 @@
         "status": "fetched",
         "checkedOn": "2026-10-18",
         "via": "live",
-        "note": "Opened twice by a Sonnet agent on 2026-10-18, then read directly from this workspace on 2026-10-18 with curl (HTML) and in the in-app browser (rendered table, Single-Model Leaderboard tab). The column is confirmed from the table's cells: the Dev (%) cell is empty and 76.86 sits in Test (%). The rendered table numbers its model rows; Native mini shows as 6."
+        "note": "Leaderboard checked on 2026-10-18. In the rendered Single-Model Leaderboard, Native mini is numbered 6; 76.86 is in Test (%) and Dev (%) is empty. Raw HTML and rendered columns were distinguished; this is a dated table observation."
       },
       "sourceType": "other",
       "relation": "context",
@@ -4989,7 +5499,48 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 31,
+      "ref": 39,
+      "id": "provenance-webinar-vimeo-2026-01-14",
+      "citation": "https://brockdsimon.com/profile#source-provenance-webinar-vimeo-2026-01-14",
+      "url": "https://vimeo.com/1154361796",
+      "publisher": "Provenance (on Vimeo)",
+      "title": "The Future of AI Shopping Webinar: How Verified Product Data Drives AI Recommendations",
+      "titleBasis": "page",
+      "published": {
+        "value": "2026-01-14",
+        "precision": "day",
+        "display": "14 January 2026"
+      },
+      "publishedBasis": "page_metadata",
+      "publishedNote": "Recording upload date reported by Vimeo oEmbed; it does not establish the event date.",
+      "retrieval": {
+        "status": "partial",
+        "checkedOn": "2026-10-25",
+        "via": "live",
+        "note": "Publisher title, account, description, duration and upload metadata were retrieved from Vimeo oEmbed. The complete recording was not reviewed."
+      },
+      "sourceType": "video",
+      "relation": "about",
+      "namesSubject": true,
+      "summary": "Original Provenance recording of the AI-shopping panel with Brock Simon, Jessi Baker, Giles Pavey and Jennifer Blease-Williams. The publisher describes verified product data and AI recommendations. Its Bain Partner title for Brock is historical publisher wording, not his current role.",
+      "quoteLocator": "Vimeo oEmbed title, author_name, description, duration and upload_date",
+      "related": [
+        {
+          "sourceId": "provenance-ai-shopping-webinar-2026-01",
+          "relationship": "recording_of"
+        }
+      ],
+      "media": {
+        "video": true,
+        "transcript": "not_checked"
+      },
+      "recordedOn": "2026-10-18",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 40,
       "id": "owner-career-account-2026-10-24",
       "citation": "https://brockdsimon.com/profile#source-owner-career-account-2026-10-24",
       "publisher": "Brock Simon",
@@ -5018,7 +5569,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 32,
+      "ref": 41,
       "id": "linkedin-retail-merchant-assistant",
       "citation": "https://brockdsimon.com/profile#source-linkedin-retail-merchant-assistant",
       "url": "https://www.linkedin.com/posts/brock-simon-605436a_ai-retail-merchant-assistant-activity-7371585217985343489-qW2p",
@@ -5046,7 +5597,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 33,
+      "ref": 42,
       "id": "bain-retail-merchant-assistant-product",
       "citation": "https://brockdsimon.com/profile#source-bain-retail-merchant-assistant-product",
       "url": "https://www.bain.com/industry-expertise/retail/ai-retail-merchant-assistant/",
@@ -5072,7 +5623,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 34,
+      "ref": 43,
       "id": "bain-openai-alliance-2023",
       "citation": "https://brockdsimon.com/profile#source-bain-openai-alliance-2023",
       "url": "https://www.bain.com/about/media-center/press-releases/2023/bain--company-announces-services-alliance-with-openai-to-help-enterprise-clients-identify-and-realize-the-full-potential-and-maximum-value-of-ai/",
@@ -5102,7 +5653,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 35,
+      "ref": 44,
       "id": "home-depot-call-2009",
       "citation": "https://brockdsimon.com/profile#source-home-depot-call-2009",
       "url": "https://www.roic.ai/quote/HD%3ACI/transcripts/2009-year/2-quarter",
@@ -5119,7 +5670,7 @@
         "status": "partial",
         "checkedOn": "2026-10-24",
         "via": "live",
-        "note": "Direct fetch failed for the intake URL and the discovered HD:CI copy. Search-indexed transcript passages were read on 2026-10-24, including the response to Budd Bugatch about buying behavior rather than SIC classification. This is partial access, not full-page verification."
+        "note": "Search-indexed transcript passages were available, including the response to Budd Bugatch about buying behavior rather than SIC classification. Direct access to the transcript pages was unsuccessful. This is partial access, not full-page verification."
       },
       "sourceType": "press",
       "relation": "context",
@@ -5132,7 +5683,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 36,
+      "ref": 45,
       "id": "humby-customer-understanding-2010",
       "citation": "https://brockdsimon.com/profile#source-humby-customer-understanding-2010",
       "url": "https://www.marketingweek.com/the-technology-of-customer-understanding/",
@@ -5165,7 +5716,7 @@
   "maintenance": {
     "maintainedBy": "owner",
     "ownerApproved": true,
-    "note": "This profile is generated from one record that Brock Simon maintains. Every item carries an evidence label and lists its sources; the claims list holds atomic statements, with a locator into the source where known. Company descriptions use only each company's own public website. Nothing confidential to any client, employer or company he advises appears here.",
+    "note": "Maintained by Brock Simon. Professional claims cite their sources and distinguish documented, self-reported and owner-perspective evidence, with a locator into the source where known. Company descriptions use each company's own public website. Publication is limited to approved professional information.",
     "aiTrainingPolicy": "allow"
   },
   "evidenceStatusKey": {

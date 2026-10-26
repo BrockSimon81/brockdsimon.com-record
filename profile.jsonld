@@ -13,7 +13,7 @@
       "mainEntity": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
-      "conditionsOfAccess": "This site is public. The record is served to anyone; the owner's private workspace under the paths listed in crawlerPolicy.privatePaths is not part of it."
+      "conditionsOfAccess": "This site is public. Only the permitted generated record and its read-only interfaces are served. Reserved paths listed in crawlerPolicy.privatePaths are excluded from crawler access."
     },
     {
       "@type": "CreativeWork",
@@ -22,7 +22,7 @@
       "url": "https://brockdsimon.com/profile.json",
       "encodingFormat": "application/json",
       "version": "4.1",
-      "dateModified": "2026-10-24T19:39:36.943Z",
+      "dateModified": "2026-10-26T17:17:57.570Z",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -30,8 +30,32 @@
         "@id": "https://brockdsimon.com/profile#page"
       },
       "creativeWorkStatus": "Brock Simon has approved this record.",
-      "conditionsOfAccess": "This site is public. The record is served to anyone; the owner's private workspace under the paths listed in crawlerPolicy.privatePaths is not part of it.",
+      "conditionsOfAccess": "This site is public. Only the permitted generated record and its read-only interfaces are served. Reserved paths listed in crawlerPolicy.privatePaths are excluded from crawler access.",
       "citation": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-turkey-inflation-reflections"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-owner-degree-correction-2026-10-25"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-servicepath-executive-conversations-13-recording"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-cxm-retail-ai-customer-experience-2025"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-sonia-parekh-ai-retail-industry-leaders"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-servicepath-agentic-ai-retail-pricing-article"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-gtc-reflections"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-databricks-enterprise-context"
+        },
         {
           "@id": "https://brockdsimon.com/profile.jsonld#source-brock-category-strategy-post"
         },
@@ -121,6 +145,9 @@
         },
         {
           "@id": "https://brockdsimon.com/profile.jsonld#source-bird-leaderboard-2026-10-18"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-provenance-webinar-vimeo-2026-01-14"
         },
         {
           "@id": "https://brockdsimon.com/profile.jsonld#source-owner-career-account-2026-10-24"
@@ -568,22 +595,34 @@
         {
           "@type": "EducationalOccupationalCredential",
           "@id": "https://brockdsimon.com/profile.jsonld#education-miami-mathematics-statistics",
-          "name": "BA and MS, Mathematics and Statistics",
+          "name": "BS in Mathematics and Statistics; MS in Mathematics",
           "url": "https://brockdsimon.com/profile#education-miami-mathematics-statistics",
           "recognizedBy": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-miami-university"
           },
           "subjectOf": [
             {
-              "@id": "https://brockdsimon.com/profile.jsonld#source-bain-team-page-2025-08-08"
+              "@id": "https://brockdsimon.com/profile.jsonld#source-owner-degree-correction-2026-10-25"
             },
             {
               "@id": "https://brockdsimon.com/profile.jsonld#source-iit-marketing-analytics-council"
             },
             {
+              "@id": "https://brockdsimon.com/profile.jsonld#source-bain-team-page-2025-08-08"
+            },
+            {
               "@id": "https://brockdsimon.com/profile.jsonld#source-owner-profile-2026-08-18"
             }
           ]
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "@id": "https://brockdsimon.com/profile.jsonld#credential-psia-level-1",
+          "name": "PSIA Level 1 certified instructor",
+          "url": "https://brockdsimon.com/profile#credential-psia-level-1",
+          "recognizedBy": {
+            "@id": "https://brockdsimon.com/profile.jsonld#org-named-psia"
+          }
         }
       ],
       "memberOf": [
@@ -609,6 +648,12 @@
       "subjectOf": [
         {
           "@id": "https://brockdsimon.com/profile.jsonld#mention-business-insider-2026-06-17"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#mention-itbrief-provenance-advisory-board-2026"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#mention-cxm-retail-ai-customer-experience"
         }
       ]
     },
@@ -675,8 +720,18 @@
     },
     {
       "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-psia",
+      "name": "PSIA"
+    },
+    {
+      "@type": "Organization",
       "@id": "https://brockdsimon.com/profile.jsonld#org-named-marketing-analytics-advisory-council-stuart-school-of-business-illinois-institute-of-technology",
       "name": "Marketing Analytics Advisory Council, Stuart School of Business, Illinois Institute of Technology"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin-servicepath",
+      "name": "LinkedIn / servicePath"
     },
     {
       "@type": "Organization",
@@ -695,6 +750,26 @@
     },
     {
       "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-it-brief-uk",
+      "name": "IT Brief UK"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-customer-experience-magazine",
+      "name": "Customer Experience Magazine"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-brock-simon",
+      "name": "Brock Simon"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-servicepath-youtube",
+      "name": "servicePath (YouTube)"
+    },
+    {
+      "@type": "Organization",
       "@id": "https://brockdsimon.com/profile.jsonld#org-named-national-u-s-arab-chamber-of-commerce",
       "name": "National U.S.-Arab Chamber of Commerce"
     },
@@ -702,11 +777,6 @@
       "@type": "Organization",
       "@id": "https://brockdsimon.com/profile.jsonld#org-named-tesco-plc",
       "name": "Tesco PLC"
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://brockdsimon.com/profile.jsonld#org-named-brock-simon",
-      "name": "Brock Simon"
     },
     {
       "@type": "Organization",
@@ -725,11 +795,6 @@
     },
     {
       "@type": "Organization",
-      "@id": "https://brockdsimon.com/profile.jsonld#org-named-it-brief-uk",
-      "name": "IT Brief UK"
-    },
-    {
-      "@type": "Organization",
       "@id": "https://brockdsimon.com/profile.jsonld#org-named-cmotech-uk",
       "name": "CMOtech UK"
     },
@@ -745,6 +810,11 @@
     },
     {
       "@type": "Organization",
+      "@id": "https://brockdsimon.com/profile.jsonld#org-named-provenance-on-vimeo",
+      "name": "Provenance (on Vimeo)"
+    },
+    {
+      "@type": "Organization",
       "@id": "https://brockdsimon.com/profile.jsonld#org-named-roic-ai-transcript-mirror-of-company-earnings-call",
       "name": "ROIC AI transcript mirror of company earnings call"
     },
@@ -752,6 +822,31 @@
       "@type": "Organization",
       "@id": "https://brockdsimon.com/profile.jsonld#org-named-marketing-week-clive-humby",
       "name": "Marketing Week; Clive Humby"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://brockdsimon.com/profile.jsonld#work-servicepath-agentic-ai-retail-pricing",
+      "headline": "From 3 Days to 15 Minutes: How Agentic AI is Revolutionizing Retail Pricing and Customer Analytics",
+      "url": "https://www.linkedin.com/pulse/from-3-days-15-minutes-how-agentic-ai-revolutionizing-daniel-kube-i9tqc/",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin-servicepath"
+      },
+      "datePublished": "2025-12-10",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Daniel Kube"
+        }
+      ],
+      "about": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "description": "Daniel Kube's companion written article for the existing Executive Conversations edition 13 appearance. It is not another interview event. The displayed publication date is 10 December 2025; its episode header separately says 12 December. Reported pricing/prototyping improvements are attributed accounts, not independently verified personal outcomes.",
+      "subjectOf": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-servicepath-agentic-ai-retail-pricing-article"
+        }
+      ]
     },
     {
       "@type": "Article",
@@ -879,6 +974,90 @@
     },
     {
       "@type": "SocialMediaPosting",
+      "@id": "https://brockdsimon.com/profile.jsonld#work-linkedin-turkey-inflation-reflections",
+      "headline": "Grocery-retail lessons from Turkey during inflation",
+      "url": "https://brockdsimon.com/profile#work-linkedin-turkey-inflation-reflections",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin"
+      },
+      "author": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#person"
+        }
+      ],
+      "description": "A self-reported account of grocery retail under inflation in Turkey: price indexes, local competition, fixed-price promotions, trader arbitrage and quality. This catalogue label identifies text observed in the public profile Activity section. The source URL identifies that observation location, not a direct publication link; the original post permalink and publication date remain unverified.",
+      "subjectOf": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-turkey-inflation-reflections"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://brockdsimon.com/profile.jsonld#work-sonia-parekh-ai-retail-presentation",
+      "headline": "AI in Retail: Insights from Industry Leaders",
+      "url": "https://www.linkedin.com/posts/soniavparekh-retail-technology-leader_ai-in-retail-insights-from-industry-leaders-activity-7394041122626580480-LEdC",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Sonia Verma Parekh"
+        }
+      ],
+      "about": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "description": "Original industry presentation by Sonia Verma Parekh; Brock is a featured contributor and quoted expert. The later Customer Experience Magazine article derives its quotation from this presentation. Publication date is not established.",
+      "subjectOf": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-sonia-parekh-ai-retail-industry-leaders"
+        }
+      ]
+    },
+    {
+      "@type": "SocialMediaPosting",
+      "@id": "https://brockdsimon.com/profile.jsonld#work-linkedin-gtc-reflections",
+      "headline": "Brock Simon's NVIDIA GTC 2026 reflections",
+      "url": "https://www.linkedin.com/posts/brock-simon-605436a_its-funny-how-much-nvidia-gtc-2026-looked-activity-7447446142310838272-Bmlf",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin"
+      },
+      "author": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#person"
+        }
+      ],
+      "description": "Descriptive catalogue label for Brock's reflections on NVIDIA GTC 2026: local AI, physical systems, tool-selection accuracy and reliable enterprise data. Related to his 2025 Bain GTC article. Exact publication date is not established.",
+      "subjectOf": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-gtc-reflections"
+        }
+      ]
+    },
+    {
+      "@type": "SocialMediaPosting",
+      "@id": "https://brockdsimon.com/profile.jsonld#work-linkedin-databricks-enterprise-context",
+      "headline": "Brock Simon's Databricks Summit and enterprise-context reflections",
+      "url": "https://www.linkedin.com/posts/brock-simon_databricks-summit-was-great-this-year-and-activity-7474575241399422977-qipH",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin"
+      },
+      "author": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#person"
+        }
+      ],
+      "description": "Descriptive catalogue label for Brock's perspective on Databricks Summit and business context discovered from enterprise data, relationships and usage. His discussion of Native does not establish sole responsibility for company outcomes. Exact publication date is not established.",
+      "subjectOf": [
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-databricks-enterprise-context"
+        }
+      ]
+    },
+    {
+      "@type": "SocialMediaPosting",
       "@id": "https://brockdsimon.com/profile.jsonld#work-linkedin-category-strategy-post",
       "headline": "Brock Simon's post on category strategy and retail AI assistants",
       "url": "https://www.linkedin.com/posts/brock-simon-605436a_as-i-have-been-integrating-category-strategy-activity-7402123928409653249-r1y-",
@@ -887,8 +1066,7 @@
       },
       "author": [
         {
-          "@type": "Person",
-          "name": "Brock Simon"
+          "@id": "https://brockdsimon.com/profile.jsonld#person"
         }
       ],
       "description": "Descriptive catalogue label; exact publication date is not established.",
@@ -908,8 +1086,7 @@
       },
       "author": [
         {
-          "@type": "Person",
-          "name": "Brock Simon"
+          "@id": "https://brockdsimon.com/profile.jsonld#person"
         }
       ],
       "description": "Descriptive catalogue label; exact publication date is not established.",
@@ -961,10 +1138,20 @@
         }
       ],
       "url": "https://servicepath.co/podcast/revenue-growth-for-tech-execs-edition-13/",
+      "associatedMedia": {
+        "@type": "VideoObject",
+        "url": "https://www.youtube.com/watch?v=pBOU9QLLnC8"
+      },
       "description": "A long-form conversation with servicePath's CEO on how Kroger, Tesco and Asia's mobile-first markets shaped personalisation and loyalty; agentic AI for pricing, promotion and assortment decisions; human-in-the-loop versus full automation; data monetisation models for AI training, referencing and usage-based access; building playgrounds for AI experimentation within governance; the rubric he uses to test ideas; and career advice for quants, builders and operators. The page shows no date.",
       "subjectOf": [
         {
           "@id": "https://brockdsimon.com/profile.jsonld#source-servicepath-executive-conversations-13"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-servicepath-executive-conversations-13-recording"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-servicepath-agentic-ai-retail-pricing-article"
         }
       ]
     },
@@ -998,10 +1185,17 @@
         }
       ],
       "url": "https://www.provenance.org/news-insights/the-future-of-ai-shopping-how-verified-product-data-boosts-ai-discoverability",
+      "recordedIn": {
+        "@type": "VideoObject",
+        "url": "https://vimeo.com/1154361796"
+      },
       "description": "A Provenance webinar on AI-mediated shopping, verified product data and discoverability. Provenance's write-up of 22 January 2026 quotes him on discovery moving upstream, on the absence of systems to ground the difference between a marketing claim and a verified one, and on the norming stage of AI models and shoppers. The webinar's own date is not stated.",
       "subjectOf": [
         {
           "@id": "https://brockdsimon.com/profile.jsonld#source-provenance-ai-shopping-webinar-2026-01"
+        },
+        {
+          "@id": "https://brockdsimon.com/profile.jsonld#source-provenance-webinar-vimeo-2026-01-14"
         }
       ]
     },
@@ -1024,8 +1218,8 @@
       ],
       "url": "https://www.linkedin.com/posts/brock-simon_how-ai-is-changing-product-decision-making-activity-7457522836241321984-T3X-",
       "associatedMedia": {
-        "@type": "AudioObject",
-        "contentUrl": "https://www.youtube.com/watch?v=j5jrvyGV-tA"
+        "@type": "VideoObject",
+        "url": "https://www.youtube.com/watch?v=j5jrvyGV-tA"
       },
       "description": "Episode 2 of the MAUSTRAP Podcast: why he left consulting to found Native, and how AI is changing product decisions inside SaaS companies. The episode date was not readable from the listing.",
       "subjectOf": [
@@ -1082,7 +1276,7 @@
       "@id": "https://brockdsimon.com/profile.jsonld#project-brockdsimon-com",
       "name": "brockdsimon.com",
       "url": "https://brockdsimon.com/profile.json",
-      "description": "This site: a machine-readable professional record whose front page says only that the site isn't for humans, and points to profile.json. One record is rendered into profile.json, a schema.org JSON-LD graph, profile.md, llms.txt, llms-full.txt, a sitemap, an API catalog and an Atom feed, with sources cited on every statement and one HTML page, /profile, that renders the same record with an anchor per item. Built on Cloudflare Workers; launched in October 2026.",
+      "description": "This site: a machine-readable professional record whose front page says only that the site isn't for humans, and points to profile.json. One record is rendered into profile.json, a schema.org JSON-LD graph, profile.md, llms.txt, llms-full.txt, a sitemap, an API catalog and an Atom feed, with sources cited on every item and one HTML page, /profile, that renders the same record with an anchor per item. Built on Cloudflare Workers; launched in October 2026.",
       "keywords": "machine-readable profiles, llms.txt, schema.org, AI discoverability",
       "member": {
         "@type": "OrganizationRole",
@@ -1158,6 +1352,37 @@
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
       "text": "advised companies on AI for Bain & Company before he founded his own startup, Native"
+    },
+    {
+      "@type": "NewsArticle",
+      "@id": "https://brockdsimon.com/profile.jsonld#mention-itbrief-provenance-advisory-board-2026",
+      "headline": "Provenance appoints AI advisory board for retail shift",
+      "url": "https://itbrief.co.uk/story/provenance-appoints-ai-advisory-board-for-retail-shift",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-it-brief-uk"
+      },
+      "datePublished": "2026-05-22",
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "text": "Brock Simon, Partner at Bain & Company"
+    },
+    {
+      "@type": "NewsArticle",
+      "@id": "https://brockdsimon.com/profile.jsonld#mention-cxm-retail-ai-customer-experience",
+      "headline": "AI Arrived in Retail. Did Better CX Come With It?",
+      "url": "https://cxm.world/customer-experience/ai-arrived-in-retail-did-better-cx-come-with-it/",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-customer-experience-magazine"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Sandra Radlovacki"
+      },
+      "datePublished": "2025-12-01",
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      }
     },
     {
       "@type": "Question",
@@ -1247,7 +1472,7 @@
       },
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Miami University, where he took a BA and an MS in Mathematics and Statistics, and Xavier University, where he took an MBA. Bain's team page and Illinois Tech's council page name the same institutions and word the Miami degrees differently: his own record says a BA and an MS in Mathematics and Statistics, Bain's page an MSc in mathematics and statistics, and Illinois Tech a B.S. in Mathematics and Statistics and an M.S. in Mathematics. His own wording stands until he settles it."
+        "text": "Miami University: BS in Mathematics and Statistics and MS in Mathematics. Xavier University: MBA. The corrected wording agrees with Illinois Tech and the owner-approved résumé evidence. The earlier BA wording was an error; Bain’s historical biography uses MSc in mathematics and statistics. No diploma or degree dates have been verified."
       }
     },
     {
@@ -1287,6 +1512,119 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes. The record is also served as a read-only MCP server at https://brockdsimon.com/record/mcp (Streamable HTTP, POST, no credentials). Its tools return the record's answers to questions about his experience, each item with its citation URL and evidence label, and the record's files are its resources. Its server card is at https://brockdsimon.com/record/mcp/server-card. It answers only from this record."
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-turkey-inflation-reflections",
+      "name": "Grocery-retail lessons from Turkey during inflation",
+      "url": "https://www.linkedin.com/in/brock-simon",
+      "author": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-owner-degree-correction-2026-10-25",
+      "name": "Owner correction of degree wording",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-brock-simon"
+      },
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-servicepath-executive-conversations-13-recording",
+      "name": "Podcast: Revenue Growth for Tech Execs. EDITION 13: Daniel Kube and Brock Simon",
+      "url": "https://www.youtube.com/watch?v=pBOU9QLLnC8",
+      "author": {
+        "@type": "Person",
+        "name": "servicePath"
+      },
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-servicepath-youtube"
+      },
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-cxm-retail-ai-customer-experience-2025",
+      "name": "AI Arrived in Retail. Did Better CX Come With It?",
+      "url": "https://cxm.world/customer-experience/ai-arrived-in-retail-did-better-cx-come-with-it/",
+      "author": {
+        "@type": "Person",
+        "name": "Sandra Radlovacki"
+      },
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-customer-experience-magazine"
+      },
+      "datePublished": "2025-12-01",
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-sonia-parekh-ai-retail-industry-leaders",
+      "name": "AI in Retail: Insights from Industry Leaders",
+      "url": "https://www.linkedin.com/posts/soniavparekh-retail-technology-leader_ai-in-retail-insights-from-industry-leaders-activity-7394041122626580480-LEdC",
+      "author": {
+        "@type": "Person",
+        "name": "Sonia Verma Parekh"
+      },
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin"
+      },
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-servicepath-agentic-ai-retail-pricing-article",
+      "name": "From 3 Days to 15 Minutes: How Agentic AI is Revolutionizing Retail Pricing and Customer Analytics",
+      "url": "https://www.linkedin.com/pulse/from-3-days-15-minutes-how-agentic-ai-revolutionizing-daniel-kube-i9tqc/",
+      "author": {
+        "@type": "Person",
+        "name": "Daniel Kube"
+      },
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin-servicepath"
+      },
+      "datePublished": "2025-12-10",
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-gtc-reflections",
+      "name": "Brock Simon's NVIDIA GTC 2026 reflections",
+      "url": "https://www.linkedin.com/posts/brock-simon-605436a_its-funny-how-much-nvidia-gtc-2026-looked-activity-7447446142310838272-Bmlf",
+      "author": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-linkedin-databricks-enterprise-context",
+      "name": "Brock Simon's Databricks Summit and enterprise-context reflections",
+      "url": "https://www.linkedin.com/posts/brock-simon_databricks-summit-was-great-this-year-and-activity-7474575241399422977-qipH",
+      "author": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
+      },
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin"
       }
     },
     {
@@ -1633,6 +1971,19 @@
       "url": "https://bird-bench.github.io/",
       "publisher": {
         "@id": "https://brockdsimon.com/profile.jsonld#org-named-bird-benchmark-project"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://brockdsimon.com/profile.jsonld#source-provenance-webinar-vimeo-2026-01-14",
+      "name": "The Future of AI Shopping Webinar: How Verified Product Data Drives AI Recommendations",
+      "url": "https://vimeo.com/1154361796",
+      "publisher": {
+        "@id": "https://brockdsimon.com/profile.jsonld#org-named-provenance-on-vimeo"
+      },
+      "datePublished": "2026-01-14",
+      "mentions": {
+        "@id": "https://brockdsimon.com/profile.jsonld#person"
       }
     },
     {

@@ -1426,7 +1426,7 @@
     },
     "work": {
       "type": "object",
-      "description": "Something the person wrote, posted or endorsed. url is the publisher's page; citation is this record's passage about it.",
+      "description": "Something the person wrote, posted or endorsed. url is the direct publication page when established; absent when only an observation location is known. citation is this record's passage about it.",
       "properties": {
         "id": {
           "$ref": "#/$defs/id"
@@ -1563,7 +1563,6 @@
         "citation",
         "title",
         "publisher",
-        "url",
         "date",
         "type",
         "relation",
