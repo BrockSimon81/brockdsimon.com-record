@@ -3,14 +3,15 @@
 > Product leader and advisor: co-founder and Chief Product Officer at Native, external advisor to Bain & Company, and advisor to Provenance and Eureka AI. Former Expert Partner at Bain & Company, with earlier analytics leadership at McKinsey & Company and dunnhumby.
 
 As of 2026-10-16, Brock Simon is co-founder and Chief Product Officer at Native (since January 2026) and holds advisory roles with Bain & Company (External Advisor), Provenance (Advisor), Eureka AI (Advisor). Brock is also a ski coach at Palisades Tahoe.
-Record review date: 2026-10-16. Build: 2026-10-26T23:55:20.063Z. Role status dates, source check dates and publication dates are recorded separately.
+Record review date: 2026-10-16. Build: 2026-10-27T17:32:43.181Z. Role status dates, source check dates and publication dates are recorded separately.
 
 ## Files
 
+- [Introduction](https://brockdsimon.com/record/introduction.json): compact identity, current roles, expertise and links.
 - [Overview](https://brockdsimon.com/record/overview.json): identity, current role records, dates, citations and qualifications.
 - [record/index.json](https://brockdsimon.com/record/index.json): focused views and source records in JSON, HTML and Markdown.
 - [record/mcp](https://brockdsimon.com/record/mcp): read-only MCP tools and resources; Streamable HTTP POST, no credentials. [Server card](https://brockdsimon.com/record/mcp/server-card).
-- [profile.json](https://brockdsimon.com/profile.json): complete canonical public record, format 4.2.
+- [profile.json](https://brockdsimon.com/profile.json): complete canonical public record, format 4.3.
 - [profile.jsonld](https://brockdsimon.com/profile.jsonld): schema.org graph with stable Person and evidence identifiers.
 - [profile.md](https://brockdsimon.com/profile.md): complete record as Markdown.
 - [llms-full.txt](https://brockdsimon.com/llms-full.txt): complete record as plain text.
@@ -35,11 +36,11 @@ Record review date: 2026-10-16. Build: 2026-10-26T23:55:20.063Z. Role status dat
 
 ## Roles
 
-- [Co-founder and Chief Product Officer, Native](https://brockdsimon.com/profile#role-native-cpo): current, since January 2026. Evidence: documented. Status as of 2026-10-16. Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.
-- [External Advisor, Bain & Company](https://brockdsimon.com/profile#role-bain-external-advisor): current, since January 2026. Evidence: self_reported. Status as of 2026-10-16. Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.
-- [Advisor, Provenance](https://brockdsimon.com/profile#role-provenance-advisor): current, since December 2025. Evidence: self_reported. Status as of 2026-10-16. Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.
-- [Advisor, Eureka AI](https://brockdsimon.com/profile#role-eureka-advisor): current, since December 2025. Evidence: self_reported. Status as of 2026-10-16. Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.
-- [Ski Coach, Palisades Tahoe](https://brockdsimon.com/profile#role-palisades-ski-coach): current, since October 2021. Evidence: self_reported. Status as of 2026-10-16. Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.
+- [Co-founder and Chief Product Officer, Native](https://brockdsimon.com/profile#role-native-cpo): current, since January 2026. Evidence: documented. Status as of 2026-10-16.
+- [External Advisor, Bain & Company](https://brockdsimon.com/profile#role-bain-external-advisor): current, since January 2026. Evidence: self_reported. Status as of 2026-10-16.
+- [Advisor, Provenance](https://brockdsimon.com/profile#role-provenance-advisor): current, since December 2025. Evidence: self_reported. Status as of 2026-10-16.
+- [Advisor, Eureka AI](https://brockdsimon.com/profile#role-eureka-advisor): current, since December 2025. Evidence: self_reported. Status as of 2026-10-16.
+- [Ski Coach, Palisades Tahoe](https://brockdsimon.com/profile#role-palisades-ski-coach): current, since October 2021. Evidence: self_reported. Status as of 2026-10-16.
 Earlier roles and their dates: [complete career record](https://brockdsimon.com/profile.json) and the employer views above.
 
 ## Evidence and qualifications
@@ -52,12 +53,12 @@ Dates are given only to the precision the record supports: a year, a month, or a
 
 ## Corrections and conflicts
 
-- [x-mckinsey-title](https://brockdsimon.com/profile#correction-x-mckinsey-title) (conflict; kept both): Illinois Tech records his McKinsey title as Expert associate principal; his LinkedIn gives Expert Associate Partner. Both are published, LinkedIn's wording leading, as title variants on the McKinsey roles.
-- [x-degrees-wording](https://brockdsimon.com/profile#correction-x-degrees-wording) (conflict; corrected): The earlier owner record described a BA and MS in Mathematics and Statistics. The corrected wording is BS in Mathematics and Statistics and MS in Mathematics from Miami University, consistent with the owner-approved résumé evidence and Illinois Tech. Bain’s historical biography says MSc in mathematics and statistics. The MBA is from Xavier University. No diploma or degree dates have been verified.
-- [x-native-benchmarks](https://brockdsimon.com/profile#correction-x-native-benchmarks) (attribution boundary; corrected): Native's benchmark results are company results reported by Native, not Brock Simon's personal results. They are recorded as outcomes of the Native programme, never as his achievements.
-- [x-provenance-board-wording](https://brockdsimon.com/profile#correction-x-provenance-board-wording) (conflict; kept both): Trade reports of 22 May 2026 list him on Provenance's Strategic Advisory Board as Partner at Bain & Company; the record's own account is Advisor to Provenance since December 2025 and External Advisor to Bain since January 2026. Both are kept: the reports date the board's announcement, not his start, and use a Bain title he no longer held.
-- [x-native-spider2-rank](https://brockdsimon.com/profile#correction-x-native-spider2-rank) (conflict; unresolved): Native's post of 18 February 2026 says it ranked first on Spider 2.0; the benchmark's leaderboard, as read on 18 October 2026, ranks Native mini second (96.53, dated 18 February 2026) behind Genloop's Sentinel Agent v2 Pro (96.70), which the table dates 1 March 2026, eleven days after the post. The table's own dates are consistent with first place on the day of the post; the post's claim is kept as dated and company-reported.
-- [x-native-bird-rank](https://brockdsimon.com/profile#correction-x-native-bird-rank) (conflict; unresolved): Native's post of 2 October 2026 describes its 4B model as third among single-model entries on the BIRD hidden test set; the leaderboard's Single Trained Model Track, as read on 18 October 2026, numbers it 6, with 76.86 in the Test column and no Dev score. Of the five entries above it, two are dated before the post (12 March and 3 June 2026), one three days before it (29 September 2026) and two after it (10 October 2026); the track does not say when each row was added.
+- [x-mckinsey-title](https://brockdsimon.com/profile#correction-x-mckinsey-title): conflict; kept both.
+- [x-degrees-wording](https://brockdsimon.com/profile#correction-x-degrees-wording): conflict; corrected.
+- [x-native-benchmarks](https://brockdsimon.com/profile#correction-x-native-benchmarks): attribution boundary; corrected.
+- [x-provenance-board-wording](https://brockdsimon.com/profile#correction-x-provenance-board-wording): conflict; kept both.
+- [x-native-spider2-rank](https://brockdsimon.com/profile#correction-x-native-spider2-rank): conflict; unresolved.
+- [x-native-bird-rank](https://brockdsimon.com/profile#correction-x-native-bird-rank): conflict; unresolved.
 
 ## Where to start
 
@@ -78,5 +79,12 @@ Dates are given only to the precision the record supports: a year, a month, or a
 - [Is this the same Brock Simon who worked for dunnhumby in Turkey and Shanghai?](https://brockdsimon.com/profile#faq-same-person-dunnhumby).
 - [What has he written or spoken about?](https://brockdsimon.com/profile#faq-what-has-he-written).
 - [Does Brock Simon have an MCP server?](https://brockdsimon.com/profile#faq-mcp-server).
+
+Education: MBA, Xavier University; BS in Mathematics and Statistics; MS in Mathematics, Miami University. Degree dates and diploma verification are not established.
+
+## Questions and evidence
+
+MCP ask_about_experience returns a direct answer and public links. Its evidence mode returns the selected records and source qualifications; cite, fetch, role_detail and verify_statement expose detailed support. The legacy mode retains the earlier detailed answer fields.
+Public answers are as of the stated status dates. Build time is not fact-verification time. Full qualifications and historical benchmark conflicts remain in the [record](https://brockdsimon.com/profile#boundaries), focused views and sources.
 
 Crawler policy: search engines, answer engines and user-directed fetchers are allowed; model training is allowed; Content-Signal search=yes, ai-input=yes, ai-train=yes. Private paths: /owner, /api, /mcp, /login, /auth, /posts.

@@ -1,7 +1,7 @@
 {
   "$schema": "https://brockdsimon.com/profile.schema.json",
   "format": "brockdsimon.com/profile-record",
-  "formatVersion": "4.2",
+  "formatVersion": "4.3",
   "recordId": "https://brockdsimon.com/profile.jsonld#person",
   "canonicalUrl": "https://brockdsimon.com/profile.json",
   "citationUrl": "https://brockdsimon.com/profile",
@@ -45,7 +45,7 @@
       ]
     }
   },
-  "generatedAt": "2026-10-26T23:55:20.063Z",
+  "generatedAt": "2026-10-27T17:32:43.181Z",
   "reviewDate": "2026-10-16",
   "researchDate": "2026-10-18",
   "preview": false,
@@ -1879,13 +1879,15 @@
   "memberships": [
     {
       "id": "iit-marketing-analytics-advisory-council",
+      "status": "unknown",
+      "statusBasis": "The undated institutional listing documents membership, but does not establish current active status or membership dates. Its biography still names a former employer.",
       "citation": "https://brockdsimon.com/profile#membership-iit-marketing-analytics-advisory-council",
       "organisation": "Marketing Analytics Advisory Council, Stuart School of Business, Illinois Institute of Technology",
       "role": "Council member",
       "url": "https://www.iit.edu/stuart/about/board-advisors/marketing-analytics-advisory-council",
       "start": null,
       "end": null,
-      "periodLabel": "start date not stated",
+      "periodLabel": "Membership listed; current status and dates not established",
       "sourceIds": [
         "iit-marketing-analytics-council"
       ],
@@ -1952,7 +1954,7 @@
       "id": "still-at-bain",
       "citation": "https://brockdsimon.com/profile#faq-still-at-bain",
       "question": "Is Brock Simon still at Bain & Company?",
-      "answer": "No. He was Expert Associate Partner at Bain & Company from June 2019 and Expert Partner from July 2022 to November 2025, in San Francisco. Since January 2026 he has been an external advisor to Bain & Company, providing advisory support on select projects, including retail AI work, alongside his role as co-founder and Chief Product Officer of Native.",
+      "answer": "He remains connected to Bain & Company as an external advisor since January 2026; his Expert Partner role ended in November 2025. He was Expert Associate Partner from June 2019 and Expert Partner from July 2022, in San Francisco. His advisory work supports select projects, including retail AI, alongside his role as co-founder and Chief Product Officer of Native.",
       "sourceIds": [
         "linkedin-experience-2026-10-16",
         "bain-team-page-2025-08-08",
@@ -2934,9 +2936,14 @@
       "relationshipLabel": "Brock Simon wrote or posted it.",
       "statement": "Brock Simon owns and built brockdsimon.com, a machine-readable professional record launched in October 2026.",
       "sourceIds": [
-        "owner-profile-2026-08-18"
+        "owner-site-record-2026-10-27"
       ],
-      "locators": [],
+      "locators": [
+        {
+          "sourceId": "owner-site-record-2026-10-27",
+          "locator": "Published claim c-site-built and the brockdsimon-com project: owner-reported ownership, creation and October 2026 launch."
+        }
+      ],
       "date": {
         "value": "2026-10",
         "precision": "month",
@@ -2944,6 +2951,7 @@
       },
       "dateKind": "launch",
       "confidence": "high",
+      "note": "Owner-published account, not independent corroboration of authorship or launch timing. The August profile is not evidence for the later launch.",
       "evidence": "self_reported",
       "recordedOn": "2026-10-18",
       "reviewedOn": null,
@@ -4296,6 +4304,20 @@
   ],
   "changelog": [
     {
+      "date": "2026-10-27",
+      "change": "corrected",
+      "paths": [
+        "memberships",
+        "faq.still-at-bain",
+        "claims.c-site-built",
+        "sources.owner-site-record-2026-10-27",
+        "format",
+        "profile.jsonld",
+        "record.mcp"
+      ],
+      "summary": "Format 4.3 adds concise answers and a compact introduction, separates degree awards and dated employment in structured data, clarifies unknown council status and the current Bain advisory relationship, and attributes the site-launch statement to the owner-published record. Historical evidence and source-access limitations remain available in detailed records."
+    },
+    {
       "date": "2026-10-26",
       "change": "corrected",
       "paths": [
@@ -4461,6 +4483,32 @@
   "sources": [
     {
       "ref": 1,
+      "id": "owner-site-record-2026-10-27",
+      "citation": "https://brockdsimon.com/profile#source-owner-site-record-2026-10-27",
+      "url": "https://brockdsimon.com/profile#claim-c-site-built",
+      "publisher": "Brock Simon",
+      "title": "Brock Simon's public account of brockdsimon.com",
+      "titleBasis": "catalogue_label",
+      "published": null,
+      "publishedBasis": "unknown",
+      "retrieval": {
+        "status": "fetched",
+        "checkedOn": "2026-10-27",
+        "via": "live",
+        "note": "The public record reports ownership, creation and an October 2026 launch. This is the owner's published account, not independent verification; the access date is not the launch date."
+      },
+      "sourceType": "owner_statement",
+      "relation": "authored",
+      "namesSubject": true,
+      "summary": "Owner-published statement of ownership, creation and launch timing for this site.",
+      "related": [],
+      "recordedOn": "2026-10-27",
+      "reviewedOn": null,
+      "visibility": "public",
+      "subjectApproval": "approved"
+    },
+    {
+      "ref": 2,
       "id": "linkedin-turkey-inflation-reflections",
       "citation": "https://brockdsimon.com/profile#source-linkedin-turkey-inflation-reflections",
       "url": "https://www.linkedin.com/in/brock-simon",
@@ -4489,7 +4537,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 2,
+      "ref": 3,
       "id": "owner-degree-correction-2026-10-25",
       "citation": "https://brockdsimon.com/profile#source-owner-degree-correction-2026-10-25",
       "publisher": "Brock Simon",
@@ -4520,7 +4568,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 3,
+      "ref": 4,
       "id": "servicepath-executive-conversations-13-recording",
       "citation": "https://brockdsimon.com/profile#source-servicepath-executive-conversations-13-recording",
       "url": "https://www.youtube.com/watch?v=pBOU9QLLnC8",
@@ -4557,7 +4605,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 4,
+      "ref": 5,
       "id": "cxm-retail-ai-customer-experience-2025",
       "citation": "https://brockdsimon.com/profile#source-cxm-retail-ai-customer-experience-2025",
       "url": "https://cxm.world/customer-experience/ai-arrived-in-retail-did-better-cx-come-with-it/",
@@ -4593,7 +4641,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 5,
+      "ref": 6,
       "id": "sonia-parekh-ai-retail-industry-leaders",
       "citation": "https://brockdsimon.com/profile#source-sonia-parekh-ai-retail-industry-leaders",
       "url": "https://www.linkedin.com/posts/soniavparekh-retail-technology-leader_ai-in-retail-insights-from-industry-leaders-activity-7394041122626580480-LEdC",
@@ -4626,7 +4674,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 6,
+      "ref": 7,
       "id": "servicepath-agentic-ai-retail-pricing-article",
       "citation": "https://brockdsimon.com/profile#source-servicepath-agentic-ai-retail-pricing-article",
       "url": "https://www.linkedin.com/pulse/from-3-days-15-minutes-how-agentic-ai-revolutionizing-daniel-kube-i9tqc/",
@@ -4667,7 +4715,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 7,
+      "ref": 8,
       "id": "linkedin-gtc-reflections",
       "citation": "https://brockdsimon.com/profile#source-linkedin-gtc-reflections",
       "url": "https://www.linkedin.com/posts/brock-simon-605436a_its-funny-how-much-nvidia-gtc-2026-looked-activity-7447446142310838272-Bmlf",
@@ -4700,7 +4748,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 8,
+      "ref": 9,
       "id": "linkedin-databricks-enterprise-context",
       "citation": "https://brockdsimon.com/profile#source-linkedin-databricks-enterprise-context",
       "url": "https://www.linkedin.com/posts/brock-simon_databricks-summit-was-great-this-year-and-activity-7474575241399422977-qipH",
@@ -4728,7 +4776,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 9,
+      "ref": 10,
       "id": "brock-category-strategy-post",
       "citation": "https://brockdsimon.com/profile#source-brock-category-strategy-post",
       "url": "https://www.linkedin.com/posts/brock-simon-605436a_as-i-have-been-integrating-category-strategy-activity-7402123928409653249-r1y-",
@@ -4756,7 +4804,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 10,
+      "ref": 11,
       "id": "aiesec-salaam-2005",
       "citation": "https://brockdsimon.com/profile#source-aiesec-salaam-2005",
       "url": "https://www.nusacc.org/uploads/2/2/9/7/22977530/26_trdln0405saudi.pdf",
@@ -4783,7 +4831,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 11,
+      "ref": 12,
       "id": "tesco-thailand-clubcard-2009",
       "citation": "https://brockdsimon.com/profile#source-tesco-thailand-clubcard-2009",
       "url": "https://www.tescoplc.com/media/1yidswev/interims_2009-10.pdf",
@@ -4813,7 +4861,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 12,
+      "ref": 13,
       "id": "tesco-kipa-clubcard-2011",
       "citation": "https://brockdsimon.com/profile#source-tesco-kipa-clubcard-2011",
       "url": "https://www.tescoplc.com/media/1736/tesco_kipa_-_tesco_in_europe_2011.pdf",
@@ -4843,7 +4891,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 13,
+      "ref": 14,
       "id": "owner-career-review-2026-10-24",
       "citation": "https://brockdsimon.com/profile#source-owner-career-review-2026-10-24",
       "publisher": "Brock Simon",
@@ -4872,7 +4920,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 14,
+      "ref": 15,
       "id": "owner-profile-2026-08-18",
       "citation": "https://brockdsimon.com/profile#source-owner-profile-2026-08-18",
       "publisher": "Brock Simon",
@@ -4902,7 +4950,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 15,
+      "ref": 16,
       "id": "linkedin-experience-2026-10-16",
       "citation": "https://brockdsimon.com/profile#source-linkedin-experience-2026-10-16",
       "url": "https://www.linkedin.com/in/brock-simon/",
@@ -4933,7 +4981,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 16,
+      "ref": 17,
       "id": "bain-team-page-2025-08-08",
       "citation": "https://brockdsimon.com/profile#source-bain-team-page-2025-08-08",
       "url": "https://www.bain.com/our-team/brock-simon/",
@@ -4963,7 +5011,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 17,
+      "ref": 18,
       "id": "iit-marketing-analytics-council",
       "citation": "https://brockdsimon.com/profile#source-iit-marketing-analytics-council",
       "url": "https://www.iit.edu/stuart/about/board-advisors/marketing-analytics-advisory-council",
@@ -4991,7 +5039,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 18,
+      "ref": 19,
       "id": "servicepath-executive-conversations-13",
       "citation": "https://brockdsimon.com/profile#source-servicepath-executive-conversations-13",
       "url": "https://servicepath.co/podcast/revenue-growth-for-tech-execs-edition-13/",
@@ -5030,7 +5078,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 19,
+      "ref": 20,
       "id": "provenance-ai-shopping-webinar-2026-01",
       "citation": "https://brockdsimon.com/profile#source-provenance-ai-shopping-webinar-2026-01",
       "url": "https://www.provenance.org/news-insights/the-future-of-ai-shopping-how-verified-product-data-boosts-ai-discoverability",
@@ -5069,7 +5117,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 20,
+      "ref": 21,
       "id": "linkedin-post-maustrap-2026",
       "citation": "https://brockdsimon.com/profile#source-linkedin-post-maustrap-2026",
       "url": "https://www.linkedin.com/posts/brock-simon_how-ai-is-changing-product-decision-making-activity-7457522836241321984-T3X-",
@@ -5096,7 +5144,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 21,
+      "ref": 22,
       "id": "native-linkedin-company-page",
       "citation": "https://brockdsimon.com/profile#source-native-linkedin-company-page",
       "url": "https://www.linkedin.com/company/usenative",
@@ -5121,7 +5169,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 22,
+      "ref": 23,
       "id": "native-spider2-2026-02-18",
       "citation": "https://brockdsimon.com/profile#source-native-spider2-2026-02-18",
       "url": "https://www.usenative.ai/blog/native-ranks-first-spider-2",
@@ -5150,7 +5198,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 23,
+      "ref": 24,
       "id": "native-bird-2026-10-02",
       "citation": "https://brockdsimon.com/profile#source-native-bird-2026-10-02",
       "url": "https://usenative.ai/blog/native-mini-bird",
@@ -5179,7 +5227,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 24,
+      "ref": 25,
       "id": "business-insider-2026-06-17",
       "citation": "https://brockdsimon.com/profile#source-business-insider-2026-06-17",
       "url": "https://www.businessinsider.com/ai-token-economy-spending-workplace-budgets-usage-caps-software-engineer-2026-6",
@@ -5211,7 +5259,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 25,
+      "ref": 26,
       "id": "youtube-maustrap-episode-2",
       "citation": "https://brockdsimon.com/profile#source-youtube-maustrap-episode-2",
       "url": "https://www.youtube.com/watch?v=j5jrvyGV-tA",
@@ -5241,7 +5289,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 26,
+      "ref": 27,
       "id": "native-site-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-native-site-2026-09-29",
       "url": "https://www.usenative.ai/",
@@ -5269,7 +5317,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 27,
+      "ref": 28,
       "id": "provenance-brands-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-provenance-brands-2026-09-29",
       "url": "https://www.provenance.org/solutions/for-brands",
@@ -5294,7 +5342,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 28,
+      "ref": 29,
       "id": "provenance-framework-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-provenance-framework-2026-09-29",
       "url": "https://www.provenance.org/framework",
@@ -5319,7 +5367,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 29,
+      "ref": 30,
       "id": "eureka-home-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-eureka-home-2026-09-29",
       "url": "https://eureka.ai/",
@@ -5344,7 +5392,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 30,
+      "ref": 31,
       "id": "eureka-omni-2026-09-29",
       "citation": "https://brockdsimon.com/profile#source-eureka-omni-2026-09-29",
       "url": "https://eureka.ai/products/omni",
@@ -5369,7 +5417,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 31,
+      "ref": 32,
       "id": "bain-insights-data-monetization-2025-06-10",
       "citation": "https://brockdsimon.com/profile#source-bain-insights-data-monetization-2025-06-10",
       "url": "https://www.bain.com/insights/unlocking-hidden-value-a-new-approach-to-data-monetization-with-ai/",
@@ -5408,7 +5456,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 32,
+      "ref": 33,
       "id": "bain-insights-google-cloud-next-2025-04-14",
       "citation": "https://brockdsimon.com/profile#source-bain-insights-google-cloud-next-2025-04-14",
       "url": "https://www.bain.com/insights/google-cloud-next-2025-ai-moves-from-possibility-to-foundation/",
@@ -5447,7 +5495,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 33,
+      "ref": 34,
       "id": "bain-insights-nvidia-gtc-2025-03-24",
       "citation": "https://brockdsimon.com/profile#source-bain-insights-nvidia-gtc-2025-03-24",
       "url": "https://www.bain.com/insights/nvidia-gtc-2025-ai-matures-into-enterprise-infrastructure/",
@@ -5490,7 +5538,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 34,
+      "ref": 35,
       "id": "iit-2017-advanced-marketing-analytics-symposium",
       "citation": "https://brockdsimon.com/profile#source-iit-2017-advanced-marketing-analytics-symposium",
       "url": "https://www.iit.edu/events/2017-advanced-marketing-analytics-symposium",
@@ -5523,7 +5571,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 35,
+      "ref": 36,
       "id": "itbrief-provenance-advisory-board-2026-05-22",
       "citation": "https://brockdsimon.com/profile#source-itbrief-provenance-advisory-board-2026-05-22",
       "url": "https://itbrief.co.uk/story/provenance-appoints-ai-advisory-board-for-retail-shift",
@@ -5561,7 +5609,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 36,
+      "ref": 37,
       "id": "cmotech-provenance-advisory-board-2026-05-22",
       "citation": "https://brockdsimon.com/profile#source-cmotech-provenance-advisory-board-2026-05-22",
       "url": "https://cmotech.uk/story/provenance-appoints-ai-advisory-board-for-retail-shift",
@@ -5599,7 +5647,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 37,
+      "ref": 38,
       "id": "spider2-leaderboard-2026-10-18",
       "citation": "https://brockdsimon.com/profile#source-spider2-leaderboard-2026-10-18",
       "url": "https://spider2-sql.github.io/",
@@ -5625,7 +5673,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 38,
+      "ref": 39,
       "id": "bird-leaderboard-2026-10-18",
       "citation": "https://brockdsimon.com/profile#source-bird-leaderboard-2026-10-18",
       "url": "https://bird-bench.github.io/",
@@ -5651,7 +5699,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 39,
+      "ref": 40,
       "id": "provenance-webinar-vimeo-2026-01-14",
       "citation": "https://brockdsimon.com/profile#source-provenance-webinar-vimeo-2026-01-14",
       "url": "https://vimeo.com/1154361796",
@@ -5692,7 +5740,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 40,
+      "ref": 41,
       "id": "owner-career-account-2026-10-24",
       "citation": "https://brockdsimon.com/profile#source-owner-career-account-2026-10-24",
       "publisher": "Brock Simon",
@@ -5721,7 +5769,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 41,
+      "ref": 42,
       "id": "linkedin-retail-merchant-assistant",
       "citation": "https://brockdsimon.com/profile#source-linkedin-retail-merchant-assistant",
       "url": "https://www.linkedin.com/posts/brock-simon-605436a_ai-retail-merchant-assistant-activity-7371585217985343489-qW2p",
@@ -5749,7 +5797,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 42,
+      "ref": 43,
       "id": "bain-retail-merchant-assistant-product",
       "citation": "https://brockdsimon.com/profile#source-bain-retail-merchant-assistant-product",
       "url": "https://www.bain.com/industry-expertise/retail/ai-retail-merchant-assistant/",
@@ -5775,7 +5823,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 43,
+      "ref": 44,
       "id": "bain-openai-alliance-2023",
       "citation": "https://brockdsimon.com/profile#source-bain-openai-alliance-2023",
       "url": "https://www.bain.com/about/media-center/press-releases/2023/bain--company-announces-services-alliance-with-openai-to-help-enterprise-clients-identify-and-realize-the-full-potential-and-maximum-value-of-ai/",
@@ -5805,7 +5853,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 44,
+      "ref": 45,
       "id": "home-depot-call-2009",
       "citation": "https://brockdsimon.com/profile#source-home-depot-call-2009",
       "url": "https://www.roic.ai/quote/HD%3ACI/transcripts/2009-year/2-quarter",
@@ -5835,7 +5883,7 @@
       "subjectApproval": "approved"
     },
     {
-      "ref": 45,
+      "ref": 46,
       "id": "humby-customer-understanding-2010",
       "citation": "https://brockdsimon.com/profile#source-humby-customer-understanding-2010",
       "url": "https://www.marketingweek.com/the-technology-of-customer-understanding/",

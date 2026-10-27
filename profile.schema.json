@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://brockdsimon.com/profile.schema.json",
-  "title": "brockdsimon.com/profile-record 4.2",
+  "title": "brockdsimon.com/profile-record 4.3",
   "description": "The professional record of the person named in identity, generated from one maintained source record. Conventions: a null value means the record does not hold that value (for example, a date no source states); an absent optional property means the field does not apply to that item; an empty array means none are published. Nothing is inferred: every statement cites its sources and carries an evidence label. The person's contribution (claims), programme context (claims of kind context) and programme results (outcomes) are kept in separate lists. Dates are strings to the precision the record supports: YYYY, YYYY-MM or YYYY-MM-DD.",
   "type": "object",
   "additionalProperties": false,
@@ -688,7 +688,8 @@
     "isoDay": {
       "type": "string",
       "description": "A calendar day, YYYY-MM-DD.",
-      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "format": "date"
     },
     "url": {
       "type": "string",
@@ -704,7 +705,7 @@
     "subject": {
       "type": "string",
       "description": "What a claim or outcome is about: person, or kind:id for a role, project, organisation, work or event.",
-      "pattern": "^(person|role|project|org|work|event):?[a-z0-9-]*$"
+      "pattern": "^(person|(?:role|project|org|work|event):[a-z0-9][a-z0-9-]*)$"
     },
     "relationship": {
       "type": "string",
@@ -769,7 +770,60 @@
         "precision",
         "display"
       ],
-      "additionalProperties": false
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "precision": {
+                "const": "day"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "string",
+                "format": "date"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "precision": {
+                "const": "month"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "string",
+                "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "precision": {
+                "const": "year"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "string",
+                "pattern": "^\\d{4}$"
+              }
+            }
+          }
+        }
+      ]
     },
     "titleVariant": {
       "type": "object",
@@ -3071,6 +3125,22 @@
       "type": "object",
       "description": "A board, council or association.",
       "properties": {
+        "status": {
+          "type": "string",
+          "description": "Membership status; absence of an end date does not establish current membership.",
+          "enum": [
+            "current",
+            "former",
+            "unknown"
+          ]
+        },
+        "statusAsOf": {
+          "$ref": "#/$defs/isoDay"
+        },
+        "statusBasis": {
+          "type": "string",
+          "description": "Evidence and limits of membership status."
+        },
         "id": {
           "$ref": "#/$defs/id"
         },
@@ -3519,7 +3589,8 @@
                 "null"
               ],
               "description": "Day of the check; null when not checked.",
-              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "format": "date"
             },
             "via": {
               "type": "string",
