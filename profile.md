@@ -553,3 +553,5 @@ Relationships:
 Dates are given only to the precision the record supports: a year, a month, or a day. A year is never turned into an invented day. Announcement, start, end and publication dates are kept apart.
 
 Maintenance: owner; approved by Brock Simon: yes. Maintained by Brock Simon. Professional claims cite their sources and distinguish documented, self-reported and owner-perspective evidence, with a locator into the source where known. Company descriptions use each company's own public website. Publication is limited to approved professional information.
+
+Record revision: sha256:3713cfa49051de0c11a5bec6f3b97a9b2c995c4748f67c946b67213aa20679fe

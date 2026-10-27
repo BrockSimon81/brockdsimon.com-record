@@ -3,6 +3,8 @@
 
 This repository mirrors the record Brock Simon publishes at https://brockdsimon.com. **brockdsimon.com is canonical**: the files here are copied from the live site after every deploy, unchanged, providing an additional public retrieval location. Read it as a page at https://brockdsimon.com/profile.
 
+Record revision: sha256:3713cfa49051de0c11a5bec6f3b97a9b2c995c4748f67c946b67213aa20679fe. Build: 2026-10-27T22:22:42.524Z. Canonical source: https://brockdsimon.com/profile.json.
+
 Publication: Brock Simon has approved this record.
 
 Maintained by Brock Simon. Sources include his own statements, supplied LinkedIn material and public publications. Each source records its retrieval status, date and limitations; some evidence is available only through archives, partial text or indexed excerpts.
@@ -17,8 +19,9 @@ Maintained by Brock Simon. Professional claims cite their sources and distinguis
 - [llms.txt](https://brockdsimon.com/llms.txt): the record's summary and file list for language models.
 - [llms-full.txt](https://brockdsimon.com/llms-full.txt): complete record as plain text.
 - [profile.schema.json](https://brockdsimon.com/profile.schema.json): field definitions and validation schema.
+- [record/introduction.json](https://brockdsimon.com/record/introduction.json): compact introduction, current roles and canonical evidence links.
 
-Focused retrieval: [record index](https://brockdsimon.com/record/index.json), [overview](https://brockdsimon.com/record/overview.json), [read-only MCP](https://brockdsimon.com/record/mcp), and [MCP server card](https://brockdsimon.com/record/mcp/server-card).
+Focused retrieval: [record index](https://brockdsimon.com/record/index.json), [compact introduction](record/introduction.json), [detailed overview](https://brockdsimon.com/record/overview.json), [read-only MCP](https://brockdsimon.com/record/mcp), and [MCP server card](https://brockdsimon.com/record/mcp/server-card).
 
 Also on the site, not mirrored here: [the HTML page](https://brockdsimon.com/profile), [feed.xml](https://brockdsimon.com/feed.xml), [sitemap.xml](https://brockdsimon.com/sitemap.xml) and [the API catalog](https://brockdsimon.com/.well-known/api-catalog).
 

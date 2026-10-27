@@ -149,6 +149,12 @@
             },
             "mcpServerCard": {
               "$ref": "#/$defs/url"
+            },
+            "mcpServerCardJson": {
+              "$ref": "#/$defs/url"
+            },
+            "introduction": {
+              "$ref": "#/$defs/url"
             }
           },
           "required": [
@@ -244,6 +250,11 @@
         "crawlerPolicy"
       ],
       "additionalProperties": false
+    },
+    "recordRevision": {
+      "type": "string",
+      "description": "SHA-256 of the approved projection excluding build time. Not a fact verification date.",
+      "pattern": "^sha256:[a-f0-9]{64}$"
     },
     "generatedAt": {
       "type": "string",

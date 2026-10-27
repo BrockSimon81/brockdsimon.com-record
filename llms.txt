@@ -3,14 +3,14 @@
 > Product leader and advisor: co-founder and Chief Product Officer at Native, external advisor to Bain & Company, and advisor to Provenance and Eureka AI. Former Expert Partner at Bain & Company, with earlier analytics leadership at McKinsey & Company and dunnhumby.
 
 As of 2026-10-16, Brock Simon is co-founder and Chief Product Officer at Native (since January 2026) and holds advisory roles with Bain & Company (External Advisor), Provenance (Advisor), Eureka AI (Advisor). Brock is also a ski coach at Palisades Tahoe.
-Record review date: 2026-10-16. Build: 2026-10-27T17:32:43.181Z. Role status dates, source check dates and publication dates are recorded separately.
+Record review date: 2026-10-16. Build: 2026-10-27T22:22:42.524Z. Role status dates, source check dates and publication dates are recorded separately.
 
 ## Files
 
 - [Introduction](https://brockdsimon.com/record/introduction.json): compact identity, current roles, expertise and links.
 - [Overview](https://brockdsimon.com/record/overview.json): identity, current role records, dates, citations and qualifications.
 - [record/index.json](https://brockdsimon.com/record/index.json): focused views and source records in JSON, HTML and Markdown.
-- [record/mcp](https://brockdsimon.com/record/mcp): read-only MCP tools and resources; Streamable HTTP POST, no credentials. [Server card](https://brockdsimon.com/record/mcp/server-card).
+- [record/mcp](https://brockdsimon.com/record/mcp): read-only MCP tools and resources; Streamable HTTP POST, no credentials. [Server card](https://brockdsimon.com/record/mcp/server-card); [ordinary JSON discovery](https://brockdsimon.com/record/mcp/server-card.json).
 - [profile.json](https://brockdsimon.com/profile.json): complete canonical public record, format 4.3.
 - [profile.jsonld](https://brockdsimon.com/profile.jsonld): schema.org graph with stable Person and evidence identifiers.
 - [profile.md](https://brockdsimon.com/profile.md): complete record as Markdown.
@@ -88,3 +88,5 @@ MCP ask_about_experience returns a direct answer and public links. Its evidence 
 Public answers are as of the stated status dates. Build time is not fact-verification time. Full qualifications and historical benchmark conflicts remain in the [record](https://brockdsimon.com/profile#boundaries), focused views and sources.
 
 Crawler policy: search engines, answer engines and user-directed fetchers are allowed; model training is allowed; Content-Signal search=yes, ai-input=yes, ai-train=yes. Private paths: /owner, /api, /mcp, /login, /auth, /posts.
+
+Record revision: sha256:3713cfa49051de0c11a5bec6f3b97a9b2c995c4748f67c946b67213aa20679fe

@@ -22,7 +22,8 @@
       "url": "https://brockdsimon.com/profile.json",
       "encodingFormat": "application/json",
       "version": "4.3",
-      "dateModified": "2026-10-27T17:29:34.201Z",
+      "identifier": "sha256:3713cfa49051de0c11a5bec6f3b97a9b2c995c4748f67c946b67213aa20679fe",
+      "dateModified": "2026-10-27T22:14:51.988Z",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },

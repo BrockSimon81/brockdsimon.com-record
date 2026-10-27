@@ -24,6 +24,8 @@
       "apiCatalog": "https://brockdsimon.com/.well-known/api-catalog",
       "mcp": "https://brockdsimon.com/record/mcp",
       "mcpServerCard": "https://brockdsimon.com/record/mcp/server-card",
+      "mcpServerCardJson": "https://brockdsimon.com/record/mcp/server-card.json",
+      "introduction": "https://brockdsimon.com/record/introduction.json",
       "schema": "https://brockdsimon.com/profile.schema.json"
     },
     "access": {
@@ -45,7 +47,7 @@
       ]
     }
   },
-  "generatedAt": "2026-10-27T17:32:43.181Z",
+  "generatedAt": "2026-10-27T22:22:42.524Z",
   "reviewDate": "2026-10-16",
   "researchDate": "2026-10-18",
   "preview": false,
@@ -5940,5 +5942,6 @@
     "authored": "Brock Simon wrote or posted it.",
     "named": "A source names Brock Simon in connection with it."
   },
-  "datePrecisionNote": "Dates are given only to the precision the record supports: a year, a month, or a day. A year is never turned into an invented day. Announcement, start, end and publication dates are kept apart."
+  "datePrecisionNote": "Dates are given only to the precision the record supports: a year, a month, or a day. A year is never turned into an invented day. Announcement, start, end and publication dates are kept apart.",
+  "recordRevision": "sha256:3713cfa49051de0c11a5bec6f3b97a9b2c995c4748f67c946b67213aa20679fe"
 }
