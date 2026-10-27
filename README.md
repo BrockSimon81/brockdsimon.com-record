@@ -11,7 +11,7 @@ Maintained by Brock Simon. Professional claims cite their sources and distinguis
 
 ## Files
 
-- [profile.json](https://brockdsimon.com/profile.json): complete canonical public record, format 4.1.
+- [profile.json](https://brockdsimon.com/profile.json): complete canonical public record, format 4.2.
 - [profile.jsonld](https://brockdsimon.com/profile.jsonld): schema.org graph with stable Person and evidence identifiers.
 - [profile.md](https://brockdsimon.com/profile.md): complete record as Markdown.
 - [llms.txt](https://brockdsimon.com/llms.txt): the record's summary and file list for language models.
@@ -28,7 +28,7 @@ Crawler policy: search engines, answer engines and user-directed fetchers are al
 
 ## How this mirror is made
 
-Each commit records a verified production build: its subject names the Worker version id and the build timestamp the site sends as `X-Built-At`. The deploy step fetches the files above from https://brockdsimon.com, checks media types and exact equality with the local verified production build, and commits only when the bytes changed. Nothing is edited here by hand; corrections go to the record and arrive with the next deploy. The record's format is `4.1`; its schema is profile.schema.json.
+Each commit records a verified production build: its subject names the Worker version id and the build timestamp the site sends as `X-Built-At`. The deploy step fetches the files above from https://brockdsimon.com, checks media types and exact equality with the local verified production build, and commits only when the bytes changed. Nothing is edited here by hand; corrections go to the record and arrive with the next deploy. The record's format is `4.2`; its schema is profile.schema.json.
 
 This generated section tracks the verified record and interfaces on every mirror run. Record build date: 2026-10-26. Content outside the generated markers is maintained separately.
 <!-- generated-record:end -->

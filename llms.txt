@@ -3,14 +3,14 @@
 > Product leader and advisor: co-founder and Chief Product Officer at Native, external advisor to Bain & Company, and advisor to Provenance and Eureka AI. Former Expert Partner at Bain & Company, with earlier analytics leadership at McKinsey & Company and dunnhumby.
 
 As of 2026-10-16, Brock Simon is co-founder and Chief Product Officer at Native (since January 2026) and holds advisory roles with Bain & Company (External Advisor), Provenance (Advisor), Eureka AI (Advisor). Brock is also a ski coach at Palisades Tahoe.
-Record review date: 2026-10-16. Build: 2026-10-26T22:35:15.512Z. Role status dates, source check dates and publication dates are recorded separately.
+Record review date: 2026-10-16. Build: 2026-10-26T23:55:20.063Z. Role status dates, source check dates and publication dates are recorded separately.
 
 ## Files
 
 - [Overview](https://brockdsimon.com/record/overview.json): identity, current role records, dates, citations and qualifications.
 - [record/index.json](https://brockdsimon.com/record/index.json): focused views and source records in JSON, HTML and Markdown.
 - [record/mcp](https://brockdsimon.com/record/mcp): read-only MCP tools and resources; Streamable HTTP POST, no credentials. [Server card](https://brockdsimon.com/record/mcp/server-card).
-- [profile.json](https://brockdsimon.com/profile.json): complete canonical public record, format 4.1.
+- [profile.json](https://brockdsimon.com/profile.json): complete canonical public record, format 4.2.
 - [profile.jsonld](https://brockdsimon.com/profile.jsonld): schema.org graph with stable Person and evidence identifiers.
 - [profile.md](https://brockdsimon.com/profile.md): complete record as Markdown.
 - [llms-full.txt](https://brockdsimon.com/llms-full.txt): complete record as plain text.

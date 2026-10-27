@@ -1,7 +1,7 @@
 {
   "$schema": "https://brockdsimon.com/profile.schema.json",
   "format": "brockdsimon.com/profile-record",
-  "formatVersion": "4.1",
+  "formatVersion": "4.2",
   "recordId": "https://brockdsimon.com/profile.jsonld#person",
   "canonicalUrl": "https://brockdsimon.com/profile.json",
   "citationUrl": "https://brockdsimon.com/profile",
@@ -45,7 +45,7 @@
       ]
     }
   },
-  "generatedAt": "2026-10-26T22:35:15.512Z",
+  "generatedAt": "2026-10-26T23:55:20.063Z",
   "reviewDate": "2026-10-16",
   "researchDate": "2026-10-18",
   "preview": false,
@@ -2845,6 +2845,22 @@
           "locator": "His maintained record, roles list: title and start month (self-reported)."
         }
       ],
+      "support": [
+        {
+          "scope": "Founding Native",
+          "evidence": "documented",
+          "sourceIds": [
+            "business-insider-2026-06-17"
+          ]
+        },
+        {
+          "scope": "CPO title, January 2026 start and current status reported on 2026-10-16",
+          "evidence": "self_reported",
+          "sourceIds": [
+            "linkedin-experience-2026-10-16"
+          ]
+        }
+      ],
       "date": {
         "value": "2026-01",
         "precision": "month",
@@ -3035,6 +3051,22 @@
         {
           "sourceId": "linkedin-experience-2026-10-16",
           "locator": "Experience section, 'Country Head, Turkey' entry: title and dates (self-reported)."
+        }
+      ],
+      "support": [
+        {
+          "scope": "Country Head for Turkey title",
+          "evidence": "documented",
+          "sourceIds": [
+            "bain-team-page-2025-08-08"
+          ]
+        },
+        {
+          "scope": "February 2012 to July 2013 dates",
+          "evidence": "self_reported",
+          "sourceIds": [
+            "linkedin-experience-2026-10-16"
+          ]
         }
       ],
       "date": {
@@ -3273,6 +3305,23 @@
           "locator": "Title block: 'Partner, San Francisco' in the capture of 8 August 2025. Supports that Bain listed him as a partner in San Francisco; the page gives no dates and words the title differently."
         }
       ],
+      "support": [
+        {
+          "scope": "Bain partnership and San Francisco office",
+          "evidence": "documented",
+          "sourceIds": [
+            "bain-team-page-2025-08-08"
+          ]
+        },
+        {
+          "scope": "Exact titles and employment months",
+          "evidence": "self_reported",
+          "sourceIds": [
+            "linkedin-experience-2026-10-16",
+            "owner-profile-2026-08-18"
+          ]
+        }
+      ],
       "date": {
         "value": "2019-06",
         "precision": "month",
@@ -3314,6 +3363,29 @@
           "locator": "'Member Profiles', his entry: names McKinsey & Company and gives the title as Expert associate principal; no dates. See x-mckinsey-title."
         }
       ],
+      "support": [
+        {
+          "scope": "McKinsey affiliation with the title Expert associate principal",
+          "evidence": "documented",
+          "sourceIds": [
+            "iit-marketing-analytics-council"
+          ]
+        },
+        {
+          "scope": "Four years in Chicago and Bangkok, without naming the firm",
+          "evidence": "documented",
+          "sourceIds": [
+            "bain-team-page-2025-08-08"
+          ]
+        },
+        {
+          "scope": "Expert Associate Partner wording and exact employment months",
+          "evidence": "self_reported",
+          "sourceIds": [
+            "linkedin-experience-2026-10-16"
+          ]
+        }
+      ],
       "date": {
         "value": "2015-08",
         "precision": "month",
@@ -3353,6 +3425,23 @@
         {
           "sourceId": "iit-marketing-analytics-council",
           "locator": "'Member Profiles', his entry: 'over 10 years at dunnhumby in roles across the United States, Asia, Europe, and the Middle East'. Supports the decade and the regions."
+        }
+      ],
+      "support": [
+        {
+          "scope": "A decade at dunnhumby",
+          "evidence": "documented",
+          "sourceIds": [
+            "bain-team-page-2025-08-08",
+            "iit-marketing-analytics-council"
+          ]
+        },
+        {
+          "scope": "Sequence of titles, employment months and cities",
+          "evidence": "self_reported",
+          "sourceIds": [
+            "linkedin-experience-2026-10-16"
+          ]
         }
       ],
       "date": {
@@ -4207,6 +4296,68 @@
   ],
   "changelog": [
     {
+      "date": "2026-10-26",
+      "change": "corrected",
+      "paths": [
+        "format",
+        "claims",
+        "profile.jsonld",
+        "record.mcp",
+        "sources.bain-team-page-2025-08-08.retrieval",
+        "sources.iit-marketing-analytics-council.retrieval",
+        "changelog"
+      ],
+      "summary": "Format 4.2 adds scoped source support and preserves evidence in structured data and role answers. Reconciled the two source-check dates with recorded 19 October readings and completed recent history. Search pages retain complete items within existing response limits. These metadata corrections do not change career statements or establish a new source reading."
+    },
+    {
+      "date": "2026-10-26",
+      "change": "updated",
+      "paths": [
+        "works",
+        "events",
+        "mentions",
+        "sources",
+        "identity.biography",
+        "education",
+        "claims.c-education",
+        "corrections.x-degrees-wording",
+        "faq.where-did-he-study",
+        "organisations.miami-university",
+        "profiles",
+        "coverage"
+      ],
+      "summary": "Published the corrected degree wording and expanded the writing, coverage and recording references. Authorship, quotation provenance, partial source access and unknown publication dates remain explicit. The Turkey inflation reflection has no verified direct post link; LinkedIn is the published verified external profile."
+    },
+    {
+      "date": "2026-10-25",
+      "change": "corrected",
+      "paths": [
+        "identity.biography",
+        "education.miami-mathematics-statistics",
+        "claims.c-education",
+        "corrections.x-degrees-wording",
+        "faq.where-did-he-study",
+        "sources.owner-degree-correction-2026-10-25"
+      ],
+      "summary": "Recorded the owner-approved correction to BS in Mathematics and Statistics and MS in Mathematics from Miami University, retaining the earlier source wordings as historical context. No diploma or degree dates were verified. The correction was published with the 26 October content update."
+    },
+    {
+      "date": "2026-10-24",
+      "change": "added",
+      "paths": [
+        "roles",
+        "claims",
+        "expertise",
+        "works",
+        "events",
+        "mentions",
+        "faq",
+        "sources",
+        "corrections.x-provenance-board-wording"
+      ],
+      "summary": "Added approved career scope, methods, regional and education experience, and reasons behind career moves; the category-strategy and Retail Merchant Assistant posts; and company context. Owner-reported contributions remain distinct from company results. Focused career, topic and source views expose the same approved record."
+    },
+    {
       "date": "2026-10-19",
       "change": "updated",
       "paths": [
@@ -4795,9 +4946,9 @@
       "publishedNote": "Capture date 2025-08-08; the page itself shows no date.",
       "retrieval": {
         "status": "fetched",
-        "checkedOn": "2026-10-17",
+        "checkedOn": "2026-10-19",
         "via": "wayback",
-        "note": "The live page was removed after his departure; the Internet Archive capture of 8 August 2025 was read in full."
+        "note": "The live page was removed after his departure; the Internet Archive capture of 8 August 2025 was read in full on 17 October 2026. Its layout and biography passages were reread on 19 October 2026."
       },
       "sourceType": "company_page",
       "relation": "about",
@@ -4823,8 +4974,9 @@
       "publishedBasis": "unknown",
       "retrieval": {
         "status": "fetched",
-        "checkedOn": "2026-10-17",
-        "via": "live"
+        "checkedOn": "2026-10-19",
+        "via": "live",
+        "note": "The member profile was read on 17 October 2026 and reread, unchanged, on 19 October 2026. The page shows no publication date."
       },
       "sourceType": "company_page",
       "relation": "about",
