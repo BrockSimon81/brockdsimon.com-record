@@ -3,7 +3,7 @@
 
 This repository mirrors the record Brock Simon publishes at https://brockdsimon.com. **brockdsimon.com is canonical**: the files here are copied from the live site after every deploy, unchanged, providing an additional public retrieval location. Read it as a page at https://brockdsimon.com/profile.
 
-Record revision: sha256:3713cfa49051de0c11a5bec6f3b97a9b2c995c4748f67c946b67213aa20679fe. Build: 2026-10-28T00:58:16.683Z. Canonical source: https://brockdsimon.com/profile.json.
+Record revision: sha256:3713cfa49051de0c11a5bec6f3b97a9b2c995c4748f67c946b67213aa20679fe. Build: 2026-10-28T21:18:33.837Z. Canonical source: https://brockdsimon.com/profile.json.
 
 Publication: Brock Simon has approved this record.
 
