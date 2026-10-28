@@ -3,19 +3,18 @@
 > Product leader and advisor: co-founder and Chief Product Officer at Native, external advisor to Bain & Company, and advisor to Provenance and Eureka AI. Former Expert Partner at Bain & Company, with earlier analytics leadership at McKinsey & Company and dunnhumby.
 
 As of 2026-10-16, Brock Simon is co-founder and Chief Product Officer at Native (since January 2026) and holds advisory roles with Bain & Company (External Advisor), Provenance (Advisor), Eureka AI (Advisor). Brock is also a ski coach at Palisades Tahoe.
-Record review date: 2026-10-16. Build: 2026-10-28T21:18:33.837Z. Role status dates, source check dates and publication dates are recorded separately.
+Record review date: 2026-10-16. Build: 2026-10-28T23:37:29.682Z. Role status dates, source check dates and publication dates are recorded separately.
 
 ## Files
 
 - [Introduction](https://brockdsimon.com/record/introduction.json): compact identity, current roles, expertise and links.
 - [Overview](https://brockdsimon.com/record/overview.json): identity, current role records, dates, citations and qualifications.
-- [record/index.json](https://brockdsimon.com/record/index.json): focused views and source records in JSON, HTML and Markdown.
+- [record/index.json](https://brockdsimon.com/record/index.json): focused views and source records in JSON and Markdown.
 - [record/mcp](https://brockdsimon.com/record/mcp): read-only MCP tools and resources; Streamable HTTP POST, no credentials. [Server card](https://brockdsimon.com/record/mcp/server-card); [ordinary JSON discovery](https://brockdsimon.com/record/mcp/server-card.json).
-- [profile.json](https://brockdsimon.com/profile.json): complete canonical public record, format 4.3.
+- [profile.json](https://brockdsimon.com/profile.json): complete canonical public record, format 5.0.
 - [profile.jsonld](https://brockdsimon.com/profile.jsonld): schema.org graph with stable Person and evidence identifiers.
 - [profile.md](https://brockdsimon.com/profile.md): complete record as Markdown.
 - [llms-full.txt](https://brockdsimon.com/llms-full.txt): complete record as plain text.
-- [profile](https://brockdsimon.com/profile): the same record as one HTML page, with stable citation anchors.
 - [profile.schema.json](https://brockdsimon.com/profile.schema.json): field definitions and validation schema.
 - [feed.xml](https://brockdsimon.com/feed.xml): dated record changes. [API catalog](https://brockdsimon.com/.well-known/api-catalog) and [sitemap](https://brockdsimon.com/sitemap.xml).
 
@@ -36,11 +35,11 @@ Record review date: 2026-10-16. Build: 2026-10-28T21:18:33.837Z. Role status dat
 
 ## Roles
 
-- [Co-founder and Chief Product Officer, Native](https://brockdsimon.com/profile#role-native-cpo): current, since January 2026. Evidence: documented. Status as of 2026-10-16.
-- [External Advisor, Bain & Company](https://brockdsimon.com/profile#role-bain-external-advisor): current, since January 2026. Evidence: self_reported. Status as of 2026-10-16.
-- [Advisor, Provenance](https://brockdsimon.com/profile#role-provenance-advisor): current, since December 2025. Evidence: self_reported. Status as of 2026-10-16.
-- [Advisor, Eureka AI](https://brockdsimon.com/profile#role-eureka-advisor): current, since December 2025. Evidence: self_reported. Status as of 2026-10-16.
-- [Ski Coach, Palisades Tahoe](https://brockdsimon.com/profile#role-palisades-ski-coach): current, since October 2021. Evidence: self_reported. Status as of 2026-10-16.
+- [Co-founder and Chief Product Officer, Native](https://brockdsimon.com/record/citations/role-native-cpo.json): current, since January 2026. Evidence: documented. Status as of 2026-10-16.
+- [External Advisor, Bain & Company](https://brockdsimon.com/record/citations/role-bain-external-advisor.json): current, since January 2026. Evidence: self_reported. Status as of 2026-10-16.
+- [Advisor, Provenance](https://brockdsimon.com/record/citations/role-provenance-advisor.json): current, since December 2025. Evidence: self_reported. Status as of 2026-10-16.
+- [Advisor, Eureka AI](https://brockdsimon.com/record/citations/role-eureka-advisor.json): current, since December 2025. Evidence: self_reported. Status as of 2026-10-16.
+- [Ski Coach, Palisades Tahoe](https://brockdsimon.com/record/citations/role-palisades-ski-coach.json): current, since October 2021. Evidence: self_reported. Status as of 2026-10-16.
 Earlier roles and their dates: [complete career record](https://brockdsimon.com/profile.json) and the employer views above.
 
 ## Evidence and qualifications
@@ -53,12 +52,12 @@ Dates are given only to the precision the record supports: a year, a month, or a
 
 ## Corrections and conflicts
 
-- [x-mckinsey-title](https://brockdsimon.com/profile#correction-x-mckinsey-title): conflict; kept both.
-- [x-degrees-wording](https://brockdsimon.com/profile#correction-x-degrees-wording): conflict; corrected.
-- [x-native-benchmarks](https://brockdsimon.com/profile#correction-x-native-benchmarks): attribution boundary; corrected.
-- [x-provenance-board-wording](https://brockdsimon.com/profile#correction-x-provenance-board-wording): conflict; kept both.
-- [x-native-spider2-rank](https://brockdsimon.com/profile#correction-x-native-spider2-rank): conflict; unresolved.
-- [x-native-bird-rank](https://brockdsimon.com/profile#correction-x-native-bird-rank): conflict; unresolved.
+- [x-mckinsey-title](https://brockdsimon.com/record/citations/correction-x-mckinsey-title.json): conflict; kept both.
+- [x-degrees-wording](https://brockdsimon.com/record/citations/correction-x-degrees-wording.json): conflict; corrected.
+- [x-native-benchmarks](https://brockdsimon.com/record/citations/correction-x-native-benchmarks.json): attribution boundary; corrected.
+- [x-provenance-board-wording](https://brockdsimon.com/record/citations/correction-x-provenance-board-wording.json): conflict; kept both.
+- [x-native-spider2-rank](https://brockdsimon.com/record/citations/correction-x-native-spider2-rank.json): conflict; unresolved.
+- [x-native-bird-rank](https://brockdsimon.com/record/citations/correction-x-native-bird-rank.json): conflict; unresolved.
 
 ## Where to start
 
@@ -69,24 +68,24 @@ Dates are given only to the precision the record supports: a year, a month, or a
 
 ## Questions and answers
 
-- [What connects his retail AI experience to joining Native?](https://brockdsimon.com/profile#faq-career-native-origin).
-- [What drew Brock to dunnhumby?](https://brockdsimon.com/profile#faq-career-first-dunnhumby-job).
-- [How did his McKinsey work in Asia differ in emphasis?](https://brockdsimon.com/profile#faq-career-mckinsey-asia-emphasis).
-- [Is Brock Simon still at Bain & Company?](https://brockdsimon.com/profile#faq-still-at-bain).
-- [What is Native, and what is his role there?](https://brockdsimon.com/profile#faq-what-is-native).
-- [What was his title at McKinsey & Company?](https://brockdsimon.com/profile#faq-mckinsey-title).
-- [Where did he study?](https://brockdsimon.com/profile#faq-where-did-he-study) — corrections: [x-degrees-wording](https://brockdsimon.com/profile#correction-x-degrees-wording).
-- [Is this the same Brock Simon who worked for dunnhumby in Turkey and Shanghai?](https://brockdsimon.com/profile#faq-same-person-dunnhumby).
-- [What has he written or spoken about?](https://brockdsimon.com/profile#faq-what-has-he-written).
-- [Does Brock Simon have an MCP server?](https://brockdsimon.com/profile#faq-mcp-server).
+- [What connects his retail AI experience to joining Native?](https://brockdsimon.com/record/citations/faq-career-native-origin.json).
+- [What drew Brock to dunnhumby?](https://brockdsimon.com/record/citations/faq-career-first-dunnhumby-job.json).
+- [How did his McKinsey work in Asia differ in emphasis?](https://brockdsimon.com/record/citations/faq-career-mckinsey-asia-emphasis.json).
+- [Is Brock Simon still at Bain & Company?](https://brockdsimon.com/record/citations/faq-still-at-bain.json).
+- [What is Native, and what is his role there?](https://brockdsimon.com/record/citations/faq-what-is-native.json).
+- [What was his title at McKinsey & Company?](https://brockdsimon.com/record/citations/faq-mckinsey-title.json).
+- [Where did he study?](https://brockdsimon.com/record/citations/faq-where-did-he-study.json) — corrections: [x-degrees-wording](https://brockdsimon.com/record/citations/correction-x-degrees-wording.json).
+- [Is this the same Brock Simon who worked for dunnhumby in Turkey and Shanghai?](https://brockdsimon.com/record/citations/faq-same-person-dunnhumby.json).
+- [What has he written or spoken about?](https://brockdsimon.com/record/citations/faq-what-has-he-written.json).
+- [Does Brock Simon have an MCP server?](https://brockdsimon.com/record/citations/faq-mcp-server.json).
 
 Education: MBA, Xavier University; BS in Mathematics and Statistics; MS in Mathematics, Miami University. Degree dates and diploma verification are not established.
 
 ## Questions and evidence
 
 MCP ask_about_experience returns a direct answer and public links. Its evidence mode returns the selected records and source qualifications; cite, fetch, role_detail and verify_statement expose detailed support. The legacy mode retains the earlier detailed answer fields.
-Public answers are as of the stated status dates. Build time is not fact-verification time. Full qualifications and historical benchmark conflicts remain in the [record](https://brockdsimon.com/profile#boundaries), focused views and sources.
+Public answers are as of the stated status dates. Build time is not fact-verification time. Full qualifications and historical benchmark conflicts remain in the [record](https://brockdsimon.com/record/citations/boundaries.json), focused views and sources.
 
 Crawler policy: search engines, answer engines and user-directed fetchers are allowed; model training is allowed; Content-Signal search=yes, ai-input=yes, ai-train=yes. Private paths: /owner, /api, /mcp, /login, /auth, /posts.
 
-Record revision: sha256:3713cfa49051de0c11a5bec6f3b97a9b2c995c4748f67c946b67213aa20679fe
+Record revision: sha256:0f0e94db276af5e1edd42f32a9bff131c9f430b4e4a4356a06da5d51691a13d2

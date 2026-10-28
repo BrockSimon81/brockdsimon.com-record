@@ -21,14 +21,11 @@
       "name": "Brock Simon: profile record",
       "url": "https://brockdsimon.com/profile.json",
       "encodingFormat": "application/json",
-      "version": "4.3",
-      "identifier": "sha256:3713cfa49051de0c11a5bec6f3b97a9b2c995c4748f67c946b67213aa20679fe",
-      "dateModified": "2026-10-27T22:14:51.988Z",
+      "version": "5.0",
+      "identifier": "sha256:0f0e94db276af5e1edd42f32a9bff131c9f430b4e4a4356a06da5d51691a13d2",
+      "dateModified": "2026-10-28T22:52:35.901Z",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
-      },
-      "hasPart": {
-        "@id": "https://brockdsimon.com/profile#page"
       },
       "creativeWorkStatus": "Brock Simon has approved this record.",
       "conditionsOfAccess": "This site is public. Only the permitted generated record and its read-only interfaces are served. Reserved paths listed in crawlerPolicy.privatePaths are excluded from crawler access.",
@@ -183,14 +180,9 @@
       "description": "Product leader and advisor: co-founder and Chief Product Officer at Native, external advisor to Bain & Company, and advisor to Provenance and Eureka AI. Former Expert Partner at Bain & Company, with earlier analytics leadership at McKinsey & Company and dunnhumby.",
       "disambiguatingDescription": "As of 2026-10-16, Brock Simon is co-founder and Chief Product Officer at Native (since January 2026) and holds advisory roles with Bain & Company (External Advisor), Provenance (Advisor), Eureka AI (Advisor). Brock is also a ski coach at Palisades Tahoe.",
       "url": "https://brockdsimon.com/",
-      "mainEntityOfPage": [
-        {
-          "@id": "https://brockdsimon.com/profile.jsonld#record"
-        },
-        {
-          "@id": "https://brockdsimon.com/profile#page"
-        }
-      ],
+      "mainEntityOfPage": {
+        "@id": "https://brockdsimon.com/profile.jsonld#record"
+      },
       "worksFor": [
         {
           "@type": "OrganizationRole",
@@ -203,7 +195,7 @@
             "Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.",
             "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own."
           ],
-          "url": "https://brockdsimon.com/profile#role-native-cpo",
+          "url": "https://brockdsimon.com/record/citations/role-native-cpo.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-native",
             "@type": "Organization",
@@ -229,7 +221,7 @@
             {
               "@type": "CreativeWork",
               "@id": "https://brockdsimon.com/profile.jsonld#status-native-cpo",
-              "url": "https://brockdsimon.com/profile#role-native-cpo",
+              "url": "https://brockdsimon.com/record/citations/role-native-cpo.json",
               "about": {
                 "@id": "https://brockdsimon.com/profile.jsonld#role-native-cpo"
               },
@@ -249,7 +241,7 @@
             "Earlier",
             "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own."
           ],
-          "url": "https://brockdsimon.com/profile#role-bain-expert-partner",
+          "url": "https://brockdsimon.com/record/citations/role-bain-expert-partner.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-bain",
             "@type": "Organization",
@@ -282,7 +274,7 @@
             "Earlier",
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage."
           ],
-          "url": "https://brockdsimon.com/profile#role-bain-expert-associate-partner",
+          "url": "https://brockdsimon.com/record/citations/role-bain-expert-associate-partner.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-bain",
             "@type": "Organization",
@@ -310,7 +302,7 @@
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
             "Illinois Tech records his McKinsey title as Expert associate principal; his LinkedIn gives Expert Associate Partner. Both are published, LinkedIn's wording leading, as title variants on the McKinsey roles."
           ],
-          "url": "https://brockdsimon.com/profile#role-mckinsey-expert-associate-partner-bangkok",
+          "url": "https://brockdsimon.com/record/citations/role-mckinsey-expert-associate-partner-bangkok.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-mckinsey",
             "@type": "Organization",
@@ -344,7 +336,7 @@
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
             "Illinois Tech records his McKinsey title as Expert associate principal; his LinkedIn gives Expert Associate Partner. Both are published, LinkedIn's wording leading, as title variants on the McKinsey roles."
           ],
-          "url": "https://brockdsimon.com/profile#role-mckinsey-expert-associate-partner-chicago",
+          "url": "https://brockdsimon.com/record/citations/role-mckinsey-expert-associate-partner-chicago.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-mckinsey",
             "@type": "Organization",
@@ -374,7 +366,7 @@
             "Earlier",
             "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own."
           ],
-          "url": "https://brockdsimon.com/profile#role-dunnhumby-head-of-solutions-asia",
+          "url": "https://brockdsimon.com/record/citations/role-dunnhumby-head-of-solutions-asia.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby",
             "@type": "Organization",
@@ -404,7 +396,7 @@
             "Earlier",
             "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own."
           ],
-          "url": "https://brockdsimon.com/profile#role-dunnhumby-country-head-turkey",
+          "url": "https://brockdsimon.com/record/citations/role-dunnhumby-country-head-turkey.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby",
             "@type": "Organization",
@@ -434,7 +426,7 @@
             "Earlier",
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage."
           ],
-          "url": "https://brockdsimon.com/profile#role-dunnhumby-retail-head-turkey",
+          "url": "https://brockdsimon.com/record/citations/role-dunnhumby-retail-head-turkey.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby",
             "@type": "Organization",
@@ -461,7 +453,7 @@
             "Earlier",
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage."
           ],
-          "url": "https://brockdsimon.com/profile#role-dunnhumby-insight-director-turkey",
+          "url": "https://brockdsimon.com/record/citations/role-dunnhumby-insight-director-turkey.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby",
             "@type": "Organization",
@@ -485,7 +477,7 @@
             "Earlier",
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage."
           ],
-          "url": "https://brockdsimon.com/profile#role-dunnhumby-solutions-lead-portland",
+          "url": "https://brockdsimon.com/record/citations/role-dunnhumby-solutions-lead-portland.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby",
             "@type": "Organization",
@@ -509,7 +501,7 @@
             "Earlier",
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage."
           ],
-          "url": "https://brockdsimon.com/profile#role-dunnhumby-insight-director-thailand",
+          "url": "https://brockdsimon.com/record/citations/role-dunnhumby-insight-director-thailand.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby",
             "@type": "Organization",
@@ -533,7 +525,7 @@
             "Earlier",
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage."
           ],
-          "url": "https://brockdsimon.com/profile#role-dunnhumby-senior-analyst",
+          "url": "https://brockdsimon.com/record/citations/role-dunnhumby-senior-analyst.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby",
             "@type": "Organization",
@@ -560,7 +552,7 @@
             "Earlier",
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage."
           ],
-          "url": "https://brockdsimon.com/profile#role-dunnhumby-analyst",
+          "url": "https://brockdsimon.com/record/citations/role-dunnhumby-analyst.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-dunnhumby",
             "@type": "Organization",
@@ -584,7 +576,7 @@
             "Earlier",
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage."
           ],
-          "url": "https://brockdsimon.com/profile#role-atl-mst-sida-intern",
+          "url": "https://brockdsimon.com/record/citations/role-atl-mst-sida-intern.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-atl-mst-sida",
             "@type": "Organization",
@@ -607,7 +599,7 @@
             "Earlier",
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage."
           ],
-          "url": "https://brockdsimon.com/profile#role-miami-graduate-assistant",
+          "url": "https://brockdsimon.com/record/citations/role-miami-graduate-assistant.json",
           "worksFor": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-miami-university",
             "@type": "Organization",
@@ -634,7 +626,7 @@
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
             "Trade reports of 22 May 2026 list him on Provenance's Strategic Advisory Board as Partner at Bain & Company; the record's own account is Advisor to Provenance since December 2025 and External Advisor to Bain since January 2026. Both are kept: the reports date the board's announcement, not his start, and use a Bain title he no longer held."
           ],
-          "url": "https://brockdsimon.com/profile#role-bain-external-advisor",
+          "url": "https://brockdsimon.com/record/citations/role-bain-external-advisor.json",
           "affiliation": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-bain",
             "@type": "Organization",
@@ -654,7 +646,7 @@
             {
               "@type": "CreativeWork",
               "@id": "https://brockdsimon.com/profile.jsonld#status-bain-external-advisor",
-              "url": "https://brockdsimon.com/profile#role-bain-external-advisor",
+              "url": "https://brockdsimon.com/record/citations/role-bain-external-advisor.json",
               "about": {
                 "@id": "https://brockdsimon.com/profile.jsonld#role-bain-external-advisor"
               },
@@ -675,7 +667,7 @@
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
             "Trade reports of 22 May 2026 list him on Provenance's Strategic Advisory Board as Partner at Bain & Company; the record's own account is Advisor to Provenance since December 2025 and External Advisor to Bain since January 2026. Both are kept: the reports date the board's announcement, not his start, and use a Bain title he no longer held."
           ],
-          "url": "https://brockdsimon.com/profile#role-provenance-advisor",
+          "url": "https://brockdsimon.com/record/citations/role-provenance-advisor.json",
           "affiliation": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-provenance",
             "@type": "Organization",
@@ -692,7 +684,7 @@
             {
               "@type": "CreativeWork",
               "@id": "https://brockdsimon.com/profile.jsonld#status-provenance-advisor",
-              "url": "https://brockdsimon.com/profile#role-provenance-advisor",
+              "url": "https://brockdsimon.com/record/citations/role-provenance-advisor.json",
               "about": {
                 "@id": "https://brockdsimon.com/profile.jsonld#role-provenance-advisor"
               },
@@ -712,7 +704,7 @@
             "Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.",
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage."
           ],
-          "url": "https://brockdsimon.com/profile#role-eureka-advisor",
+          "url": "https://brockdsimon.com/record/citations/role-eureka-advisor.json",
           "affiliation": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-eureka-ai",
             "@type": "Organization",
@@ -729,7 +721,7 @@
             {
               "@type": "CreativeWork",
               "@id": "https://brockdsimon.com/profile.jsonld#status-eureka-advisor",
-              "url": "https://brockdsimon.com/profile#role-eureka-advisor",
+              "url": "https://brockdsimon.com/record/citations/role-eureka-advisor.json",
               "about": {
                 "@id": "https://brockdsimon.com/profile.jsonld#role-eureka-advisor"
               },
@@ -749,7 +741,7 @@
             "Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.",
             "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage."
           ],
-          "url": "https://brockdsimon.com/profile#role-palisades-ski-coach",
+          "url": "https://brockdsimon.com/record/citations/role-palisades-ski-coach.json",
           "affiliation": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-palisades-tahoe",
             "@type": "Organization",
@@ -766,7 +758,7 @@
             {
               "@type": "CreativeWork",
               "@id": "https://brockdsimon.com/profile.jsonld#status-palisades-ski-coach",
-              "url": "https://brockdsimon.com/profile#role-palisades-ski-coach",
+              "url": "https://brockdsimon.com/record/citations/role-palisades-ski-coach.json",
               "about": {
                 "@id": "https://brockdsimon.com/profile.jsonld#role-palisades-ski-coach"
               },
@@ -781,7 +773,7 @@
           "@type": "EducationalOccupationalCredential",
           "@id": "https://brockdsimon.com/profile.jsonld#education-xavier-mba",
           "name": "MBA",
-          "url": "https://brockdsimon.com/profile#education-xavier-mba",
+          "url": "https://brockdsimon.com/record/citations/education-xavier-mba.json",
           "recognizedBy": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-named-xavier-university",
             "@type": "Organization",
@@ -806,7 +798,7 @@
           "@type": "EducationalOccupationalCredential",
           "@id": "https://brockdsimon.com/profile.jsonld#education-miami-mathematics-statistics-1",
           "name": "BS in Mathematics and Statistics",
-          "url": "https://brockdsimon.com/profile#education-miami-mathematics-statistics",
+          "url": "https://brockdsimon.com/record/citations/education-miami-mathematics-statistics.json",
           "recognizedBy": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-miami-university",
             "@type": "Organization",
@@ -836,7 +828,7 @@
           "@type": "EducationalOccupationalCredential",
           "@id": "https://brockdsimon.com/profile.jsonld#education-miami-mathematics-statistics-2",
           "name": "MS in Mathematics",
-          "url": "https://brockdsimon.com/profile#education-miami-mathematics-statistics",
+          "url": "https://brockdsimon.com/record/citations/education-miami-mathematics-statistics.json",
           "recognizedBy": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-miami-university",
             "@type": "Organization",
@@ -866,7 +858,7 @@
           "@type": "EducationalOccupationalCredential",
           "@id": "https://brockdsimon.com/profile.jsonld#credential-psia-level-1",
           "name": "PSIA Level 1 certified instructor",
-          "url": "https://brockdsimon.com/profile#credential-psia-level-1",
+          "url": "https://brockdsimon.com/record/citations/credential-psia-level-1.json",
           "recognizedBy": {
             "@id": "https://brockdsimon.com/profile.jsonld#org-named-psia",
             "@type": "Organization",
@@ -1206,7 +1198,7 @@
       "@type": "SocialMediaPosting",
       "@id": "https://brockdsimon.com/profile.jsonld#work-linkedin-turkey-inflation-reflections",
       "headline": "Grocery-retail lessons from Turkey during inflation",
-      "url": "https://brockdsimon.com/profile#work-linkedin-turkey-inflation-reflections",
+      "url": "https://brockdsimon.com/record/citations/work-linkedin-turkey-inflation-reflections.json",
       "publisher": {
         "@id": "https://brockdsimon.com/profile.jsonld#org-named-linkedin",
         "@type": "Organization",
@@ -1568,7 +1560,7 @@
       "name": "brockdsimon.com",
       "url": "https://brockdsimon.com/profile.json",
       "description": [
-        "This site: a machine-readable professional record whose front page says only that the site isn't for humans, and points to profile.json. One record is rendered into profile.json, a schema.org JSON-LD graph, profile.md, llms.txt, llms-full.txt, a sitemap, an API catalog and an Atom feed, with sources cited on every item and one HTML page, /profile, that renders the same record with an anchor per item. Built on Cloudflare Workers; launched in October 2026.",
+        "This site: a machine-readable professional record whose front page says only that the site isn't for humans, and points to profile.json. One record is rendered into profile.json, a schema.org JSON-LD graph, profile.md, llms.txt, llms-full.txt, a sitemap, an API catalog and an Atom feed, with sources cited on every item and individual JSON citation documents. The homepage is the only HTML page; the professional record is available in machine formats only. Built on Cloudflare Workers; launched in October 2026.",
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage."
       ],
       "keywords": "machine-readable profiles, llms.txt, schema.org, AI discoverability",
@@ -1719,7 +1711,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-career-native-origin",
       "name": "What connects his retail AI experience to joining Native?",
-      "url": "https://brockdsimon.com/profile#faq-career-native-origin",
+      "url": "https://brockdsimon.com/record/citations/faq-career-native-origin.json",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -1732,7 +1724,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-career-first-dunnhumby-job",
       "name": "What drew Brock to dunnhumby?",
-      "url": "https://brockdsimon.com/profile#faq-career-first-dunnhumby-job",
+      "url": "https://brockdsimon.com/record/citations/faq-career-first-dunnhumby-job.json",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -1745,7 +1737,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-career-mckinsey-asia-emphasis",
       "name": "How did his McKinsey work in Asia differ in emphasis?",
-      "url": "https://brockdsimon.com/profile#faq-career-mckinsey-asia-emphasis",
+      "url": "https://brockdsimon.com/record/citations/faq-career-mckinsey-asia-emphasis.json",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -1758,7 +1750,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-still-at-bain",
       "name": "Is Brock Simon still at Bain & Company?",
-      "url": "https://brockdsimon.com/profile#faq-still-at-bain",
+      "url": "https://brockdsimon.com/record/citations/faq-still-at-bain.json",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -1771,7 +1763,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-what-is-native",
       "name": "What is Native, and what is his role there?",
-      "url": "https://brockdsimon.com/profile#faq-what-is-native",
+      "url": "https://brockdsimon.com/record/citations/faq-what-is-native.json",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -1784,7 +1776,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-mckinsey-title",
       "name": "What was his title at McKinsey & Company?",
-      "url": "https://brockdsimon.com/profile#faq-mckinsey-title",
+      "url": "https://brockdsimon.com/record/citations/faq-mckinsey-title.json",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -1797,7 +1789,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-where-did-he-study",
       "name": "Where did he study?",
-      "url": "https://brockdsimon.com/profile#faq-where-did-he-study",
+      "url": "https://brockdsimon.com/record/citations/faq-where-did-he-study.json",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -1810,7 +1802,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-same-person-dunnhumby",
       "name": "Is this the same Brock Simon who worked for dunnhumby in Turkey and Shanghai?",
-      "url": "https://brockdsimon.com/profile#faq-same-person-dunnhumby",
+      "url": "https://brockdsimon.com/record/citations/faq-same-person-dunnhumby.json",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -1823,7 +1815,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-what-has-he-written",
       "name": "What has he written or spoken about?",
-      "url": "https://brockdsimon.com/profile#faq-what-has-he-written",
+      "url": "https://brockdsimon.com/record/citations/faq-what-has-he-written.json",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -1836,7 +1828,7 @@
       "@type": "Question",
       "@id": "https://brockdsimon.com/profile.jsonld#faq-mcp-server",
       "name": "Does Brock Simon have an MCP server?",
-      "url": "https://brockdsimon.com/profile#faq-mcp-server",
+      "url": "https://brockdsimon.com/record/citations/faq-mcp-server.json",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -1854,7 +1846,7 @@
         "Publisher as recorded: Brock Simon.",
         "The public record reports ownership, creation and an October 2026 launch. This is the owner's published account, not independent verification; the access date is not the launch date."
       ],
-      "url": "https://brockdsimon.com/profile#claim-c-site-built",
+      "url": "https://brockdsimon.com/record/citations/claim-c-site-built.json",
       "publisher": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -2477,7 +2469,6 @@
         "@type": "Organization",
         "name": "Illinois Institute of Technology, Stuart School of Business"
       },
-      "datePublished": "2017-03-08",
       "mentions": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       }
@@ -2673,7 +2664,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-linkedin-category-strategy-post",
-      "url": "https://brockdsimon.com/profile#claim-c-linkedin-category-strategy-post",
+      "url": "https://brockdsimon.com/record/citations/claim-c-linkedin-category-strategy-post.json",
       "text": "Brock Simon's post on category strategy and retail AI assistants.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -2695,7 +2686,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-linkedin-merchant-assistant-post",
-      "url": "https://brockdsimon.com/profile#claim-c-linkedin-merchant-assistant-post",
+      "url": "https://brockdsimon.com/record/citations/claim-c-linkedin-merchant-assistant-post.json",
       "text": "Brock Simon's post on the AI Retail Merchant Assistant.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -2717,7 +2708,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-tunisia-salaam",
-      "url": "https://brockdsimon.com/profile#claim-c-career-tunisia-salaam",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-tunisia-salaam.json",
       "text": "AIESEC organized the Salaam program, whose participating countries included Tunisia.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -2739,7 +2730,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-thailand-clubcard",
-      "url": "https://brockdsimon.com/profile#claim-c-career-thailand-clubcard",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-thailand-clubcard.json",
       "text": "Tesco reported that Clubcard launched in Thailand in August 2009.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -2761,7 +2752,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-turkey-clubcard",
-      "url": "https://brockdsimon.com/profile#claim-c-career-turkey-clubcard",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-turkey-clubcard.json",
       "text": "Tesco Kipa reported that Clubcard launched in March 2011.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -2783,7 +2774,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-first-dunnhumby-job",
-      "url": "https://brockdsimon.com/profile#claim-c-career-first-dunnhumby-job",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-first-dunnhumby-job.json",
       "text": "Brock says an interest in understanding real people through transaction and loyalty data drew him to dunnhumby.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -2805,7 +2796,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-education-experience",
-      "url": "https://brockdsimon.com/profile#claim-c-career-education-experience",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-education-experience.json",
       "text": "Brock describes a semester in Luxembourg, completing his undergraduate studies in three years, and studying graduate economics alongside mathematics. His studies included applied statistics, optimization, topology and abstract algebra.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -2827,7 +2818,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-asia-remit",
-      "url": "https://brockdsimon.com/profile#claim-c-career-asia-remit",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-asia-remit.json",
       "text": "Brock describes his Asia remit as China, Thailand, Malaysia, India, South Korea, and a little in Japan.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -2849,7 +2840,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-thailand-retail-media",
-      "url": "https://brockdsimon.com/profile#claim-c-career-thailand-retail-media",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-thailand-retail-media.json",
       "text": "Brock worked on in-store retail media in Thailand during his regional Asia role, though it was not his main focus.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -2871,7 +2862,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-turkey-office-scope",
-      "url": "https://brockdsimon.com/profile#claim-c-career-turkey-office-scope",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-turkey-office-scope.json",
       "text": "Brock led analytics in Turkey, then the Izmir retail office. As Country Head, he was responsible for both Izmir and Istanbul while based in Izmir.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -2893,7 +2884,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-data-t",
-      "url": "https://brockdsimon.com/profile#claim-c-career-data-t",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-data-t.json",
       "text": "Brock is familiar with the Data T approach and uses it: a focused, deep investigation followed by testing whether an insight generalizes, and it is especially useful with AI.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -2915,7 +2906,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-regional-segmentation",
-      "url": "https://brockdsimon.com/profile#claim-c-career-regional-segmentation",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-regional-segmentation.json",
       "text": "Brock adapted Customer DNA, lifestyle and loyalty segmentations to local shopping behavior and product signals.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -2937,7 +2928,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-mckinsey-asia-emphasis",
-      "url": "https://brockdsimon.com/profile#claim-c-career-mckinsey-asia-emphasis",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-mckinsey-asia-emphasis.json",
       "text": "Brock describes more of his McKinsey work in Asia as focused on data monetization and coalition loyalty, reflecting the conglomerates he worked with in the region.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -2959,7 +2950,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-mckinsey-scope",
-      "url": "https://brockdsimon.com/profile#claim-c-career-mckinsey-scope",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-mckinsey-scope.json",
       "text": "At McKinsey, Brock worked on retail and consumer packaged goods analytics, data monetization, coalition and conglomerate loyalty, telco data monetization, and building analytics and insight capabilities.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -2981,7 +2972,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-bain-earlier-scope",
-      "url": "https://brockdsimon.com/profile#claim-c-career-bain-earlier-scope",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-bain-earlier-scope.json",
       "text": "At Bain, Brock worked across retail, healthcare and insurance, consumer packaged goods, and digital media. His work included data monetization, loyalty programs, and building analytics capabilities.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3003,7 +2994,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-career-native-origin",
-      "url": "https://brockdsimon.com/profile#claim-c-career-native-origin",
+      "url": "https://brockdsimon.com/record/citations/claim-c-career-native-origin.json",
       "text": "Brock connects his decision to join Native with enterprise-data problems he encountered while working on retail AI.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3025,7 +3016,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-bain-openai-alliance-context",
-      "url": "https://brockdsimon.com/profile#claim-c-bain-openai-alliance-context",
+      "url": "https://brockdsimon.com/record/citations/claim-c-bain-openai-alliance-context.json",
       "text": "Bain announced a services alliance with OpenAI on 21 February 2023.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3047,7 +3038,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-home-depot-segmentation-context",
-      "url": "https://brockdsimon.com/profile#claim-c-home-depot-segmentation-context",
+      "url": "https://brockdsimon.com/record/citations/claim-c-home-depot-segmentation-context.json",
       "text": "In its August 2009 earnings call, Home Depot described using dunnhumby data to distinguish professional shopping patterns by buying behavior rather than SIC classification.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3069,7 +3060,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-rolling-ball-method-context",
-      "url": "https://brockdsimon.com/profile#claim-c-rolling-ball-method-context",
+      "url": "https://brockdsimon.com/record/citations/claim-c-rolling-ball-method-context.json",
       "text": "Clive Humby described Rolling Ball as finding associations between products using seed products, and Customer DNA as drawing shopping preferences from purchase behavior.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3091,7 +3082,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-bain-retail-merchant-assistant-context",
-      "url": "https://brockdsimon.com/profile#claim-c-bain-retail-merchant-assistant-context",
+      "url": "https://brockdsimon.com/record/citations/claim-c-bain-retail-merchant-assistant-context.json",
       "text": "Bain describes its AI Retail Merchant Assistant as combining data and analytics within merchandising workflows.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3113,7 +3104,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-bain-retail-merchant-assistant",
-      "url": "https://brockdsimon.com/profile#claim-c-bain-retail-merchant-assistant",
+      "url": "https://brockdsimon.com/record/citations/claim-c-bain-retail-merchant-assistant.json",
       "text": "Brock Simon participated in building Bain’s Retail Merchant Assistant.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3144,7 +3135,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-home-depot-shopper-segmentation",
-      "url": "https://brockdsimon.com/profile#claim-c-home-depot-shopper-segmentation",
+      "url": "https://brockdsimon.com/record/citations/claim-c-home-depot-shopper-segmentation.json",
       "text": "Brock Simon contributed to professional and consumer shopper behavioral segmentation work at The Home Depot.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3166,7 +3157,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-rolling-ball-use",
-      "url": "https://brockdsimon.com/profile#claim-c-rolling-ball-use",
+      "url": "https://brockdsimon.com/record/citations/claim-c-rolling-ball-use.json",
       "text": "Brock Simon used the Rolling Ball technique to develop and test segmentation ideas.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3188,7 +3179,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-native-cofounder-cpo",
-      "url": "https://brockdsimon.com/profile#claim-c-native-cofounder-cpo",
+      "url": "https://brockdsimon.com/record/citations/claim-c-native-cofounder-cpo.json",
       "text": "Brock Simon is co-founder and Chief Product Officer of Native since January 2026.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3236,7 +3227,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-native-what",
-      "url": "https://brockdsimon.com/profile#claim-c-native-what",
+      "url": "https://brockdsimon.com/record/citations/claim-c-native-what.json",
       "text": "Native describes its work as database reasoning for complex enterprise data: it helps enterprises understand complex data by reasoning across the data itself, discovering structure, relationships, definitions, exceptions and gaps.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3257,7 +3248,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-native-founded",
-      "url": "https://brockdsimon.com/profile#claim-c-native-founded",
+      "url": "https://brockdsimon.com/record/citations/claim-c-native-founded.json",
       "text": "Native's company page gives 2025 as its founding year and San Francisco as its headquarters, with a London location.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3279,7 +3270,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-site-built",
-      "url": "https://brockdsimon.com/profile#claim-c-site-built",
+      "url": "https://brockdsimon.com/record/citations/claim-c-site-built.json",
       "text": "Brock Simon owns and built brockdsimon.com, a machine-readable professional record launched in October 2026.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3301,7 +3292,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-bain-ai-initiatives",
-      "url": "https://brockdsimon.com/profile#claim-c-bain-ai-initiatives",
+      "url": "https://brockdsimon.com/record/citations/claim-c-bain-ai-initiatives.json",
       "text": "As Expert Partner at Bain & Company he led AI initiatives, including work with OpenAI, for large enterprise clients.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3332,7 +3323,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-bain-practices",
-      "url": "https://brockdsimon.com/profile#claim-c-bain-practices",
+      "url": "https://brockdsimon.com/record/citations/claim-c-bain-practices.json",
       "text": "Bain & Company's team page listed him as a Partner in San Francisco in its Advanced Analytics and Retail practices, with expertise in retail, AI insights and solutions, and retail media networks.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3353,7 +3344,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-dunnhumby-international-markets",
-      "url": "https://brockdsimon.com/profile#claim-c-dunnhumby-international-markets",
+      "url": "https://brockdsimon.com/record/citations/claim-c-dunnhumby-international-markets.json",
       "text": "Bain & Company's team page describes his decade at dunnhumby as leading the establishment of many of its international markets, including Head of Analytics for the Asia region and Country Head for Turkey.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3374,7 +3365,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-dunnhumby-turkey-country-head",
-      "url": "https://brockdsimon.com/profile#claim-c-dunnhumby-turkey-country-head",
+      "url": "https://brockdsimon.com/record/citations/claim-c-dunnhumby-turkey-country-head.json",
       "text": "He was Country Head for dunnhumby in Turkey from February 2012 to July 2013.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3404,7 +3395,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-dunnhumby-thailand-launch",
-      "url": "https://brockdsimon.com/profile#claim-c-dunnhumby-thailand-launch",
+      "url": "https://brockdsimon.com/record/citations/claim-c-dunnhumby-thailand-launch.json",
       "text": "As Insight Director for dunnhumby in Thailand he launched the dunnhumby and Tesco international partnership and embedded customer measures into Tesco Lotus strategy.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3425,7 +3416,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-iit-council",
-      "url": "https://brockdsimon.com/profile#claim-c-iit-council",
+      "url": "https://brockdsimon.com/record/citations/claim-c-iit-council.json",
       "text": "Illinois Tech's Stuart School of Business lists him as a member of its Marketing Analytics Advisory Council.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3446,7 +3437,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-business-insider-2026",
-      "url": "https://brockdsimon.com/profile#claim-c-business-insider-2026",
+      "url": "https://brockdsimon.com/record/citations/claim-c-business-insider-2026.json",
       "text": "Business Insider reported in June 2026 that he advised companies on AI for Bain & Company before founding Native.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3467,7 +3458,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-bain-external-advisor",
-      "url": "https://brockdsimon.com/profile#claim-c-bain-external-advisor",
+      "url": "https://brockdsimon.com/record/citations/claim-c-bain-external-advisor.json",
       "text": "Brock Simon has been an external advisor to Bain & Company since January 2026, providing advisory support on select projects, including retail AI work.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3507,7 +3498,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-provenance-advisor",
-      "url": "https://brockdsimon.com/profile#claim-c-provenance-advisor",
+      "url": "https://brockdsimon.com/record/citations/claim-c-provenance-advisor.json",
       "text": "Brock Simon has been an advisor to Provenance since December 2025.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3537,7 +3528,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-eureka-advisor",
-      "url": "https://brockdsimon.com/profile#claim-c-eureka-advisor",
+      "url": "https://brockdsimon.com/record/citations/claim-c-eureka-advisor.json",
       "text": "Brock Simon has been an advisor to Eureka AI since December 2025.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3567,7 +3558,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-bain-tenure",
-      "url": "https://brockdsimon.com/profile#claim-c-bain-tenure",
+      "url": "https://brockdsimon.com/record/citations/claim-c-bain-tenure.json",
       "text": "Brock Simon was at Bain & Company in San Francisco from June 2019 to November 2025: Expert Associate Partner from June 2019, then Expert Partner from July 2022.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3607,7 +3598,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-mckinsey-tenure",
-      "url": "https://brockdsimon.com/profile#claim-c-mckinsey-tenure",
+      "url": "https://brockdsimon.com/record/citations/claim-c-mckinsey-tenure.json",
       "text": "Brock Simon was Expert Associate Partner at McKinsey & Company, in Chicago from August 2015 to August 2017 and in Bangkok from August 2017 to May 2019.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3648,7 +3639,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-dunnhumby-decade",
-      "url": "https://brockdsimon.com/profile#claim-c-dunnhumby-decade",
+      "url": "https://brockdsimon.com/record/citations/claim-c-dunnhumby-decade.json",
       "text": "Brock Simon spent a decade at dunnhumby, from Analyst in Cincinnati from July 2005 to Head of Solutions for Asia in Shanghai until July 2015, by way of Atlanta, Bangkok, Portland and Izmir.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3687,7 +3678,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-education",
-      "url": "https://brockdsimon.com/profile#claim-c-education",
+      "url": "https://brockdsimon.com/record/citations/claim-c-education.json",
       "text": "Brock Simon holds a BS in Mathematics and Statistics and an MS in Mathematics from Miami University, and an MBA from Xavier University.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3737,7 +3728,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-location",
-      "url": "https://brockdsimon.com/profile#claim-c-location",
+      "url": "https://brockdsimon.com/record/citations/claim-c-location.json",
       "text": "Brock Simon is based in the San Francisco Bay Area.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3767,7 +3758,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-ski-coach",
-      "url": "https://brockdsimon.com/profile#claim-c-ski-coach",
+      "url": "https://brockdsimon.com/record/citations/claim-c-ski-coach.json",
       "text": "Brock Simon has been a seasonal ski coach at Palisades Tahoe since October 2021.",
       "description": [
         "Stated by Brock Simon: in Brock Simon's own profile, posts, talks or interviews, including statements attributed to Brock Simon in press coverage.",
@@ -3797,7 +3788,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-bain-article-data-monetization",
-      "url": "https://brockdsimon.com/profile#claim-c-bain-article-data-monetization",
+      "url": "https://brockdsimon.com/record/citations/claim-c-bain-article-data-monetization.json",
       "text": "Brock Simon is the first-named of five authors of 'Unlocking Hidden Value: A New Approach to Data Monetization with AI', published by Bain & Company on 10 June 2025, with Bill Groves, Eric Sheng, Giorgio Saladino and Vineeth Gogineni.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3827,7 +3818,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-bain-article-google-cloud-next",
-      "url": "https://brockdsimon.com/profile#claim-c-bain-article-google-cloud-next",
+      "url": "https://brockdsimon.com/record/citations/claim-c-bain-article-google-cloud-next.json",
       "text": "Brock Simon is the first-named of four authors of 'Google Cloud Next 2025: AI Moves from Possibility to Foundation', published by Bain & Company on 14 April 2025, with Todd Papaioannou, Eric Sheng and Stuart Sim.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3857,7 +3848,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-bain-article-nvidia-gtc",
-      "url": "https://brockdsimon.com/profile#claim-c-bain-article-nvidia-gtc",
+      "url": "https://brockdsimon.com/record/citations/claim-c-bain-article-nvidia-gtc.json",
       "text": "Brock Simon is the second-named of seven authors of 'Nvidia GTC 2025: AI Matures into Enterprise Infrastructure', published by Bain & Company on 24 March 2025: Eric Sheng is first, then Brock Simon, Sarah Elk, Daniel Reznikov, Srikanth Munjuluri, Sandeep Singh and Apoorv Sharma.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3887,7 +3878,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-mckinsey-symposium-2017",
-      "url": "https://brockdsimon.com/profile#claim-c-mckinsey-symposium-2017",
+      "url": "https://brockdsimon.com/record/citations/claim-c-mckinsey-symposium-2017.json",
       "text": "He was a listed panelist at Illinois Tech's 2017 Advanced Marketing Analytics Symposium in Chicago on 8 March 2017, described as Expert Associate Principal at McKinsey & Company.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3903,7 +3894,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-provenance-advisory-board-2026",
-      "url": "https://brockdsimon.com/profile#claim-c-provenance-advisory-board-2026",
+      "url": "https://brockdsimon.com/record/citations/claim-c-provenance-advisory-board-2026.json",
       "text": "Trade press reported on 22 May 2026 that Provenance had formed a Strategic Advisory Board of four members, him among them.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3923,7 +3914,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-spider2-leaderboard-2026-10",
-      "url": "https://brockdsimon.com/profile#claim-c-spider2-leaderboard-2026-10",
+      "url": "https://brockdsimon.com/record/citations/claim-c-spider2-leaderboard-2026-10.json",
       "text": "The Spider 2.0-Snow leaderboard, as read on 18 October 2026, lists Native mini at 96.53 at rank 2, dated 18 February 2026, behind Genloop's Sentinel Agent v2 Pro at 96.70, dated 1 March 2026.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3945,7 +3936,7 @@
     {
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#claim-c-bird-leaderboard-2026-10",
-      "url": "https://brockdsimon.com/profile#claim-c-bird-leaderboard-2026-10",
+      "url": "https://brockdsimon.com/record/citations/claim-c-bird-leaderboard-2026-10.json",
       "text": "The BIRD leaderboard's Single Trained Model Track, as read on 18 October 2026, lists Native mini (4B, dated 5 September 2026) at 76.86 in the Test column, with no Dev score, numbered 6 among its model rows.",
       "description": [
         "A source other than Brock Simon (an employer, a partner, an organiser, a publisher, the press or a public registry) places Brock Simon in the role or states the fact, at the time or near enough to it to be explained. Dates and the wording of a title may be Brock Simon's own.",
@@ -3968,7 +3959,7 @@
       "@type": "CreativeWork",
       "@id": "https://brockdsimon.com/profile.jsonld#education-miami-mathematics-statistics",
       "name": "BS in Mathematics and Statistics; MS in Mathematics",
-      "url": "https://brockdsimon.com/profile#education-miami-mathematics-statistics",
+      "url": "https://brockdsimon.com/record/citations/education-miami-mathematics-statistics.json",
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
@@ -3985,7 +3976,7 @@
       "@type": "OrganizationRole",
       "@id": "https://brockdsimon.com/profile.jsonld#membership-iit-marketing-analytics-advisory-council",
       "roleName": "Council member",
-      "url": "https://brockdsimon.com/profile#membership-iit-marketing-analytics-advisory-council",
+      "url": "https://brockdsimon.com/record/citations/membership-iit-marketing-analytics-advisory-council.json",
       "description": [
         "Membership listed; current status and dates not established",
         "The undated institutional listing documents membership, but does not establish current active status or membership dates. Its biography still names a former employer.",
@@ -4008,7 +3999,7 @@
       "about": {
         "@id": "https://brockdsimon.com/profile.jsonld#person"
       },
-      "url": "https://brockdsimon.com/profile#membership-iit-marketing-analytics-advisory-council",
+      "url": "https://brockdsimon.com/record/citations/membership-iit-marketing-analytics-advisory-council.json",
       "text": "Council member, Marketing Analytics Advisory Council, Stuart School of Business, Illinois Institute of Technology. Membership listed; current status and dates not established. The undated institutional listing documents membership, but does not establish current active status or membership dates. Its biography still names a former employer.",
       "mainEntity": {
         "@id": "https://brockdsimon.com/profile.jsonld#membership-iit-marketing-analytics-advisory-council"

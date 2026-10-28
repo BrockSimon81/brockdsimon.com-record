@@ -13,11 +13,11 @@ In Brock Simon's own words: "Creating intelligent systems: 20+ years building so
 Publication: Brock Simon has approved this record. Maintained by Brock Simon. Sources include his own statements, supplied LinkedIn material and public publications. Each source records its retrieval status, date and limitations; some evidence is available only through archives, partial text or indexed excerpts.
 
 Canonical record: https://brockdsimon.com/profile.json  
-Readable page to cite: https://brockdsimon.com/profile (each item below gives its own citation URL on that page)  
+Canonical record to cite: https://brockdsimon.com/profile.json (each item below links to its own JSON citation document)  
 Graph: https://brockdsimon.com/profile.jsonld  
 Record id: https://brockdsimon.com/profile.jsonld#person  
 Facts last verified by the owner: 2026-10-16 · Research snapshot: 2026-10-18  
-Format: brockdsimon.com/profile-record 4.3
+Format: brockdsimon.com/profile-record 5.0
 
 ## Current status (as of 2026-10-16)
 
@@ -62,7 +62,7 @@ Location: San Francisco Bay Area, United States.
 
 ### Co-founder and Chief Product Officer, Native (current)
 
-Cite: <https://brockdsimon.com/profile#role-native-cpo> · Node: <https://brockdsimon.com/profile.jsonld#role-native-cpo>
+Cite: <https://brockdsimon.com/record/citations/role-native-cpo.json> · Node: <https://brockdsimon.com/profile.jsonld#role-native-cpo>
 
 Co-founder and Chief Product Officer of Native since January 2026, based in the San Francisco Bay Area. Business Insider reported in June 2026 that he advised companies on AI for Bain & Company before founding Native; Native's own company page lists him among its people. Period: since January 2026. Based: San Francisco Bay Area. Status as of 2026-10-16: Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.
 
@@ -71,7 +71,7 @@ Responsibilities and scope:
 
 ### External Advisor, Bain & Company (current)
 
-Cite: <https://brockdsimon.com/profile#role-bain-external-advisor> · Node: <https://brockdsimon.com/profile.jsonld#role-bain-external-advisor>
+Cite: <https://brockdsimon.com/record/citations/role-bain-external-advisor.json> · Node: <https://brockdsimon.com/profile.jsonld#role-bain-external-advisor>
 
 External advisor to Bain & Company since January 2026: advisory support on select projects, including retail AI work. Period: since January 2026. Based: San Francisco Bay Area, remote. Status as of 2026-10-16: Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.
 
@@ -80,7 +80,7 @@ Responsibilities and scope:
 
 ### Advisor, Provenance (current)
 
-Cite: <https://brockdsimon.com/profile#role-provenance-advisor> · Node: <https://brockdsimon.com/profile.jsonld#role-provenance-advisor>
+Cite: <https://brockdsimon.com/record/citations/role-provenance-advisor.json> · Node: <https://brockdsimon.com/profile.jsonld#role-provenance-advisor>
 
 Advisor to Provenance since December 2025, working with the company to help build factually grounded sustainability data foundations for AI-enabled commerce: how claims about products are represented, validated and surfaced across the channels customers use, with an emphasis on transparency, trust and accurate consumer decision making. Period: since December 2025. Based: Remote; Provenance is based in London. Status as of 2026-10-16: Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.
 
@@ -91,7 +91,7 @@ Also recorded as: "Strategic Advisory Board member" (as trade press reported the
 
 ### Advisor, Eureka AI (current)
 
-Cite: <https://brockdsimon.com/profile#role-eureka-advisor> · Node: <https://brockdsimon.com/profile.jsonld#role-eureka-advisor>
+Cite: <https://brockdsimon.com/record/citations/role-eureka-advisor.json> · Node: <https://brockdsimon.com/profile.jsonld#role-eureka-advisor>
 
 Advisor to Eureka AI since December 2025, on specific strategic initiatives involving large-scale telco data and its application to enterprise use cases. Period: since December 2025. Based: Remote. Status as of 2026-10-16: Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.
 
@@ -100,7 +100,7 @@ Responsibilities and scope:
 
 ### Ski Coach, Palisades Tahoe (current)
 
-Cite: <https://brockdsimon.com/profile#role-palisades-ski-coach> · Node: <https://brockdsimon.com/profile.jsonld#role-palisades-ski-coach>
+Cite: <https://brockdsimon.com/record/citations/role-palisades-ski-coach.json> · Node: <https://brockdsimon.com/profile.jsonld#role-palisades-ski-coach>
 
 Seasonal ski coach at Palisades Tahoe since October 2021, in a programme whose mission is to develop more high-level competitive skiers than any other in the US. PSIA Level 1 certified instructor; leads Mighty Mites teams (ages 5 to 9), guiding young athletes through accelerated, fundamentals-driven progression, regularly taking skiers from green terrain to confidently skiing blacks. Period: since October 2021. Based: Olympic Valley, California. Status as of 2026-10-16: Current on his LinkedIn experience section as read on 2026-10-16 and in his own profile record.
 
@@ -109,7 +109,7 @@ Responsibilities and scope:
 
 ### Expert Partner, Bain & Company (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-bain-expert-partner> · Node: <https://brockdsimon.com/profile.jsonld#role-bain-expert-partner>
+Cite: <https://brockdsimon.com/record/citations/role-bain-expert-partner.json> · Node: <https://brockdsimon.com/profile.jsonld#role-bain-expert-partner>
 
 Expert Partner at Bain & Company in San Francisco from July 2022 to November 2025, where he led AI initiatives, including work with OpenAI, for large enterprise clients. Bain's own team page listed him as a Partner in San Francisco in its Advanced Analytics and Retail practices, with expertise in retail, AI insights and solutions, and retail media networks. Period: July 2022 to November 2025. Based: San Francisco, California.
 
@@ -123,7 +123,7 @@ Also recorded as: "Partner, San Francisco" (Bain's team page, captures of March 
 
 ### Expert Associate Partner, Bain & Company (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-bain-expert-associate-partner> · Node: <https://brockdsimon.com/profile.jsonld#role-bain-expert-associate-partner>
+Cite: <https://brockdsimon.com/record/citations/role-bain-expert-associate-partner.json> · Node: <https://brockdsimon.com/profile.jsonld#role-bain-expert-associate-partner>
 
 Expert Associate Partner at Bain & Company in San Francisco from June 2019 to July 2022. Period: June 2019 to July 2022. Based: San Francisco, California.
 
@@ -133,7 +133,7 @@ Responsibilities and scope:
 
 ### Expert Associate Partner, McKinsey & Company (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-mckinsey-expert-associate-partner-bangkok> · Node: <https://brockdsimon.com/profile.jsonld#role-mckinsey-expert-associate-partner-bangkok>
+Cite: <https://brockdsimon.com/record/citations/role-mckinsey-expert-associate-partner-bangkok.json> · Node: <https://brockdsimon.com/profile.jsonld#role-mckinsey-expert-associate-partner-bangkok>
 
 Expert Associate Partner at McKinsey & Company in Bangkok from August 2017 to May 2019. Bain's team page describes four years at another global consulting firm as a leader in its Marketing and Retail practices, based in Chicago and Bangkok. Period: August 2017 to May 2019. Based: Bangkok, Thailand.
 
@@ -146,7 +146,7 @@ Also recorded as: "Expert associate principal" (as recorded by Illinois Tech) [i
 
 ### Expert Associate Partner, McKinsey & Company (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-mckinsey-expert-associate-partner-chicago> · Node: <https://brockdsimon.com/profile.jsonld#role-mckinsey-expert-associate-partner-chicago>
+Cite: <https://brockdsimon.com/record/citations/role-mckinsey-expert-associate-partner-chicago.json> · Node: <https://brockdsimon.com/profile.jsonld#role-mckinsey-expert-associate-partner-chicago>
 
 Expert Associate Partner at McKinsey & Company in Chicago from August 2015 to August 2017. Period: August 2015 to August 2017. Based: Greater Chicago Area.
 
@@ -159,7 +159,7 @@ Also recorded as: "Expert associate principal" (as recorded by Illinois Tech) [i
 
 ### Head of Solutions, Asia, dunnhumby (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-dunnhumby-head-of-solutions-asia> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-head-of-solutions-asia>
+Cite: <https://brockdsimon.com/record/citations/role-dunnhumby-head-of-solutions-asia.json> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-head-of-solutions-asia>
 
 Head of Solutions for dunnhumby in Asia, based in Shanghai, from July 2013 to July 2015. Bain's team page describes his decade at dunnhumby as leading the establishment of many of its international markets, including Head of Analytics for the Asia region. Period: July 2013 to July 2015. Based: Shanghai, China.
 
@@ -173,7 +173,7 @@ Also recorded as: "Head of Analytics for the Asia region" (as Bain's team page w
 
 ### Country Head, Turkey, dunnhumby (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-dunnhumby-country-head-turkey> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-country-head-turkey>
+Cite: <https://brockdsimon.com/record/citations/role-dunnhumby-country-head-turkey.json> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-country-head-turkey>
 
 Country Head for dunnhumby in Turkey from February 2012 to July 2013, one of the international markets he helped establish. Period: February 2012 to July 2013. Based: Türkiye.
 
@@ -183,13 +183,13 @@ Responsibilities and scope:
 
 ### Retail Head, Turkey, dunnhumby (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-dunnhumby-retail-head-turkey> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-retail-head-turkey>
+Cite: <https://brockdsimon.com/record/citations/role-dunnhumby-retail-head-turkey.json> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-retail-head-turkey>
 
 Led dunnhumby’s retail team in Turkey and its engagement with Tesco Kipa from June 2011 to February 2012. Built and led a five-person team, worked with commercial teams, and used customer insights in retail decisions and targeted media. Period: June 2011 to February 2012. Based: Izmir, Turkey.
 
 ### Insight Director, Turkey, dunnhumby (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-dunnhumby-insight-director-turkey> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-insight-director-turkey>
+Cite: <https://brockdsimon.com/record/citations/role-dunnhumby-insight-director-turkey.json> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-insight-director-turkey>
 
 Directed all analytics for dunnhumby in Turkey from May 2010 to June 2011, working closely with clients to standardise and rationalise product offerings. Developed and deployed a process and tool enabling all Tesco international markets to determine the strength of proposed promotions. Period: May 2010 to June 2011. Based: London, UK and Izmir, Turkey.
 
@@ -198,13 +198,13 @@ Responsibilities and scope:
 
 ### Solutions Lead, dunnhumby (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-dunnhumby-solutions-lead-portland> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-solutions-lead-portland>
+Cite: <https://brockdsimon.com/record/citations/role-dunnhumby-solutions-lead-portland.json> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-solutions-lead-portland>
 
 Solutions Lead for dunnhumby in Portland, Oregon, from October 2009 to May 2010: optimised space allocations and created a new general merchandise loyalty segmentation for clients including Fred Meyer. Period: October 2009 to May 2010. Based: Portland, Oregon.
 
 ### Insight Director, Thailand, dunnhumby (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-dunnhumby-insight-director-thailand> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-insight-director-thailand>
+Cite: <https://brockdsimon.com/record/citations/role-dunnhumby-insight-director-thailand.json> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-insight-director-thailand>
 
 Insight Director for dunnhumby in Thailand from February 2008 to October 2009: launched the dunnhumby and Tesco International partnership and embedded customer measures into Tesco Lotus strategy. Period: February 2008 to October 2009. Based: Bangkok, Thailand.
 
@@ -214,7 +214,7 @@ Responsibilities and scope:
 
 ### Senior Analyst, dunnhumby (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-dunnhumby-senior-analyst> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-senior-analyst>
+Cite: <https://brockdsimon.com/record/citations/role-dunnhumby-senior-analyst.json> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-senior-analyst>
 
 Senior Analyst at dunnhumby from January 2007 to February 2008. Contributed to professional and consumer shopper behavioral segmentation work at The Home Depot. Period: January 2007 to February 2008. Based: Cincinnati, Ohio and Atlanta, Georgia.
 
@@ -223,7 +223,7 @@ Responsibilities and scope:
 
 ### Analyst, dunnhumby (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-dunnhumby-analyst> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-analyst>
+Cite: <https://brockdsimon.com/record/citations/role-dunnhumby-analyst.json> · Node: <https://brockdsimon.com/profile.jsonld#role-dunnhumby-analyst>
 
 Analyst at dunnhumby from July 2005 to January 2007, developing insights and capabilities for consumer packaged goods companies working with Kroger, specialising in price and promotion optimisation. Period: July 2005 to January 2007. Based: Cincinnati, Ohio.
 
@@ -232,7 +232,7 @@ Responsibilities and scope:
 
 ### International Intern, ATL MST SIDA (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-atl-mst-sida-intern> · Node: <https://brockdsimon.com/profile.jsonld#role-atl-mst-sida-intern>
+Cite: <https://brockdsimon.com/record/citations/role-atl-mst-sida-intern.json> · Node: <https://brockdsimon.com/profile.jsonld#role-atl-mst-sida-intern>
 
 International Intern with ATL MST SIDA in Tunis from May to September 2004, selected to represent the US in the Salaam programme: helped create and distribute AIDS and STD education materials, and designed and analysed surveys on the level of AIDS awareness and education. Period: May 2004 to September 2004. Based: Tunis, Tunisia.
 
@@ -241,7 +241,7 @@ Responsibilities and scope:
 
 ### Graduate Assistant, Miami University (earlier)
 
-Cite: <https://brockdsimon.com/profile#role-miami-graduate-assistant> · Node: <https://brockdsimon.com/profile.jsonld#role-miami-graduate-assistant>
+Cite: <https://brockdsimon.com/record/citations/role-miami-graduate-assistant.json> · Node: <https://brockdsimon.com/profile.jsonld#role-miami-graduate-assistant>
 
 Graduate Assistant at Miami University from September 2003 to May 2005: assisted professors with teaching and grading mathematics and statistics courses, and taught a section of first-semester calculus. Period: September 2003 to May 2005. Based: Oxford, Ohio.
 
@@ -251,7 +251,7 @@ Each entry keeps three things apart: what Brock Simon did or said Brock Simon di
 
 ### Native
 
-Cite: <https://brockdsimon.com/profile#project-native> · Node: <https://brockdsimon.com/profile.jsonld#project-native> · <https://www.usenative.ai/>
+Cite: <https://brockdsimon.com/record/citations/project-native.json> · Node: <https://brockdsimon.com/profile.jsonld#project-native> · <https://www.usenative.ai/>
 
 Venture (topics: database reasoning, enterprise data, AI agents). Database reasoning for complex enterprise data: Native helps enterprises understand complex data by reasoning across the data itself, discovering structure, relationships, definitions, exceptions and gaps so teams can build reliable data foundations. Native's company page gives 2025 as its founding year and San Francisco as its headquarters, with a London location. Brock Simon's part: Co-founder and Chief Product Officer. Relationship: Brock Simon helped establish it; not sole founder. Organisations: Native. Status: active, 2025.
 
@@ -274,9 +274,9 @@ Native's own posts and pages about it (company publications, context):
 
 ### brockdsimon.com
 
-Cite: <https://brockdsimon.com/profile#project-brockdsimon-com> · Node: <https://brockdsimon.com/profile.jsonld#project-brockdsimon-com> · <https://brockdsimon.com/profile.json>
+Cite: <https://brockdsimon.com/record/citations/project-brockdsimon-com.json> · Node: <https://brockdsimon.com/profile.jsonld#project-brockdsimon-com> · <https://brockdsimon.com/profile.json>
 
-Site (topics: machine-readable profiles, llms.txt, schema.org, AI discoverability). This site: a machine-readable professional record whose front page says only that the site isn't for humans, and points to profile.json. One record is rendered into profile.json, a schema.org JSON-LD graph, profile.md, llms.txt, llms-full.txt, a sitemap, an API catalog and an Atom feed, with sources cited on every item and one HTML page, /profile, that renders the same record with an anchor per item. Built on Cloudflare Workers; launched in October 2026. Brock Simon's part: Owner and builder. Relationship: Brock Simon wrote or posted it. Status: launched, October 2026.
+Site (topics: machine-readable profiles, llms.txt, schema.org, AI discoverability). This site: a machine-readable professional record whose front page says only that the site isn't for humans, and points to profile.json. One record is rendered into profile.json, a schema.org JSON-LD graph, profile.md, llms.txt, llms-full.txt, a sitemap, an API catalog and an Atom feed, with sources cited on every item and individual JSON citation documents. The homepage is the only HTML page; the professional record is available in machine formats only. Built on Cloudflare Workers; launched in October 2026. Brock Simon's part: Owner and builder. Relationship: Brock Simon wrote or posted it. Status: launched, October 2026.
 
 Brock Simon's contribution:
 - Brock Simon owns and built brockdsimon.com, a machine-readable professional record launched in October 2026. (authored; self_reported; October 2026) [owner-site-record-2026-10-27] Note: Owner-published account, not independent corroboration of authorship or launch timing. The August profile is not evidence for the later launch.
@@ -317,7 +317,7 @@ Brock Simon's contribution:
 - Unlocking Hidden Value: A New Approach to Data Monetization with AI. Bain & Company, 10 June 2025. Written by Brock Simon. With Bill Groves, Eric Sheng, Giorgio Saladino, Vineeth Gogineni (Brock Simon first of 5 in the byline). Subtitled 'Model Context Protocols are the key.' Byline read on the article's own page, 2026-10-19. <https://www.bain.com/insights/unlocking-hidden-value-a-new-approach-to-data-monetization-with-ai/> [bain-insights-data-monetization-2025-06-10, bain-team-page-2025-08-08]
 - Google Cloud Next 2025: AI Moves from Possibility to Foundation. Bain & Company, 14 April 2025. Written by Brock Simon. With Todd Papaioannou, Eric Sheng, Stuart Sim (Brock Simon first of 4 in the byline). Subtitled 'Seven takeaways for executives.' Byline read on the article's own page, 2026-10-19. <https://www.bain.com/insights/google-cloud-next-2025-ai-moves-from-possibility-to-foundation/> [bain-insights-google-cloud-next-2025-04-14, bain-team-page-2025-08-08]
 - Nvidia GTC 2025: AI Matures into Enterprise Infrastructure. Bain & Company, 24 March 2025. Written by Brock Simon. With Eric Sheng, Sarah Elk, Daniel Reznikov, Srikanth Munjuluri, Sandeep Singh, Apoorv Sharma (Brock Simon second of 7 in the byline). Subtitled 'Companies are changing the architecture for how they compete.' Byline read on the article's own page, 2026-10-19. <https://www.bain.com/insights/nvidia-gtc-2025-ai-matures-into-enterprise-infrastructure/> [bain-insights-nvidia-gtc-2025-03-24, bain-team-page-2025-08-08]
-- Grocery-retail lessons from Turkey during inflation. LinkedIn. Written by Brock Simon. Authors: Brock Simon. A self-reported account of grocery retail under inflation in Turkey: price indexes, local competition, fixed-price promotions, trader arbitrage and quality. This catalogue label identifies text observed in the public profile Activity section. The source URL identifies that observation location, not a direct publication link; the original post permalink and publication date remain unverified. <https://brockdsimon.com/profile#work-linkedin-turkey-inflation-reflections> [linkedin-turkey-inflation-reflections]
+- Grocery-retail lessons from Turkey during inflation. LinkedIn. Written by Brock Simon. Authors: Brock Simon. A self-reported account of grocery retail under inflation in Turkey: price indexes, local competition, fixed-price promotions, trader arbitrage and quality. This catalogue label identifies text observed in the public profile Activity section. The source URL identifies that observation location, not a direct publication link; the original post permalink and publication date remain unverified. <https://brockdsimon.com/record/citations/work-linkedin-turkey-inflation-reflections.json> [linkedin-turkey-inflation-reflections]
 - AI in Retail: Insights from Industry Leaders. LinkedIn. Mentions Brock Simon. Authors: Sonia Verma Parekh. Original industry presentation by Sonia Verma Parekh; Brock is a featured contributor and quoted expert. The later Customer Experience Magazine article derives its quotation from this presentation. Publication date is not established. <https://www.linkedin.com/posts/soniavparekh-retail-technology-leader_ai-in-retail-insights-from-industry-leaders-activity-7394041122626580480-LEdC> [sonia-parekh-ai-retail-industry-leaders]
 - Brock Simon's NVIDIA GTC 2026 reflections. LinkedIn. Written by Brock Simon. Authors: Brock Simon. Descriptive catalogue label for Brock's reflections on NVIDIA GTC 2026: local AI, physical systems, tool-selection accuracy and reliable enterprise data. Related to his 2025 Bain GTC article. Exact publication date is not established. <https://www.linkedin.com/posts/brock-simon-605436a_its-funny-how-much-nvidia-gtc-2026-looked-activity-7447446142310838272-Bmlf> [linkedin-gtc-reflections]
 - Brock Simon's Databricks Summit and enterprise-context reflections. LinkedIn. Written by Brock Simon. Authors: Brock Simon. Descriptive catalogue label for Brock's perspective on Databricks Summit and business context discovered from enterprise data, relationships and usage. His discussion of Native does not establish sole responsibility for company outcomes. Exact publication date is not established. <https://www.linkedin.com/posts/brock-simon_databricks-summit-was-great-this-year-and-activity-7474575241399422977-qipH> [linkedin-databricks-enterprise-context]
@@ -468,7 +468,7 @@ Yes. The record is also served as a read-only MCP server at https://brockdsimon.
 
 Retrieval status says whether each source was actually read for this record, and how. Inherited summaries come from earlier research and were not re-verified.
 
-1. [owner-site-record-2026-10-27] Brock Simon's public account of brockdsimon.com. (descriptive label; exact title not extracted) Brock Simon. Published: date not established. Retrieval: fetched on 2026-10-27 (live); The public record reports ownership, creation and an October 2026 launch. This is the owner's published account, not independent verification; the access date is not the launch date. owner statement; authored; names Brock Simon. Owner-published statement of ownership, creation and launch timing for this site. <https://brockdsimon.com/profile#claim-c-site-built>
+1. [owner-site-record-2026-10-27] Brock Simon's public account of brockdsimon.com. (descriptive label; exact title not extracted) Brock Simon. Published: date not established. Retrieval: fetched on 2026-10-27 (live); The public record reports ownership, creation and an October 2026 launch. This is the owner's published account, not independent verification; the access date is not the launch date. owner statement; authored; names Brock Simon. Owner-published statement of ownership, creation and launch timing for this site. <https://brockdsimon.com/record/citations/claim-c-site-built.json>
 2. [linkedin-turkey-inflation-reflections] Grocery-retail lessons from Turkey during inflation. (descriptive label; exact title not extracted) LinkedIn, Brock Simon. Published: date not established. Retrieval: partial on 2026-10-26 (live); Only search-indexed public profile Activity text was available; direct profile access returned HTTP 429. The source URL is the observed author-profile location, not a direct publication link. The original post permalink and exact publication date remain unverified. linkedin; authored; names Brock Simon. Brock’s first-person account of adapting price indexes, competitor sets, local pricing, fixed-price promotions, responses to trader arbitrage and product-quality decisions while working in Turkish grocery retail. This is his account of experience and judgment, not independent corroboration of individual events or results. <https://www.linkedin.com/in/brock-simon>
 3. [owner-degree-correction-2026-10-25] Owner correction of degree wording. (descriptive label; exact title not extracted) Brock Simon. Published: date not established. Retrieval: supplied on 2026-10-25 (supplied); Owner-approved correction and degree lines in two owner-supplied résumé versions. No diploma was inspected. owner statement; about; names Brock Simon. Brock accepted the correction of the earlier BA wording to BS. His résumé versions state BS in Mathematics and Statistics and MS in Mathematics from Miami University, and MBA from Xavier University. They are versions of his own account, not independent documents of graduation or diploma scans. Supplied privately by the site operator on 2026-10-25; capture date unknown.
 4. [servicepath-executive-conversations-13-recording] Podcast: Revenue Growth for Tech Execs. EDITION 13: Daniel Kube and Brock Simon. servicePath (YouTube), servicePath. Published: date not established. Retrieval: partial on 2026-10-25 (live); The publisher landing page embeds this video. YouTube oEmbed confirms the title and servicePath account. No event or upload date is established by that metadata; the complete recording was not reviewed. video; about; names Brock Simon. Original publisher recording for the existing Executive Conversations edition 13 appearance with Daniel Kube and Brock Simon. Related: servicepath-executive-conversations-13 (recording of), servicepath-agentic-ai-retail-pricing-article (same episode). <https://www.youtube.com/watch?v=pBOU9QLLnC8>
@@ -502,7 +502,7 @@ Retrieval status says whether each source was actually read for this record, and
 32. [bain-insights-data-monetization-2025-06-10] Unlocking Hidden Value: A New Approach to Data Monetization with AI. Bain & Company. Published: 10 June 2025 (displayed). Retrieval: fetched on 2026-10-19 (live); Live page and 13 November 2025 archive checked on 2026-10-19: headline, byline and publication date agree. Metadata describes Brock as Partner in the archive and Alumni on the live page; these are source-specific historical labels. publisher page; authored; names Brock Simon. The article's own page. Byline: Brock Simon first of five authors, with Bill Groves, Eric Sheng, Giorgio Saladino and Vineeth Gogineni; subtitle 'Model Context Protocols are the key.'; published 10 June 2025. "By Brock Simon, Bill Groves, Eric Sheng, Giorgio Saladino, and Vineeth Gogineni" (Byline under the headline) Related: bain-team-page-2025-08-08 (related coverage). <https://www.bain.com/insights/unlocking-hidden-value-a-new-approach-to-data-monetization-with-ai/> Archive: <https://web.archive.org/web/20251113014917/https://www.bain.com/insights/unlocking-hidden-value-a-new-approach-to-data-monetization-with-ai/>
 33. [bain-insights-google-cloud-next-2025-04-14] Google Cloud Next 2025: AI Moves from Possibility to Foundation. Bain & Company. Published: 14 April 2025 (displayed). Retrieval: fetched on 2026-10-19 (live); Live page and 25 January 2026 archive checked on 2026-10-19: headline, byline and publication date agree. Metadata describes Brock as Alumni in both versions. publisher page; authored; names Brock Simon. The article's own page. Byline: Brock Simon first of four authors, with Todd Papaioannou, Eric Sheng and Stuart Sim; subtitle 'Seven takeaways for executives.'; published 14 April 2025. "By Brock Simon, Todd Papaioannou, Eric Sheng, and Stuart Sim" (Byline under the headline) Related: bain-team-page-2025-08-08 (related coverage). <https://www.bain.com/insights/google-cloud-next-2025-ai-moves-from-possibility-to-foundation/> Archive: <https://web.archive.org/web/20260125084549/https://www.bain.com/insights/google-cloud-next-2025-ai-moves-from-possibility-to-foundation/>
 34. [bain-insights-nvidia-gtc-2025-03-24] Nvidia GTC 2025: AI Matures into Enterprise Infrastructure. Bain & Company. Published: 24 March 2025 (displayed). Retrieval: fetched on 2026-10-19 (live); Live page and 5 December 2025 archive checked on 2026-10-19: headline, byline and publication date agree. Metadata describes Brock as Partner in the archive and Alumni on the live page; these are source-specific historical labels. publisher page; authored; names Brock Simon. The article's own page. Byline: Eric Sheng first, Brock Simon second of seven authors, then Sarah Elk, Daniel Reznikov, Srikanth Munjuluri, Sandeep Singh and Apoorv Sharma; subtitle 'Companies are changing the architecture for how they compete.'; published 24 March 2025. "By Eric Sheng, Brock Simon, Sarah Elk, Daniel Reznikov, Srikanth Munjuluri, Sandeep Singh" (Byline under the headline; the byline continues 'and Apoorv Sharma') Related: bain-team-page-2025-08-08 (related coverage), linkedin-gtc-reflections (related coverage). <https://www.bain.com/insights/nvidia-gtc-2025-ai-matures-into-enterprise-infrastructure/> Archive: <https://web.archive.org/web/20251205203008/https://www.bain.com/insights/nvidia-gtc-2025-ai-matures-into-enterprise-infrastructure/>
-35. [iit-2017-advanced-marketing-analytics-symposium] 2017 Advanced Marketing Analytics Symposium. Illinois Institute of Technology, Stuart School of Business. Published: 8 March 2017 (displayed). Retrieval: fetched on 2026-10-18 (live); Event listing checked on 2026-10-18. The title, event date and biography passage were readable. This is an advertised panel listing; it does not confirm that he delivered a session. event page; about; names Brock Simon. Event listing naming him as a panelist, with a biography: Expert Associate Principal at McKinsey & Company, focused on marketing and digital analytics in retail and consumer packaged goods; over ten years at dunnhumby across the US, Asia, Europe and the Middle East; an MBA from Xavier University, and a Master of Science in Mathematics and a Bachelor of Science in Mathematics and Statistics from Miami University. The only dated third-party page from his McKinsey years found on 2026-10-18. "Brock Simon is an Expert Associate Principal at McKinsey & Company" (Panelists section, first sentence of his biography) <https://www.iit.edu/events/2017-advanced-marketing-analytics-symposium>
+35. [iit-2017-advanced-marketing-analytics-symposium] 2017 Advanced Marketing Analytics Symposium. Illinois Institute of Technology, Stuart School of Business. Published: date not established. Retrieval: fetched on 2026-10-18 (live); Event listing checked on 2026-10-18. The title, event date and biography passage were readable. This is an advertised panel listing; it does not confirm that he delivered a session. event page; about; names Brock Simon. Event listing naming him as a panelist, with a biography: Expert Associate Principal at McKinsey & Company, focused on marketing and digital analytics in retail and consumer packaged goods; over ten years at dunnhumby across the US, Asia, Europe and the Middle East; an MBA from Xavier University, and a Master of Science in Mathematics and a Bachelor of Science in Mathematics and Statistics from Miami University. The only dated third-party page from his McKinsey years found on 2026-10-18. "Brock Simon is an Expert Associate Principal at McKinsey & Company" (Panelists section, first sentence of his biography) <https://www.iit.edu/events/2017-advanced-marketing-analytics-symposium>
 36. [itbrief-provenance-advisory-board-2026-05-22] Provenance appoints AI advisory board for retail shift. IT Brief UK, Sofiah Nichole Salivio. Published: 22 May 2026 (displayed). Retrieval: fetched on 2026-10-18 (live); Title, displayed date (22 May 2026), byline and quotation checked on 2026-10-18. Its Bain Partner description is historical source wording, not evidence of a current partner role. press; about; names Brock Simon. Trade report of 22 May 2026 that Provenance has formed a Strategic Advisory Board of four named members, him among them, described as Partner at Bain & Company, to advise on product strategy, enterprise partnerships and verified product data in digital commerce. The article also carries a direct quotation from him on brands preparing to be recommended by AI rather than found by search. "Brock Simon, Partner at Bain & Company" (Third paragraph, the list of board members) Related: cmotech-provenance-advisory-board-2026-05-22 (same announcement). <https://itbrief.co.uk/story/provenance-appoints-ai-advisory-board-for-retail-shift>
 37. [cmotech-provenance-advisory-board-2026-05-22] Provenance appoints AI advisory board for retail shift. CMOtech UK, Sofiah Nichole Salivio. Published: 22 May 2026 (displayed). Retrieval: fetched on 2026-10-18 (live); Checked on 2026-10-18. Body, byline, date and quotation match the IT Brief UK report: a copy of the same announcement on a sister site, not independent confirmation. press; about; names Brock Simon. The same report of Provenance's Strategic Advisory Board, with the same four members, the same description of him and the same quotation from him. "Brock Simon, Partner at Bain & Company" (Third paragraph, the list of board members) Related: itbrief-provenance-advisory-board-2026-05-22 (same announcement). <https://cmotech.uk/story/provenance-appoints-ai-advisory-board-for-retail-shift>
 38. [spider2-leaderboard-2026-10-18] Spider 2.0. XLANG Lab. Published: date not established. Retrieval: fetched on 2026-10-18 (live); Leaderboard checked on 2026-10-18. Rank numbers and dates are populated in the rendered table from row order and date attributes; raw HTML alone omits those displayed values. The cited position is the rendered Spider 2.0-Snow table at that date. other; context; does not name Brock Simon. The benchmark's own site, with its leaderboard. On the Spider 2.0-Snow table as read on 2026-10-18, Native mini (usenative.ai) scores 96.53 at rank 2, dated 18 February 2026, behind Genloop's Sentinel Agent v2 Pro at 96.70, dated 1 March 2026. It credits organisations, not people. <https://spider2-sql.github.io/>
@@ -517,6 +517,7 @@ Retrieval status says whether each source was actually read for this record, and
 
 ## Changes to this record
 
+- 2026-10-28 (updated; format, site.files, citations, profile.jsonld, record, projects.brockdsimon-com): Format 5.0 keeps the homepage as the only HTML page. The record is delivered through JSON, JSON-LD, Markdown and MCP; individual JSON citation documents retain approved items, sources and applicable corrections. Former reading-page addresses redirect to JSON. The homepage also delivers Markdown when explicitly requested through content negotiation.
 - 2026-10-27 (corrected; memberships, faq.still-at-bain, claims.c-site-built, sources.owner-site-record-2026-10-27, format, profile.jsonld, record.mcp): Format 4.3 adds concise answers and a compact introduction, separates degree awards and dated employment in structured data, clarifies unknown council status and the current Bain advisory relationship, and attributes the site-launch statement to the owner-published record. Historical evidence and source-access limitations remain available in detailed records.
 - 2026-10-26 (corrected; format, claims, profile.jsonld, record.mcp, sources.bain-team-page-2025-08-08.retrieval, sources.iit-marketing-analytics-council.retrieval, changelog): Format 4.2 adds scoped source support and preserves evidence in structured data and role answers. Reconciled the two source-check dates with recorded 19 October readings and completed recent history. Search pages retain complete items within existing response limits. These metadata corrections do not change career statements or establish a new source reading.
 - 2026-10-26 (updated; works, events, mentions, sources, identity.biography, education, claims.c-education, corrections.x-degrees-wording, faq.where-did-he-study, organisations.miami-university, profiles, coverage): Published the corrected degree wording and expanded the writing, coverage and recording references. Authorship, quotation provenance, partial source access and unknown publication dates remain explicit. The Turkey inflation reflection has no verified direct post link; LinkedIn is the published verified external profile.
@@ -558,4 +559,4 @@ Dates are given only to the precision the record supports: a year, a month, or a
 
 Maintenance: owner; approved by Brock Simon: yes. Maintained by Brock Simon. Professional claims cite their sources and distinguish documented, self-reported and owner-perspective evidence, with a locator into the source where known. Company descriptions use each company's own public website. Publication is limited to approved professional information.
 
-Record revision: sha256:3713cfa49051de0c11a5bec6f3b97a9b2c995c4748f67c946b67213aa20679fe
+Record revision: sha256:0f0e94db276af5e1edd42f32a9bff131c9f430b4e4a4356a06da5d51691a13d2
