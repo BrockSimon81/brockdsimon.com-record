@@ -3,7 +3,7 @@
 
 This repository mirrors the record Brock Simon publishes at https://brockdsimon.com. **brockdsimon.com is canonical**: the files here are copied from the live site after every deploy, unchanged, providing an additional public retrieval location. Read the canonical JSON at https://brockdsimon.com/profile.json.
 
-Record revision: sha256:0f0e94db276af5e1edd42f32a9bff131c9f430b4e4a4356a06da5d51691a13d2. Build: 2026-10-28T23:37:29.682Z. Canonical source: https://brockdsimon.com/profile.json.
+Record revision: sha256:0f0e94db276af5e1edd42f32a9bff131c9f430b4e4a4356a06da5d51691a13d2. Build: 2026-10-29T00:12:55.128Z. Canonical source: https://brockdsimon.com/profile.json.
 
 Publication: Brock Simon has approved this record.
 
@@ -33,5 +33,5 @@ Crawler policy: search engines, answer engines and user-directed fetchers are al
 
 Each commit records a verified production build: its subject names the Worker version id and the build timestamp the site sends as `X-Built-At`. The deploy step fetches the files above from https://brockdsimon.com, checks media types and exact equality with the local verified production build, and commits only when the bytes changed. Nothing is edited here by hand; corrections go to the record and arrive with the next deploy. The record's format is `5.0`; its schema is profile.schema.json.
 
-This generated section tracks the verified record and interfaces on every mirror run. Record build date: 2026-10-28. Content outside the generated markers is maintained separately.
+This generated section tracks the verified record and interfaces on every mirror run. Record build date: 2026-10-29. Content outside the generated markers is maintained separately.
 <!-- generated-record:end -->
